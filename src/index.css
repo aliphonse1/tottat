@@ -1,0 +1,53 @@
+@import "tailwindcss";
+
+@theme {
+  --color-cream: #FFF8E7;
+  --color-sky-100: #E3F4FD;
+  --color-sky-400: #7CC8F0;
+  --color-sky-500: #4BA3D4;
+  --color-mint-100: #E8F8F0;
+  --color-mint-400: #7DD4A8;
+  --color-mint-500: #4BB87E;
+  --color-coral-50: #FFF5F0;
+  --color-coral-100: #FFEDE8;
+  --color-coral-300: #FFB8A8;
+  --color-coral-400: #FF8A6B;
+  --color-coral-500: #E5634A;
+  --color-sunshine-300: #FFE57A;
+  --color-sunshine-400: #FFD23F;
+  --color-lavender-100: #F0E8FF;
+  --color-lavender-400: #B8A0E8;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: transparent;
+}
+
+body {
+  font-family: 'SF Pro Rounded', 'Nunito', -apple-system, BlinkMacSystemFont, sans-serif;
+  background-color: #FFF8E7;
+  overscroll-behavior: none;
+  -webkit-font-smoothing: antialiased;
+}
+
+.safe-area-bottom {
+  padding-bottom: env(safe-area-inset-bottom);
+}
+
+.pt-safe {
+  padding-top: max(env(safe-area-inset-top), 16px);
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+input, textarea {
+  font-size: 16px; /* Prevents iOS zoom on focus */
+}

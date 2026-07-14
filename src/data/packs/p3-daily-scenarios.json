@@ -1,0 +1,2648 @@
+{
+  "id": "p3-daily-scenarios",
+  "name": "Daily Life English",
+  "publisher": "Tot & Tat",
+  "grade": "P3",
+  "version": "1.0.0",
+  "units": [
+    {
+      "id": "daily-u1",
+      "title": "At the Restaurant",
+      "theme": "restaurant",
+      "mascotTip": "Tot says: Let's order some food!",
+      "lessons": [
+        {
+          "id": "daily-u1-l1",
+          "title": "At the Restaurant",
+          "objectives": [
+            "Order food politely",
+            "Ask about the menu",
+            "Pay the bill"
+          ],
+          "vocabulary": [
+            {
+              "id": "dv1",
+              "word": "menu",
+              "phonetic": "/ˈmenjuː/",
+              "meaning": "list of food choices",
+              "meaningZh": "菜單",
+              "example": "May I see the menu, please?"
+            },
+            {
+              "id": "dv2",
+              "word": "order",
+              "phonetic": "/ˈɔːrdər/",
+              "meaning": "to ask for food",
+              "meaningZh": "點餐",
+              "example": "I would like to order now."
+            },
+            {
+              "id": "dv3",
+              "word": "waiter",
+              "phonetic": "/ˈweɪtər/",
+              "meaning": "person who serves food",
+              "meaningZh": "服務員",
+              "example": "The waiter brought our food."
+            },
+            {
+              "id": "dv4",
+              "word": "bill",
+              "phonetic": "/bɪl/",
+              "meaning": "the paper showing how much to pay",
+              "meaningZh": "帳單",
+              "example": "Can I have the bill, please?"
+            },
+            {
+              "id": "dv5",
+              "word": "reservation",
+              "phonetic": "/ˌrezərˈveɪʃn/",
+              "meaning": "booking a table",
+              "meaningZh": "預訂",
+              "example": "I have a reservation for two."
+            },
+            {
+              "id": "dv6",
+              "word": "appetiser",
+              "phonetic": "/ˈæpɪtaɪzər/",
+              "meaning": "small dish before main meal",
+              "meaningZh": "前菜",
+              "example": "Would you like an appetiser?"
+            }
+          ],
+          "listening": [
+            {
+              "id": "dl1",
+              "type": "mcq",
+              "instruction": "Listen to the conversation.",
+              "ttsText": "Waiter: Good evening! Table for how many? Customer: Table for four, please. Waiter: This way, please.",
+              "question": "How many people?",
+              "options": [
+                "two",
+                "three",
+                "four"
+              ],
+              "correctAnswer": "four",
+              "hint": "Listen for the number"
+            },
+            {
+              "id": "dl2",
+              "type": "mcq",
+              "instruction": "Listen and answer.",
+              "ttsText": "I would like the chicken pasta and a glass of orange juice, please.",
+              "question": "What drink did they order?",
+              "options": [
+                "water",
+                "milk",
+                "orange juice"
+              ],
+              "correctAnswer": "orange juice",
+              "hint": "Listen for the drink"
+            },
+            {
+              "id": "dl3",
+              "type": "dictation",
+              "instruction": "Type what you hear:",
+              "ttsText": "Can I have the bill, please?",
+              "correctAnswer": "Can I have the bill, please",
+              "hint": "A polite request at the end of a meal"
+            }
+          ],
+          "speaking": [
+            {
+              "id": "ds1",
+              "type": "pronounce-sentence",
+              "instruction": "Say this politely:",
+              "targetText": "May I see the menu, please?",
+              "hint": "Polite and clear"
+            },
+            {
+              "id": "ds2",
+              "type": "pronounce-sentence",
+              "instruction": "Order food:",
+              "targetText": "I would like the fish and chips, please.",
+              "hint": "Friendly tone"
+            }
+          ],
+          "reading": [
+            {
+              "id": "dr1",
+              "type": "mcq",
+              "passage": "Welcome to Happy Diner! Today's specials: Fish and Chips - $68, Pasta with Tomato Sauce - $55, Chicken Rice - $48. All meals include a free drink. Children under 5 eat free!",
+              "question": "Which is the cheapest meal?",
+              "options": [
+                "Fish and Chips",
+                "Pasta",
+                "Chicken Rice"
+              ],
+              "correctAnswer": "Chicken Rice",
+              "explanation": "Chicken Rice costs $48, the lowest price"
+            }
+          ],
+          "writing": [
+            {
+              "id": "dw1",
+              "type": "sentence-order",
+              "instruction": "Make a polite request:",
+              "words": [
+                "I",
+                "the",
+                "have",
+                "can",
+                "please",
+                "menu"
+              ],
+              "correctAnswer": "can I have the menu please",
+              "hint": "Start with can"
+            },
+            {
+              "id": "dw2",
+              "type": "fill-blank",
+              "instruction": "Fill in: I would like to _____ the pasta.",
+              "correctAnswer": "order",
+              "hint": "To ask for food"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "daily-u2",
+      "title": "At the Supermarket",
+      "theme": "supermarket",
+      "mascotTip": "Tat says: Let's buy groceries!",
+      "lessons": [
+        {
+          "id": "daily-u2-l1",
+          "title": "At the Supermarket",
+          "objectives": [
+            "Ask for help finding items",
+            "Read prices",
+            "Pay at the cashier"
+          ],
+          "vocabulary": [
+            {
+              "id": "dv7",
+              "word": "aisle",
+              "phonetic": "/aɪl/",
+              "meaning": "a walkway between shelves",
+              "meaningZh": "走道",
+              "example": "The bread is in aisle three."
+            },
+            {
+              "id": "dv8",
+              "word": "trolley",
+              "phonetic": "/ˈtrɒli/",
+              "meaning": "a shopping cart",
+              "meaningZh": "手推車",
+              "example": "Put the food in the trolley."
+            },
+            {
+              "id": "dv9",
+              "word": "cashier",
+              "phonetic": "/kæˈʃɪər/",
+              "meaning": "person at the checkout",
+              "meaningZh": "收銀員",
+              "example": "Pay the cashier at the counter."
+            },
+            {
+              "id": "dv10",
+              "word": "receipt",
+              "phonetic": "/rɪˈsiːt/",
+              "meaning": "paper showing what you bought",
+              "meaningZh": "收據",
+              "example": "Keep the receipt."
+            },
+            {
+              "id": "dv11",
+              "word": "queue",
+              "phonetic": "/kjuː/",
+              "meaning": "a line of people waiting",
+              "meaningZh": "排隊",
+              "example": "Please join the queue."
+            },
+            {
+              "id": "dv12",
+              "word": "bargain",
+              "phonetic": "/ˈbɑːrɡɪn/",
+              "meaning": "something at a good price",
+              "meaningZh": "特價/便宜貨",
+              "example": "This is a real bargain!"
+            }
+          ],
+          "listening": [
+            {
+              "id": "dl4",
+              "type": "mcq",
+              "instruction": "Listen.",
+              "ttsText": "Excuse me, where can I find the milk? It's in aisle two, in the refrigerator section.",
+              "question": "Where is the milk?",
+              "options": [
+                "Aisle 1",
+                "Aisle 2",
+                "Aisle 3"
+              ],
+              "correctAnswer": "Aisle 2",
+              "hint": "Listen for the aisle number"
+            },
+            {
+              "id": "dl5",
+              "type": "dictation",
+              "instruction": "Type:",
+              "ttsText": "Where is the bread?",
+              "correctAnswer": "Where is the bread",
+              "hint": "Asking for directions"
+            }
+          ],
+          "speaking": [
+            {
+              "id": "ds3",
+              "type": "pronounce-sentence",
+              "instruction": "Ask for help:",
+              "targetText": "Excuse me, where can I find the rice?",
+              "hint": "Polite question"
+            },
+            {
+              "id": "ds4",
+              "type": "pronounce-sentence",
+              "instruction": "At checkout:",
+              "targetText": "I would like a bag, please.",
+              "hint": "Polite request"
+            }
+          ],
+          "reading": [
+            {
+              "id": "dr2",
+              "type": "mcq",
+              "passage": "Mum's shopping list: Milk $18, Eggs $22, Bread $15, Apples $25, Rice $35. Total budget: $120.",
+              "question": "What is the total cost?",
+              "options": [
+                "$105",
+                "$115",
+                "$125"
+              ],
+              "correctAnswer": "$115",
+              "explanation": "18 + 22 + 15 + 25 + 35 = 115"
+            }
+          ],
+          "writing": [
+            {
+              "id": "dw3",
+              "type": "spelling",
+              "instruction": "Spell:",
+              "ttsText": "receipt",
+              "correctAnswer": "receipt",
+              "hint": "Silent p! 7 letters"
+            },
+            {
+              "id": "dw4",
+              "type": "fill-blank",
+              "instruction": "Put the food in the _____.",
+              "correctAnswer": "trolley",
+              "hint": "Shopping cart"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "daily-u3",
+      "title": "At the Doctor",
+      "theme": "doctor",
+      "mascotTip": "Tot says: Let's practice English for at the doctor!",
+      "lessons": [
+        {
+          "id": "daily-u3-l1",
+          "title": "At the Doctor",
+          "objectives": [
+            "Use English in at the doctor situations",
+            "Ask and answer questions politely",
+            "Understand common phrases"
+          ],
+          "vocabulary": [
+            {
+              "id": "dv13",
+              "word": "(At the Doctor word 1)",
+              "phonetic": "",
+              "meaning": "Common phrase for At the Doctor",
+              "meaningZh": "",
+              "example": "Used when at the doctor."
+            },
+            {
+              "id": "dv14",
+              "word": "(At the Doctor word 2)",
+              "phonetic": "",
+              "meaning": "Common phrase for At the Doctor",
+              "meaningZh": "",
+              "example": "Used when at the doctor."
+            },
+            {
+              "id": "dv15",
+              "word": "(At the Doctor word 3)",
+              "phonetic": "",
+              "meaning": "Common phrase for At the Doctor",
+              "meaningZh": "",
+              "example": "Used when at the doctor."
+            },
+            {
+              "id": "dv16",
+              "word": "(At the Doctor word 4)",
+              "phonetic": "",
+              "meaning": "Common phrase for At the Doctor",
+              "meaningZh": "",
+              "example": "Used when at the doctor."
+            },
+            {
+              "id": "dv17",
+              "word": "(At the Doctor word 5)",
+              "phonetic": "",
+              "meaning": "Common phrase for At the Doctor",
+              "meaningZh": "",
+              "example": "Used when at the doctor."
+            },
+            {
+              "id": "dv18",
+              "word": "(At the Doctor word 6)",
+              "phonetic": "",
+              "meaning": "Common phrase for At the Doctor",
+              "meaningZh": "",
+              "example": "Used when at the doctor."
+            }
+          ],
+          "listening": [
+            {
+              "id": "dl3",
+              "type": "mcq",
+              "instruction": "Listen to the at the doctor conversation.",
+              "ttsText": "This conversation takes place at the doctor.",
+              "question": "Where does this happen?",
+              "options": [
+                "At the Doctor",
+                "At home",
+                "At school"
+              ],
+              "correctAnswer": "At the Doctor",
+              "hint": "Listen to the setting"
+            }
+          ],
+          "speaking": [
+            {
+              "id": "ds3",
+              "type": "pronounce-sentence",
+              "instruction": "Say this phrase:",
+              "targetText": "Excuse me, can you help me?",
+              "hint": "Polite and clear"
+            }
+          ],
+          "reading": [
+            {
+              "id": "dr3",
+              "type": "mcq",
+              "passage": "When you are at the doctor, you need to speak English politely. Always say \"please\" and \"thank you\". If you need help, say \"Excuse me\".",
+              "question": "What should you always say?",
+              "options": [
+                "Sorry",
+                "Please and thank you",
+                "Hello"
+              ],
+              "correctAnswer": "Please and thank you",
+              "explanation": "Being polite is important"
+            }
+          ],
+          "writing": [
+            {
+              "id": "dw3a",
+              "type": "sentence-order",
+              "instruction": "Make a polite request:",
+              "words": [
+                "me",
+                "excuse",
+                "help",
+                "can",
+                "you"
+              ],
+              "correctAnswer": "excuse me can you help",
+              "hint": "Start with excuse me"
+            },
+            {
+              "id": "dw3b",
+              "type": "fill-blank",
+              "instruction": "Thank you for your _____.",
+              "correctAnswer": "help",
+              "hint": "What the person gave you"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "daily-u4",
+      "title": "On the Bus",
+      "theme": "bus",
+      "mascotTip": "Tat says: Let's practice English for on the bus!",
+      "lessons": [
+        {
+          "id": "daily-u4-l1",
+          "title": "On the Bus",
+          "objectives": [
+            "Use English in on the bus situations",
+            "Ask and answer questions politely",
+            "Understand common phrases"
+          ],
+          "vocabulary": [
+            {
+              "id": "dv19",
+              "word": "(On the Bus word 1)",
+              "phonetic": "",
+              "meaning": "Common phrase for On the Bus",
+              "meaningZh": "",
+              "example": "Used when on the bus."
+            },
+            {
+              "id": "dv20",
+              "word": "(On the Bus word 2)",
+              "phonetic": "",
+              "meaning": "Common phrase for On the Bus",
+              "meaningZh": "",
+              "example": "Used when on the bus."
+            },
+            {
+              "id": "dv21",
+              "word": "(On the Bus word 3)",
+              "phonetic": "",
+              "meaning": "Common phrase for On the Bus",
+              "meaningZh": "",
+              "example": "Used when on the bus."
+            },
+            {
+              "id": "dv22",
+              "word": "(On the Bus word 4)",
+              "phonetic": "",
+              "meaning": "Common phrase for On the Bus",
+              "meaningZh": "",
+              "example": "Used when on the bus."
+            },
+            {
+              "id": "dv23",
+              "word": "(On the Bus word 5)",
+              "phonetic": "",
+              "meaning": "Common phrase for On the Bus",
+              "meaningZh": "",
+              "example": "Used when on the bus."
+            },
+            {
+              "id": "dv24",
+              "word": "(On the Bus word 6)",
+              "phonetic": "",
+              "meaning": "Common phrase for On the Bus",
+              "meaningZh": "",
+              "example": "Used when on the bus."
+            }
+          ],
+          "listening": [
+            {
+              "id": "dl4",
+              "type": "mcq",
+              "instruction": "Listen to the on the bus conversation.",
+              "ttsText": "This conversation takes place on the bus.",
+              "question": "Where does this happen?",
+              "options": [
+                "On the Bus",
+                "At home",
+                "At school"
+              ],
+              "correctAnswer": "On the Bus",
+              "hint": "Listen to the setting"
+            }
+          ],
+          "speaking": [
+            {
+              "id": "ds4",
+              "type": "pronounce-sentence",
+              "instruction": "Say this phrase:",
+              "targetText": "Excuse me, can you help me?",
+              "hint": "Polite and clear"
+            }
+          ],
+          "reading": [
+            {
+              "id": "dr4",
+              "type": "mcq",
+              "passage": "When you are on the bus, you need to speak English politely. Always say \"please\" and \"thank you\". If you need help, say \"Excuse me\".",
+              "question": "What should you always say?",
+              "options": [
+                "Sorry",
+                "Please and thank you",
+                "Hello"
+              ],
+              "correctAnswer": "Please and thank you",
+              "explanation": "Being polite is important"
+            }
+          ],
+          "writing": [
+            {
+              "id": "dw4a",
+              "type": "sentence-order",
+              "instruction": "Make a polite request:",
+              "words": [
+                "me",
+                "excuse",
+                "help",
+                "can",
+                "you"
+              ],
+              "correctAnswer": "excuse me can you help",
+              "hint": "Start with excuse me"
+            },
+            {
+              "id": "dw4b",
+              "type": "fill-blank",
+              "instruction": "Thank you for your _____.",
+              "correctAnswer": "help",
+              "hint": "What the person gave you"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "daily-u5",
+      "title": "At the Library",
+      "theme": "library",
+      "mascotTip": "Tot says: Let's practice English for at the library!",
+      "lessons": [
+        {
+          "id": "daily-u5-l1",
+          "title": "At the Library",
+          "objectives": [
+            "Use English in at the library situations",
+            "Ask and answer questions politely",
+            "Understand common phrases"
+          ],
+          "vocabulary": [
+            {
+              "id": "dv25",
+              "word": "(At the Library word 1)",
+              "phonetic": "",
+              "meaning": "Common phrase for At the Library",
+              "meaningZh": "",
+              "example": "Used when at the library."
+            },
+            {
+              "id": "dv26",
+              "word": "(At the Library word 2)",
+              "phonetic": "",
+              "meaning": "Common phrase for At the Library",
+              "meaningZh": "",
+              "example": "Used when at the library."
+            },
+            {
+              "id": "dv27",
+              "word": "(At the Library word 3)",
+              "phonetic": "",
+              "meaning": "Common phrase for At the Library",
+              "meaningZh": "",
+              "example": "Used when at the library."
+            },
+            {
+              "id": "dv28",
+              "word": "(At the Library word 4)",
+              "phonetic": "",
+              "meaning": "Common phrase for At the Library",
+              "meaningZh": "",
+              "example": "Used when at the library."
+            },
+            {
+              "id": "dv29",
+              "word": "(At the Library word 5)",
+              "phonetic": "",
+              "meaning": "Common phrase for At the Library",
+              "meaningZh": "",
+              "example": "Used when at the library."
+            },
+            {
+              "id": "dv30",
+              "word": "(At the Library word 6)",
+              "phonetic": "",
+              "meaning": "Common phrase for At the Library",
+              "meaningZh": "",
+              "example": "Used when at the library."
+            }
+          ],
+          "listening": [
+            {
+              "id": "dl5",
+              "type": "mcq",
+              "instruction": "Listen to the at the library conversation.",
+              "ttsText": "This conversation takes place at the library.",
+              "question": "Where does this happen?",
+              "options": [
+                "At the Library",
+                "At home",
+                "At school"
+              ],
+              "correctAnswer": "At the Library",
+              "hint": "Listen to the setting"
+            }
+          ],
+          "speaking": [
+            {
+              "id": "ds5",
+              "type": "pronounce-sentence",
+              "instruction": "Say this phrase:",
+              "targetText": "Excuse me, can you help me?",
+              "hint": "Polite and clear"
+            }
+          ],
+          "reading": [
+            {
+              "id": "dr5",
+              "type": "mcq",
+              "passage": "When you are at the library, you need to speak English politely. Always say \"please\" and \"thank you\". If you need help, say \"Excuse me\".",
+              "question": "What should you always say?",
+              "options": [
+                "Sorry",
+                "Please and thank you",
+                "Hello"
+              ],
+              "correctAnswer": "Please and thank you",
+              "explanation": "Being polite is important"
+            }
+          ],
+          "writing": [
+            {
+              "id": "dw5a",
+              "type": "sentence-order",
+              "instruction": "Make a polite request:",
+              "words": [
+                "me",
+                "excuse",
+                "help",
+                "can",
+                "you"
+              ],
+              "correctAnswer": "excuse me can you help",
+              "hint": "Start with excuse me"
+            },
+            {
+              "id": "dw5b",
+              "type": "fill-blank",
+              "instruction": "Thank you for your _____.",
+              "correctAnswer": "help",
+              "hint": "What the person gave you"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "daily-u6",
+      "title": "At the Playground",
+      "theme": "playground",
+      "mascotTip": "Tat says: Let's practice English for at the playground!",
+      "lessons": [
+        {
+          "id": "daily-u6-l1",
+          "title": "At the Playground",
+          "objectives": [
+            "Use English in at the playground situations",
+            "Ask and answer questions politely",
+            "Understand common phrases"
+          ],
+          "vocabulary": [
+            {
+              "id": "dv31",
+              "word": "(At the Playground word 1)",
+              "phonetic": "",
+              "meaning": "Common phrase for At the Playground",
+              "meaningZh": "",
+              "example": "Used when at the playground."
+            },
+            {
+              "id": "dv32",
+              "word": "(At the Playground word 2)",
+              "phonetic": "",
+              "meaning": "Common phrase for At the Playground",
+              "meaningZh": "",
+              "example": "Used when at the playground."
+            },
+            {
+              "id": "dv33",
+              "word": "(At the Playground word 3)",
+              "phonetic": "",
+              "meaning": "Common phrase for At the Playground",
+              "meaningZh": "",
+              "example": "Used when at the playground."
+            },
+            {
+              "id": "dv34",
+              "word": "(At the Playground word 4)",
+              "phonetic": "",
+              "meaning": "Common phrase for At the Playground",
+              "meaningZh": "",
+              "example": "Used when at the playground."
+            },
+            {
+              "id": "dv35",
+              "word": "(At the Playground word 5)",
+              "phonetic": "",
+              "meaning": "Common phrase for At the Playground",
+              "meaningZh": "",
+              "example": "Used when at the playground."
+            },
+            {
+              "id": "dv36",
+              "word": "(At the Playground word 6)",
+              "phonetic": "",
+              "meaning": "Common phrase for At the Playground",
+              "meaningZh": "",
+              "example": "Used when at the playground."
+            }
+          ],
+          "listening": [
+            {
+              "id": "dl6",
+              "type": "mcq",
+              "instruction": "Listen to the at the playground conversation.",
+              "ttsText": "This conversation takes place at the playground.",
+              "question": "Where does this happen?",
+              "options": [
+                "At the Playground",
+                "At home",
+                "At school"
+              ],
+              "correctAnswer": "At the Playground",
+              "hint": "Listen to the setting"
+            }
+          ],
+          "speaking": [
+            {
+              "id": "ds6",
+              "type": "pronounce-sentence",
+              "instruction": "Say this phrase:",
+              "targetText": "Excuse me, can you help me?",
+              "hint": "Polite and clear"
+            }
+          ],
+          "reading": [
+            {
+              "id": "dr6",
+              "type": "mcq",
+              "passage": "When you are at the playground, you need to speak English politely. Always say \"please\" and \"thank you\". If you need help, say \"Excuse me\".",
+              "question": "What should you always say?",
+              "options": [
+                "Sorry",
+                "Please and thank you",
+                "Hello"
+              ],
+              "correctAnswer": "Please and thank you",
+              "explanation": "Being polite is important"
+            }
+          ],
+          "writing": [
+            {
+              "id": "dw6a",
+              "type": "sentence-order",
+              "instruction": "Make a polite request:",
+              "words": [
+                "me",
+                "excuse",
+                "help",
+                "can",
+                "you"
+              ],
+              "correctAnswer": "excuse me can you help",
+              "hint": "Start with excuse me"
+            },
+            {
+              "id": "dw6b",
+              "type": "fill-blank",
+              "instruction": "Thank you for your _____.",
+              "correctAnswer": "help",
+              "hint": "What the person gave you"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "daily-u7",
+      "title": "At a Birthday Party",
+      "theme": "birthday-party",
+      "mascotTip": "Tot says: Let's practice English for at a birthday party!",
+      "lessons": [
+        {
+          "id": "daily-u7-l1",
+          "title": "At a Birthday Party",
+          "objectives": [
+            "Use English in at a birthday party situations",
+            "Ask and answer questions politely",
+            "Understand common phrases"
+          ],
+          "vocabulary": [
+            {
+              "id": "dv37",
+              "word": "(At a Birthday Party word 1)",
+              "phonetic": "",
+              "meaning": "Common phrase for At a Birthday Party",
+              "meaningZh": "",
+              "example": "Used when at a birthday party."
+            },
+            {
+              "id": "dv38",
+              "word": "(At a Birthday Party word 2)",
+              "phonetic": "",
+              "meaning": "Common phrase for At a Birthday Party",
+              "meaningZh": "",
+              "example": "Used when at a birthday party."
+            },
+            {
+              "id": "dv39",
+              "word": "(At a Birthday Party word 3)",
+              "phonetic": "",
+              "meaning": "Common phrase for At a Birthday Party",
+              "meaningZh": "",
+              "example": "Used when at a birthday party."
+            },
+            {
+              "id": "dv40",
+              "word": "(At a Birthday Party word 4)",
+              "phonetic": "",
+              "meaning": "Common phrase for At a Birthday Party",
+              "meaningZh": "",
+              "example": "Used when at a birthday party."
+            },
+            {
+              "id": "dv41",
+              "word": "(At a Birthday Party word 5)",
+              "phonetic": "",
+              "meaning": "Common phrase for At a Birthday Party",
+              "meaningZh": "",
+              "example": "Used when at a birthday party."
+            },
+            {
+              "id": "dv42",
+              "word": "(At a Birthday Party word 6)",
+              "phonetic": "",
+              "meaning": "Common phrase for At a Birthday Party",
+              "meaningZh": "",
+              "example": "Used when at a birthday party."
+            }
+          ],
+          "listening": [
+            {
+              "id": "dl7",
+              "type": "mcq",
+              "instruction": "Listen to the at a birthday party conversation.",
+              "ttsText": "This conversation takes place at a birthday party.",
+              "question": "Where does this happen?",
+              "options": [
+                "At a Birthday Party",
+                "At home",
+                "At school"
+              ],
+              "correctAnswer": "At a Birthday Party",
+              "hint": "Listen to the setting"
+            }
+          ],
+          "speaking": [
+            {
+              "id": "ds7",
+              "type": "pronounce-sentence",
+              "instruction": "Say this phrase:",
+              "targetText": "Excuse me, can you help me?",
+              "hint": "Polite and clear"
+            }
+          ],
+          "reading": [
+            {
+              "id": "dr7",
+              "type": "mcq",
+              "passage": "When you are at a birthday party, you need to speak English politely. Always say \"please\" and \"thank you\". If you need help, say \"Excuse me\".",
+              "question": "What should you always say?",
+              "options": [
+                "Sorry",
+                "Please and thank you",
+                "Hello"
+              ],
+              "correctAnswer": "Please and thank you",
+              "explanation": "Being polite is important"
+            }
+          ],
+          "writing": [
+            {
+              "id": "dw7a",
+              "type": "sentence-order",
+              "instruction": "Make a polite request:",
+              "words": [
+                "me",
+                "excuse",
+                "help",
+                "can",
+                "you"
+              ],
+              "correctAnswer": "excuse me can you help",
+              "hint": "Start with excuse me"
+            },
+            {
+              "id": "dw7b",
+              "type": "fill-blank",
+              "instruction": "Thank you for your _____.",
+              "correctAnswer": "help",
+              "hint": "What the person gave you"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "daily-u8",
+      "title": "At the Beach",
+      "theme": "beach",
+      "mascotTip": "Tat says: Let's practice English for at the beach!",
+      "lessons": [
+        {
+          "id": "daily-u8-l1",
+          "title": "At the Beach",
+          "objectives": [
+            "Use English in at the beach situations",
+            "Ask and answer questions politely",
+            "Understand common phrases"
+          ],
+          "vocabulary": [
+            {
+              "id": "dv43",
+              "word": "(At the Beach word 1)",
+              "phonetic": "",
+              "meaning": "Common phrase for At the Beach",
+              "meaningZh": "",
+              "example": "Used when at the beach."
+            },
+            {
+              "id": "dv44",
+              "word": "(At the Beach word 2)",
+              "phonetic": "",
+              "meaning": "Common phrase for At the Beach",
+              "meaningZh": "",
+              "example": "Used when at the beach."
+            },
+            {
+              "id": "dv45",
+              "word": "(At the Beach word 3)",
+              "phonetic": "",
+              "meaning": "Common phrase for At the Beach",
+              "meaningZh": "",
+              "example": "Used when at the beach."
+            },
+            {
+              "id": "dv46",
+              "word": "(At the Beach word 4)",
+              "phonetic": "",
+              "meaning": "Common phrase for At the Beach",
+              "meaningZh": "",
+              "example": "Used when at the beach."
+            },
+            {
+              "id": "dv47",
+              "word": "(At the Beach word 5)",
+              "phonetic": "",
+              "meaning": "Common phrase for At the Beach",
+              "meaningZh": "",
+              "example": "Used when at the beach."
+            },
+            {
+              "id": "dv48",
+              "word": "(At the Beach word 6)",
+              "phonetic": "",
+              "meaning": "Common phrase for At the Beach",
+              "meaningZh": "",
+              "example": "Used when at the beach."
+            }
+          ],
+          "listening": [
+            {
+              "id": "dl8",
+              "type": "mcq",
+              "instruction": "Listen to the at the beach conversation.",
+              "ttsText": "This conversation takes place at the beach.",
+              "question": "Where does this happen?",
+              "options": [
+                "At the Beach",
+                "At home",
+                "At school"
+              ],
+              "correctAnswer": "At the Beach",
+              "hint": "Listen to the setting"
+            }
+          ],
+          "speaking": [
+            {
+              "id": "ds8",
+              "type": "pronounce-sentence",
+              "instruction": "Say this phrase:",
+              "targetText": "Excuse me, can you help me?",
+              "hint": "Polite and clear"
+            }
+          ],
+          "reading": [
+            {
+              "id": "dr8",
+              "type": "mcq",
+              "passage": "When you are at the beach, you need to speak English politely. Always say \"please\" and \"thank you\". If you need help, say \"Excuse me\".",
+              "question": "What should you always say?",
+              "options": [
+                "Sorry",
+                "Please and thank you",
+                "Hello"
+              ],
+              "correctAnswer": "Please and thank you",
+              "explanation": "Being polite is important"
+            }
+          ],
+          "writing": [
+            {
+              "id": "dw8a",
+              "type": "sentence-order",
+              "instruction": "Make a polite request:",
+              "words": [
+                "me",
+                "excuse",
+                "help",
+                "can",
+                "you"
+              ],
+              "correctAnswer": "excuse me can you help",
+              "hint": "Start with excuse me"
+            },
+            {
+              "id": "dw8b",
+              "type": "fill-blank",
+              "instruction": "Thank you for your _____.",
+              "correctAnswer": "help",
+              "hint": "What the person gave you"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "daily-u9",
+      "title": "At the Airport",
+      "theme": "airport",
+      "mascotTip": "Tot says: Let's practice English for at the airport!",
+      "lessons": [
+        {
+          "id": "daily-u9-l1",
+          "title": "At the Airport",
+          "objectives": [
+            "Use English in at the airport situations",
+            "Ask and answer questions politely",
+            "Understand common phrases"
+          ],
+          "vocabulary": [
+            {
+              "id": "dv49",
+              "word": "(At the Airport word 1)",
+              "phonetic": "",
+              "meaning": "Common phrase for At the Airport",
+              "meaningZh": "",
+              "example": "Used when at the airport."
+            },
+            {
+              "id": "dv50",
+              "word": "(At the Airport word 2)",
+              "phonetic": "",
+              "meaning": "Common phrase for At the Airport",
+              "meaningZh": "",
+              "example": "Used when at the airport."
+            },
+            {
+              "id": "dv51",
+              "word": "(At the Airport word 3)",
+              "phonetic": "",
+              "meaning": "Common phrase for At the Airport",
+              "meaningZh": "",
+              "example": "Used when at the airport."
+            },
+            {
+              "id": "dv52",
+              "word": "(At the Airport word 4)",
+              "phonetic": "",
+              "meaning": "Common phrase for At the Airport",
+              "meaningZh": "",
+              "example": "Used when at the airport."
+            },
+            {
+              "id": "dv53",
+              "word": "(At the Airport word 5)",
+              "phonetic": "",
+              "meaning": "Common phrase for At the Airport",
+              "meaningZh": "",
+              "example": "Used when at the airport."
+            },
+            {
+              "id": "dv54",
+              "word": "(At the Airport word 6)",
+              "phonetic": "",
+              "meaning": "Common phrase for At the Airport",
+              "meaningZh": "",
+              "example": "Used when at the airport."
+            }
+          ],
+          "listening": [
+            {
+              "id": "dl9",
+              "type": "mcq",
+              "instruction": "Listen to the at the airport conversation.",
+              "ttsText": "This conversation takes place at the airport.",
+              "question": "Where does this happen?",
+              "options": [
+                "At the Airport",
+                "At home",
+                "At school"
+              ],
+              "correctAnswer": "At the Airport",
+              "hint": "Listen to the setting"
+            }
+          ],
+          "speaking": [
+            {
+              "id": "ds9",
+              "type": "pronounce-sentence",
+              "instruction": "Say this phrase:",
+              "targetText": "Excuse me, can you help me?",
+              "hint": "Polite and clear"
+            }
+          ],
+          "reading": [
+            {
+              "id": "dr9",
+              "type": "mcq",
+              "passage": "When you are at the airport, you need to speak English politely. Always say \"please\" and \"thank you\". If you need help, say \"Excuse me\".",
+              "question": "What should you always say?",
+              "options": [
+                "Sorry",
+                "Please and thank you",
+                "Hello"
+              ],
+              "correctAnswer": "Please and thank you",
+              "explanation": "Being polite is important"
+            }
+          ],
+          "writing": [
+            {
+              "id": "dw9a",
+              "type": "sentence-order",
+              "instruction": "Make a polite request:",
+              "words": [
+                "me",
+                "excuse",
+                "help",
+                "can",
+                "you"
+              ],
+              "correctAnswer": "excuse me can you help",
+              "hint": "Start with excuse me"
+            },
+            {
+              "id": "dw9b",
+              "type": "fill-blank",
+              "instruction": "Thank you for your _____.",
+              "correctAnswer": "help",
+              "hint": "What the person gave you"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "daily-u10",
+      "title": "At the Post Office",
+      "theme": "post-office",
+      "mascotTip": "Tat says: Let's practice English for at the post office!",
+      "lessons": [
+        {
+          "id": "daily-u10-l1",
+          "title": "At the Post Office",
+          "objectives": [
+            "Use English in at the post office situations",
+            "Ask and answer questions politely",
+            "Understand common phrases"
+          ],
+          "vocabulary": [
+            {
+              "id": "dv55",
+              "word": "(At the Post Office word 1)",
+              "phonetic": "",
+              "meaning": "Common phrase for At the Post Office",
+              "meaningZh": "",
+              "example": "Used when at the post office."
+            },
+            {
+              "id": "dv56",
+              "word": "(At the Post Office word 2)",
+              "phonetic": "",
+              "meaning": "Common phrase for At the Post Office",
+              "meaningZh": "",
+              "example": "Used when at the post office."
+            },
+            {
+              "id": "dv57",
+              "word": "(At the Post Office word 3)",
+              "phonetic": "",
+              "meaning": "Common phrase for At the Post Office",
+              "meaningZh": "",
+              "example": "Used when at the post office."
+            },
+            {
+              "id": "dv58",
+              "word": "(At the Post Office word 4)",
+              "phonetic": "",
+              "meaning": "Common phrase for At the Post Office",
+              "meaningZh": "",
+              "example": "Used when at the post office."
+            },
+            {
+              "id": "dv59",
+              "word": "(At the Post Office word 5)",
+              "phonetic": "",
+              "meaning": "Common phrase for At the Post Office",
+              "meaningZh": "",
+              "example": "Used when at the post office."
+            },
+            {
+              "id": "dv60",
+              "word": "(At the Post Office word 6)",
+              "phonetic": "",
+              "meaning": "Common phrase for At the Post Office",
+              "meaningZh": "",
+              "example": "Used when at the post office."
+            }
+          ],
+          "listening": [
+            {
+              "id": "dl10",
+              "type": "mcq",
+              "instruction": "Listen to the at the post office conversation.",
+              "ttsText": "This conversation takes place at the post office.",
+              "question": "Where does this happen?",
+              "options": [
+                "At the Post Office",
+                "At home",
+                "At school"
+              ],
+              "correctAnswer": "At the Post Office",
+              "hint": "Listen to the setting"
+            }
+          ],
+          "speaking": [
+            {
+              "id": "ds10",
+              "type": "pronounce-sentence",
+              "instruction": "Say this phrase:",
+              "targetText": "Excuse me, can you help me?",
+              "hint": "Polite and clear"
+            }
+          ],
+          "reading": [
+            {
+              "id": "dr10",
+              "type": "mcq",
+              "passage": "When you are at the post office, you need to speak English politely. Always say \"please\" and \"thank you\". If you need help, say \"Excuse me\".",
+              "question": "What should you always say?",
+              "options": [
+                "Sorry",
+                "Please and thank you",
+                "Hello"
+              ],
+              "correctAnswer": "Please and thank you",
+              "explanation": "Being polite is important"
+            }
+          ],
+          "writing": [
+            {
+              "id": "dw10a",
+              "type": "sentence-order",
+              "instruction": "Make a polite request:",
+              "words": [
+                "me",
+                "excuse",
+                "help",
+                "can",
+                "you"
+              ],
+              "correctAnswer": "excuse me can you help",
+              "hint": "Start with excuse me"
+            },
+            {
+              "id": "dw10b",
+              "type": "fill-blank",
+              "instruction": "Thank you for your _____.",
+              "correctAnswer": "help",
+              "hint": "What the person gave you"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "daily-u11",
+      "title": "In a Taxi",
+      "theme": "taxi",
+      "mascotTip": "Tot says: Let's practice English for in a taxi!",
+      "lessons": [
+        {
+          "id": "daily-u11-l1",
+          "title": "In a Taxi",
+          "objectives": [
+            "Use English in in a taxi situations",
+            "Ask and answer questions politely",
+            "Understand common phrases"
+          ],
+          "vocabulary": [
+            {
+              "id": "dv61",
+              "word": "(In a Taxi word 1)",
+              "phonetic": "",
+              "meaning": "Common phrase for In a Taxi",
+              "meaningZh": "",
+              "example": "Used when in a taxi."
+            },
+            {
+              "id": "dv62",
+              "word": "(In a Taxi word 2)",
+              "phonetic": "",
+              "meaning": "Common phrase for In a Taxi",
+              "meaningZh": "",
+              "example": "Used when in a taxi."
+            },
+            {
+              "id": "dv63",
+              "word": "(In a Taxi word 3)",
+              "phonetic": "",
+              "meaning": "Common phrase for In a Taxi",
+              "meaningZh": "",
+              "example": "Used when in a taxi."
+            },
+            {
+              "id": "dv64",
+              "word": "(In a Taxi word 4)",
+              "phonetic": "",
+              "meaning": "Common phrase for In a Taxi",
+              "meaningZh": "",
+              "example": "Used when in a taxi."
+            },
+            {
+              "id": "dv65",
+              "word": "(In a Taxi word 5)",
+              "phonetic": "",
+              "meaning": "Common phrase for In a Taxi",
+              "meaningZh": "",
+              "example": "Used when in a taxi."
+            },
+            {
+              "id": "dv66",
+              "word": "(In a Taxi word 6)",
+              "phonetic": "",
+              "meaning": "Common phrase for In a Taxi",
+              "meaningZh": "",
+              "example": "Used when in a taxi."
+            }
+          ],
+          "listening": [
+            {
+              "id": "dl11",
+              "type": "mcq",
+              "instruction": "Listen to the in a taxi conversation.",
+              "ttsText": "This conversation takes place in a taxi.",
+              "question": "Where does this happen?",
+              "options": [
+                "In a Taxi",
+                "At home",
+                "At school"
+              ],
+              "correctAnswer": "In a Taxi",
+              "hint": "Listen to the setting"
+            }
+          ],
+          "speaking": [
+            {
+              "id": "ds11",
+              "type": "pronounce-sentence",
+              "instruction": "Say this phrase:",
+              "targetText": "Excuse me, can you help me?",
+              "hint": "Polite and clear"
+            }
+          ],
+          "reading": [
+            {
+              "id": "dr11",
+              "type": "mcq",
+              "passage": "When you are in a taxi, you need to speak English politely. Always say \"please\" and \"thank you\". If you need help, say \"Excuse me\".",
+              "question": "What should you always say?",
+              "options": [
+                "Sorry",
+                "Please and thank you",
+                "Hello"
+              ],
+              "correctAnswer": "Please and thank you",
+              "explanation": "Being polite is important"
+            }
+          ],
+          "writing": [
+            {
+              "id": "dw11a",
+              "type": "sentence-order",
+              "instruction": "Make a polite request:",
+              "words": [
+                "me",
+                "excuse",
+                "help",
+                "can",
+                "you"
+              ],
+              "correctAnswer": "excuse me can you help",
+              "hint": "Start with excuse me"
+            },
+            {
+              "id": "dw11b",
+              "type": "fill-blank",
+              "instruction": "Thank you for your _____.",
+              "correctAnswer": "help",
+              "hint": "What the person gave you"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "daily-u12",
+      "title": "At the Cinema",
+      "theme": "cinema",
+      "mascotTip": "Tat says: Let's practice English for at the cinema!",
+      "lessons": [
+        {
+          "id": "daily-u12-l1",
+          "title": "At the Cinema",
+          "objectives": [
+            "Use English in at the cinema situations",
+            "Ask and answer questions politely",
+            "Understand common phrases"
+          ],
+          "vocabulary": [
+            {
+              "id": "dv67",
+              "word": "(At the Cinema word 1)",
+              "phonetic": "",
+              "meaning": "Common phrase for At the Cinema",
+              "meaningZh": "",
+              "example": "Used when at the cinema."
+            },
+            {
+              "id": "dv68",
+              "word": "(At the Cinema word 2)",
+              "phonetic": "",
+              "meaning": "Common phrase for At the Cinema",
+              "meaningZh": "",
+              "example": "Used when at the cinema."
+            },
+            {
+              "id": "dv69",
+              "word": "(At the Cinema word 3)",
+              "phonetic": "",
+              "meaning": "Common phrase for At the Cinema",
+              "meaningZh": "",
+              "example": "Used when at the cinema."
+            },
+            {
+              "id": "dv70",
+              "word": "(At the Cinema word 4)",
+              "phonetic": "",
+              "meaning": "Common phrase for At the Cinema",
+              "meaningZh": "",
+              "example": "Used when at the cinema."
+            },
+            {
+              "id": "dv71",
+              "word": "(At the Cinema word 5)",
+              "phonetic": "",
+              "meaning": "Common phrase for At the Cinema",
+              "meaningZh": "",
+              "example": "Used when at the cinema."
+            },
+            {
+              "id": "dv72",
+              "word": "(At the Cinema word 6)",
+              "phonetic": "",
+              "meaning": "Common phrase for At the Cinema",
+              "meaningZh": "",
+              "example": "Used when at the cinema."
+            }
+          ],
+          "listening": [
+            {
+              "id": "dl12",
+              "type": "mcq",
+              "instruction": "Listen to the at the cinema conversation.",
+              "ttsText": "This conversation takes place at the cinema.",
+              "question": "Where does this happen?",
+              "options": [
+                "At the Cinema",
+                "At home",
+                "At school"
+              ],
+              "correctAnswer": "At the Cinema",
+              "hint": "Listen to the setting"
+            }
+          ],
+          "speaking": [
+            {
+              "id": "ds12",
+              "type": "pronounce-sentence",
+              "instruction": "Say this phrase:",
+              "targetText": "Excuse me, can you help me?",
+              "hint": "Polite and clear"
+            }
+          ],
+          "reading": [
+            {
+              "id": "dr12",
+              "type": "mcq",
+              "passage": "When you are at the cinema, you need to speak English politely. Always say \"please\" and \"thank you\". If you need help, say \"Excuse me\".",
+              "question": "What should you always say?",
+              "options": [
+                "Sorry",
+                "Please and thank you",
+                "Hello"
+              ],
+              "correctAnswer": "Please and thank you",
+              "explanation": "Being polite is important"
+            }
+          ],
+          "writing": [
+            {
+              "id": "dw12a",
+              "type": "sentence-order",
+              "instruction": "Make a polite request:",
+              "words": [
+                "me",
+                "excuse",
+                "help",
+                "can",
+                "you"
+              ],
+              "correctAnswer": "excuse me can you help",
+              "hint": "Start with excuse me"
+            },
+            {
+              "id": "dw12b",
+              "type": "fill-blank",
+              "instruction": "Thank you for your _____.",
+              "correctAnswer": "help",
+              "hint": "What the person gave you"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "daily-u13",
+      "title": "At the Bakery",
+      "theme": "bakery",
+      "mascotTip": "Tot says: Let's practice English for at the bakery!",
+      "lessons": [
+        {
+          "id": "daily-u13-l1",
+          "title": "At the Bakery",
+          "objectives": [
+            "Use English in at the bakery situations",
+            "Ask and answer questions politely",
+            "Understand common phrases"
+          ],
+          "vocabulary": [
+            {
+              "id": "dv73",
+              "word": "(At the Bakery word 1)",
+              "phonetic": "",
+              "meaning": "Common phrase for At the Bakery",
+              "meaningZh": "",
+              "example": "Used when at the bakery."
+            },
+            {
+              "id": "dv74",
+              "word": "(At the Bakery word 2)",
+              "phonetic": "",
+              "meaning": "Common phrase for At the Bakery",
+              "meaningZh": "",
+              "example": "Used when at the bakery."
+            },
+            {
+              "id": "dv75",
+              "word": "(At the Bakery word 3)",
+              "phonetic": "",
+              "meaning": "Common phrase for At the Bakery",
+              "meaningZh": "",
+              "example": "Used when at the bakery."
+            },
+            {
+              "id": "dv76",
+              "word": "(At the Bakery word 4)",
+              "phonetic": "",
+              "meaning": "Common phrase for At the Bakery",
+              "meaningZh": "",
+              "example": "Used when at the bakery."
+            },
+            {
+              "id": "dv77",
+              "word": "(At the Bakery word 5)",
+              "phonetic": "",
+              "meaning": "Common phrase for At the Bakery",
+              "meaningZh": "",
+              "example": "Used when at the bakery."
+            },
+            {
+              "id": "dv78",
+              "word": "(At the Bakery word 6)",
+              "phonetic": "",
+              "meaning": "Common phrase for At the Bakery",
+              "meaningZh": "",
+              "example": "Used when at the bakery."
+            }
+          ],
+          "listening": [
+            {
+              "id": "dl13",
+              "type": "mcq",
+              "instruction": "Listen to the at the bakery conversation.",
+              "ttsText": "This conversation takes place at the bakery.",
+              "question": "Where does this happen?",
+              "options": [
+                "At the Bakery",
+                "At home",
+                "At school"
+              ],
+              "correctAnswer": "At the Bakery",
+              "hint": "Listen to the setting"
+            }
+          ],
+          "speaking": [
+            {
+              "id": "ds13",
+              "type": "pronounce-sentence",
+              "instruction": "Say this phrase:",
+              "targetText": "Excuse me, can you help me?",
+              "hint": "Polite and clear"
+            }
+          ],
+          "reading": [
+            {
+              "id": "dr13",
+              "type": "mcq",
+              "passage": "When you are at the bakery, you need to speak English politely. Always say \"please\" and \"thank you\". If you need help, say \"Excuse me\".",
+              "question": "What should you always say?",
+              "options": [
+                "Sorry",
+                "Please and thank you",
+                "Hello"
+              ],
+              "correctAnswer": "Please and thank you",
+              "explanation": "Being polite is important"
+            }
+          ],
+          "writing": [
+            {
+              "id": "dw13a",
+              "type": "sentence-order",
+              "instruction": "Make a polite request:",
+              "words": [
+                "me",
+                "excuse",
+                "help",
+                "can",
+                "you"
+              ],
+              "correctAnswer": "excuse me can you help",
+              "hint": "Start with excuse me"
+            },
+            {
+              "id": "dw13b",
+              "type": "fill-blank",
+              "instruction": "Thank you for your _____.",
+              "correctAnswer": "help",
+              "hint": "What the person gave you"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "daily-u14",
+      "title": "At the Pet Shop",
+      "theme": "pet-shop",
+      "mascotTip": "Tat says: Let's practice English for at the pet shop!",
+      "lessons": [
+        {
+          "id": "daily-u14-l1",
+          "title": "At the Pet Shop",
+          "objectives": [
+            "Use English in at the pet shop situations",
+            "Ask and answer questions politely",
+            "Understand common phrases"
+          ],
+          "vocabulary": [
+            {
+              "id": "dv79",
+              "word": "(At the Pet Shop word 1)",
+              "phonetic": "",
+              "meaning": "Common phrase for At the Pet Shop",
+              "meaningZh": "",
+              "example": "Used when at the pet shop."
+            },
+            {
+              "id": "dv80",
+              "word": "(At the Pet Shop word 2)",
+              "phonetic": "",
+              "meaning": "Common phrase for At the Pet Shop",
+              "meaningZh": "",
+              "example": "Used when at the pet shop."
+            },
+            {
+              "id": "dv81",
+              "word": "(At the Pet Shop word 3)",
+              "phonetic": "",
+              "meaning": "Common phrase for At the Pet Shop",
+              "meaningZh": "",
+              "example": "Used when at the pet shop."
+            },
+            {
+              "id": "dv82",
+              "word": "(At the Pet Shop word 4)",
+              "phonetic": "",
+              "meaning": "Common phrase for At the Pet Shop",
+              "meaningZh": "",
+              "example": "Used when at the pet shop."
+            },
+            {
+              "id": "dv83",
+              "word": "(At the Pet Shop word 5)",
+              "phonetic": "",
+              "meaning": "Common phrase for At the Pet Shop",
+              "meaningZh": "",
+              "example": "Used when at the pet shop."
+            },
+            {
+              "id": "dv84",
+              "word": "(At the Pet Shop word 6)",
+              "phonetic": "",
+              "meaning": "Common phrase for At the Pet Shop",
+              "meaningZh": "",
+              "example": "Used when at the pet shop."
+            }
+          ],
+          "listening": [
+            {
+              "id": "dl14",
+              "type": "mcq",
+              "instruction": "Listen to the at the pet shop conversation.",
+              "ttsText": "This conversation takes place at the pet shop.",
+              "question": "Where does this happen?",
+              "options": [
+                "At the Pet Shop",
+                "At home",
+                "At school"
+              ],
+              "correctAnswer": "At the Pet Shop",
+              "hint": "Listen to the setting"
+            }
+          ],
+          "speaking": [
+            {
+              "id": "ds14",
+              "type": "pronounce-sentence",
+              "instruction": "Say this phrase:",
+              "targetText": "Excuse me, can you help me?",
+              "hint": "Polite and clear"
+            }
+          ],
+          "reading": [
+            {
+              "id": "dr14",
+              "type": "mcq",
+              "passage": "When you are at the pet shop, you need to speak English politely. Always say \"please\" and \"thank you\". If you need help, say \"Excuse me\".",
+              "question": "What should you always say?",
+              "options": [
+                "Sorry",
+                "Please and thank you",
+                "Hello"
+              ],
+              "correctAnswer": "Please and thank you",
+              "explanation": "Being polite is important"
+            }
+          ],
+          "writing": [
+            {
+              "id": "dw14a",
+              "type": "sentence-order",
+              "instruction": "Make a polite request:",
+              "words": [
+                "me",
+                "excuse",
+                "help",
+                "can",
+                "you"
+              ],
+              "correctAnswer": "excuse me can you help",
+              "hint": "Start with excuse me"
+            },
+            {
+              "id": "dw14b",
+              "type": "fill-blank",
+              "instruction": "Thank you for your _____.",
+              "correctAnswer": "help",
+              "hint": "What the person gave you"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "daily-u15",
+      "title": "At the Sports Centre",
+      "theme": "sports-centre",
+      "mascotTip": "Tot says: Let's practice English for at the sports centre!",
+      "lessons": [
+        {
+          "id": "daily-u15-l1",
+          "title": "At the Sports Centre",
+          "objectives": [
+            "Use English in at the sports centre situations",
+            "Ask and answer questions politely",
+            "Understand common phrases"
+          ],
+          "vocabulary": [
+            {
+              "id": "dv85",
+              "word": "(At the Sports Centre word 1)",
+              "phonetic": "",
+              "meaning": "Common phrase for At the Sports Centre",
+              "meaningZh": "",
+              "example": "Used when at the sports centre."
+            },
+            {
+              "id": "dv86",
+              "word": "(At the Sports Centre word 2)",
+              "phonetic": "",
+              "meaning": "Common phrase for At the Sports Centre",
+              "meaningZh": "",
+              "example": "Used when at the sports centre."
+            },
+            {
+              "id": "dv87",
+              "word": "(At the Sports Centre word 3)",
+              "phonetic": "",
+              "meaning": "Common phrase for At the Sports Centre",
+              "meaningZh": "",
+              "example": "Used when at the sports centre."
+            },
+            {
+              "id": "dv88",
+              "word": "(At the Sports Centre word 4)",
+              "phonetic": "",
+              "meaning": "Common phrase for At the Sports Centre",
+              "meaningZh": "",
+              "example": "Used when at the sports centre."
+            },
+            {
+              "id": "dv89",
+              "word": "(At the Sports Centre word 5)",
+              "phonetic": "",
+              "meaning": "Common phrase for At the Sports Centre",
+              "meaningZh": "",
+              "example": "Used when at the sports centre."
+            },
+            {
+              "id": "dv90",
+              "word": "(At the Sports Centre word 6)",
+              "phonetic": "",
+              "meaning": "Common phrase for At the Sports Centre",
+              "meaningZh": "",
+              "example": "Used when at the sports centre."
+            }
+          ],
+          "listening": [
+            {
+              "id": "dl15",
+              "type": "mcq",
+              "instruction": "Listen to the at the sports centre conversation.",
+              "ttsText": "This conversation takes place at the sports centre.",
+              "question": "Where does this happen?",
+              "options": [
+                "At the Sports Centre",
+                "At home",
+                "At school"
+              ],
+              "correctAnswer": "At the Sports Centre",
+              "hint": "Listen to the setting"
+            }
+          ],
+          "speaking": [
+            {
+              "id": "ds15",
+              "type": "pronounce-sentence",
+              "instruction": "Say this phrase:",
+              "targetText": "Excuse me, can you help me?",
+              "hint": "Polite and clear"
+            }
+          ],
+          "reading": [
+            {
+              "id": "dr15",
+              "type": "mcq",
+              "passage": "When you are at the sports centre, you need to speak English politely. Always say \"please\" and \"thank you\". If you need help, say \"Excuse me\".",
+              "question": "What should you always say?",
+              "options": [
+                "Sorry",
+                "Please and thank you",
+                "Hello"
+              ],
+              "correctAnswer": "Please and thank you",
+              "explanation": "Being polite is important"
+            }
+          ],
+          "writing": [
+            {
+              "id": "dw15a",
+              "type": "sentence-order",
+              "instruction": "Make a polite request:",
+              "words": [
+                "me",
+                "excuse",
+                "help",
+                "can",
+                "you"
+              ],
+              "correctAnswer": "excuse me can you help",
+              "hint": "Start with excuse me"
+            },
+            {
+              "id": "dw15b",
+              "type": "fill-blank",
+              "instruction": "Thank you for your _____.",
+              "correctAnswer": "help",
+              "hint": "What the person gave you"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "daily-u16",
+      "title": "At the Museum",
+      "theme": "museum",
+      "mascotTip": "Tat says: Let's practice English for at the museum!",
+      "lessons": [
+        {
+          "id": "daily-u16-l1",
+          "title": "At the Museum",
+          "objectives": [
+            "Use English in at the museum situations",
+            "Ask and answer questions politely",
+            "Understand common phrases"
+          ],
+          "vocabulary": [
+            {
+              "id": "dv91",
+              "word": "(At the Museum word 1)",
+              "phonetic": "",
+              "meaning": "Common phrase for At the Museum",
+              "meaningZh": "",
+              "example": "Used when at the museum."
+            },
+            {
+              "id": "dv92",
+              "word": "(At the Museum word 2)",
+              "phonetic": "",
+              "meaning": "Common phrase for At the Museum",
+              "meaningZh": "",
+              "example": "Used when at the museum."
+            },
+            {
+              "id": "dv93",
+              "word": "(At the Museum word 3)",
+              "phonetic": "",
+              "meaning": "Common phrase for At the Museum",
+              "meaningZh": "",
+              "example": "Used when at the museum."
+            },
+            {
+              "id": "dv94",
+              "word": "(At the Museum word 4)",
+              "phonetic": "",
+              "meaning": "Common phrase for At the Museum",
+              "meaningZh": "",
+              "example": "Used when at the museum."
+            },
+            {
+              "id": "dv95",
+              "word": "(At the Museum word 5)",
+              "phonetic": "",
+              "meaning": "Common phrase for At the Museum",
+              "meaningZh": "",
+              "example": "Used when at the museum."
+            },
+            {
+              "id": "dv96",
+              "word": "(At the Museum word 6)",
+              "phonetic": "",
+              "meaning": "Common phrase for At the Museum",
+              "meaningZh": "",
+              "example": "Used when at the museum."
+            }
+          ],
+          "listening": [
+            {
+              "id": "dl16",
+              "type": "mcq",
+              "instruction": "Listen to the at the museum conversation.",
+              "ttsText": "This conversation takes place at the museum.",
+              "question": "Where does this happen?",
+              "options": [
+                "At the Museum",
+                "At home",
+                "At school"
+              ],
+              "correctAnswer": "At the Museum",
+              "hint": "Listen to the setting"
+            }
+          ],
+          "speaking": [
+            {
+              "id": "ds16",
+              "type": "pronounce-sentence",
+              "instruction": "Say this phrase:",
+              "targetText": "Excuse me, can you help me?",
+              "hint": "Polite and clear"
+            }
+          ],
+          "reading": [
+            {
+              "id": "dr16",
+              "type": "mcq",
+              "passage": "When you are at the museum, you need to speak English politely. Always say \"please\" and \"thank you\". If you need help, say \"Excuse me\".",
+              "question": "What should you always say?",
+              "options": [
+                "Sorry",
+                "Please and thank you",
+                "Hello"
+              ],
+              "correctAnswer": "Please and thank you",
+              "explanation": "Being polite is important"
+            }
+          ],
+          "writing": [
+            {
+              "id": "dw16a",
+              "type": "sentence-order",
+              "instruction": "Make a polite request:",
+              "words": [
+                "me",
+                "excuse",
+                "help",
+                "can",
+                "you"
+              ],
+              "correctAnswer": "excuse me can you help",
+              "hint": "Start with excuse me"
+            },
+            {
+              "id": "dw16b",
+              "type": "fill-blank",
+              "instruction": "Thank you for your _____.",
+              "correctAnswer": "help",
+              "hint": "What the person gave you"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "daily-u17",
+      "title": "At a Restaurant (Ordering)",
+      "theme": "restaurant-(ordering)",
+      "mascotTip": "Tot says: Let's practice English for at a restaurant (ordering)!",
+      "lessons": [
+        {
+          "id": "daily-u17-l1",
+          "title": "At a Restaurant (Ordering)",
+          "objectives": [
+            "Use English in at a restaurant (ordering) situations",
+            "Ask and answer questions politely",
+            "Understand common phrases"
+          ],
+          "vocabulary": [
+            {
+              "id": "dv97",
+              "word": "(At a Restaurant (Ordering) word 1)",
+              "phonetic": "",
+              "meaning": "Common phrase for At a Restaurant (Ordering)",
+              "meaningZh": "",
+              "example": "Used when at a restaurant (ordering)."
+            },
+            {
+              "id": "dv98",
+              "word": "(At a Restaurant (Ordering) word 2)",
+              "phonetic": "",
+              "meaning": "Common phrase for At a Restaurant (Ordering)",
+              "meaningZh": "",
+              "example": "Used when at a restaurant (ordering)."
+            },
+            {
+              "id": "dv99",
+              "word": "(At a Restaurant (Ordering) word 3)",
+              "phonetic": "",
+              "meaning": "Common phrase for At a Restaurant (Ordering)",
+              "meaningZh": "",
+              "example": "Used when at a restaurant (ordering)."
+            },
+            {
+              "id": "dv100",
+              "word": "(At a Restaurant (Ordering) word 4)",
+              "phonetic": "",
+              "meaning": "Common phrase for At a Restaurant (Ordering)",
+              "meaningZh": "",
+              "example": "Used when at a restaurant (ordering)."
+            },
+            {
+              "id": "dv101",
+              "word": "(At a Restaurant (Ordering) word 5)",
+              "phonetic": "",
+              "meaning": "Common phrase for At a Restaurant (Ordering)",
+              "meaningZh": "",
+              "example": "Used when at a restaurant (ordering)."
+            },
+            {
+              "id": "dv102",
+              "word": "(At a Restaurant (Ordering) word 6)",
+              "phonetic": "",
+              "meaning": "Common phrase for At a Restaurant (Ordering)",
+              "meaningZh": "",
+              "example": "Used when at a restaurant (ordering)."
+            }
+          ],
+          "listening": [
+            {
+              "id": "dl17",
+              "type": "mcq",
+              "instruction": "Listen to the at a restaurant (ordering) conversation.",
+              "ttsText": "This conversation takes place at a restaurant (ordering).",
+              "question": "Where does this happen?",
+              "options": [
+                "At a Restaurant (Ordering)",
+                "At home",
+                "At school"
+              ],
+              "correctAnswer": "At a Restaurant (Ordering)",
+              "hint": "Listen to the setting"
+            }
+          ],
+          "speaking": [
+            {
+              "id": "ds17",
+              "type": "pronounce-sentence",
+              "instruction": "Say this phrase:",
+              "targetText": "Excuse me, can you help me?",
+              "hint": "Polite and clear"
+            }
+          ],
+          "reading": [
+            {
+              "id": "dr17",
+              "type": "mcq",
+              "passage": "When you are at a restaurant (ordering), you need to speak English politely. Always say \"please\" and \"thank you\". If you need help, say \"Excuse me\".",
+              "question": "What should you always say?",
+              "options": [
+                "Sorry",
+                "Please and thank you",
+                "Hello"
+              ],
+              "correctAnswer": "Please and thank you",
+              "explanation": "Being polite is important"
+            }
+          ],
+          "writing": [
+            {
+              "id": "dw17a",
+              "type": "sentence-order",
+              "instruction": "Make a polite request:",
+              "words": [
+                "me",
+                "excuse",
+                "help",
+                "can",
+                "you"
+              ],
+              "correctAnswer": "excuse me can you help",
+              "hint": "Start with excuse me"
+            },
+            {
+              "id": "dw17b",
+              "type": "fill-blank",
+              "instruction": "Thank you for your _____.",
+              "correctAnswer": "help",
+              "hint": "What the person gave you"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "daily-u18",
+      "title": "At the Hair Salon",
+      "theme": "hair-salon",
+      "mascotTip": "Tat says: Let's practice English for at the hair salon!",
+      "lessons": [
+        {
+          "id": "daily-u18-l1",
+          "title": "At the Hair Salon",
+          "objectives": [
+            "Use English in at the hair salon situations",
+            "Ask and answer questions politely",
+            "Understand common phrases"
+          ],
+          "vocabulary": [
+            {
+              "id": "dv103",
+              "word": "(At the Hair Salon word 1)",
+              "phonetic": "",
+              "meaning": "Common phrase for At the Hair Salon",
+              "meaningZh": "",
+              "example": "Used when at the hair salon."
+            },
+            {
+              "id": "dv104",
+              "word": "(At the Hair Salon word 2)",
+              "phonetic": "",
+              "meaning": "Common phrase for At the Hair Salon",
+              "meaningZh": "",
+              "example": "Used when at the hair salon."
+            },
+            {
+              "id": "dv105",
+              "word": "(At the Hair Salon word 3)",
+              "phonetic": "",
+              "meaning": "Common phrase for At the Hair Salon",
+              "meaningZh": "",
+              "example": "Used when at the hair salon."
+            },
+            {
+              "id": "dv106",
+              "word": "(At the Hair Salon word 4)",
+              "phonetic": "",
+              "meaning": "Common phrase for At the Hair Salon",
+              "meaningZh": "",
+              "example": "Used when at the hair salon."
+            },
+            {
+              "id": "dv107",
+              "word": "(At the Hair Salon word 5)",
+              "phonetic": "",
+              "meaning": "Common phrase for At the Hair Salon",
+              "meaningZh": "",
+              "example": "Used when at the hair salon."
+            },
+            {
+              "id": "dv108",
+              "word": "(At the Hair Salon word 6)",
+              "phonetic": "",
+              "meaning": "Common phrase for At the Hair Salon",
+              "meaningZh": "",
+              "example": "Used when at the hair salon."
+            }
+          ],
+          "listening": [
+            {
+              "id": "dl18",
+              "type": "mcq",
+              "instruction": "Listen to the at the hair salon conversation.",
+              "ttsText": "This conversation takes place at the hair salon.",
+              "question": "Where does this happen?",
+              "options": [
+                "At the Hair Salon",
+                "At home",
+                "At school"
+              ],
+              "correctAnswer": "At the Hair Salon",
+              "hint": "Listen to the setting"
+            }
+          ],
+          "speaking": [
+            {
+              "id": "ds18",
+              "type": "pronounce-sentence",
+              "instruction": "Say this phrase:",
+              "targetText": "Excuse me, can you help me?",
+              "hint": "Polite and clear"
+            }
+          ],
+          "reading": [
+            {
+              "id": "dr18",
+              "type": "mcq",
+              "passage": "When you are at the hair salon, you need to speak English politely. Always say \"please\" and \"thank you\". If you need help, say \"Excuse me\".",
+              "question": "What should you always say?",
+              "options": [
+                "Sorry",
+                "Please and thank you",
+                "Hello"
+              ],
+              "correctAnswer": "Please and thank you",
+              "explanation": "Being polite is important"
+            }
+          ],
+          "writing": [
+            {
+              "id": "dw18a",
+              "type": "sentence-order",
+              "instruction": "Make a polite request:",
+              "words": [
+                "me",
+                "excuse",
+                "help",
+                "can",
+                "you"
+              ],
+              "correctAnswer": "excuse me can you help",
+              "hint": "Start with excuse me"
+            },
+            {
+              "id": "dw18b",
+              "type": "fill-blank",
+              "instruction": "Thank you for your _____.",
+              "correctAnswer": "help",
+              "hint": "What the person gave you"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "daily-u19",
+      "title": "At the Bookshop",
+      "theme": "bookshop",
+      "mascotTip": "Tot says: Let's practice English for at the bookshop!",
+      "lessons": [
+        {
+          "id": "daily-u19-l1",
+          "title": "At the Bookshop",
+          "objectives": [
+            "Use English in at the bookshop situations",
+            "Ask and answer questions politely",
+            "Understand common phrases"
+          ],
+          "vocabulary": [
+            {
+              "id": "dv109",
+              "word": "(At the Bookshop word 1)",
+              "phonetic": "",
+              "meaning": "Common phrase for At the Bookshop",
+              "meaningZh": "",
+              "example": "Used when at the bookshop."
+            },
+            {
+              "id": "dv110",
+              "word": "(At the Bookshop word 2)",
+              "phonetic": "",
+              "meaning": "Common phrase for At the Bookshop",
+              "meaningZh": "",
+              "example": "Used when at the bookshop."
+            },
+            {
+              "id": "dv111",
+              "word": "(At the Bookshop word 3)",
+              "phonetic": "",
+              "meaning": "Common phrase for At the Bookshop",
+              "meaningZh": "",
+              "example": "Used when at the bookshop."
+            },
+            {
+              "id": "dv112",
+              "word": "(At the Bookshop word 4)",
+              "phonetic": "",
+              "meaning": "Common phrase for At the Bookshop",
+              "meaningZh": "",
+              "example": "Used when at the bookshop."
+            },
+            {
+              "id": "dv113",
+              "word": "(At the Bookshop word 5)",
+              "phonetic": "",
+              "meaning": "Common phrase for At the Bookshop",
+              "meaningZh": "",
+              "example": "Used when at the bookshop."
+            },
+            {
+              "id": "dv114",
+              "word": "(At the Bookshop word 6)",
+              "phonetic": "",
+              "meaning": "Common phrase for At the Bookshop",
+              "meaningZh": "",
+              "example": "Used when at the bookshop."
+            }
+          ],
+          "listening": [
+            {
+              "id": "dl19",
+              "type": "mcq",
+              "instruction": "Listen to the at the bookshop conversation.",
+              "ttsText": "This conversation takes place at the bookshop.",
+              "question": "Where does this happen?",
+              "options": [
+                "At the Bookshop",
+                "At home",
+                "At school"
+              ],
+              "correctAnswer": "At the Bookshop",
+              "hint": "Listen to the setting"
+            }
+          ],
+          "speaking": [
+            {
+              "id": "ds19",
+              "type": "pronounce-sentence",
+              "instruction": "Say this phrase:",
+              "targetText": "Excuse me, can you help me?",
+              "hint": "Polite and clear"
+            }
+          ],
+          "reading": [
+            {
+              "id": "dr19",
+              "type": "mcq",
+              "passage": "When you are at the bookshop, you need to speak English politely. Always say \"please\" and \"thank you\". If you need help, say \"Excuse me\".",
+              "question": "What should you always say?",
+              "options": [
+                "Sorry",
+                "Please and thank you",
+                "Hello"
+              ],
+              "correctAnswer": "Please and thank you",
+              "explanation": "Being polite is important"
+            }
+          ],
+          "writing": [
+            {
+              "id": "dw19a",
+              "type": "sentence-order",
+              "instruction": "Make a polite request:",
+              "words": [
+                "me",
+                "excuse",
+                "help",
+                "can",
+                "you"
+              ],
+              "correctAnswer": "excuse me can you help",
+              "hint": "Start with excuse me"
+            },
+            {
+              "id": "dw19b",
+              "type": "fill-blank",
+              "instruction": "Thank you for your _____.",
+              "correctAnswer": "help",
+              "hint": "What the person gave you"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "daily-u20",
+      "title": "Lost and Found",
+      "theme": "lost-and-found",
+      "mascotTip": "Tat says: Let's practice English for lost and found!",
+      "lessons": [
+        {
+          "id": "daily-u20-l1",
+          "title": "Lost and Found",
+          "objectives": [
+            "Use English in lost and found situations",
+            "Ask and answer questions politely",
+            "Understand common phrases"
+          ],
+          "vocabulary": [
+            {
+              "id": "dv115",
+              "word": "(Lost and Found word 1)",
+              "phonetic": "",
+              "meaning": "Common phrase for Lost and Found",
+              "meaningZh": "",
+              "example": "Used when lost and found."
+            },
+            {
+              "id": "dv116",
+              "word": "(Lost and Found word 2)",
+              "phonetic": "",
+              "meaning": "Common phrase for Lost and Found",
+              "meaningZh": "",
+              "example": "Used when lost and found."
+            },
+            {
+              "id": "dv117",
+              "word": "(Lost and Found word 3)",
+              "phonetic": "",
+              "meaning": "Common phrase for Lost and Found",
+              "meaningZh": "",
+              "example": "Used when lost and found."
+            },
+            {
+              "id": "dv118",
+              "word": "(Lost and Found word 4)",
+              "phonetic": "",
+              "meaning": "Common phrase for Lost and Found",
+              "meaningZh": "",
+              "example": "Used when lost and found."
+            },
+            {
+              "id": "dv119",
+              "word": "(Lost and Found word 5)",
+              "phonetic": "",
+              "meaning": "Common phrase for Lost and Found",
+              "meaningZh": "",
+              "example": "Used when lost and found."
+            },
+            {
+              "id": "dv120",
+              "word": "(Lost and Found word 6)",
+              "phonetic": "",
+              "meaning": "Common phrase for Lost and Found",
+              "meaningZh": "",
+              "example": "Used when lost and found."
+            }
+          ],
+          "listening": [
+            {
+              "id": "dl20",
+              "type": "mcq",
+              "instruction": "Listen to the lost and found conversation.",
+              "ttsText": "This conversation takes place lost and found.",
+              "question": "Where does this happen?",
+              "options": [
+                "Lost and Found",
+                "At home",
+                "At school"
+              ],
+              "correctAnswer": "Lost and Found",
+              "hint": "Listen to the setting"
+            }
+          ],
+          "speaking": [
+            {
+              "id": "ds20",
+              "type": "pronounce-sentence",
+              "instruction": "Say this phrase:",
+              "targetText": "Excuse me, can you help me?",
+              "hint": "Polite and clear"
+            }
+          ],
+          "reading": [
+            {
+              "id": "dr20",
+              "type": "mcq",
+              "passage": "When you are lost and found, you need to speak English politely. Always say \"please\" and \"thank you\". If you need help, say \"Excuse me\".",
+              "question": "What should you always say?",
+              "options": [
+                "Sorry",
+                "Please and thank you",
+                "Hello"
+              ],
+              "correctAnswer": "Please and thank you",
+              "explanation": "Being polite is important"
+            }
+          ],
+          "writing": [
+            {
+              "id": "dw20a",
+              "type": "sentence-order",
+              "instruction": "Make a polite request:",
+              "words": [
+                "me",
+                "excuse",
+                "help",
+                "can",
+                "you"
+              ],
+              "correctAnswer": "excuse me can you help",
+              "hint": "Start with excuse me"
+            },
+            {
+              "id": "dw20b",
+              "type": "fill-blank",
+              "instruction": "Thank you for your _____.",
+              "correctAnswer": "help",
+              "hint": "What the person gave you"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

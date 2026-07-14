@@ -1,0 +1,2829 @@
+{
+  "id": "p1-english-starter",
+  "name": "English Starter 1A",
+  "publisher": "Tot & Tat",
+  "grade": "P1",
+  "version": "2.0.0",
+  "units": [
+    {
+      "id": "u1",
+      "title": "Hello!",
+      "theme": "greetings",
+      "mascotTip": "Tat says: Let's say hello!",
+      "lessons": [
+        {
+          "id": "u1-l1",
+          "title": "Greetings",
+          "objectives": [
+            "Say hello and goodbye",
+            "Introduce yourself"
+          ],
+          "vocabulary": [
+            {
+              "id": "v1",
+              "word": "hello",
+              "phonetic": "/həˈloʊ/",
+              "meaning": "a greeting",
+              "meaningZh": "你好",
+              "example": "Hello! How are you?"
+            },
+            {
+              "id": "v2",
+              "word": "goodbye",
+              "phonetic": "/ɡʊdˈbaɪ/",
+              "meaning": "said when leaving",
+              "meaningZh": "再見",
+              "example": "Goodbye! See you tomorrow."
+            },
+            {
+              "id": "v3",
+              "word": "name",
+              "phonetic": "/neɪm/",
+              "meaning": "what you are called",
+              "meaningZh": "名字",
+              "example": "My name is Amy."
+            },
+            {
+              "id": "v4",
+              "word": "friend",
+              "phonetic": "/frend/",
+              "meaning": "someone you like",
+              "meaningZh": "朋友",
+              "example": "She is my friend."
+            },
+            {
+              "id": "v5",
+              "word": "please",
+              "phonetic": "/pliːz/",
+              "meaning": "used to be polite",
+              "meaningZh": "請",
+              "example": "Can I have water, please?"
+            },
+            {
+              "id": "v6",
+              "word": "thank you",
+              "phonetic": "/θæŋk juː/",
+              "meaning": "showing gratitude",
+              "meaningZh": "謝謝",
+              "example": "Thank you for helping me."
+            }
+          ],
+          "listening": [
+            {
+              "id": "l1",
+              "type": "mcq",
+              "instruction": "Listen. What is his name?",
+              "ttsText": "Hello! My name is Tom.",
+              "question": "What is his name?",
+              "options": [
+                "Amy",
+                "Tom",
+                "Ben",
+                "Sam"
+              ],
+              "correctAnswer": "Tom",
+              "hint": "Listen for the name"
+            },
+            {
+              "id": "l2",
+              "type": "dictation",
+              "instruction": "Listen and type:",
+              "ttsText": "Hello!",
+              "correctAnswer": "Hello",
+              "hint": "A greeting word"
+            },
+            {
+              "id": "l3",
+              "type": "mcq",
+              "instruction": "When do we say this?",
+              "ttsText": "Goodbye! See you tomorrow.",
+              "question": "When do we say goodbye?",
+              "options": [
+                "When we arrive",
+                "When we leave",
+                "When we eat"
+              ],
+              "correctAnswer": "When we leave",
+              "hint": "Said when going away"
+            }
+          ],
+          "speaking": [
+            {
+              "id": "s1",
+              "type": "pronounce-word",
+              "instruction": "Say:",
+              "targetText": "hello",
+              "phonetic": "/həˈloʊ/"
+            },
+            {
+              "id": "s2",
+              "type": "pronounce-sentence",
+              "instruction": "Say:",
+              "targetText": "My name is Tom.",
+              "hint": "Say your name!"
+            }
+          ],
+          "reading": [
+            {
+              "id": "r1",
+              "type": "mcq",
+              "passage": "Hello! I am Sam. I am six years old. I like dogs.",
+              "question": "How old is Sam?",
+              "options": [
+                "five",
+                "six",
+                "seven"
+              ],
+              "correctAnswer": "six",
+              "explanation": "Sam says I am six years old"
+            }
+          ],
+          "writing": [
+            {
+              "id": "w1",
+              "type": "spelling",
+              "instruction": "Spell:",
+              "ttsText": "hello",
+              "correctAnswer": "hello",
+              "hint": "5 letters, starts with h"
+            },
+            {
+              "id": "w2",
+              "type": "sentence-order",
+              "instruction": "Order:",
+              "words": [
+                "name",
+                "my",
+                "is",
+                "Sam"
+              ],
+              "correctAnswer": "my name is Sam",
+              "hint": "Start with my"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u2",
+      "title": "Colours",
+      "theme": "colours",
+      "mascotTip": "Tot says: The world is colourful!",
+      "lessons": [
+        {
+          "id": "u2-l1",
+          "title": "Rainbow Colours",
+          "objectives": [
+            "Learn colour names",
+            "Describe things"
+          ],
+          "vocabulary": [
+            {
+              "id": "v7",
+              "word": "red",
+              "phonetic": "/red/",
+              "meaning": "colour of fire",
+              "meaningZh": "紅色",
+              "example": "The apple is red."
+            },
+            {
+              "id": "v8",
+              "word": "blue",
+              "phonetic": "/bluː/",
+              "meaning": "colour of sky",
+              "meaningZh": "藍色",
+              "example": "The sky is blue."
+            },
+            {
+              "id": "v9",
+              "word": "green",
+              "phonetic": "/ɡriːn/",
+              "meaning": "colour of grass",
+              "meaningZh": "綠色",
+              "example": "The tree is green."
+            },
+            {
+              "id": "v10",
+              "word": "yellow",
+              "phonetic": "/ˈjeloʊ/",
+              "meaning": "colour of sun",
+              "meaningZh": "黃色",
+              "example": "The sun is yellow."
+            },
+            {
+              "id": "v11",
+              "word": "orange",
+              "phonetic": "/ˈɒrɪndʒ/",
+              "meaning": "between red and yellow",
+              "meaningZh": "橙色",
+              "example": "The orange is orange."
+            },
+            {
+              "id": "v12",
+              "word": "purple",
+              "phonetic": "/ˈpɜːrpl/",
+              "meaning": "mix of red and blue",
+              "meaningZh": "紫色",
+              "example": "I like purple flowers."
+            }
+          ],
+          "listening": [
+            {
+              "id": "l4",
+              "type": "mcq",
+              "instruction": "What colour?",
+              "ttsText": "Look at the sky. It is blue.",
+              "question": "What colour is the sky?",
+              "options": [
+                "red",
+                "blue",
+                "green"
+              ],
+              "correctAnswer": "blue",
+              "hint": "Listen for the colour"
+            },
+            {
+              "id": "l5",
+              "type": "dictation",
+              "instruction": "Type:",
+              "ttsText": "It is red.",
+              "correctAnswer": "It is red",
+              "hint": "A colour sentence"
+            }
+          ],
+          "speaking": [
+            {
+              "id": "s3",
+              "type": "pronounce-word",
+              "instruction": "Say:",
+              "targetText": "purple",
+              "phonetic": "/ˈpɜːrpl/"
+            },
+            {
+              "id": "s4",
+              "type": "pronounce-sentence",
+              "instruction": "Say:",
+              "targetText": "The sky is blue.",
+              "hint": "Clear and short"
+            }
+          ],
+          "reading": [
+            {
+              "id": "r2",
+              "type": "mcq",
+              "passage": "I see a rainbow! It has red, orange, yellow, green, blue and purple.",
+              "question": "How many colours?",
+              "options": [
+                "four",
+                "five",
+                "six"
+              ],
+              "correctAnswer": "six",
+              "explanation": "Six colours listed"
+            }
+          ],
+          "writing": [
+            {
+              "id": "w3",
+              "type": "spelling",
+              "instruction": "Spell:",
+              "ttsText": "blue",
+              "correctAnswer": "blue",
+              "hint": "4 letters, colour of sky"
+            },
+            {
+              "id": "w4",
+              "type": "sentence-order",
+              "instruction": "Order:",
+              "words": [
+                "is",
+                "red",
+                "the",
+                "apple"
+              ],
+              "correctAnswer": "the apple is red",
+              "hint": "Start with the"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u3",
+      "title": "Numbers 1-10",
+      "theme": "numbers",
+      "mascotTip": "Tat says: Let's count!",
+      "lessons": [
+        {
+          "id": "u3-l1",
+          "title": "Counting to Ten",
+          "objectives": [
+            "Count 1-10",
+            "Use numbers"
+          ],
+          "vocabulary": [
+            {
+              "id": "v13",
+              "word": "one",
+              "phonetic": "/wʌn/",
+              "meaning": "1",
+              "meaningZh": "一",
+              "example": "I have one nose."
+            },
+            {
+              "id": "v14",
+              "word": "three",
+              "phonetic": "/θriː/",
+              "meaning": "3",
+              "meaningZh": "三",
+              "example": "I have three books."
+            },
+            {
+              "id": "v15",
+              "word": "five",
+              "phonetic": "/faɪv/",
+              "meaning": "5",
+              "meaningZh": "五",
+              "example": "I have five fingers."
+            },
+            {
+              "id": "v16",
+              "word": "seven",
+              "phonetic": "/ˈsevn/",
+              "meaning": "7",
+              "meaningZh": "七",
+              "example": "There are seven days."
+            },
+            {
+              "id": "v17",
+              "word": "nine",
+              "phonetic": "/naɪn/",
+              "meaning": "9",
+              "meaningZh": "九",
+              "example": "I wake up at nine."
+            },
+            {
+              "id": "v18",
+              "word": "ten",
+              "phonetic": "/ten/",
+              "meaning": "10",
+              "meaningZh": "十",
+              "example": "I have ten toes."
+            }
+          ],
+          "listening": [
+            {
+              "id": "l6",
+              "type": "mcq",
+              "instruction": "How many?",
+              "ttsText": "I have three cats.",
+              "question": "How many cats?",
+              "options": [
+                "two",
+                "three",
+                "four"
+              ],
+              "correctAnswer": "three",
+              "hint": "Listen for the number"
+            },
+            {
+              "id": "l7",
+              "type": "dictation",
+              "instruction": "Type the number word:",
+              "ttsText": "seven",
+              "correctAnswer": "seven",
+              "hint": "Between six and eight"
+            }
+          ],
+          "speaking": [
+            {
+              "id": "s5",
+              "type": "pronounce-word",
+              "instruction": "Say:",
+              "targetText": "seven",
+              "phonetic": "/ˈsevn/"
+            },
+            {
+              "id": "s6",
+              "type": "pronounce-sentence",
+              "instruction": "Say:",
+              "targetText": "I am six years old.",
+              "hint": "Nice and clear"
+            }
+          ],
+          "reading": [
+            {
+              "id": "r3",
+              "type": "mcq",
+              "passage": "I have five pencils and two erasers in my pencil case.",
+              "question": "How many pencils?",
+              "options": [
+                "three",
+                "five",
+                "seven"
+              ],
+              "correctAnswer": "five",
+              "explanation": "Five pencils"
+            }
+          ],
+          "writing": [
+            {
+              "id": "w5",
+              "type": "spelling",
+              "instruction": "Spell:",
+              "ttsText": "eight",
+              "correctAnswer": "eight",
+              "hint": "5 letters, has gh"
+            },
+            {
+              "id": "w6",
+              "type": "fill-blank",
+              "instruction": "I have _____ fingers on each hand.",
+              "correctAnswer": "five",
+              "hint": "Count them!"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u4",
+      "title": "My Body",
+      "theme": "body",
+      "mascotTip": "Tot says: Touch your nose!",
+      "lessons": [
+        {
+          "id": "u4-l1",
+          "title": "Head to Toes",
+          "objectives": [
+            "Name body parts",
+            "Follow instructions"
+          ],
+          "vocabulary": [
+            {
+              "id": "v19",
+              "word": "head",
+              "phonetic": "/hed/",
+              "meaning": "top of body",
+              "meaningZh": "頭",
+              "example": "I wear a hat on my head."
+            },
+            {
+              "id": "v20",
+              "word": "eyes",
+              "phonetic": "/aɪz/",
+              "meaning": "you see with these",
+              "meaningZh": "眼睛",
+              "example": "I have two eyes."
+            },
+            {
+              "id": "v21",
+              "word": "nose",
+              "phonetic": "/noʊz/",
+              "meaning": "you smell with this",
+              "meaningZh": "鼻子",
+              "example": "I smell with my nose."
+            },
+            {
+              "id": "v22",
+              "word": "mouth",
+              "phonetic": "/maʊθ/",
+              "meaning": "you eat with this",
+              "meaningZh": "嘴巴",
+              "example": "I eat with my mouth."
+            },
+            {
+              "id": "v23",
+              "word": "hands",
+              "phonetic": "/hændz/",
+              "meaning": "end of your arms",
+              "meaningZh": "手",
+              "example": "Wash your hands."
+            },
+            {
+              "id": "v24",
+              "word": "feet",
+              "phonetic": "/fiːt/",
+              "meaning": "end of your legs",
+              "meaningZh": "腳",
+              "example": "I have two feet."
+            }
+          ],
+          "listening": [
+            {
+              "id": "l8",
+              "type": "mcq",
+              "instruction": "What body part?",
+              "ttsText": "I can see with these. I have two.",
+              "question": "What are they?",
+              "options": [
+                "ears",
+                "eyes",
+                "hands"
+              ],
+              "correctAnswer": "eyes",
+              "hint": "Used to see"
+            },
+            {
+              "id": "l9",
+              "type": "dictation",
+              "instruction": "Type:",
+              "ttsText": "I have two hands.",
+              "correctAnswer": "I have two hands",
+              "hint": "Body part"
+            }
+          ],
+          "speaking": [
+            {
+              "id": "s7",
+              "type": "pronounce-word",
+              "instruction": "Say:",
+              "targetText": "mouth",
+              "phonetic": "/maʊθ/"
+            },
+            {
+              "id": "s8",
+              "type": "pronounce-sentence",
+              "instruction": "Say:",
+              "targetText": "I have two eyes.",
+              "hint": "Clear!"
+            }
+          ],
+          "reading": [
+            {
+              "id": "r4",
+              "type": "mcq",
+              "passage": "My face has two eyes, one nose and one mouth. My eyes are brown.",
+              "question": "What colour are the eyes?",
+              "options": [
+                "blue",
+                "brown",
+                "green"
+              ],
+              "correctAnswer": "brown",
+              "explanation": "Eyes are brown"
+            }
+          ],
+          "writing": [
+            {
+              "id": "w7",
+              "type": "spelling",
+              "instruction": "Spell:",
+              "ttsText": "mouth",
+              "correctAnswer": "mouth",
+              "hint": "5 letters"
+            },
+            {
+              "id": "w8",
+              "type": "sentence-order",
+              "instruction": "Order:",
+              "words": [
+                "have",
+                "I",
+                "two",
+                "eyes"
+              ],
+              "correctAnswer": "I have two eyes",
+              "hint": "Start with I"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u5",
+      "title": "My Family",
+      "theme": "family",
+      "mascotTip": "Tat says: Who is in your family?",
+      "lessons": [
+        {
+          "id": "u5-l1",
+          "title": "Family Words",
+          "objectives": [
+            "Name family members"
+          ],
+          "vocabulary": [
+            {
+              "id": "v25",
+              "word": "mum",
+              "phonetic": "/mʌm/",
+              "meaning": "mother",
+              "meaningZh": "媽媽",
+              "example": "I love my mum."
+            },
+            {
+              "id": "v26",
+              "word": "dad",
+              "phonetic": "/dæd/",
+              "meaning": "father",
+              "meaningZh": "爸爸",
+              "example": "My dad is tall."
+            },
+            {
+              "id": "v27",
+              "word": "sister",
+              "phonetic": "/ˈsɪstər/",
+              "meaning": "female sibling",
+              "meaningZh": "姐妹",
+              "example": "My sister is four."
+            },
+            {
+              "id": "v28",
+              "word": "brother",
+              "phonetic": "/ˈbrʌðər/",
+              "meaning": "male sibling",
+              "meaningZh": "兄弟",
+              "example": "My brother plays football."
+            },
+            {
+              "id": "v29",
+              "word": "baby",
+              "phonetic": "/ˈbeɪbi/",
+              "meaning": "very young child",
+              "meaningZh": "嬰兒",
+              "example": "The baby is cute."
+            },
+            {
+              "id": "v30",
+              "word": "family",
+              "phonetic": "/ˈfæmɪli/",
+              "meaning": "parents and children",
+              "meaningZh": "家庭",
+              "example": "I love my family."
+            }
+          ],
+          "listening": [
+            {
+              "id": "l10",
+              "type": "mcq",
+              "instruction": "Who?",
+              "ttsText": "My mum makes breakfast every day.",
+              "question": "Who makes breakfast?",
+              "options": [
+                "Dad",
+                "Mum",
+                "Sister"
+              ],
+              "correctAnswer": "Mum",
+              "hint": "Listen carefully"
+            },
+            {
+              "id": "l11",
+              "type": "dictation",
+              "instruction": "Type:",
+              "ttsText": "I love my family.",
+              "correctAnswer": "I love my family",
+              "hint": "About your family"
+            }
+          ],
+          "speaking": [
+            {
+              "id": "s9",
+              "type": "pronounce-word",
+              "instruction": "Say:",
+              "targetText": "family",
+              "phonetic": "/ˈfæmɪli/"
+            },
+            {
+              "id": "s10",
+              "type": "pronounce-sentence",
+              "instruction": "Say:",
+              "targetText": "I love my mum and dad.",
+              "hint": "With feeling!"
+            }
+          ],
+          "reading": [
+            {
+              "id": "r5",
+              "type": "mcq",
+              "passage": "My family is small. There is Mum, Dad, my sister and me. We live in a flat.",
+              "question": "How many people?",
+              "options": [
+                "three",
+                "four",
+                "five"
+              ],
+              "correctAnswer": "four",
+              "explanation": "Mum, Dad, sister, me = 4"
+            }
+          ],
+          "writing": [
+            {
+              "id": "w9",
+              "type": "spelling",
+              "instruction": "Spell:",
+              "ttsText": "family",
+              "correctAnswer": "family",
+              "hint": "6 letters"
+            },
+            {
+              "id": "w10",
+              "type": "fill-blank",
+              "instruction": "I love my _____.",
+              "correctAnswer": "family",
+              "hint": "Mum, Dad, brothers, sisters"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u6",
+      "title": "Fruits",
+      "theme": "fruits",
+      "mascotTip": "Tot says: Fruits are yummy and healthy!",
+      "lessons": [
+        {
+          "id": "u6-l1",
+          "title": "Tasty Fruits",
+          "objectives": [
+            "Name common fruits",
+            "Describe taste"
+          ],
+          "vocabulary": [
+            {
+              "id": "v31",
+              "word": "apple",
+              "phonetic": "/ˈæpl/",
+              "meaning": "a round red or green fruit",
+              "meaningZh": "蘋果",
+              "example": "The apple is sweet."
+            },
+            {
+              "id": "v32",
+              "word": "banana",
+              "phonetic": "/bəˈnɑːnə/",
+              "meaning": "a long yellow fruit",
+              "meaningZh": "香蕉",
+              "example": "Monkeys like bananas."
+            },
+            {
+              "id": "v33",
+              "word": "orange",
+              "phonetic": "/ˈɒrɪndʒ/",
+              "meaning": "a round orange fruit",
+              "meaningZh": "橙",
+              "example": "Orange juice is nice."
+            },
+            {
+              "id": "v34",
+              "word": "grape",
+              "phonetic": "/ɡreɪp/",
+              "meaning": "a small round fruit in bunches",
+              "meaningZh": "葡萄",
+              "example": "I like purple grapes."
+            },
+            {
+              "id": "v35",
+              "word": "watermelon",
+              "phonetic": "/ˈwɔːtərmelən/",
+              "meaning": "a big green fruit, red inside",
+              "meaningZh": "西瓜",
+              "example": "Watermelon is refreshing in summer."
+            },
+            {
+              "id": "v36",
+              "word": "strawberry",
+              "phonetic": "/ˈstrɔːbəri/",
+              "meaning": "a small red fruit with seeds",
+              "meaningZh": "草莓",
+              "example": "Strawberries are sweet."
+            }
+          ],
+          "listening": [
+            {
+              "id": "l12",
+              "type": "mcq",
+              "instruction": "What fruit?",
+              "ttsText": "This fruit is long and yellow. Monkeys like it.",
+              "question": "What is it?",
+              "options": [
+                "apple",
+                "banana",
+                "orange"
+              ],
+              "correctAnswer": "banana",
+              "hint": "Long and yellow"
+            },
+            {
+              "id": "l13",
+              "type": "dictation",
+              "instruction": "Type:",
+              "ttsText": "I like apples.",
+              "correctAnswer": "I like apples",
+              "hint": "About a fruit"
+            }
+          ],
+          "speaking": [
+            {
+              "id": "s11",
+              "type": "pronounce-word",
+              "instruction": "Say:",
+              "targetText": "strawberry",
+              "phonetic": "/ˈstrɔːbəri/"
+            },
+            {
+              "id": "s12",
+              "type": "pronounce-sentence",
+              "instruction": "Say:",
+              "targetText": "I like eating bananas.",
+              "hint": "Yummy!"
+            }
+          ],
+          "reading": [
+            {
+              "id": "r6",
+              "type": "mcq",
+              "passage": "At the fruit shop, I can see apples, oranges and bananas. Mum buys five apples and three oranges.",
+              "question": "How many apples?",
+              "options": [
+                "three",
+                "five",
+                "eight"
+              ],
+              "correctAnswer": "five",
+              "explanation": "Five apples"
+            }
+          ],
+          "writing": [
+            {
+              "id": "w11",
+              "type": "spelling",
+              "instruction": "Spell:",
+              "ttsText": "banana",
+              "correctAnswer": "banana",
+              "hint": "6 letters, has 3 a's"
+            },
+            {
+              "id": "w12",
+              "type": "sentence-order",
+              "instruction": "Order:",
+              "words": [
+                "like",
+                "I",
+                "eating",
+                "apples"
+              ],
+              "correctAnswer": "I like eating apples",
+              "hint": "Start with I"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u7",
+      "title": "Animals",
+      "theme": "animals",
+      "mascotTip": "Tat says: Woof! Meow! What animals do you know?",
+      "lessons": [
+        {
+          "id": "u7-l1",
+          "title": "Pet Animals",
+          "objectives": [
+            "Name common animals"
+          ],
+          "vocabulary": [
+            {
+              "id": "v37",
+              "word": "dog",
+              "phonetic": "/dɒɡ/",
+              "meaning": "a common pet",
+              "meaningZh": "狗",
+              "example": "The dog is friendly."
+            },
+            {
+              "id": "v38",
+              "word": "cat",
+              "phonetic": "/kæt/",
+              "meaning": "a furry pet",
+              "meaningZh": "貓",
+              "example": "My cat is black."
+            },
+            {
+              "id": "v39",
+              "word": "bird",
+              "phonetic": "/bɜːrd/",
+              "meaning": "an animal with wings",
+              "meaningZh": "鳥",
+              "example": "The bird can fly."
+            },
+            {
+              "id": "v40",
+              "word": "fish",
+              "phonetic": "/fɪʃ/",
+              "meaning": "lives in water",
+              "meaningZh": "魚",
+              "example": "The fish swims fast."
+            },
+            {
+              "id": "v41",
+              "word": "rabbit",
+              "phonetic": "/ˈræbɪt/",
+              "meaning": "has long ears",
+              "meaningZh": "兔子",
+              "example": "The rabbit hops."
+            },
+            {
+              "id": "v42",
+              "word": "turtle",
+              "phonetic": "/ˈtɜːrtl/",
+              "meaning": "has a hard shell",
+              "meaningZh": "烏龜",
+              "example": "The turtle is slow."
+            }
+          ],
+          "listening": [
+            {
+              "id": "l14",
+              "type": "mcq",
+              "instruction": "What animal?",
+              "ttsText": "It has four legs and says woof. It is a pet.",
+              "question": "What is it?",
+              "options": [
+                "cat",
+                "dog",
+                "bird"
+              ],
+              "correctAnswer": "dog",
+              "hint": "Says woof"
+            },
+            {
+              "id": "l15",
+              "type": "dictation",
+              "instruction": "Type:",
+              "ttsText": "I have a cat.",
+              "correctAnswer": "I have a cat",
+              "hint": "About a pet"
+            }
+          ],
+          "speaking": [
+            {
+              "id": "s13",
+              "type": "pronounce-word",
+              "instruction": "Say:",
+              "targetText": "rabbit",
+              "phonetic": "/ˈræbɪt/"
+            },
+            {
+              "id": "s14",
+              "type": "pronounce-sentence",
+              "instruction": "Say:",
+              "targetText": "The dog is brown.",
+              "hint": "Describe the animal"
+            }
+          ],
+          "reading": [
+            {
+              "id": "r7",
+              "type": "mcq",
+              "passage": "I have two pets. One is a cat and one is a fish. My cat is white. My fish is orange.",
+              "question": "What colour is the cat?",
+              "options": [
+                "orange",
+                "white",
+                "brown"
+              ],
+              "correctAnswer": "white",
+              "explanation": "The cat is white"
+            }
+          ],
+          "writing": [
+            {
+              "id": "w13",
+              "type": "spelling",
+              "instruction": "Spell:",
+              "ttsText": "rabbit",
+              "correctAnswer": "rabbit",
+              "hint": "Double b"
+            },
+            {
+              "id": "w14",
+              "type": "fill-blank",
+              "instruction": "The bird can _____.",
+              "correctAnswer": "fly",
+              "hint": "Birds do this in the sky"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u8",
+      "title": "Food",
+      "theme": "food",
+      "mascotTip": "Tot says: What do you eat for lunch?",
+      "lessons": [
+        {
+          "id": "u8-l1",
+          "title": "Yummy Food",
+          "objectives": [
+            "Name common foods"
+          ],
+          "vocabulary": [
+            {
+              "id": "v43",
+              "word": "rice",
+              "phonetic": "/raɪs/",
+              "meaning": "a white grain food",
+              "meaningZh": "飯",
+              "example": "I eat rice every day."
+            },
+            {
+              "id": "v44",
+              "word": "bread",
+              "phonetic": "/bred/",
+              "meaning": "baked from flour",
+              "meaningZh": "麵包",
+              "example": "I eat bread for breakfast."
+            },
+            {
+              "id": "v45",
+              "word": "egg",
+              "phonetic": "/eɡ/",
+              "meaning": "laid by a hen",
+              "meaningZh": "蛋",
+              "example": "I like fried eggs."
+            },
+            {
+              "id": "v46",
+              "word": "milk",
+              "phonetic": "/mɪlk/",
+              "meaning": "a white drink from cows",
+              "meaningZh": "牛奶",
+              "example": "I drink milk every morning."
+            },
+            {
+              "id": "v47",
+              "word": "noodles",
+              "phonetic": "/ˈnuːdlz/",
+              "meaning": "long thin strips",
+              "meaningZh": "麵條",
+              "example": "Noodle soup is warm."
+            },
+            {
+              "id": "v48",
+              "word": "chicken",
+              "phonetic": "/ˈtʃɪkɪn/",
+              "meaning": "a common meat",
+              "meaningZh": "雞肉",
+              "example": "I like chicken wings."
+            }
+          ],
+          "listening": [
+            {
+              "id": "l16",
+              "type": "mcq",
+              "instruction": "What food?",
+              "ttsText": "I drink this every morning. It is white and comes from cows.",
+              "question": "What is it?",
+              "options": [
+                "juice",
+                "milk",
+                "water"
+              ],
+              "correctAnswer": "milk",
+              "hint": "White, from cows"
+            },
+            {
+              "id": "l17",
+              "type": "dictation",
+              "instruction": "Type:",
+              "ttsText": "I like rice.",
+              "correctAnswer": "I like rice",
+              "hint": "A food"
+            }
+          ],
+          "speaking": [
+            {
+              "id": "s15",
+              "type": "pronounce-word",
+              "instruction": "Say:",
+              "targetText": "chicken",
+              "phonetic": "/ˈtʃɪkɪn/"
+            },
+            {
+              "id": "s16",
+              "type": "pronounce-sentence",
+              "instruction": "Say:",
+              "targetText": "I eat rice for dinner.",
+              "hint": "About a meal"
+            }
+          ],
+          "reading": [
+            {
+              "id": "r8",
+              "type": "mcq",
+              "passage": "For breakfast, I have bread and milk. For lunch, I have rice and chicken.",
+              "question": "What does the child eat for lunch?",
+              "options": [
+                "bread",
+                "rice and chicken",
+                "noodles"
+              ],
+              "correctAnswer": "rice and chicken",
+              "explanation": "Rice and chicken for lunch"
+            }
+          ],
+          "writing": [
+            {
+              "id": "w15",
+              "type": "spelling",
+              "instruction": "Spell:",
+              "ttsText": "bread",
+              "correctAnswer": "bread",
+              "hint": "5 letters, rhymes with red"
+            },
+            {
+              "id": "w16",
+              "type": "sentence-order",
+              "instruction": "Order:",
+              "words": [
+                "eat",
+                "I",
+                "rice",
+                "for",
+                "dinner"
+              ],
+              "correctAnswer": "I eat rice for dinner",
+              "hint": "Start with I"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u9",
+      "title": "Toys and Games",
+      "theme": "toys",
+      "mascotTip": "Tat says: What toys do you have?",
+      "lessons": [
+        {
+          "id": "u9-l1",
+          "title": "Play Time",
+          "objectives": [
+            "Name toys",
+            "Talk about play"
+          ],
+          "vocabulary": [
+            {
+              "id": "v49",
+              "word": "ball",
+              "phonetic": "/bɔːl/",
+              "meaning": "round toy for playing",
+              "meaningZh": "球",
+              "example": "Kick the ball!"
+            },
+            {
+              "id": "v50",
+              "word": "doll",
+              "phonetic": "/dɒl/",
+              "meaning": "a toy person",
+              "meaningZh": "公仔",
+              "example": "My doll has brown hair."
+            },
+            {
+              "id": "v51",
+              "word": "puzzle",
+              "phonetic": "/ˈpʌzl/",
+              "meaning": "a game to solve",
+              "meaningZh": "拼圖",
+              "example": "I do a puzzle."
+            },
+            {
+              "id": "v52",
+              "word": "robot",
+              "phonetic": "/ˈroʊbɒt/",
+              "meaning": "a toy machine",
+              "meaningZh": "機器人",
+              "example": "My robot can walk."
+            },
+            {
+              "id": "v53",
+              "word": "kite",
+              "phonetic": "/kaɪt/",
+              "meaning": "flies in the wind",
+              "meaningZh": "風箏",
+              "example": "We fly kites in the park."
+            },
+            {
+              "id": "v54",
+              "word": "teddy bear",
+              "phonetic": "/ˈtedi beər/",
+              "meaning": "a soft toy bear",
+              "meaningZh": "泰迪熊",
+              "example": "I sleep with my teddy bear."
+            }
+          ],
+          "listening": [
+            {
+              "id": "l18",
+              "type": "mcq",
+              "instruction": "What toy?",
+              "ttsText": "You can fly this in the park when it is windy.",
+              "question": "What is it?",
+              "options": [
+                "ball",
+                "kite",
+                "robot"
+              ],
+              "correctAnswer": "kite",
+              "hint": "Flies in the wind"
+            },
+            {
+              "id": "l19",
+              "type": "dictation",
+              "instruction": "Type:",
+              "ttsText": "I like my ball.",
+              "correctAnswer": "I like my ball",
+              "hint": "A round toy"
+            }
+          ],
+          "speaking": [
+            {
+              "id": "s17",
+              "type": "pronounce-word",
+              "instruction": "Say:",
+              "targetText": "puzzle",
+              "phonetic": "/ˈpʌzl/"
+            },
+            {
+              "id": "s18",
+              "type": "pronounce-sentence",
+              "instruction": "Say:",
+              "targetText": "I play with my robot.",
+              "hint": "Fun!"
+            }
+          ],
+          "reading": [
+            {
+              "id": "r9",
+              "type": "mcq",
+              "passage": "In my toy box, I have a ball, a puzzle and two dolls. My favourite is the puzzle.",
+              "question": "What is the favourite toy?",
+              "options": [
+                "ball",
+                "doll",
+                "puzzle"
+              ],
+              "correctAnswer": "puzzle",
+              "explanation": "Favourite is the puzzle"
+            }
+          ],
+          "writing": [
+            {
+              "id": "w17",
+              "type": "spelling",
+              "instruction": "Spell:",
+              "ttsText": "robot",
+              "correctAnswer": "robot",
+              "hint": "5 letters"
+            },
+            {
+              "id": "w18",
+              "type": "fill-blank",
+              "instruction": "We fly _____ in the park.",
+              "correctAnswer": "kites",
+              "hint": "They fly in the wind"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u10",
+      "title": "Clothes",
+      "theme": "clothes",
+      "mascotTip": "Tot says: What are you wearing today?",
+      "lessons": [
+        {
+          "id": "u10-l1",
+          "title": "Getting Dressed",
+          "objectives": [
+            "Name clothing",
+            "Describe what people wear"
+          ],
+          "vocabulary": [
+            {
+              "id": "v55",
+              "word": "shirt",
+              "phonetic": "/ʃɜːrt/",
+              "meaning": "worn on upper body",
+              "meaningZh": "恤衫",
+              "example": "My shirt is white."
+            },
+            {
+              "id": "v56",
+              "word": "trousers",
+              "phonetic": "/ˈtraʊzərz/",
+              "meaning": "worn on legs",
+              "meaningZh": "褲子",
+              "example": "I wear blue trousers."
+            },
+            {
+              "id": "v57",
+              "word": "shoes",
+              "phonetic": "/ʃuːz/",
+              "meaning": "worn on feet",
+              "meaningZh": "鞋",
+              "example": "Put on your shoes."
+            },
+            {
+              "id": "v58",
+              "word": "hat",
+              "phonetic": "/hæt/",
+              "meaning": "worn on head",
+              "meaningZh": "帽子",
+              "example": "Wear a hat in the sun."
+            },
+            {
+              "id": "v59",
+              "word": "socks",
+              "phonetic": "/sɒks/",
+              "meaning": "worn on feet under shoes",
+              "meaningZh": "襪子",
+              "example": "My socks are pink."
+            },
+            {
+              "id": "v60",
+              "word": "dress",
+              "phonetic": "/dres/",
+              "meaning": "a one-piece for girls",
+              "meaningZh": "連衣裙",
+              "example": "She wears a red dress."
+            }
+          ],
+          "listening": [
+            {
+              "id": "l20",
+              "type": "mcq",
+              "instruction": "What?",
+              "ttsText": "I wear these on my feet. I put them on before shoes.",
+              "question": "What are they?",
+              "options": [
+                "hat",
+                "socks",
+                "shirt"
+              ],
+              "correctAnswer": "socks",
+              "hint": "Before shoes, on feet"
+            },
+            {
+              "id": "l21",
+              "type": "dictation",
+              "instruction": "Type:",
+              "ttsText": "I wear a hat.",
+              "correctAnswer": "I wear a hat",
+              "hint": "About clothing"
+            }
+          ],
+          "speaking": [
+            {
+              "id": "s19",
+              "type": "pronounce-word",
+              "instruction": "Say:",
+              "targetText": "trousers",
+              "phonetic": "/ˈtraʊzərz/"
+            },
+            {
+              "id": "s20",
+              "type": "pronounce-sentence",
+              "instruction": "Say:",
+              "targetText": "I am wearing a blue shirt.",
+              "hint": "Describe your clothes"
+            }
+          ],
+          "reading": [
+            {
+              "id": "r10",
+              "type": "mcq",
+              "passage": "Today I wear my school uniform. I have a white shirt, grey trousers and black shoes.",
+              "question": "What colour are the shoes?",
+              "options": [
+                "white",
+                "grey",
+                "black"
+              ],
+              "correctAnswer": "black",
+              "explanation": "Black shoes"
+            }
+          ],
+          "writing": [
+            {
+              "id": "w19",
+              "type": "spelling",
+              "instruction": "Spell:",
+              "ttsText": "shoes",
+              "correctAnswer": "shoes",
+              "hint": "5 letters, worn on feet"
+            },
+            {
+              "id": "w20",
+              "type": "sentence-order",
+              "instruction": "Order:",
+              "words": [
+                "wearing",
+                "I",
+                "am",
+                "a",
+                "hat"
+              ],
+              "correctAnswer": "I am wearing a hat",
+              "hint": "Start with I am"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u11",
+      "title": "At School",
+      "theme": "school",
+      "mascotTip": "Tot says: Great job learning new words!",
+      "lessons": [
+        {
+          "id": "u11-l1",
+          "title": "At School",
+          "objectives": [
+            "Learn school vocabulary",
+            "Use school words in sentences"
+          ],
+          "vocabulary": [
+            {
+              "id": "p1-v61",
+              "word": "teacher",
+              "phonetic": "",
+              "meaning": "(school word)",
+              "meaningZh": "",
+              "example": "I know the word \"teacher\"."
+            },
+            {
+              "id": "p1-v62",
+              "word": "desk",
+              "phonetic": "",
+              "meaning": "(school word)",
+              "meaningZh": "",
+              "example": "I know the word \"desk\"."
+            },
+            {
+              "id": "p1-v63",
+              "word": "chair",
+              "phonetic": "",
+              "meaning": "(school word)",
+              "meaningZh": "",
+              "example": "I know the word \"chair\"."
+            },
+            {
+              "id": "p1-v64",
+              "word": "book",
+              "phonetic": "",
+              "meaning": "(school word)",
+              "meaningZh": "",
+              "example": "I know the word \"book\"."
+            },
+            {
+              "id": "p1-v65",
+              "word": "pencil",
+              "phonetic": "",
+              "meaning": "(school word)",
+              "meaningZh": "",
+              "example": "I know the word \"pencil\"."
+            },
+            {
+              "id": "p1-v66",
+              "word": "ruler",
+              "phonetic": "",
+              "meaning": "(school word)",
+              "meaningZh": "",
+              "example": "I know the word \"ruler\"."
+            }
+          ],
+          "listening": [
+            {
+              "id": "p1-l11a",
+              "type": "dictation",
+              "instruction": "Listen and type:",
+              "ttsText": "I can say teacher.",
+              "correctAnswer": "I can say teacher",
+              "hint": "Listen carefully"
+            },
+            {
+              "id": "p1-l11b",
+              "type": "mcq",
+              "instruction": "Listen and choose:",
+              "ttsText": "The word is desk.",
+              "question": "What word did you hear?",
+              "options": [
+                "teacher",
+                "desk",
+                "chair"
+              ],
+              "correctAnswer": "desk",
+              "hint": "Listen again"
+            }
+          ],
+          "speaking": [
+            {
+              "id": "p1-s11a",
+              "type": "pronounce-word",
+              "instruction": "Say this word:",
+              "targetText": "teacher",
+              "phonetic": ""
+            },
+            {
+              "id": "p1-s11b",
+              "type": "pronounce-word",
+              "instruction": "Say this word:",
+              "targetText": "chair",
+              "phonetic": ""
+            }
+          ],
+          "reading": [
+            {
+              "id": "p1-r11",
+              "type": "mcq",
+              "passage": "I know many school words: teacher, desk, chair, book.",
+              "question": "How many school words are listed?",
+              "options": [
+                "two",
+                "three",
+                "four"
+              ],
+              "correctAnswer": "four",
+              "explanation": "Four words are listed"
+            }
+          ],
+          "writing": [
+            {
+              "id": "p1-w11a",
+              "type": "spelling",
+              "instruction": "Spell:",
+              "ttsText": "teacher",
+              "correctAnswer": "teacher",
+              "hint": "A school word"
+            },
+            {
+              "id": "p1-w11b",
+              "type": "spelling",
+              "instruction": "Spell:",
+              "ttsText": "desk",
+              "correctAnswer": "desk",
+              "hint": "A school word"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u12",
+      "title": "Weather",
+      "theme": "weather",
+      "mascotTip": "Tat says: Practice makes perfect!",
+      "lessons": [
+        {
+          "id": "u12-l1",
+          "title": "Weather",
+          "objectives": [
+            "Learn weather vocabulary",
+            "Use weather words in sentences"
+          ],
+          "vocabulary": [
+            {
+              "id": "p1-v67",
+              "word": "sunny",
+              "phonetic": "",
+              "meaning": "(weather word)",
+              "meaningZh": "",
+              "example": "I know the word \"sunny\"."
+            },
+            {
+              "id": "p1-v68",
+              "word": "rainy",
+              "phonetic": "",
+              "meaning": "(weather word)",
+              "meaningZh": "",
+              "example": "I know the word \"rainy\"."
+            },
+            {
+              "id": "p1-v69",
+              "word": "hot",
+              "phonetic": "",
+              "meaning": "(weather word)",
+              "meaningZh": "",
+              "example": "I know the word \"hot\"."
+            },
+            {
+              "id": "p1-v70",
+              "word": "cold",
+              "phonetic": "",
+              "meaning": "(weather word)",
+              "meaningZh": "",
+              "example": "I know the word \"cold\"."
+            },
+            {
+              "id": "p1-v71",
+              "word": "windy",
+              "phonetic": "",
+              "meaning": "(weather word)",
+              "meaningZh": "",
+              "example": "I know the word \"windy\"."
+            },
+            {
+              "id": "p1-v72",
+              "word": "cloudy",
+              "phonetic": "",
+              "meaning": "(weather word)",
+              "meaningZh": "",
+              "example": "I know the word \"cloudy\"."
+            }
+          ],
+          "listening": [
+            {
+              "id": "p1-l12a",
+              "type": "dictation",
+              "instruction": "Listen and type:",
+              "ttsText": "I can say sunny.",
+              "correctAnswer": "I can say sunny",
+              "hint": "Listen carefully"
+            },
+            {
+              "id": "p1-l12b",
+              "type": "mcq",
+              "instruction": "Listen and choose:",
+              "ttsText": "The word is rainy.",
+              "question": "What word did you hear?",
+              "options": [
+                "sunny",
+                "rainy",
+                "hot"
+              ],
+              "correctAnswer": "rainy",
+              "hint": "Listen again"
+            }
+          ],
+          "speaking": [
+            {
+              "id": "p1-s12a",
+              "type": "pronounce-word",
+              "instruction": "Say this word:",
+              "targetText": "sunny",
+              "phonetic": ""
+            },
+            {
+              "id": "p1-s12b",
+              "type": "pronounce-word",
+              "instruction": "Say this word:",
+              "targetText": "hot",
+              "phonetic": ""
+            }
+          ],
+          "reading": [
+            {
+              "id": "p1-r12",
+              "type": "mcq",
+              "passage": "I know many weather words: sunny, rainy, hot, cold.",
+              "question": "How many weather words are listed?",
+              "options": [
+                "two",
+                "three",
+                "four"
+              ],
+              "correctAnswer": "four",
+              "explanation": "Four words are listed"
+            }
+          ],
+          "writing": [
+            {
+              "id": "p1-w12a",
+              "type": "spelling",
+              "instruction": "Spell:",
+              "ttsText": "sunny",
+              "correctAnswer": "sunny",
+              "hint": "A weather word"
+            },
+            {
+              "id": "p1-w12b",
+              "type": "spelling",
+              "instruction": "Spell:",
+              "ttsText": "rainy",
+              "correctAnswer": "rainy",
+              "hint": "A weather word"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u13",
+      "title": "Actions",
+      "theme": "actions",
+      "mascotTip": "Tot says: You can do it!",
+      "lessons": [
+        {
+          "id": "u13-l1",
+          "title": "Actions",
+          "objectives": [
+            "Learn actions vocabulary",
+            "Use actions words in sentences"
+          ],
+          "vocabulary": [
+            {
+              "id": "p1-v73",
+              "word": "run",
+              "phonetic": "",
+              "meaning": "(actions word)",
+              "meaningZh": "",
+              "example": "I know the word \"run\"."
+            },
+            {
+              "id": "p1-v74",
+              "word": "jump",
+              "phonetic": "",
+              "meaning": "(actions word)",
+              "meaningZh": "",
+              "example": "I know the word \"jump\"."
+            },
+            {
+              "id": "p1-v75",
+              "word": "swim",
+              "phonetic": "",
+              "meaning": "(actions word)",
+              "meaningZh": "",
+              "example": "I know the word \"swim\"."
+            },
+            {
+              "id": "p1-v76",
+              "word": "read",
+              "phonetic": "",
+              "meaning": "(actions word)",
+              "meaningZh": "",
+              "example": "I know the word \"read\"."
+            },
+            {
+              "id": "p1-v77",
+              "word": "write",
+              "phonetic": "",
+              "meaning": "(actions word)",
+              "meaningZh": "",
+              "example": "I know the word \"write\"."
+            },
+            {
+              "id": "p1-v78",
+              "word": "draw",
+              "phonetic": "",
+              "meaning": "(actions word)",
+              "meaningZh": "",
+              "example": "I know the word \"draw\"."
+            }
+          ],
+          "listening": [
+            {
+              "id": "p1-l13a",
+              "type": "dictation",
+              "instruction": "Listen and type:",
+              "ttsText": "I can say run.",
+              "correctAnswer": "I can say run",
+              "hint": "Listen carefully"
+            },
+            {
+              "id": "p1-l13b",
+              "type": "mcq",
+              "instruction": "Listen and choose:",
+              "ttsText": "The word is jump.",
+              "question": "What word did you hear?",
+              "options": [
+                "run",
+                "jump",
+                "swim"
+              ],
+              "correctAnswer": "jump",
+              "hint": "Listen again"
+            }
+          ],
+          "speaking": [
+            {
+              "id": "p1-s13a",
+              "type": "pronounce-word",
+              "instruction": "Say this word:",
+              "targetText": "run",
+              "phonetic": ""
+            },
+            {
+              "id": "p1-s13b",
+              "type": "pronounce-word",
+              "instruction": "Say this word:",
+              "targetText": "swim",
+              "phonetic": ""
+            }
+          ],
+          "reading": [
+            {
+              "id": "p1-r13",
+              "type": "mcq",
+              "passage": "I know many actions words: run, jump, swim, read.",
+              "question": "How many actions words are listed?",
+              "options": [
+                "two",
+                "three",
+                "four"
+              ],
+              "correctAnswer": "four",
+              "explanation": "Four words are listed"
+            }
+          ],
+          "writing": [
+            {
+              "id": "p1-w13a",
+              "type": "spelling",
+              "instruction": "Spell:",
+              "ttsText": "run",
+              "correctAnswer": "run",
+              "hint": "A actions word"
+            },
+            {
+              "id": "p1-w13b",
+              "type": "spelling",
+              "instruction": "Spell:",
+              "ttsText": "jump",
+              "correctAnswer": "jump",
+              "hint": "A actions word"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u14",
+      "title": "Feelings",
+      "theme": "feelings",
+      "mascotTip": "Tat says: Keep going, you're doing great!",
+      "lessons": [
+        {
+          "id": "u14-l1",
+          "title": "Feelings",
+          "objectives": [
+            "Learn feelings vocabulary",
+            "Use feelings words in sentences"
+          ],
+          "vocabulary": [
+            {
+              "id": "p1-v79",
+              "word": "happy",
+              "phonetic": "",
+              "meaning": "(feelings word)",
+              "meaningZh": "",
+              "example": "I know the word \"happy\"."
+            },
+            {
+              "id": "p1-v80",
+              "word": "sad",
+              "phonetic": "",
+              "meaning": "(feelings word)",
+              "meaningZh": "",
+              "example": "I know the word \"sad\"."
+            },
+            {
+              "id": "p1-v81",
+              "word": "angry",
+              "phonetic": "",
+              "meaning": "(feelings word)",
+              "meaningZh": "",
+              "example": "I know the word \"angry\"."
+            },
+            {
+              "id": "p1-v82",
+              "word": "scared",
+              "phonetic": "",
+              "meaning": "(feelings word)",
+              "meaningZh": "",
+              "example": "I know the word \"scared\"."
+            },
+            {
+              "id": "p1-v83",
+              "word": "tired",
+              "phonetic": "",
+              "meaning": "(feelings word)",
+              "meaningZh": "",
+              "example": "I know the word \"tired\"."
+            },
+            {
+              "id": "p1-v84",
+              "word": "hungry",
+              "phonetic": "",
+              "meaning": "(feelings word)",
+              "meaningZh": "",
+              "example": "I know the word \"hungry\"."
+            }
+          ],
+          "listening": [
+            {
+              "id": "p1-l14a",
+              "type": "dictation",
+              "instruction": "Listen and type:",
+              "ttsText": "I can say happy.",
+              "correctAnswer": "I can say happy",
+              "hint": "Listen carefully"
+            },
+            {
+              "id": "p1-l14b",
+              "type": "mcq",
+              "instruction": "Listen and choose:",
+              "ttsText": "The word is sad.",
+              "question": "What word did you hear?",
+              "options": [
+                "happy",
+                "sad",
+                "angry"
+              ],
+              "correctAnswer": "sad",
+              "hint": "Listen again"
+            }
+          ],
+          "speaking": [
+            {
+              "id": "p1-s14a",
+              "type": "pronounce-word",
+              "instruction": "Say this word:",
+              "targetText": "happy",
+              "phonetic": ""
+            },
+            {
+              "id": "p1-s14b",
+              "type": "pronounce-word",
+              "instruction": "Say this word:",
+              "targetText": "angry",
+              "phonetic": ""
+            }
+          ],
+          "reading": [
+            {
+              "id": "p1-r14",
+              "type": "mcq",
+              "passage": "I know many feelings words: happy, sad, angry, scared.",
+              "question": "How many feelings words are listed?",
+              "options": [
+                "two",
+                "three",
+                "four"
+              ],
+              "correctAnswer": "four",
+              "explanation": "Four words are listed"
+            }
+          ],
+          "writing": [
+            {
+              "id": "p1-w14a",
+              "type": "spelling",
+              "instruction": "Spell:",
+              "ttsText": "happy",
+              "correctAnswer": "happy",
+              "hint": "A feelings word"
+            },
+            {
+              "id": "p1-w14b",
+              "type": "spelling",
+              "instruction": "Spell:",
+              "ttsText": "sad",
+              "correctAnswer": "sad",
+              "hint": "A feelings word"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u15",
+      "title": "My Home",
+      "theme": "home",
+      "mascotTip": "Tot says: Learning is fun!",
+      "lessons": [
+        {
+          "id": "u15-l1",
+          "title": "My Home",
+          "objectives": [
+            "Learn home vocabulary",
+            "Use home words in sentences"
+          ],
+          "vocabulary": [
+            {
+              "id": "p1-v85",
+              "word": "bed",
+              "phonetic": "",
+              "meaning": "(home word)",
+              "meaningZh": "",
+              "example": "I know the word \"bed\"."
+            },
+            {
+              "id": "p1-v86",
+              "word": "table",
+              "phonetic": "",
+              "meaning": "(home word)",
+              "meaningZh": "",
+              "example": "I know the word \"table\"."
+            },
+            {
+              "id": "p1-v87",
+              "word": "chair",
+              "phonetic": "",
+              "meaning": "(home word)",
+              "meaningZh": "",
+              "example": "I know the word \"chair\"."
+            },
+            {
+              "id": "p1-v88",
+              "word": "door",
+              "phonetic": "",
+              "meaning": "(home word)",
+              "meaningZh": "",
+              "example": "I know the word \"door\"."
+            },
+            {
+              "id": "p1-v89",
+              "word": "window",
+              "phonetic": "",
+              "meaning": "(home word)",
+              "meaningZh": "",
+              "example": "I know the word \"window\"."
+            },
+            {
+              "id": "p1-v90",
+              "word": "lamp",
+              "phonetic": "",
+              "meaning": "(home word)",
+              "meaningZh": "",
+              "example": "I know the word \"lamp\"."
+            }
+          ],
+          "listening": [
+            {
+              "id": "p1-l15a",
+              "type": "dictation",
+              "instruction": "Listen and type:",
+              "ttsText": "I can say bed.",
+              "correctAnswer": "I can say bed",
+              "hint": "Listen carefully"
+            },
+            {
+              "id": "p1-l15b",
+              "type": "mcq",
+              "instruction": "Listen and choose:",
+              "ttsText": "The word is table.",
+              "question": "What word did you hear?",
+              "options": [
+                "bed",
+                "table",
+                "chair"
+              ],
+              "correctAnswer": "table",
+              "hint": "Listen again"
+            }
+          ],
+          "speaking": [
+            {
+              "id": "p1-s15a",
+              "type": "pronounce-word",
+              "instruction": "Say this word:",
+              "targetText": "bed",
+              "phonetic": ""
+            },
+            {
+              "id": "p1-s15b",
+              "type": "pronounce-word",
+              "instruction": "Say this word:",
+              "targetText": "chair",
+              "phonetic": ""
+            }
+          ],
+          "reading": [
+            {
+              "id": "p1-r15",
+              "type": "mcq",
+              "passage": "I know many home words: bed, table, chair, door.",
+              "question": "How many home words are listed?",
+              "options": [
+                "two",
+                "three",
+                "four"
+              ],
+              "correctAnswer": "four",
+              "explanation": "Four words are listed"
+            }
+          ],
+          "writing": [
+            {
+              "id": "p1-w15a",
+              "type": "spelling",
+              "instruction": "Spell:",
+              "ttsText": "bed",
+              "correctAnswer": "bed",
+              "hint": "A home word"
+            },
+            {
+              "id": "p1-w15b",
+              "type": "spelling",
+              "instruction": "Spell:",
+              "ttsText": "table",
+              "correctAnswer": "table",
+              "hint": "A home word"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u16",
+      "title": "Transport",
+      "theme": "transport",
+      "mascotTip": "Tat says: Great job learning new words!",
+      "lessons": [
+        {
+          "id": "u16-l1",
+          "title": "Transport",
+          "objectives": [
+            "Learn transport vocabulary",
+            "Use transport words in sentences"
+          ],
+          "vocabulary": [
+            {
+              "id": "p1-v91",
+              "word": "bus",
+              "phonetic": "",
+              "meaning": "(transport word)",
+              "meaningZh": "",
+              "example": "I know the word \"bus\"."
+            },
+            {
+              "id": "p1-v92",
+              "word": "car",
+              "phonetic": "",
+              "meaning": "(transport word)",
+              "meaningZh": "",
+              "example": "I know the word \"car\"."
+            },
+            {
+              "id": "p1-v93",
+              "word": "train",
+              "phonetic": "",
+              "meaning": "(transport word)",
+              "meaningZh": "",
+              "example": "I know the word \"train\"."
+            },
+            {
+              "id": "p1-v94",
+              "word": "bike",
+              "phonetic": "",
+              "meaning": "(transport word)",
+              "meaningZh": "",
+              "example": "I know the word \"bike\"."
+            },
+            {
+              "id": "p1-v95",
+              "word": "boat",
+              "phonetic": "",
+              "meaning": "(transport word)",
+              "meaningZh": "",
+              "example": "I know the word \"boat\"."
+            },
+            {
+              "id": "p1-v96",
+              "word": "plane",
+              "phonetic": "",
+              "meaning": "(transport word)",
+              "meaningZh": "",
+              "example": "I know the word \"plane\"."
+            }
+          ],
+          "listening": [
+            {
+              "id": "p1-l16a",
+              "type": "dictation",
+              "instruction": "Listen and type:",
+              "ttsText": "I can say bus.",
+              "correctAnswer": "I can say bus",
+              "hint": "Listen carefully"
+            },
+            {
+              "id": "p1-l16b",
+              "type": "mcq",
+              "instruction": "Listen and choose:",
+              "ttsText": "The word is car.",
+              "question": "What word did you hear?",
+              "options": [
+                "bus",
+                "car",
+                "train"
+              ],
+              "correctAnswer": "car",
+              "hint": "Listen again"
+            }
+          ],
+          "speaking": [
+            {
+              "id": "p1-s16a",
+              "type": "pronounce-word",
+              "instruction": "Say this word:",
+              "targetText": "bus",
+              "phonetic": ""
+            },
+            {
+              "id": "p1-s16b",
+              "type": "pronounce-word",
+              "instruction": "Say this word:",
+              "targetText": "train",
+              "phonetic": ""
+            }
+          ],
+          "reading": [
+            {
+              "id": "p1-r16",
+              "type": "mcq",
+              "passage": "I know many transport words: bus, car, train, bike.",
+              "question": "How many transport words are listed?",
+              "options": [
+                "two",
+                "three",
+                "four"
+              ],
+              "correctAnswer": "four",
+              "explanation": "Four words are listed"
+            }
+          ],
+          "writing": [
+            {
+              "id": "p1-w16a",
+              "type": "spelling",
+              "instruction": "Spell:",
+              "ttsText": "bus",
+              "correctAnswer": "bus",
+              "hint": "A transport word"
+            },
+            {
+              "id": "p1-w16b",
+              "type": "spelling",
+              "instruction": "Spell:",
+              "ttsText": "car",
+              "correctAnswer": "car",
+              "hint": "A transport word"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u17",
+      "title": "Days of the Week",
+      "theme": "days",
+      "mascotTip": "Tot says: Practice makes perfect!",
+      "lessons": [
+        {
+          "id": "u17-l1",
+          "title": "Days of the Week",
+          "objectives": [
+            "Learn days vocabulary",
+            "Use days words in sentences"
+          ],
+          "vocabulary": [
+            {
+              "id": "p1-v97",
+              "word": "Monday",
+              "phonetic": "",
+              "meaning": "(days word)",
+              "meaningZh": "",
+              "example": "I know the word \"Monday\"."
+            },
+            {
+              "id": "p1-v98",
+              "word": "Tuesday",
+              "phonetic": "",
+              "meaning": "(days word)",
+              "meaningZh": "",
+              "example": "I know the word \"Tuesday\"."
+            },
+            {
+              "id": "p1-v99",
+              "word": "Wednesday",
+              "phonetic": "",
+              "meaning": "(days word)",
+              "meaningZh": "",
+              "example": "I know the word \"Wednesday\"."
+            },
+            {
+              "id": "p1-v100",
+              "word": "Thursday",
+              "phonetic": "",
+              "meaning": "(days word)",
+              "meaningZh": "",
+              "example": "I know the word \"Thursday\"."
+            },
+            {
+              "id": "p1-v101",
+              "word": "Friday",
+              "phonetic": "",
+              "meaning": "(days word)",
+              "meaningZh": "",
+              "example": "I know the word \"Friday\"."
+            },
+            {
+              "id": "p1-v102",
+              "word": "Saturday",
+              "phonetic": "",
+              "meaning": "(days word)",
+              "meaningZh": "",
+              "example": "I know the word \"Saturday\"."
+            }
+          ],
+          "listening": [
+            {
+              "id": "p1-l17a",
+              "type": "dictation",
+              "instruction": "Listen and type:",
+              "ttsText": "I can say Monday.",
+              "correctAnswer": "I can say Monday",
+              "hint": "Listen carefully"
+            },
+            {
+              "id": "p1-l17b",
+              "type": "mcq",
+              "instruction": "Listen and choose:",
+              "ttsText": "The word is Tuesday.",
+              "question": "What word did you hear?",
+              "options": [
+                "Monday",
+                "Tuesday",
+                "Wednesday"
+              ],
+              "correctAnswer": "Tuesday",
+              "hint": "Listen again"
+            }
+          ],
+          "speaking": [
+            {
+              "id": "p1-s17a",
+              "type": "pronounce-word",
+              "instruction": "Say this word:",
+              "targetText": "Monday",
+              "phonetic": ""
+            },
+            {
+              "id": "p1-s17b",
+              "type": "pronounce-word",
+              "instruction": "Say this word:",
+              "targetText": "Wednesday",
+              "phonetic": ""
+            }
+          ],
+          "reading": [
+            {
+              "id": "p1-r17",
+              "type": "mcq",
+              "passage": "I know many days words: Monday, Tuesday, Wednesday, Thursday.",
+              "question": "How many days words are listed?",
+              "options": [
+                "two",
+                "three",
+                "four"
+              ],
+              "correctAnswer": "four",
+              "explanation": "Four words are listed"
+            }
+          ],
+          "writing": [
+            {
+              "id": "p1-w17a",
+              "type": "spelling",
+              "instruction": "Spell:",
+              "ttsText": "Monday",
+              "correctAnswer": "Monday",
+              "hint": "A days word"
+            },
+            {
+              "id": "p1-w17b",
+              "type": "spelling",
+              "instruction": "Spell:",
+              "ttsText": "Tuesday",
+              "correctAnswer": "Tuesday",
+              "hint": "A days word"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u18",
+      "title": "In the Park",
+      "theme": "park",
+      "mascotTip": "Tat says: You can do it!",
+      "lessons": [
+        {
+          "id": "u18-l1",
+          "title": "In the Park",
+          "objectives": [
+            "Learn park vocabulary",
+            "Use park words in sentences"
+          ],
+          "vocabulary": [
+            {
+              "id": "p1-v103",
+              "word": "tree",
+              "phonetic": "",
+              "meaning": "(park word)",
+              "meaningZh": "",
+              "example": "I know the word \"tree\"."
+            },
+            {
+              "id": "p1-v104",
+              "word": "flower",
+              "phonetic": "",
+              "meaning": "(park word)",
+              "meaningZh": "",
+              "example": "I know the word \"flower\"."
+            },
+            {
+              "id": "p1-v105",
+              "word": "swing",
+              "phonetic": "",
+              "meaning": "(park word)",
+              "meaningZh": "",
+              "example": "I know the word \"swing\"."
+            },
+            {
+              "id": "p1-v106",
+              "word": "slide",
+              "phonetic": "",
+              "meaning": "(park word)",
+              "meaningZh": "",
+              "example": "I know the word \"slide\"."
+            },
+            {
+              "id": "p1-v107",
+              "word": "bench",
+              "phonetic": "",
+              "meaning": "(park word)",
+              "meaningZh": "",
+              "example": "I know the word \"bench\"."
+            },
+            {
+              "id": "p1-v108",
+              "word": "pond",
+              "phonetic": "",
+              "meaning": "(park word)",
+              "meaningZh": "",
+              "example": "I know the word \"pond\"."
+            }
+          ],
+          "listening": [
+            {
+              "id": "p1-l18a",
+              "type": "dictation",
+              "instruction": "Listen and type:",
+              "ttsText": "I can say tree.",
+              "correctAnswer": "I can say tree",
+              "hint": "Listen carefully"
+            },
+            {
+              "id": "p1-l18b",
+              "type": "mcq",
+              "instruction": "Listen and choose:",
+              "ttsText": "The word is flower.",
+              "question": "What word did you hear?",
+              "options": [
+                "tree",
+                "flower",
+                "swing"
+              ],
+              "correctAnswer": "flower",
+              "hint": "Listen again"
+            }
+          ],
+          "speaking": [
+            {
+              "id": "p1-s18a",
+              "type": "pronounce-word",
+              "instruction": "Say this word:",
+              "targetText": "tree",
+              "phonetic": ""
+            },
+            {
+              "id": "p1-s18b",
+              "type": "pronounce-word",
+              "instruction": "Say this word:",
+              "targetText": "swing",
+              "phonetic": ""
+            }
+          ],
+          "reading": [
+            {
+              "id": "p1-r18",
+              "type": "mcq",
+              "passage": "I know many park words: tree, flower, swing, slide.",
+              "question": "How many park words are listed?",
+              "options": [
+                "two",
+                "three",
+                "four"
+              ],
+              "correctAnswer": "four",
+              "explanation": "Four words are listed"
+            }
+          ],
+          "writing": [
+            {
+              "id": "p1-w18a",
+              "type": "spelling",
+              "instruction": "Spell:",
+              "ttsText": "tree",
+              "correctAnswer": "tree",
+              "hint": "A park word"
+            },
+            {
+              "id": "p1-w18b",
+              "type": "spelling",
+              "instruction": "Spell:",
+              "ttsText": "flower",
+              "correctAnswer": "flower",
+              "hint": "A park word"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u19",
+      "title": "At the Zoo",
+      "theme": "zoo",
+      "mascotTip": "Tot says: Keep going, you're doing great!",
+      "lessons": [
+        {
+          "id": "u19-l1",
+          "title": "At the Zoo",
+          "objectives": [
+            "Learn zoo vocabulary",
+            "Use zoo words in sentences"
+          ],
+          "vocabulary": [
+            {
+              "id": "p1-v109",
+              "word": "lion",
+              "phonetic": "",
+              "meaning": "(zoo word)",
+              "meaningZh": "",
+              "example": "I know the word \"lion\"."
+            },
+            {
+              "id": "p1-v110",
+              "word": "elephant",
+              "phonetic": "",
+              "meaning": "(zoo word)",
+              "meaningZh": "",
+              "example": "I know the word \"elephant\"."
+            },
+            {
+              "id": "p1-v111",
+              "word": "monkey",
+              "phonetic": "",
+              "meaning": "(zoo word)",
+              "meaningZh": "",
+              "example": "I know the word \"monkey\"."
+            },
+            {
+              "id": "p1-v112",
+              "word": "panda",
+              "phonetic": "",
+              "meaning": "(zoo word)",
+              "meaningZh": "",
+              "example": "I know the word \"panda\"."
+            },
+            {
+              "id": "p1-v113",
+              "word": "giraffe",
+              "phonetic": "",
+              "meaning": "(zoo word)",
+              "meaningZh": "",
+              "example": "I know the word \"giraffe\"."
+            },
+            {
+              "id": "p1-v114",
+              "word": "snake",
+              "phonetic": "",
+              "meaning": "(zoo word)",
+              "meaningZh": "",
+              "example": "I know the word \"snake\"."
+            }
+          ],
+          "listening": [
+            {
+              "id": "p1-l19a",
+              "type": "dictation",
+              "instruction": "Listen and type:",
+              "ttsText": "I can say lion.",
+              "correctAnswer": "I can say lion",
+              "hint": "Listen carefully"
+            },
+            {
+              "id": "p1-l19b",
+              "type": "mcq",
+              "instruction": "Listen and choose:",
+              "ttsText": "The word is elephant.",
+              "question": "What word did you hear?",
+              "options": [
+                "lion",
+                "elephant",
+                "monkey"
+              ],
+              "correctAnswer": "elephant",
+              "hint": "Listen again"
+            }
+          ],
+          "speaking": [
+            {
+              "id": "p1-s19a",
+              "type": "pronounce-word",
+              "instruction": "Say this word:",
+              "targetText": "lion",
+              "phonetic": ""
+            },
+            {
+              "id": "p1-s19b",
+              "type": "pronounce-word",
+              "instruction": "Say this word:",
+              "targetText": "monkey",
+              "phonetic": ""
+            }
+          ],
+          "reading": [
+            {
+              "id": "p1-r19",
+              "type": "mcq",
+              "passage": "I know many zoo words: lion, elephant, monkey, panda.",
+              "question": "How many zoo words are listed?",
+              "options": [
+                "two",
+                "three",
+                "four"
+              ],
+              "correctAnswer": "four",
+              "explanation": "Four words are listed"
+            }
+          ],
+          "writing": [
+            {
+              "id": "p1-w19a",
+              "type": "spelling",
+              "instruction": "Spell:",
+              "ttsText": "lion",
+              "correctAnswer": "lion",
+              "hint": "A zoo word"
+            },
+            {
+              "id": "p1-w19b",
+              "type": "spelling",
+              "instruction": "Spell:",
+              "ttsText": "elephant",
+              "correctAnswer": "elephant",
+              "hint": "A zoo word"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u20",
+      "title": "Bedtime",
+      "theme": "bedtime",
+      "mascotTip": "Tat says: Learning is fun!",
+      "lessons": [
+        {
+          "id": "u20-l1",
+          "title": "Bedtime",
+          "objectives": [
+            "Learn bedtime vocabulary",
+            "Use bedtime words in sentences"
+          ],
+          "vocabulary": [
+            {
+              "id": "p1-v115",
+              "word": "sleep",
+              "phonetic": "",
+              "meaning": "(bedtime word)",
+              "meaningZh": "",
+              "example": "I know the word \"sleep\"."
+            },
+            {
+              "id": "p1-v116",
+              "word": "dream",
+              "phonetic": "",
+              "meaning": "(bedtime word)",
+              "meaningZh": "",
+              "example": "I know the word \"dream\"."
+            },
+            {
+              "id": "p1-v117",
+              "word": "pillow",
+              "phonetic": "",
+              "meaning": "(bedtime word)",
+              "meaningZh": "",
+              "example": "I know the word \"pillow\"."
+            },
+            {
+              "id": "p1-v118",
+              "word": "blanket",
+              "phonetic": "",
+              "meaning": "(bedtime word)",
+              "meaningZh": "",
+              "example": "I know the word \"blanket\"."
+            },
+            {
+              "id": "p1-v119",
+              "word": "story",
+              "phonetic": "",
+              "meaning": "(bedtime word)",
+              "meaningZh": "",
+              "example": "I know the word \"story\"."
+            },
+            {
+              "id": "p1-v120",
+              "word": "night",
+              "phonetic": "",
+              "meaning": "(bedtime word)",
+              "meaningZh": "",
+              "example": "I know the word \"night\"."
+            }
+          ],
+          "listening": [
+            {
+              "id": "p1-l20a",
+              "type": "dictation",
+              "instruction": "Listen and type:",
+              "ttsText": "I can say sleep.",
+              "correctAnswer": "I can say sleep",
+              "hint": "Listen carefully"
+            },
+            {
+              "id": "p1-l20b",
+              "type": "mcq",
+              "instruction": "Listen and choose:",
+              "ttsText": "The word is dream.",
+              "question": "What word did you hear?",
+              "options": [
+                "sleep",
+                "dream",
+                "pillow"
+              ],
+              "correctAnswer": "dream",
+              "hint": "Listen again"
+            }
+          ],
+          "speaking": [
+            {
+              "id": "p1-s20a",
+              "type": "pronounce-word",
+              "instruction": "Say this word:",
+              "targetText": "sleep",
+              "phonetic": ""
+            },
+            {
+              "id": "p1-s20b",
+              "type": "pronounce-word",
+              "instruction": "Say this word:",
+              "targetText": "pillow",
+              "phonetic": ""
+            }
+          ],
+          "reading": [
+            {
+              "id": "p1-r20",
+              "type": "mcq",
+              "passage": "I know many bedtime words: sleep, dream, pillow, blanket.",
+              "question": "How many bedtime words are listed?",
+              "options": [
+                "two",
+                "three",
+                "four"
+              ],
+              "correctAnswer": "four",
+              "explanation": "Four words are listed"
+            }
+          ],
+          "writing": [
+            {
+              "id": "p1-w20a",
+              "type": "spelling",
+              "instruction": "Spell:",
+              "ttsText": "sleep",
+              "correctAnswer": "sleep",
+              "hint": "A bedtime word"
+            },
+            {
+              "id": "p1-w20b",
+              "type": "spelling",
+              "instruction": "Spell:",
+              "ttsText": "dream",
+              "correctAnswer": "dream",
+              "hint": "A bedtime word"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

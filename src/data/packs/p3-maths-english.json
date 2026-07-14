@@ -1,0 +1,3169 @@
+{
+  "id": "p3-maths-english",
+  "name": "Maths in English 3",
+  "publisher": "Tot & Tat",
+  "grade": "P3",
+  "version": "2.0.0",
+  "units": [
+    {
+      "id": "m-u1",
+      "title": "Addition",
+      "theme": "addition",
+      "mascotTip": "Tot says: Let's add numbers together!",
+      "lessons": [
+        {
+          "id": "m-u1-l1",
+          "title": "Addition",
+          "objectives": [
+            "Solve addition problems",
+            "Use addition vocabulary"
+          ],
+          "vocabulary": [
+            {
+              "id": "mv1",
+              "word": "sum",
+              "phonetic": "",
+              "meaning": "(addition term)",
+              "meaningZh": "",
+              "example": "We use \"sum\" in addition."
+            },
+            {
+              "id": "mv2",
+              "word": "plus",
+              "phonetic": "",
+              "meaning": "(addition term)",
+              "meaningZh": "",
+              "example": "We use \"plus\" in addition."
+            },
+            {
+              "id": "mv3",
+              "word": "add",
+              "phonetic": "",
+              "meaning": "(addition term)",
+              "meaningZh": "",
+              "example": "We use \"add\" in addition."
+            },
+            {
+              "id": "mv4",
+              "word": "total",
+              "phonetic": "",
+              "meaning": "(addition term)",
+              "meaningZh": "",
+              "example": "We use \"total\" in addition."
+            },
+            {
+              "id": "mv5",
+              "word": "equals",
+              "phonetic": "",
+              "meaning": "(addition term)",
+              "meaningZh": "",
+              "example": "We use \"equals\" in addition."
+            },
+            {
+              "id": "mv6",
+              "word": "altogether",
+              "phonetic": "",
+              "meaning": "(addition term)",
+              "meaningZh": "",
+              "example": "We use \"altogether\" in addition."
+            }
+          ],
+          "listening": [
+            {
+              "id": "ml1",
+              "type": "mcq",
+              "instruction": "Listen and solve.",
+              "ttsText": "Five plus three equals eight. 5 + 3 = 8.",
+              "question": "5 + 3 = ?",
+              "options": [
+                "7",
+                "8",
+                "9"
+              ],
+              "correctAnswer": "8",
+              "hint": "Think about the calculation"
+            },
+            {
+              "id": "ml2",
+              "type": "mcq",
+              "instruction": "Listen and solve.",
+              "ttsText": "Twelve plus seven equals nineteen.",
+              "question": "12 + 7 = ?",
+              "options": [
+                "18",
+                "19",
+                "20"
+              ],
+              "correctAnswer": "19",
+              "hint": "Think about the calculation"
+            },
+            {
+              "id": "ml3",
+              "type": "mcq",
+              "instruction": "Listen and solve.",
+              "ttsText": "Twenty-five plus sixteen equals forty-one.",
+              "question": "25 + 16 = ?",
+              "options": [
+                "39",
+                "41",
+                "42"
+              ],
+              "correctAnswer": "41",
+              "hint": "Think about the calculation"
+            }
+          ],
+          "speaking": [
+            {
+              "id": "ms1a",
+              "type": "pronounce-word",
+              "instruction": "Say:",
+              "targetText": "sum",
+              "phonetic": ""
+            },
+            {
+              "id": "ms1b",
+              "type": "pronounce-sentence",
+              "instruction": "Read the problem aloud:",
+              "targetText": "Five plus three equals eight.",
+              "hint": "Clear maths language"
+            }
+          ],
+          "reading": [
+            {
+              "id": "mr1",
+              "type": "mcq",
+              "passage": "Five plus three equals eight. 5 + 3 = 8. Twelve plus seven equals nineteen. Twenty-five plus sixteen equals forty-one.",
+              "question": "12 + 7 = ?",
+              "options": [
+                "18",
+                "19",
+                "20"
+              ],
+              "correctAnswer": "19",
+              "explanation": "Twelve plus seven equals nineteen."
+            }
+          ],
+          "writing": [
+            {
+              "id": "mw1a",
+              "type": "spelling",
+              "instruction": "Spell this maths word:",
+              "ttsText": "sum",
+              "correctAnswer": "sum",
+              "hint": "A addition term"
+            },
+            {
+              "id": "mw1b",
+              "type": "fill-blank",
+              "instruction": "Fill in: 5 + 3 = _____",
+              "correctAnswer": "8",
+              "hint": "Calculate!"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "m-u2",
+      "title": "Subtraction",
+      "theme": "subtraction",
+      "mascotTip": "Tat says: Take away and find the difference!",
+      "lessons": [
+        {
+          "id": "m-u2-l1",
+          "title": "Subtraction",
+          "objectives": [
+            "Solve subtraction problems",
+            "Use subtraction vocabulary"
+          ],
+          "vocabulary": [
+            {
+              "id": "mv7",
+              "word": "minus",
+              "phonetic": "",
+              "meaning": "(subtraction term)",
+              "meaningZh": "",
+              "example": "We use \"minus\" in subtraction."
+            },
+            {
+              "id": "mv8",
+              "word": "subtract",
+              "phonetic": "",
+              "meaning": "(subtraction term)",
+              "meaningZh": "",
+              "example": "We use \"subtract\" in subtraction."
+            },
+            {
+              "id": "mv9",
+              "word": "difference",
+              "phonetic": "",
+              "meaning": "(subtraction term)",
+              "meaningZh": "",
+              "example": "We use \"difference\" in subtraction."
+            },
+            {
+              "id": "mv10",
+              "word": "take away",
+              "phonetic": "",
+              "meaning": "(subtraction term)",
+              "meaningZh": "",
+              "example": "We use \"take away\" in subtraction."
+            },
+            {
+              "id": "mv11",
+              "word": "less",
+              "phonetic": "",
+              "meaning": "(subtraction term)",
+              "meaningZh": "",
+              "example": "We use \"less\" in subtraction."
+            },
+            {
+              "id": "mv12",
+              "word": "remain",
+              "phonetic": "",
+              "meaning": "(subtraction term)",
+              "meaningZh": "",
+              "example": "We use \"remain\" in subtraction."
+            }
+          ],
+          "listening": [
+            {
+              "id": "ml4",
+              "type": "mcq",
+              "instruction": "Listen and solve.",
+              "ttsText": "Nine minus four equals five. 9 - 4 = 5.",
+              "question": "9 - 4 = ?",
+              "options": [
+                "4",
+                "5",
+                "6"
+              ],
+              "correctAnswer": "5",
+              "hint": "Think about the calculation"
+            },
+            {
+              "id": "ml5",
+              "type": "mcq",
+              "instruction": "Listen and solve.",
+              "ttsText": "Twenty minus eight equals twelve.",
+              "question": "20 - 8 = ?",
+              "options": [
+                "11",
+                "12",
+                "13"
+              ],
+              "correctAnswer": "12",
+              "hint": "Think about the calculation"
+            },
+            {
+              "id": "ml6",
+              "type": "mcq",
+              "instruction": "Listen and solve.",
+              "ttsText": "Forty-five minus seventeen equals twenty-eight.",
+              "question": "45 - 17 = ?",
+              "options": [
+                "27",
+                "28",
+                "29"
+              ],
+              "correctAnswer": "28",
+              "hint": "Think about the calculation"
+            }
+          ],
+          "speaking": [
+            {
+              "id": "ms2a",
+              "type": "pronounce-word",
+              "instruction": "Say:",
+              "targetText": "minus",
+              "phonetic": ""
+            },
+            {
+              "id": "ms2b",
+              "type": "pronounce-sentence",
+              "instruction": "Read the problem aloud:",
+              "targetText": "Nine minus four equals five.",
+              "hint": "Clear maths language"
+            }
+          ],
+          "reading": [
+            {
+              "id": "mr2",
+              "type": "mcq",
+              "passage": "Nine minus four equals five. 9 - 4 = 5. Twenty minus eight equals twelve. Forty-five minus seventeen equals twenty-eight.",
+              "question": "20 - 8 = ?",
+              "options": [
+                "11",
+                "12",
+                "13"
+              ],
+              "correctAnswer": "12",
+              "explanation": "Twenty minus eight equals twelve."
+            }
+          ],
+          "writing": [
+            {
+              "id": "mw2a",
+              "type": "spelling",
+              "instruction": "Spell this maths word:",
+              "ttsText": "minus",
+              "correctAnswer": "minus",
+              "hint": "A subtraction term"
+            },
+            {
+              "id": "mw2b",
+              "type": "fill-blank",
+              "instruction": "Fill in: 9 - 4 = _____",
+              "correctAnswer": "5",
+              "hint": "Calculate!"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "m-u3",
+      "title": "Multiplication",
+      "theme": "multiplication",
+      "mascotTip": "Tot says: Times tables are super useful!",
+      "lessons": [
+        {
+          "id": "m-u3-l1",
+          "title": "Multiplication",
+          "objectives": [
+            "Solve multiplication problems",
+            "Use multiplication vocabulary"
+          ],
+          "vocabulary": [
+            {
+              "id": "mv13",
+              "word": "multiply",
+              "phonetic": "",
+              "meaning": "(multiplication term)",
+              "meaningZh": "",
+              "example": "We use \"multiply\" in multiplication."
+            },
+            {
+              "id": "mv14",
+              "word": "times",
+              "phonetic": "",
+              "meaning": "(multiplication term)",
+              "meaningZh": "",
+              "example": "We use \"times\" in multiplication."
+            },
+            {
+              "id": "mv15",
+              "word": "product",
+              "phonetic": "",
+              "meaning": "(multiplication term)",
+              "meaningZh": "",
+              "example": "We use \"product\" in multiplication."
+            },
+            {
+              "id": "mv16",
+              "word": "groups of",
+              "phonetic": "",
+              "meaning": "(multiplication term)",
+              "meaningZh": "",
+              "example": "We use \"groups of\" in multiplication."
+            },
+            {
+              "id": "mv17",
+              "word": "each",
+              "phonetic": "",
+              "meaning": "(multiplication term)",
+              "meaningZh": "",
+              "example": "We use \"each\" in multiplication."
+            },
+            {
+              "id": "mv18",
+              "word": "rows",
+              "phonetic": "",
+              "meaning": "(multiplication term)",
+              "meaningZh": "",
+              "example": "We use \"rows\" in multiplication."
+            }
+          ],
+          "listening": [
+            {
+              "id": "ml7",
+              "type": "mcq",
+              "instruction": "Listen and solve.",
+              "ttsText": "Three times four equals twelve. 3 × 4 = 12. That means 3 groups of 4.",
+              "question": "3 × 4 = ?",
+              "options": [
+                "10",
+                "12",
+                "14"
+              ],
+              "correctAnswer": "12",
+              "hint": "Think about the calculation"
+            },
+            {
+              "id": "ml8",
+              "type": "mcq",
+              "instruction": "Listen and solve.",
+              "ttsText": "Five times six equals thirty. 5 × 6 = 30.",
+              "question": "5 × 6 = ?",
+              "options": [
+                "28",
+                "30",
+                "32"
+              ],
+              "correctAnswer": "30",
+              "hint": "Think about the calculation"
+            },
+            {
+              "id": "ml9",
+              "type": "mcq",
+              "instruction": "Listen and solve.",
+              "ttsText": "Seven times eight equals fifty-six. 7 × 8 = 56.",
+              "question": "7 × 8 = ?",
+              "options": [
+                "54",
+                "56",
+                "58"
+              ],
+              "correctAnswer": "56",
+              "hint": "Think about the calculation"
+            }
+          ],
+          "speaking": [
+            {
+              "id": "ms3a",
+              "type": "pronounce-word",
+              "instruction": "Say:",
+              "targetText": "multiply",
+              "phonetic": ""
+            },
+            {
+              "id": "ms3b",
+              "type": "pronounce-sentence",
+              "instruction": "Read the problem aloud:",
+              "targetText": "Three times four equals twelve.",
+              "hint": "Clear maths language"
+            }
+          ],
+          "reading": [
+            {
+              "id": "mr3",
+              "type": "mcq",
+              "passage": "Three times four equals twelve. 3 × 4 = 12. That means 3 groups of 4. Five times six equals thirty. 5 × 6 = 30. Seven times eight equals fifty-six. 7 × 8 = 56.",
+              "question": "5 × 6 = ?",
+              "options": [
+                "28",
+                "30",
+                "32"
+              ],
+              "correctAnswer": "30",
+              "explanation": "Five times six equals thirty. 5 × 6 = 30."
+            }
+          ],
+          "writing": [
+            {
+              "id": "mw3a",
+              "type": "spelling",
+              "instruction": "Spell this maths word:",
+              "ttsText": "multiply",
+              "correctAnswer": "multiply",
+              "hint": "A multiplication term"
+            },
+            {
+              "id": "mw3b",
+              "type": "fill-blank",
+              "instruction": "Fill in: 3 × 4 = _____",
+              "correctAnswer": "12",
+              "hint": "Calculate!"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "m-u4",
+      "title": "Division",
+      "theme": "division",
+      "mascotTip": "Tat says: Sharing equally - that's division!",
+      "lessons": [
+        {
+          "id": "m-u4-l1",
+          "title": "Division",
+          "objectives": [
+            "Solve division problems",
+            "Use division vocabulary"
+          ],
+          "vocabulary": [
+            {
+              "id": "mv19",
+              "word": "divide",
+              "phonetic": "",
+              "meaning": "(division term)",
+              "meaningZh": "",
+              "example": "We use \"divide\" in division."
+            },
+            {
+              "id": "mv20",
+              "word": "share",
+              "phonetic": "",
+              "meaning": "(division term)",
+              "meaningZh": "",
+              "example": "We use \"share\" in division."
+            },
+            {
+              "id": "mv21",
+              "word": "quotient",
+              "phonetic": "",
+              "meaning": "(division term)",
+              "meaningZh": "",
+              "example": "We use \"quotient\" in division."
+            },
+            {
+              "id": "mv22",
+              "word": "equally",
+              "phonetic": "",
+              "meaning": "(division term)",
+              "meaningZh": "",
+              "example": "We use \"equally\" in division."
+            },
+            {
+              "id": "mv23",
+              "word": "remainder",
+              "phonetic": "",
+              "meaning": "(division term)",
+              "meaningZh": "",
+              "example": "We use \"remainder\" in division."
+            },
+            {
+              "id": "mv24",
+              "word": "split",
+              "phonetic": "",
+              "meaning": "(division term)",
+              "meaningZh": "",
+              "example": "We use \"split\" in division."
+            }
+          ],
+          "listening": [
+            {
+              "id": "ml10",
+              "type": "mcq",
+              "instruction": "Listen and solve.",
+              "ttsText": "Twelve divided by three equals four. 12 ÷ 3 = 4. Twelve shared equally among three is four each.",
+              "question": "12 ÷ 3 = ?",
+              "options": [
+                "3",
+                "4",
+                "5"
+              ],
+              "correctAnswer": "4",
+              "hint": "Think about the calculation"
+            },
+            {
+              "id": "ml11",
+              "type": "mcq",
+              "instruction": "Listen and solve.",
+              "ttsText": "Twenty divided by five equals four.",
+              "question": "20 ÷ 5 = ?",
+              "options": [
+                "3",
+                "4",
+                "5"
+              ],
+              "correctAnswer": "4",
+              "hint": "Think about the calculation"
+            },
+            {
+              "id": "ml12",
+              "type": "mcq",
+              "instruction": "Listen and solve.",
+              "ttsText": "Thirty-five divided by seven equals five.",
+              "question": "35 ÷ 7 = ?",
+              "options": [
+                "4",
+                "5",
+                "6"
+              ],
+              "correctAnswer": "5",
+              "hint": "Think about the calculation"
+            }
+          ],
+          "speaking": [
+            {
+              "id": "ms4a",
+              "type": "pronounce-word",
+              "instruction": "Say:",
+              "targetText": "divide",
+              "phonetic": ""
+            },
+            {
+              "id": "ms4b",
+              "type": "pronounce-sentence",
+              "instruction": "Read the problem aloud:",
+              "targetText": "Twelve divided by three equals four.",
+              "hint": "Clear maths language"
+            }
+          ],
+          "reading": [
+            {
+              "id": "mr4",
+              "type": "mcq",
+              "passage": "Twelve divided by three equals four. 12 ÷ 3 = 4. Twelve shared equally among three is four each. Twenty divided by five equals four. Thirty-five divided by seven equals five.",
+              "question": "20 ÷ 5 = ?",
+              "options": [
+                "3",
+                "4",
+                "5"
+              ],
+              "correctAnswer": "4",
+              "explanation": "Twenty divided by five equals four."
+            }
+          ],
+          "writing": [
+            {
+              "id": "mw4a",
+              "type": "spelling",
+              "instruction": "Spell this maths word:",
+              "ttsText": "divide",
+              "correctAnswer": "divide",
+              "hint": "A division term"
+            },
+            {
+              "id": "mw4b",
+              "type": "fill-blank",
+              "instruction": "Fill in: 12 ÷ 3 = _____",
+              "correctAnswer": "4",
+              "hint": "Calculate!"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "m-u5",
+      "title": "Fractions",
+      "theme": "fractions",
+      "mascotTip": "Tot says: Half a pizza, a quarter of cake!",
+      "lessons": [
+        {
+          "id": "m-u5-l1",
+          "title": "Fractions",
+          "objectives": [
+            "Solve fractions problems",
+            "Use fractions vocabulary"
+          ],
+          "vocabulary": [
+            {
+              "id": "mv25",
+              "word": "fraction",
+              "phonetic": "",
+              "meaning": "(fractions term)",
+              "meaningZh": "",
+              "example": "We use \"fraction\" in fractions."
+            },
+            {
+              "id": "mv26",
+              "word": "half",
+              "phonetic": "",
+              "meaning": "(fractions term)",
+              "meaningZh": "",
+              "example": "We use \"half\" in fractions."
+            },
+            {
+              "id": "mv27",
+              "word": "quarter",
+              "phonetic": "",
+              "meaning": "(fractions term)",
+              "meaningZh": "",
+              "example": "We use \"quarter\" in fractions."
+            },
+            {
+              "id": "mv28",
+              "word": "third",
+              "phonetic": "",
+              "meaning": "(fractions term)",
+              "meaningZh": "",
+              "example": "We use \"third\" in fractions."
+            },
+            {
+              "id": "mv29",
+              "word": "numerator",
+              "phonetic": "",
+              "meaning": "(fractions term)",
+              "meaningZh": "",
+              "example": "We use \"numerator\" in fractions."
+            },
+            {
+              "id": "mv30",
+              "word": "denominator",
+              "phonetic": "",
+              "meaning": "(fractions term)",
+              "meaningZh": "",
+              "example": "We use \"denominator\" in fractions."
+            }
+          ],
+          "listening": [
+            {
+              "id": "ml13",
+              "type": "mcq",
+              "instruction": "Listen and solve.",
+              "ttsText": "One half of ten is five. 10 ÷ 2 = 5.",
+              "question": "What is 1/2 of 10?",
+              "options": [
+                "4",
+                "5",
+                "6"
+              ],
+              "correctAnswer": "5",
+              "hint": "Think about the calculation"
+            },
+            {
+              "id": "ml14",
+              "type": "mcq",
+              "instruction": "Listen and solve.",
+              "ttsText": "One quarter of twenty is five. 20 ÷ 4 = 5.",
+              "question": "What is 1/4 of 20?",
+              "options": [
+                "4",
+                "5",
+                "6"
+              ],
+              "correctAnswer": "5",
+              "hint": "Think about the calculation"
+            },
+            {
+              "id": "ml15",
+              "type": "mcq",
+              "instruction": "Listen and solve.",
+              "ttsText": "One third of twelve is four. 12 ÷ 3 = 4.",
+              "question": "What is 1/3 of 12?",
+              "options": [
+                "3",
+                "4",
+                "5"
+              ],
+              "correctAnswer": "4",
+              "hint": "Think about the calculation"
+            }
+          ],
+          "speaking": [
+            {
+              "id": "ms5a",
+              "type": "pronounce-word",
+              "instruction": "Say:",
+              "targetText": "fraction",
+              "phonetic": ""
+            },
+            {
+              "id": "ms5b",
+              "type": "pronounce-sentence",
+              "instruction": "Read the problem aloud:",
+              "targetText": "One half of ten is five.",
+              "hint": "Clear maths language"
+            }
+          ],
+          "reading": [
+            {
+              "id": "mr5",
+              "type": "mcq",
+              "passage": "One half of ten is five. 10 ÷ 2 = 5. One quarter of twenty is five. 20 ÷ 4 = 5. One third of twelve is four. 12 ÷ 3 = 4.",
+              "question": "What is 1/4 of 20?",
+              "options": [
+                "4",
+                "5",
+                "6"
+              ],
+              "correctAnswer": "5",
+              "explanation": "One quarter of twenty is five. 20 ÷ 4 = 5."
+            }
+          ],
+          "writing": [
+            {
+              "id": "mw5a",
+              "type": "spelling",
+              "instruction": "Spell this maths word:",
+              "ttsText": "fraction",
+              "correctAnswer": "fraction",
+              "hint": "A fractions term"
+            },
+            {
+              "id": "mw5b",
+              "type": "fill-blank",
+              "instruction": "Fill in: What is 1/2 of 10_____",
+              "correctAnswer": "5",
+              "hint": "Calculate!"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "m-u6",
+      "title": "Shapes and Geometry",
+      "theme": "shapes",
+      "mascotTip": "Tat says: Shapes are everywhere!",
+      "lessons": [
+        {
+          "id": "m-u6-l1",
+          "title": "Shapes and Geometry",
+          "objectives": [
+            "Solve shapes problems",
+            "Use shapes vocabulary"
+          ],
+          "vocabulary": [
+            {
+              "id": "mv31",
+              "word": "triangle",
+              "phonetic": "",
+              "meaning": "(shapes term)",
+              "meaningZh": "",
+              "example": "We use \"triangle\" in shapes."
+            },
+            {
+              "id": "mv32",
+              "word": "rectangle",
+              "phonetic": "",
+              "meaning": "(shapes term)",
+              "meaningZh": "",
+              "example": "We use \"rectangle\" in shapes."
+            },
+            {
+              "id": "mv33",
+              "word": "circle",
+              "phonetic": "",
+              "meaning": "(shapes term)",
+              "meaningZh": "",
+              "example": "We use \"circle\" in shapes."
+            },
+            {
+              "id": "mv34",
+              "word": "cube",
+              "phonetic": "",
+              "meaning": "(shapes term)",
+              "meaningZh": "",
+              "example": "We use \"cube\" in shapes."
+            },
+            {
+              "id": "mv35",
+              "word": "sphere",
+              "phonetic": "",
+              "meaning": "(shapes term)",
+              "meaningZh": "",
+              "example": "We use \"sphere\" in shapes."
+            },
+            {
+              "id": "mv36",
+              "word": "symmetry",
+              "phonetic": "",
+              "meaning": "(shapes term)",
+              "meaningZh": "",
+              "example": "We use \"symmetry\" in shapes."
+            }
+          ],
+          "listening": [
+            {
+              "id": "ml16",
+              "type": "mcq",
+              "instruction": "Listen and solve.",
+              "ttsText": "A pentagon has five sides. Penta means five.",
+              "question": "How many sides does a pentagon have?",
+              "options": [
+                "4",
+                "5",
+                "6"
+              ],
+              "correctAnswer": "5",
+              "hint": "Think about the calculation"
+            },
+            {
+              "id": "ml17",
+              "type": "mcq",
+              "instruction": "Listen and solve.",
+              "ttsText": "A cube has six faces, eight vertices, and twelve edges.",
+              "question": "How many faces does a cube have?",
+              "options": [
+                "4",
+                "6",
+                "8"
+              ],
+              "correctAnswer": "6",
+              "hint": "Think about the calculation"
+            },
+            {
+              "id": "ml18",
+              "type": "mcq",
+              "instruction": "Listen and solve.",
+              "ttsText": "A right angle is exactly ninety degrees.",
+              "question": "How many degrees in a right angle?",
+              "options": [
+                "45°",
+                "90°",
+                "180°"
+              ],
+              "correctAnswer": "90°",
+              "hint": "Think about the calculation"
+            }
+          ],
+          "speaking": [
+            {
+              "id": "ms6a",
+              "type": "pronounce-word",
+              "instruction": "Say:",
+              "targetText": "triangle",
+              "phonetic": ""
+            },
+            {
+              "id": "ms6b",
+              "type": "pronounce-sentence",
+              "instruction": "Read the problem aloud:",
+              "targetText": "A pentagon has five sides.",
+              "hint": "Clear maths language"
+            }
+          ],
+          "reading": [
+            {
+              "id": "mr6",
+              "type": "mcq",
+              "passage": "A pentagon has five sides. Penta means five. A cube has six faces, eight vertices, and twelve edges. A right angle is exactly ninety degrees.",
+              "question": "How many faces does a cube have?",
+              "options": [
+                "4",
+                "6",
+                "8"
+              ],
+              "correctAnswer": "6",
+              "explanation": "A cube has six faces, eight vertices, and twelve edges."
+            }
+          ],
+          "writing": [
+            {
+              "id": "mw6a",
+              "type": "spelling",
+              "instruction": "Spell this maths word:",
+              "ttsText": "triangle",
+              "correctAnswer": "triangle",
+              "hint": "A shapes term"
+            },
+            {
+              "id": "mw6b",
+              "type": "fill-blank",
+              "instruction": "Fill in: How many sides does a pentagon have_____",
+              "correctAnswer": "5",
+              "hint": "Calculate!"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "m-u7",
+      "title": "Time",
+      "theme": "time",
+      "mascotTip": "Tot says: What time is it? Quarter past? Half past?",
+      "lessons": [
+        {
+          "id": "m-u7-l1",
+          "title": "Time",
+          "objectives": [
+            "Solve time problems",
+            "Use time vocabulary"
+          ],
+          "vocabulary": [
+            {
+              "id": "mv37",
+              "word": "o'clock",
+              "phonetic": "",
+              "meaning": "(time term)",
+              "meaningZh": "",
+              "example": "We use \"o'clock\" in time."
+            },
+            {
+              "id": "mv38",
+              "word": "half past",
+              "phonetic": "",
+              "meaning": "(time term)",
+              "meaningZh": "",
+              "example": "We use \"half past\" in time."
+            },
+            {
+              "id": "mv39",
+              "word": "quarter past",
+              "phonetic": "",
+              "meaning": "(time term)",
+              "meaningZh": "",
+              "example": "We use \"quarter past\" in time."
+            },
+            {
+              "id": "mv40",
+              "word": "quarter to",
+              "phonetic": "",
+              "meaning": "(time term)",
+              "meaningZh": "",
+              "example": "We use \"quarter to\" in time."
+            },
+            {
+              "id": "mv41",
+              "word": "a.m.",
+              "phonetic": "",
+              "meaning": "(time term)",
+              "meaningZh": "",
+              "example": "We use \"a.m.\" in time."
+            },
+            {
+              "id": "mv42",
+              "word": "p.m.",
+              "phonetic": "",
+              "meaning": "(time term)",
+              "meaningZh": "",
+              "example": "We use \"p.m.\" in time."
+            }
+          ],
+          "listening": [
+            {
+              "id": "ml19",
+              "type": "mcq",
+              "instruction": "Listen and solve.",
+              "ttsText": "Eight fifteen is quarter past eight.",
+              "question": "School starts at 8:15. How do we say this?",
+              "options": [
+                "half past eight",
+                "quarter past eight",
+                "quarter to eight"
+              ],
+              "correctAnswer": "quarter past eight",
+              "hint": "Think about the calculation"
+            },
+            {
+              "id": "ml20",
+              "type": "mcq",
+              "instruction": "Listen and solve.",
+              "ttsText": "Three thirty is half past three.",
+              "question": "3:30 in words?",
+              "options": [
+                "three o'clock",
+                "half past three",
+                "quarter to four"
+              ],
+              "correctAnswer": "half past three",
+              "hint": "Think about the calculation"
+            },
+            {
+              "id": "ml21",
+              "type": "mcq",
+              "instruction": "Listen and solve.",
+              "ttsText": "There are sixty minutes in one hour.",
+              "question": "How many minutes in one hour?",
+              "options": [
+                "30",
+                "60",
+                "100"
+              ],
+              "correctAnswer": "60",
+              "hint": "Think about the calculation"
+            }
+          ],
+          "speaking": [
+            {
+              "id": "ms7a",
+              "type": "pronounce-word",
+              "instruction": "Say:",
+              "targetText": "o'clock",
+              "phonetic": ""
+            },
+            {
+              "id": "ms7b",
+              "type": "pronounce-sentence",
+              "instruction": "Read the problem aloud:",
+              "targetText": "Eight fifteen is quarter past eight.",
+              "hint": "Clear maths language"
+            }
+          ],
+          "reading": [
+            {
+              "id": "mr7",
+              "type": "mcq",
+              "passage": "Eight fifteen is quarter past eight. Three thirty is half past three. There are sixty minutes in one hour.",
+              "question": "3:30 in words?",
+              "options": [
+                "three o'clock",
+                "half past three",
+                "quarter to four"
+              ],
+              "correctAnswer": "half past three",
+              "explanation": "Three thirty is half past three."
+            }
+          ],
+          "writing": [
+            {
+              "id": "mw7a",
+              "type": "spelling",
+              "instruction": "Spell this maths word:",
+              "ttsText": "o'clock",
+              "correctAnswer": "o'clock",
+              "hint": "A time term"
+            },
+            {
+              "id": "mw7b",
+              "type": "fill-blank",
+              "instruction": "Fill in: School starts at 8:15. How do we say this_____",
+              "correctAnswer": "quarter past eight",
+              "hint": "Calculate!"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "m-u8",
+      "title": "Money (HKD)",
+      "theme": "money",
+      "mascotTip": "Tat says: Let's go shopping with Hong Kong dollars!",
+      "lessons": [
+        {
+          "id": "m-u8-l1",
+          "title": "Money (HKD)",
+          "objectives": [
+            "Solve money problems",
+            "Use money vocabulary"
+          ],
+          "vocabulary": [
+            {
+              "id": "mv43",
+              "word": "price",
+              "phonetic": "",
+              "meaning": "(money term)",
+              "meaningZh": "",
+              "example": "We use \"price\" in money."
+            },
+            {
+              "id": "mv44",
+              "word": "change",
+              "phonetic": "",
+              "meaning": "(money term)",
+              "meaningZh": "",
+              "example": "We use \"change\" in money."
+            },
+            {
+              "id": "mv45",
+              "word": "total",
+              "phonetic": "",
+              "meaning": "(money term)",
+              "meaningZh": "",
+              "example": "We use \"total\" in money."
+            },
+            {
+              "id": "mv46",
+              "word": "expensive",
+              "phonetic": "",
+              "meaning": "(money term)",
+              "meaningZh": "",
+              "example": "We use \"expensive\" in money."
+            },
+            {
+              "id": "mv47",
+              "word": "cheap",
+              "phonetic": "",
+              "meaning": "(money term)",
+              "meaningZh": "",
+              "example": "We use \"cheap\" in money."
+            },
+            {
+              "id": "mv48",
+              "word": "discount",
+              "phonetic": "",
+              "meaning": "(money term)",
+              "meaningZh": "",
+              "example": "We use \"discount\" in money."
+            }
+          ],
+          "listening": [
+            {
+              "id": "ml22",
+              "type": "mcq",
+              "instruction": "Listen and solve.",
+              "ttsText": "Twenty-five plus eight equals thirty-three. The total is $33.",
+              "question": "A book costs $25 and a pen costs $8. Total?",
+              "options": [
+                "$32",
+                "$33",
+                "$34"
+              ],
+              "correctAnswer": "$33",
+              "hint": "Think about the calculation"
+            },
+            {
+              "id": "ml23",
+              "type": "mcq",
+              "instruction": "Listen and solve.",
+              "ttsText": "Fifty minus thirty-eight equals twelve. The change is $12.",
+              "question": "I pay $50 for a $38 item. Change?",
+              "options": [
+                "$10",
+                "$12",
+                "$14"
+              ],
+              "correctAnswer": "$12",
+              "hint": "Think about the calculation"
+            },
+            {
+              "id": "ml24",
+              "type": "mcq",
+              "instruction": "Listen and solve.",
+              "ttsText": "Twenty percent of one hundred is twenty. So you pay eighty dollars.",
+              "question": "20% discount on $100?",
+              "options": [
+                "$20",
+                "$80",
+                "$90"
+              ],
+              "correctAnswer": "$80",
+              "hint": "Think about the calculation"
+            }
+          ],
+          "speaking": [
+            {
+              "id": "ms8a",
+              "type": "pronounce-word",
+              "instruction": "Say:",
+              "targetText": "price",
+              "phonetic": ""
+            },
+            {
+              "id": "ms8b",
+              "type": "pronounce-sentence",
+              "instruction": "Read the problem aloud:",
+              "targetText": "Twenty-five plus eight equals thirty-three.",
+              "hint": "Clear maths language"
+            }
+          ],
+          "reading": [
+            {
+              "id": "mr8",
+              "type": "mcq",
+              "passage": "Twenty-five plus eight equals thirty-three. The total is $33. Fifty minus thirty-eight equals twelve. The change is $12. Twenty percent of one hundred is twenty. So you pay eighty dollars.",
+              "question": "I pay $50 for a $38 item. Change?",
+              "options": [
+                "$10",
+                "$12",
+                "$14"
+              ],
+              "correctAnswer": "$12",
+              "explanation": "Fifty minus thirty-eight equals twelve. The change is $12."
+            }
+          ],
+          "writing": [
+            {
+              "id": "mw8a",
+              "type": "spelling",
+              "instruction": "Spell this maths word:",
+              "ttsText": "price",
+              "correctAnswer": "price",
+              "hint": "A money term"
+            },
+            {
+              "id": "mw8b",
+              "type": "fill-blank",
+              "instruction": "Fill in: A book costs $25 and a pen costs $8. Total_____",
+              "correctAnswer": "$33",
+              "hint": "Calculate!"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "m-u9",
+      "title": "Measurement",
+      "theme": "measurement",
+      "mascotTip": "Tot says: How long? How heavy? Let's measure!",
+      "lessons": [
+        {
+          "id": "m-u9-l1",
+          "title": "Measurement",
+          "objectives": [
+            "Solve measurement problems",
+            "Use measurement vocabulary"
+          ],
+          "vocabulary": [
+            {
+              "id": "mv49",
+              "word": "centimetre",
+              "phonetic": "",
+              "meaning": "(measurement term)",
+              "meaningZh": "",
+              "example": "We use \"centimetre\" in measurement."
+            },
+            {
+              "id": "mv50",
+              "word": "metre",
+              "phonetic": "",
+              "meaning": "(measurement term)",
+              "meaningZh": "",
+              "example": "We use \"metre\" in measurement."
+            },
+            {
+              "id": "mv51",
+              "word": "kilogram",
+              "phonetic": "",
+              "meaning": "(measurement term)",
+              "meaningZh": "",
+              "example": "We use \"kilogram\" in measurement."
+            },
+            {
+              "id": "mv52",
+              "word": "gram",
+              "phonetic": "",
+              "meaning": "(measurement term)",
+              "meaningZh": "",
+              "example": "We use \"gram\" in measurement."
+            },
+            {
+              "id": "mv53",
+              "word": "litre",
+              "phonetic": "",
+              "meaning": "(measurement term)",
+              "meaningZh": "",
+              "example": "We use \"litre\" in measurement."
+            },
+            {
+              "id": "mv54",
+              "word": "millilitre",
+              "phonetic": "",
+              "meaning": "(measurement term)",
+              "meaningZh": "",
+              "example": "We use \"millilitre\" in measurement."
+            }
+          ],
+          "listening": [
+            {
+              "id": "ml25",
+              "type": "mcq",
+              "instruction": "Listen and solve.",
+              "ttsText": "One metre equals one hundred centimetres. 1 m = 100 cm.",
+              "question": "How many cm in 1 metre?",
+              "options": [
+                "10",
+                "100",
+                "1000"
+              ],
+              "correctAnswer": "100",
+              "hint": "Think about the calculation"
+            },
+            {
+              "id": "ml26",
+              "type": "mcq",
+              "instruction": "Listen and solve.",
+              "ttsText": "One kilogram equals one thousand grams. 1 kg = 1000 g.",
+              "question": "How many grams in 1 kg?",
+              "options": [
+                "100",
+                "500",
+                "1000"
+              ],
+              "correctAnswer": "1000",
+              "hint": "Think about the calculation"
+            },
+            {
+              "id": "ml27",
+              "type": "mcq",
+              "instruction": "Listen and solve.",
+              "ttsText": "One litre equals one thousand millilitres. 1 L = 1000 mL.",
+              "question": "How many ml in 1 litre?",
+              "options": [
+                "100",
+                "500",
+                "1000"
+              ],
+              "correctAnswer": "1000",
+              "hint": "Think about the calculation"
+            }
+          ],
+          "speaking": [
+            {
+              "id": "ms9a",
+              "type": "pronounce-word",
+              "instruction": "Say:",
+              "targetText": "centimetre",
+              "phonetic": ""
+            },
+            {
+              "id": "ms9b",
+              "type": "pronounce-sentence",
+              "instruction": "Read the problem aloud:",
+              "targetText": "One metre equals one hundred centimetres.",
+              "hint": "Clear maths language"
+            }
+          ],
+          "reading": [
+            {
+              "id": "mr9",
+              "type": "mcq",
+              "passage": "One metre equals one hundred centimetres. 1 m = 100 cm. One kilogram equals one thousand grams. 1 kg = 1000 g. One litre equals one thousand millilitres. 1 L = 1000 mL.",
+              "question": "How many grams in 1 kg?",
+              "options": [
+                "100",
+                "500",
+                "1000"
+              ],
+              "correctAnswer": "1000",
+              "explanation": "One kilogram equals one thousand grams. 1 kg = 1000 g."
+            }
+          ],
+          "writing": [
+            {
+              "id": "mw9a",
+              "type": "spelling",
+              "instruction": "Spell this maths word:",
+              "ttsText": "centimetre",
+              "correctAnswer": "centimetre",
+              "hint": "A measurement term"
+            },
+            {
+              "id": "mw9b",
+              "type": "fill-blank",
+              "instruction": "Fill in: How many cm in 1 metre_____",
+              "correctAnswer": "100",
+              "hint": "Calculate!"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "m-u10",
+      "title": "Perimeter and Area",
+      "theme": "perimeter",
+      "mascotTip": "Tat says: Measure around and measure inside!",
+      "lessons": [
+        {
+          "id": "m-u10-l1",
+          "title": "Perimeter and Area",
+          "objectives": [
+            "Solve perimeter problems",
+            "Use perimeter vocabulary"
+          ],
+          "vocabulary": [
+            {
+              "id": "mv55",
+              "word": "perimeter",
+              "phonetic": "",
+              "meaning": "(perimeter term)",
+              "meaningZh": "",
+              "example": "We use \"perimeter\" in perimeter."
+            },
+            {
+              "id": "mv56",
+              "word": "area",
+              "phonetic": "",
+              "meaning": "(perimeter term)",
+              "meaningZh": "",
+              "example": "We use \"area\" in perimeter."
+            },
+            {
+              "id": "mv57",
+              "word": "length",
+              "phonetic": "",
+              "meaning": "(perimeter term)",
+              "meaningZh": "",
+              "example": "We use \"length\" in perimeter."
+            },
+            {
+              "id": "mv58",
+              "word": "width",
+              "phonetic": "",
+              "meaning": "(perimeter term)",
+              "meaningZh": "",
+              "example": "We use \"width\" in perimeter."
+            },
+            {
+              "id": "mv59",
+              "word": "square",
+              "phonetic": "",
+              "meaning": "(perimeter term)",
+              "meaningZh": "",
+              "example": "We use \"square\" in perimeter."
+            },
+            {
+              "id": "mv60",
+              "word": "formula",
+              "phonetic": "",
+              "meaning": "(perimeter term)",
+              "meaningZh": "",
+              "example": "We use \"formula\" in perimeter."
+            }
+          ],
+          "listening": [
+            {
+              "id": "ml28",
+              "type": "mcq",
+              "instruction": "Listen and solve.",
+              "ttsText": "Perimeter = 2 × (length + width) = 2 × (5 + 3) = 2 × 8 = 16 cm.",
+              "question": "Rectangle: length 5cm, width 3cm. Perimeter?",
+              "options": [
+                "15 cm",
+                "16 cm",
+                "18 cm"
+              ],
+              "correctAnswer": "16 cm",
+              "hint": "Think about the calculation"
+            },
+            {
+              "id": "ml29",
+              "type": "mcq",
+              "instruction": "Listen and solve.",
+              "ttsText": "Area of square = side × side = 4 × 4 = 16 cm².",
+              "question": "Square: side 4cm. Area?",
+              "options": [
+                "8 cm²",
+                "12 cm²",
+                "16 cm²"
+              ],
+              "correctAnswer": "16 cm²",
+              "hint": "Think about the calculation"
+            },
+            {
+              "id": "ml30",
+              "type": "mcq",
+              "instruction": "Listen and solve.",
+              "ttsText": "Area = length × width = 6 × 3 = 18 cm².",
+              "question": "Rectangle: 6cm × 3cm. Area?",
+              "options": [
+                "9 cm²",
+                "18 cm²",
+                "24 cm²"
+              ],
+              "correctAnswer": "18 cm²",
+              "hint": "Think about the calculation"
+            }
+          ],
+          "speaking": [
+            {
+              "id": "ms10a",
+              "type": "pronounce-word",
+              "instruction": "Say:",
+              "targetText": "perimeter",
+              "phonetic": ""
+            },
+            {
+              "id": "ms10b",
+              "type": "pronounce-sentence",
+              "instruction": "Read the problem aloud:",
+              "targetText": "Perimeter = 2 × (length + width) = 2 × (5 + 3) = 2 × 8 = 16 cm.",
+              "hint": "Clear maths language"
+            }
+          ],
+          "reading": [
+            {
+              "id": "mr10",
+              "type": "mcq",
+              "passage": "Perimeter = 2 × (length + width) = 2 × (5 + 3) = 2 × 8 = 16 cm. Area of square = side × side = 4 × 4 = 16 cm². Area = length × width = 6 × 3 = 18 cm².",
+              "question": "Square: side 4cm. Area?",
+              "options": [
+                "8 cm²",
+                "12 cm²",
+                "16 cm²"
+              ],
+              "correctAnswer": "16 cm²",
+              "explanation": "Area of square = side × side = 4 × 4 = 16 cm²."
+            }
+          ],
+          "writing": [
+            {
+              "id": "mw10a",
+              "type": "spelling",
+              "instruction": "Spell this maths word:",
+              "ttsText": "perimeter",
+              "correctAnswer": "perimeter",
+              "hint": "A perimeter term"
+            },
+            {
+              "id": "mw10b",
+              "type": "fill-blank",
+              "instruction": "Fill in: Rectangle: length 5cm, width 3cm. Perimeter_____",
+              "correctAnswer": "16 cm",
+              "hint": "Calculate!"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "m-u11",
+      "title": "Number Patterns",
+      "theme": "patterns",
+      "mascotTip": "Tot says: Find the pattern!",
+      "lessons": [
+        {
+          "id": "m-u11-l1",
+          "title": "Number Patterns",
+          "objectives": [
+            "Solve patterns problems",
+            "Use patterns vocabulary"
+          ],
+          "vocabulary": [
+            {
+              "id": "mv61",
+              "word": "pattern",
+              "phonetic": "",
+              "meaning": "(patterns term)",
+              "meaningZh": "",
+              "example": "We use \"pattern\" in patterns."
+            },
+            {
+              "id": "mv62",
+              "word": "sequence",
+              "phonetic": "",
+              "meaning": "(patterns term)",
+              "meaningZh": "",
+              "example": "We use \"sequence\" in patterns."
+            },
+            {
+              "id": "mv63",
+              "word": "rule",
+              "phonetic": "",
+              "meaning": "(patterns term)",
+              "meaningZh": "",
+              "example": "We use \"rule\" in patterns."
+            },
+            {
+              "id": "mv64",
+              "word": "next",
+              "phonetic": "",
+              "meaning": "(patterns term)",
+              "meaningZh": "",
+              "example": "We use \"next\" in patterns."
+            },
+            {
+              "id": "mv65",
+              "word": "term",
+              "phonetic": "",
+              "meaning": "(patterns term)",
+              "meaningZh": "",
+              "example": "We use \"term\" in patterns."
+            },
+            {
+              "id": "mv66",
+              "word": "increase",
+              "phonetic": "",
+              "meaning": "(patterns term)",
+              "meaningZh": "",
+              "example": "We use \"increase\" in patterns."
+            }
+          ],
+          "listening": [
+            {
+              "id": "ml31",
+              "type": "mcq",
+              "instruction": "Listen and solve.",
+              "ttsText": "The pattern adds 2 each time. 8 + 2 = 10.",
+              "question": "2, 4, 6, 8, ? What comes next?",
+              "options": [
+                "9",
+                "10",
+                "12"
+              ],
+              "correctAnswer": "10",
+              "hint": "Think about the calculation"
+            },
+            {
+              "id": "ml32",
+              "type": "mcq",
+              "instruction": "Listen and solve.",
+              "ttsText": "These are square numbers: 1², 2², 3², 4², 5² = 25.",
+              "question": "1, 4, 9, 16, ? What next?",
+              "options": [
+                "20",
+                "25",
+                "30"
+              ],
+              "correctAnswer": "25",
+              "hint": "Think about the calculation"
+            },
+            {
+              "id": "ml33",
+              "type": "mcq",
+              "instruction": "Listen and solve.",
+              "ttsText": "The pattern doubles: 24 × 2 = 48.",
+              "question": "3, 6, 12, 24, ? What next?",
+              "options": [
+                "36",
+                "48",
+                "30"
+              ],
+              "correctAnswer": "48",
+              "hint": "Think about the calculation"
+            }
+          ],
+          "speaking": [
+            {
+              "id": "ms11a",
+              "type": "pronounce-word",
+              "instruction": "Say:",
+              "targetText": "pattern",
+              "phonetic": ""
+            },
+            {
+              "id": "ms11b",
+              "type": "pronounce-sentence",
+              "instruction": "Read the problem aloud:",
+              "targetText": "The pattern adds 2 each time.",
+              "hint": "Clear maths language"
+            }
+          ],
+          "reading": [
+            {
+              "id": "mr11",
+              "type": "mcq",
+              "passage": "The pattern adds 2 each time. 8 + 2 = 10. These are square numbers: 1², 2², 3², 4², 5² = 25. The pattern doubles: 24 × 2 = 48.",
+              "question": "1, 4, 9, 16, ? What next?",
+              "options": [
+                "20",
+                "25",
+                "30"
+              ],
+              "correctAnswer": "25",
+              "explanation": "These are square numbers: 1², 2², 3², 4², 5² = 25."
+            }
+          ],
+          "writing": [
+            {
+              "id": "mw11a",
+              "type": "spelling",
+              "instruction": "Spell this maths word:",
+              "ttsText": "pattern",
+              "correctAnswer": "pattern",
+              "hint": "A patterns term"
+            },
+            {
+              "id": "mw11b",
+              "type": "fill-blank",
+              "instruction": "Fill in: 2, 4, 6, 8, _____ What comes next?",
+              "correctAnswer": "10",
+              "hint": "Calculate!"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "m-u12",
+      "title": "Place Value",
+      "theme": "place-value",
+      "mascotTip": "Tat says: Ones, tens, hundreds, thousands!",
+      "lessons": [
+        {
+          "id": "m-u12-l1",
+          "title": "Place Value",
+          "objectives": [
+            "Solve place-value problems",
+            "Use place-value vocabulary"
+          ],
+          "vocabulary": [
+            {
+              "id": "mv67",
+              "word": "ones",
+              "phonetic": "",
+              "meaning": "(place-value term)",
+              "meaningZh": "",
+              "example": "We use \"ones\" in place-value."
+            },
+            {
+              "id": "mv68",
+              "word": "tens",
+              "phonetic": "",
+              "meaning": "(place-value term)",
+              "meaningZh": "",
+              "example": "We use \"tens\" in place-value."
+            },
+            {
+              "id": "mv69",
+              "word": "hundreds",
+              "phonetic": "",
+              "meaning": "(place-value term)",
+              "meaningZh": "",
+              "example": "We use \"hundreds\" in place-value."
+            },
+            {
+              "id": "mv70",
+              "word": "thousands",
+              "phonetic": "",
+              "meaning": "(place-value term)",
+              "meaningZh": "",
+              "example": "We use \"thousands\" in place-value."
+            },
+            {
+              "id": "mv71",
+              "word": "digit",
+              "phonetic": "",
+              "meaning": "(place-value term)",
+              "meaningZh": "",
+              "example": "We use \"digit\" in place-value."
+            },
+            {
+              "id": "mv72",
+              "word": "place value",
+              "phonetic": "",
+              "meaning": "(place-value term)",
+              "meaningZh": "",
+              "example": "We use \"place value\" in place-value."
+            }
+          ],
+          "listening": [
+            {
+              "id": "ml34",
+              "type": "mcq",
+              "instruction": "Listen and solve.",
+              "ttsText": "The 4 is in the hundreds place. Its value is four hundred.",
+              "question": "In 3,456 what is the value of 4?",
+              "options": [
+                "4",
+                "40",
+                "400"
+              ],
+              "correctAnswer": "400",
+              "hint": "Think about the calculation"
+            },
+            {
+              "id": "ml35",
+              "type": "mcq",
+              "instruction": "Listen and solve.",
+              "ttsText": "Two thousand three hundred and fifty-seven: 2,357.",
+              "question": "What is 2,000 + 300 + 50 + 7?",
+              "options": [
+                "2,357",
+                "2,375",
+                "2,537"
+              ],
+              "correctAnswer": "2,357",
+              "hint": "Think about the calculation"
+            },
+            {
+              "id": "ml36",
+              "type": "mcq",
+              "instruction": "Listen and solve.",
+              "ttsText": "467 rounds to 500 because 67 is closer to 100 than to 0.",
+              "question": "Round 467 to the nearest hundred.",
+              "options": [
+                "400",
+                "470",
+                "500"
+              ],
+              "correctAnswer": "500",
+              "hint": "Think about the calculation"
+            }
+          ],
+          "speaking": [
+            {
+              "id": "ms12a",
+              "type": "pronounce-word",
+              "instruction": "Say:",
+              "targetText": "ones",
+              "phonetic": ""
+            },
+            {
+              "id": "ms12b",
+              "type": "pronounce-sentence",
+              "instruction": "Read the problem aloud:",
+              "targetText": "The 4 is in the hundreds place.",
+              "hint": "Clear maths language"
+            }
+          ],
+          "reading": [
+            {
+              "id": "mr12",
+              "type": "mcq",
+              "passage": "The 4 is in the hundreds place. Its value is four hundred. Two thousand three hundred and fifty-seven: 2,357. 467 rounds to 500 because 67 is closer to 100 than to 0.",
+              "question": "What is 2,000 + 300 + 50 + 7?",
+              "options": [
+                "2,357",
+                "2,375",
+                "2,537"
+              ],
+              "correctAnswer": "2,357",
+              "explanation": "Two thousand three hundred and fifty-seven: 2,357."
+            }
+          ],
+          "writing": [
+            {
+              "id": "mw12a",
+              "type": "spelling",
+              "instruction": "Spell this maths word:",
+              "ttsText": "ones",
+              "correctAnswer": "ones",
+              "hint": "A place-value term"
+            },
+            {
+              "id": "mw12b",
+              "type": "fill-blank",
+              "instruction": "Fill in: In 3,456 what is the value of 4_____",
+              "correctAnswer": "400",
+              "hint": "Calculate!"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "m-u13",
+      "title": "Mixed Operations",
+      "theme": "mixed-ops",
+      "mascotTip": "Tot says: Add, subtract, multiply AND divide!",
+      "lessons": [
+        {
+          "id": "m-u13-l1",
+          "title": "Mixed Operations",
+          "objectives": [
+            "Solve mixed-ops problems",
+            "Use mixed-ops vocabulary"
+          ],
+          "vocabulary": [
+            {
+              "id": "mv73",
+              "word": "operation",
+              "phonetic": "",
+              "meaning": "(mixed-ops term)",
+              "meaningZh": "",
+              "example": "We use \"operation\" in mixed-ops."
+            },
+            {
+              "id": "mv74",
+              "word": "brackets",
+              "phonetic": "",
+              "meaning": "(mixed-ops term)",
+              "meaningZh": "",
+              "example": "We use \"brackets\" in mixed-ops."
+            },
+            {
+              "id": "mv75",
+              "word": "order",
+              "phonetic": "",
+              "meaning": "(mixed-ops term)",
+              "meaningZh": "",
+              "example": "We use \"order\" in mixed-ops."
+            },
+            {
+              "id": "mv76",
+              "word": "BODMAS",
+              "phonetic": "",
+              "meaning": "(mixed-ops term)",
+              "meaningZh": "",
+              "example": "We use \"BODMAS\" in mixed-ops."
+            },
+            {
+              "id": "mv77",
+              "word": "calculate",
+              "phonetic": "",
+              "meaning": "(mixed-ops term)",
+              "meaningZh": "",
+              "example": "We use \"calculate\" in mixed-ops."
+            },
+            {
+              "id": "mv78",
+              "word": "solve",
+              "phonetic": "",
+              "meaning": "(mixed-ops term)",
+              "meaningZh": "",
+              "example": "We use \"solve\" in mixed-ops."
+            }
+          ],
+          "listening": [
+            {
+              "id": "ml37",
+              "type": "mcq",
+              "instruction": "Listen and solve.",
+              "ttsText": "Multiply first: 4 × 2 = 8. Then add: 3 + 8 = 11.",
+              "question": "3 + 4 × 2 = ?",
+              "options": [
+                "11",
+                "14",
+                "10"
+              ],
+              "correctAnswer": "11",
+              "hint": "Think about the calculation"
+            },
+            {
+              "id": "ml38",
+              "type": "mcq",
+              "instruction": "Listen and solve.",
+              "ttsText": "Brackets first: 5 + 3 = 8. Then multiply: 8 × 2 = 16.",
+              "question": "(5 + 3) × 2 = ?",
+              "options": [
+                "11",
+                "16",
+                "13"
+              ],
+              "correctAnswer": "16",
+              "hint": "Think about the calculation"
+            },
+            {
+              "id": "ml39",
+              "type": "mcq",
+              "instruction": "Listen and solve.",
+              "ttsText": "Multiply first: 4 × 3 = 12. Then subtract: 20 - 12 = 8.",
+              "question": "20 - 4 × 3 = ?",
+              "options": [
+                "8",
+                "48",
+                "12"
+              ],
+              "correctAnswer": "8",
+              "hint": "Think about the calculation"
+            }
+          ],
+          "speaking": [
+            {
+              "id": "ms13a",
+              "type": "pronounce-word",
+              "instruction": "Say:",
+              "targetText": "operation",
+              "phonetic": ""
+            },
+            {
+              "id": "ms13b",
+              "type": "pronounce-sentence",
+              "instruction": "Read the problem aloud:",
+              "targetText": "Multiply first: 4 × 2 = 8.",
+              "hint": "Clear maths language"
+            }
+          ],
+          "reading": [
+            {
+              "id": "mr13",
+              "type": "mcq",
+              "passage": "Multiply first: 4 × 2 = 8. Then add: 3 + 8 = 11. Brackets first: 5 + 3 = 8. Then multiply: 8 × 2 = 16. Multiply first: 4 × 3 = 12. Then subtract: 20 - 12 = 8.",
+              "question": "(5 + 3) × 2 = ?",
+              "options": [
+                "11",
+                "16",
+                "13"
+              ],
+              "correctAnswer": "16",
+              "explanation": "Brackets first: 5 + 3 = 8. Then multiply: 8 × 2 = 16."
+            }
+          ],
+          "writing": [
+            {
+              "id": "mw13a",
+              "type": "spelling",
+              "instruction": "Spell this maths word:",
+              "ttsText": "operation",
+              "correctAnswer": "operation",
+              "hint": "A mixed-ops term"
+            },
+            {
+              "id": "mw13b",
+              "type": "fill-blank",
+              "instruction": "Fill in: 3 + 4 × 2 = _____",
+              "correctAnswer": "11",
+              "hint": "Calculate!"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "m-u14",
+      "title": "Decimals",
+      "theme": "decimals",
+      "mascotTip": "Tat says: What comes after the decimal point?",
+      "lessons": [
+        {
+          "id": "m-u14-l1",
+          "title": "Decimals",
+          "objectives": [
+            "Solve decimals problems",
+            "Use decimals vocabulary"
+          ],
+          "vocabulary": [
+            {
+              "id": "mv79",
+              "word": "decimal",
+              "phonetic": "",
+              "meaning": "(decimals term)",
+              "meaningZh": "",
+              "example": "We use \"decimal\" in decimals."
+            },
+            {
+              "id": "mv80",
+              "word": "point",
+              "phonetic": "",
+              "meaning": "(decimals term)",
+              "meaningZh": "",
+              "example": "We use \"point\" in decimals."
+            },
+            {
+              "id": "mv81",
+              "word": "tenth",
+              "phonetic": "",
+              "meaning": "(decimals term)",
+              "meaningZh": "",
+              "example": "We use \"tenth\" in decimals."
+            },
+            {
+              "id": "mv82",
+              "word": "hundredth",
+              "phonetic": "",
+              "meaning": "(decimals term)",
+              "meaningZh": "",
+              "example": "We use \"hundredth\" in decimals."
+            },
+            {
+              "id": "mv83",
+              "word": "convert",
+              "phonetic": "",
+              "meaning": "(decimals term)",
+              "meaningZh": "",
+              "example": "We use \"convert\" in decimals."
+            },
+            {
+              "id": "mv84",
+              "word": "round",
+              "phonetic": "",
+              "meaning": "(decimals term)",
+              "meaningZh": "",
+              "example": "We use \"round\" in decimals."
+            }
+          ],
+          "listening": [
+            {
+              "id": "ml40",
+              "type": "mcq",
+              "instruction": "Listen and solve.",
+              "ttsText": "Five tenths plus three tenths equals eight tenths: 0.8.",
+              "question": "0.5 + 0.3 = ?",
+              "options": [
+                "0.2",
+                "0.8",
+                "0.53"
+              ],
+              "correctAnswer": "0.8",
+              "hint": "Think about the calculation"
+            },
+            {
+              "id": "ml41",
+              "type": "mcq",
+              "instruction": "Listen and solve.",
+              "ttsText": "Three quarters = 3 ÷ 4 = 0.75.",
+              "question": "Convert 3/4 to decimal.",
+              "options": [
+                "0.25",
+                "0.5",
+                "0.75"
+              ],
+              "correctAnswer": "0.75",
+              "hint": "Think about the calculation"
+            },
+            {
+              "id": "ml42",
+              "type": "mcq",
+              "instruction": "Listen and solve.",
+              "ttsText": "2.6 + 1.4 = 4.0. Six tenths plus four tenths is ten tenths = 1.",
+              "question": "2.6 + 1.4 = ?",
+              "options": [
+                "3.0",
+                "4.0",
+                "3.10"
+              ],
+              "correctAnswer": "4.0",
+              "hint": "Think about the calculation"
+            }
+          ],
+          "speaking": [
+            {
+              "id": "ms14a",
+              "type": "pronounce-word",
+              "instruction": "Say:",
+              "targetText": "decimal",
+              "phonetic": ""
+            },
+            {
+              "id": "ms14b",
+              "type": "pronounce-sentence",
+              "instruction": "Read the problem aloud:",
+              "targetText": "Five tenths plus three tenths equals eight tenths: 0.",
+              "hint": "Clear maths language"
+            }
+          ],
+          "reading": [
+            {
+              "id": "mr14",
+              "type": "mcq",
+              "passage": "Five tenths plus three tenths equals eight tenths: 0.8. Three quarters = 3 ÷ 4 = 0.75. 2.6 + 1.4 = 4.0. Six tenths plus four tenths is ten tenths = 1.",
+              "question": "Convert 3/4 to decimal.",
+              "options": [
+                "0.25",
+                "0.5",
+                "0.75"
+              ],
+              "correctAnswer": "0.75",
+              "explanation": "Three quarters = 3 ÷ 4 = 0.75."
+            }
+          ],
+          "writing": [
+            {
+              "id": "mw14a",
+              "type": "spelling",
+              "instruction": "Spell this maths word:",
+              "ttsText": "decimal",
+              "correctAnswer": "decimal",
+              "hint": "A decimals term"
+            },
+            {
+              "id": "mw14b",
+              "type": "fill-blank",
+              "instruction": "Fill in: 0.5 + 0.3 = _____",
+              "correctAnswer": "0.8",
+              "hint": "Calculate!"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "m-u15",
+      "title": "Word Problems",
+      "theme": "word-problems",
+      "mascotTip": "Tot says: Maths is everywhere in real life!",
+      "lessons": [
+        {
+          "id": "m-u15-l1",
+          "title": "Word Problems",
+          "objectives": [
+            "Solve word-problems problems",
+            "Use word-problems vocabulary"
+          ],
+          "vocabulary": [
+            {
+              "id": "mv85",
+              "word": "problem",
+              "phonetic": "",
+              "meaning": "(word-problems term)",
+              "meaningZh": "",
+              "example": "We use \"problem\" in word-problems."
+            },
+            {
+              "id": "mv86",
+              "word": "solve",
+              "phonetic": "",
+              "meaning": "(word-problems term)",
+              "meaningZh": "",
+              "example": "We use \"solve\" in word-problems."
+            },
+            {
+              "id": "mv87",
+              "word": "strategy",
+              "phonetic": "",
+              "meaning": "(word-problems term)",
+              "meaningZh": "",
+              "example": "We use \"strategy\" in word-problems."
+            },
+            {
+              "id": "mv88",
+              "word": "check",
+              "phonetic": "",
+              "meaning": "(word-problems term)",
+              "meaningZh": "",
+              "example": "We use \"check\" in word-problems."
+            },
+            {
+              "id": "mv89",
+              "word": "answer",
+              "phonetic": "",
+              "meaning": "(word-problems term)",
+              "meaningZh": "",
+              "example": "We use \"answer\" in word-problems."
+            },
+            {
+              "id": "mv90",
+              "word": "method",
+              "phonetic": "",
+              "meaning": "(word-problems term)",
+              "meaningZh": "",
+              "example": "We use \"method\" in word-problems."
+            }
+          ],
+          "listening": [
+            {
+              "id": "ml43",
+              "type": "mcq",
+              "instruction": "Listen and solve.",
+              "ttsText": "Amy has 24, gives away 8. 24 - 8 = 16 stickers left.",
+              "question": "Amy has 24 stickers. She gives 8 to Ben. How many left?",
+              "options": [
+                "14",
+                "16",
+                "18"
+              ],
+              "correctAnswer": "16",
+              "hint": "Think about the calculation"
+            },
+            {
+              "id": "ml44",
+              "type": "mcq",
+              "instruction": "Listen and solve.",
+              "ttsText": "Three groups of twelve: 3 × 12 = 36 oranges.",
+              "question": "3 boxes, 12 oranges each. Total?",
+              "options": [
+                "30",
+                "36",
+                "42"
+              ],
+              "correctAnswer": "36",
+              "hint": "Think about the calculation"
+            },
+            {
+              "id": "ml45",
+              "type": "mcq",
+              "instruction": "Listen and solve.",
+              "ttsText": "48 ÷ 6 = 8. Each child gets 8 sweets.",
+              "question": "48 sweets shared among 6 children equally?",
+              "options": [
+                "6",
+                "7",
+                "8"
+              ],
+              "correctAnswer": "8",
+              "hint": "Think about the calculation"
+            }
+          ],
+          "speaking": [
+            {
+              "id": "ms15a",
+              "type": "pronounce-word",
+              "instruction": "Say:",
+              "targetText": "problem",
+              "phonetic": ""
+            },
+            {
+              "id": "ms15b",
+              "type": "pronounce-sentence",
+              "instruction": "Read the problem aloud:",
+              "targetText": "Amy has 24, gives away 8.",
+              "hint": "Clear maths language"
+            }
+          ],
+          "reading": [
+            {
+              "id": "mr15",
+              "type": "mcq",
+              "passage": "Amy has 24, gives away 8. 24 - 8 = 16 stickers left. Three groups of twelve: 3 × 12 = 36 oranges. 48 ÷ 6 = 8. Each child gets 8 sweets.",
+              "question": "3 boxes, 12 oranges each. Total?",
+              "options": [
+                "30",
+                "36",
+                "42"
+              ],
+              "correctAnswer": "36",
+              "explanation": "Three groups of twelve: 3 × 12 = 36 oranges."
+            }
+          ],
+          "writing": [
+            {
+              "id": "mw15a",
+              "type": "spelling",
+              "instruction": "Spell this maths word:",
+              "ttsText": "problem",
+              "correctAnswer": "problem",
+              "hint": "A word-problems term"
+            },
+            {
+              "id": "mw15b",
+              "type": "fill-blank",
+              "instruction": "Fill in: Amy has 24 stickers. She gives 8 to Ben. How many left_____",
+              "correctAnswer": "16",
+              "hint": "Calculate!"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "m-u16",
+      "title": "Angles",
+      "theme": "angles",
+      "mascotTip": "Tat says: Acute, right, or obtuse? Let's measure angles!",
+      "lessons": [
+        {
+          "id": "m-u16-l1",
+          "title": "Angles",
+          "objectives": [
+            "Solve angles problems",
+            "Use angles vocabulary"
+          ],
+          "vocabulary": [
+            {
+              "id": "mv91",
+              "word": "angle",
+              "phonetic": "",
+              "meaning": "(angles term)",
+              "meaningZh": "",
+              "example": "We use \"angle\" in angles."
+            },
+            {
+              "id": "mv92",
+              "word": "degree",
+              "phonetic": "",
+              "meaning": "(angles term)",
+              "meaningZh": "",
+              "example": "We use \"degree\" in angles."
+            },
+            {
+              "id": "mv93",
+              "word": "acute",
+              "phonetic": "",
+              "meaning": "(angles term)",
+              "meaningZh": "",
+              "example": "We use \"acute\" in angles."
+            },
+            {
+              "id": "mv94",
+              "word": "obtuse",
+              "phonetic": "",
+              "meaning": "(angles term)",
+              "meaningZh": "",
+              "example": "We use \"obtuse\" in angles."
+            },
+            {
+              "id": "mv95",
+              "word": "right angle",
+              "phonetic": "",
+              "meaning": "(angles term)",
+              "meaningZh": "",
+              "example": "We use \"right angle\" in angles."
+            },
+            {
+              "id": "mv96",
+              "word": "protractor",
+              "phonetic": "",
+              "meaning": "(angles term)",
+              "meaningZh": "",
+              "example": "We use \"protractor\" in angles."
+            }
+          ],
+          "listening": [
+            {
+              "id": "ml46",
+              "type": "mcq",
+              "instruction": "Listen and solve.",
+              "ttsText": "An acute angle is less than 90 degrees.",
+              "question": "An acute angle is...",
+              "options": [
+                "less than 90°",
+                "exactly 90°",
+                "more than 90°"
+              ],
+              "correctAnswer": "less than 90°",
+              "hint": "Think about the calculation"
+            },
+            {
+              "id": "ml47",
+              "type": "mcq",
+              "instruction": "Listen and solve.",
+              "ttsText": "An obtuse angle is between 90 and 180 degrees.",
+              "question": "An obtuse angle is...",
+              "options": [
+                "less than 90°",
+                "between 90° and 180°",
+                "exactly 180°"
+              ],
+              "correctAnswer": "between 90° and 180°",
+              "hint": "Think about the calculation"
+            },
+            {
+              "id": "ml48",
+              "type": "mcq",
+              "instruction": "Listen and solve.",
+              "ttsText": "The angles in a triangle always add up to 180 degrees.",
+              "question": "Angles in a triangle sum to?",
+              "options": [
+                "90°",
+                "180°",
+                "360°"
+              ],
+              "correctAnswer": "180°",
+              "hint": "Think about the calculation"
+            }
+          ],
+          "speaking": [
+            {
+              "id": "ms16a",
+              "type": "pronounce-word",
+              "instruction": "Say:",
+              "targetText": "angle",
+              "phonetic": ""
+            },
+            {
+              "id": "ms16b",
+              "type": "pronounce-sentence",
+              "instruction": "Read the problem aloud:",
+              "targetText": "An acute angle is less than 90 degrees.",
+              "hint": "Clear maths language"
+            }
+          ],
+          "reading": [
+            {
+              "id": "mr16",
+              "type": "mcq",
+              "passage": "An acute angle is less than 90 degrees. An obtuse angle is between 90 and 180 degrees. The angles in a triangle always add up to 180 degrees.",
+              "question": "An obtuse angle is...",
+              "options": [
+                "less than 90°",
+                "between 90° and 180°",
+                "exactly 180°"
+              ],
+              "correctAnswer": "between 90° and 180°",
+              "explanation": "An obtuse angle is between 90 and 180 degrees."
+            }
+          ],
+          "writing": [
+            {
+              "id": "mw16a",
+              "type": "spelling",
+              "instruction": "Spell this maths word:",
+              "ttsText": "angle",
+              "correctAnswer": "angle",
+              "hint": "A angles term"
+            },
+            {
+              "id": "mw16b",
+              "type": "fill-blank",
+              "instruction": "Fill in: An acute angle is...",
+              "correctAnswer": "less than 90°",
+              "hint": "Calculate!"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "m-u17",
+      "title": "Data and Charts",
+      "theme": "data",
+      "mascotTip": "Tot says: Let's read bar charts and pictograms!",
+      "lessons": [
+        {
+          "id": "m-u17-l1",
+          "title": "Data and Charts",
+          "objectives": [
+            "Solve data problems",
+            "Use data vocabulary"
+          ],
+          "vocabulary": [
+            {
+              "id": "mv97",
+              "word": "data",
+              "phonetic": "",
+              "meaning": "(data term)",
+              "meaningZh": "",
+              "example": "We use \"data\" in data."
+            },
+            {
+              "id": "mv98",
+              "word": "tally",
+              "phonetic": "",
+              "meaning": "(data term)",
+              "meaningZh": "",
+              "example": "We use \"tally\" in data."
+            },
+            {
+              "id": "mv99",
+              "word": "bar chart",
+              "phonetic": "",
+              "meaning": "(data term)",
+              "meaningZh": "",
+              "example": "We use \"bar chart\" in data."
+            },
+            {
+              "id": "mv100",
+              "word": "pictogram",
+              "phonetic": "",
+              "meaning": "(data term)",
+              "meaningZh": "",
+              "example": "We use \"pictogram\" in data."
+            },
+            {
+              "id": "mv101",
+              "word": "frequency",
+              "phonetic": "",
+              "meaning": "(data term)",
+              "meaningZh": "",
+              "example": "We use \"frequency\" in data."
+            },
+            {
+              "id": "mv102",
+              "word": "survey",
+              "phonetic": "",
+              "meaning": "(data term)",
+              "meaningZh": "",
+              "example": "We use \"survey\" in data."
+            }
+          ],
+          "listening": [
+            {
+              "id": "ml49",
+              "type": "mcq",
+              "instruction": "Listen and solve.",
+              "ttsText": "Blue has the tallest bar with 8, so blue is most popular.",
+              "question": "A bar chart shows: Red=5, Blue=8, Green=3. Most popular?",
+              "options": [
+                "Red",
+                "Blue",
+                "Green"
+              ],
+              "correctAnswer": "Blue",
+              "hint": "Think about the calculation"
+            },
+            {
+              "id": "ml50",
+              "type": "mcq",
+              "instruction": "Listen and solve.",
+              "ttsText": "5 + 8 + 3 = 16 total votes.",
+              "question": "Total of Red(5) + Blue(8) + Green(3)?",
+              "options": [
+                "14",
+                "16",
+                "18"
+              ],
+              "correctAnswer": "16",
+              "hint": "Think about the calculation"
+            },
+            {
+              "id": "ml51",
+              "type": "mcq",
+              "instruction": "Listen and solve.",
+              "ttsText": "Most popular (Blue, 8) minus least popular (Green, 3) = 5.",
+              "question": "Difference between most and least popular?",
+              "options": [
+                "3",
+                "5",
+                "8"
+              ],
+              "correctAnswer": "5",
+              "hint": "Think about the calculation"
+            }
+          ],
+          "speaking": [
+            {
+              "id": "ms17a",
+              "type": "pronounce-word",
+              "instruction": "Say:",
+              "targetText": "data",
+              "phonetic": ""
+            },
+            {
+              "id": "ms17b",
+              "type": "pronounce-sentence",
+              "instruction": "Read the problem aloud:",
+              "targetText": "Blue has the tallest bar with 8, so blue is most popular.",
+              "hint": "Clear maths language"
+            }
+          ],
+          "reading": [
+            {
+              "id": "mr17",
+              "type": "mcq",
+              "passage": "Blue has the tallest bar with 8, so blue is most popular. 5 + 8 + 3 = 16 total votes. Most popular (Blue, 8) minus least popular (Green, 3) = 5.",
+              "question": "Total of Red(5) + Blue(8) + Green(3)?",
+              "options": [
+                "14",
+                "16",
+                "18"
+              ],
+              "correctAnswer": "16",
+              "explanation": "5 + 8 + 3 = 16 total votes."
+            }
+          ],
+          "writing": [
+            {
+              "id": "mw17a",
+              "type": "spelling",
+              "instruction": "Spell this maths word:",
+              "ttsText": "data",
+              "correctAnswer": "data",
+              "hint": "A data term"
+            },
+            {
+              "id": "mw17b",
+              "type": "fill-blank",
+              "instruction": "Fill in: A bar chart shows: Red=5, Blue=8, Green=3. Most popular_____",
+              "correctAnswer": "Blue",
+              "hint": "Calculate!"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "m-u18",
+      "title": "Ratio and Proportion",
+      "theme": "ratio",
+      "mascotTip": "Tat says: Comparing amounts - that's ratio!",
+      "lessons": [
+        {
+          "id": "m-u18-l1",
+          "title": "Ratio and Proportion",
+          "objectives": [
+            "Solve ratio problems",
+            "Use ratio vocabulary"
+          ],
+          "vocabulary": [
+            {
+              "id": "mv103",
+              "word": "ratio",
+              "phonetic": "",
+              "meaning": "(ratio term)",
+              "meaningZh": "",
+              "example": "We use \"ratio\" in ratio."
+            },
+            {
+              "id": "mv104",
+              "word": "proportion",
+              "phonetic": "",
+              "meaning": "(ratio term)",
+              "meaningZh": "",
+              "example": "We use \"proportion\" in ratio."
+            },
+            {
+              "id": "mv105",
+              "word": "compare",
+              "phonetic": "",
+              "meaning": "(ratio term)",
+              "meaningZh": "",
+              "example": "We use \"compare\" in ratio."
+            },
+            {
+              "id": "mv106",
+              "word": "for every",
+              "phonetic": "",
+              "meaning": "(ratio term)",
+              "meaningZh": "",
+              "example": "We use \"for every\" in ratio."
+            },
+            {
+              "id": "mv107",
+              "word": "simplify",
+              "phonetic": "",
+              "meaning": "(ratio term)",
+              "meaningZh": "",
+              "example": "We use \"simplify\" in ratio."
+            },
+            {
+              "id": "mv108",
+              "word": "equivalent",
+              "phonetic": "",
+              "meaning": "(ratio term)",
+              "meaningZh": "",
+              "example": "We use \"equivalent\" in ratio."
+            }
+          ],
+          "listening": [
+            {
+              "id": "ml52",
+              "type": "mcq",
+              "instruction": "Listen and solve.",
+              "ttsText": "Divide both by 3: 6÷3 : 3÷3 = 2:1.",
+              "question": "Simplify the ratio 6:3",
+              "options": [
+                "2:1",
+                "3:1",
+                "1:2"
+              ],
+              "correctAnswer": "2:1",
+              "hint": "Think about the calculation"
+            },
+            {
+              "id": "ml53",
+              "type": "mcq",
+              "instruction": "Listen and solve.",
+              "ttsText": "3 parts = 15, so 1 part = 5. Girls = 2 × 5 = 10.",
+              "question": "Ratio of boys to girls is 3:2. 15 boys. How many girls?",
+              "options": [
+                "8",
+                "10",
+                "12"
+              ],
+              "correctAnswer": "10",
+              "hint": "Think about the calculation"
+            },
+            {
+              "id": "ml54",
+              "type": "mcq",
+              "instruction": "Listen and solve.",
+              "ttsText": "1:4 means for every 4 parts water, 1 part juice. 200 ÷ 4 = 50 ml juice.",
+              "question": "Mix juice:water = 1:4. For 200ml water, how much juice?",
+              "options": [
+                "40 ml",
+                "50 ml",
+                "60 ml"
+              ],
+              "correctAnswer": "50 ml",
+              "hint": "Think about the calculation"
+            }
+          ],
+          "speaking": [
+            {
+              "id": "ms18a",
+              "type": "pronounce-word",
+              "instruction": "Say:",
+              "targetText": "ratio",
+              "phonetic": ""
+            },
+            {
+              "id": "ms18b",
+              "type": "pronounce-sentence",
+              "instruction": "Read the problem aloud:",
+              "targetText": "Divide both by 3: 6÷3 : 3÷3 = 2:1.",
+              "hint": "Clear maths language"
+            }
+          ],
+          "reading": [
+            {
+              "id": "mr18",
+              "type": "mcq",
+              "passage": "Divide both by 3: 6÷3 : 3÷3 = 2:1. 3 parts = 15, so 1 part = 5. Girls = 2 × 5 = 10. 1:4 means for every 4 parts water, 1 part juice. 200 ÷ 4 = 50 ml juice.",
+              "question": "Ratio of boys to girls is 3:2. 15 boys. How many girls?",
+              "options": [
+                "8",
+                "10",
+                "12"
+              ],
+              "correctAnswer": "10",
+              "explanation": "3 parts = 15, so 1 part = 5. Girls = 2 × 5 = 10."
+            }
+          ],
+          "writing": [
+            {
+              "id": "mw18a",
+              "type": "spelling",
+              "instruction": "Spell this maths word:",
+              "ttsText": "ratio",
+              "correctAnswer": "ratio",
+              "hint": "A ratio term"
+            },
+            {
+              "id": "mw18b",
+              "type": "fill-blank",
+              "instruction": "Fill in: Simplify the ratio 6:3",
+              "correctAnswer": "2:1",
+              "hint": "Calculate!"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "m-u19",
+      "title": "Speed and Distance",
+      "theme": "speed",
+      "mascotTip": "Tot says: Speed = Distance ÷ Time!",
+      "lessons": [
+        {
+          "id": "m-u19-l1",
+          "title": "Speed and Distance",
+          "objectives": [
+            "Solve speed problems",
+            "Use speed vocabulary"
+          ],
+          "vocabulary": [
+            {
+              "id": "mv109",
+              "word": "speed",
+              "phonetic": "",
+              "meaning": "(speed term)",
+              "meaningZh": "",
+              "example": "We use \"speed\" in speed."
+            },
+            {
+              "id": "mv110",
+              "word": "distance",
+              "phonetic": "",
+              "meaning": "(speed term)",
+              "meaningZh": "",
+              "example": "We use \"distance\" in speed."
+            },
+            {
+              "id": "mv111",
+              "word": "time",
+              "phonetic": "",
+              "meaning": "(speed term)",
+              "meaningZh": "",
+              "example": "We use \"time\" in speed."
+            },
+            {
+              "id": "mv112",
+              "word": "kilometres",
+              "phonetic": "",
+              "meaning": "(speed term)",
+              "meaningZh": "",
+              "example": "We use \"kilometres\" in speed."
+            },
+            {
+              "id": "mv113",
+              "word": "per hour",
+              "phonetic": "",
+              "meaning": "(speed term)",
+              "meaningZh": "",
+              "example": "We use \"per hour\" in speed."
+            },
+            {
+              "id": "mv114",
+              "word": "calculate",
+              "phonetic": "",
+              "meaning": "(speed term)",
+              "meaningZh": "",
+              "example": "We use \"calculate\" in speed."
+            }
+          ],
+          "listening": [
+            {
+              "id": "ml55",
+              "type": "mcq",
+              "instruction": "Listen and solve.",
+              "ttsText": "Speed = Distance ÷ Time = 6 ÷ 2 = 3 km/h.",
+              "question": "Walk 6 km in 2 hours. Speed?",
+              "options": [
+                "2 km/h",
+                "3 km/h",
+                "4 km/h"
+              ],
+              "correctAnswer": "3 km/h",
+              "hint": "Think about the calculation"
+            },
+            {
+              "id": "ml56",
+              "type": "mcq",
+              "instruction": "Listen and solve.",
+              "ttsText": "Distance = Speed × Time = 60 × 3 = 180 km.",
+              "question": "Car at 60 km/h for 3 hours. Distance?",
+              "options": [
+                "120 km",
+                "180 km",
+                "200 km"
+              ],
+              "correctAnswer": "180 km",
+              "hint": "Think about the calculation"
+            },
+            {
+              "id": "ml57",
+              "type": "mcq",
+              "instruction": "Listen and solve.",
+              "ttsText": "Time = Distance ÷ Speed = 100 ÷ 50 = 2 hours.",
+              "question": "Travel 100 km at 50 km/h. Time?",
+              "options": [
+                "1 hour",
+                "2 hours",
+                "3 hours"
+              ],
+              "correctAnswer": "2 hours",
+              "hint": "Think about the calculation"
+            }
+          ],
+          "speaking": [
+            {
+              "id": "ms19a",
+              "type": "pronounce-word",
+              "instruction": "Say:",
+              "targetText": "speed",
+              "phonetic": ""
+            },
+            {
+              "id": "ms19b",
+              "type": "pronounce-sentence",
+              "instruction": "Read the problem aloud:",
+              "targetText": "Speed = Distance ÷ Time = 6 ÷ 2 = 3 km/h.",
+              "hint": "Clear maths language"
+            }
+          ],
+          "reading": [
+            {
+              "id": "mr19",
+              "type": "mcq",
+              "passage": "Speed = Distance ÷ Time = 6 ÷ 2 = 3 km/h. Distance = Speed × Time = 60 × 3 = 180 km. Time = Distance ÷ Speed = 100 ÷ 50 = 2 hours.",
+              "question": "Car at 60 km/h for 3 hours. Distance?",
+              "options": [
+                "120 km",
+                "180 km",
+                "200 km"
+              ],
+              "correctAnswer": "180 km",
+              "explanation": "Distance = Speed × Time = 60 × 3 = 180 km."
+            }
+          ],
+          "writing": [
+            {
+              "id": "mw19a",
+              "type": "spelling",
+              "instruction": "Spell this maths word:",
+              "ttsText": "speed",
+              "correctAnswer": "speed",
+              "hint": "A speed term"
+            },
+            {
+              "id": "mw19b",
+              "type": "fill-blank",
+              "instruction": "Fill in: Walk 6 km in 2 hours. Speed_____",
+              "correctAnswer": "3 km/h",
+              "hint": "Calculate!"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "m-u20",
+      "title": "Probability",
+      "theme": "probability",
+      "mascotTip": "Tat says: What are the chances? Let's find out!",
+      "lessons": [
+        {
+          "id": "m-u20-l1",
+          "title": "Probability",
+          "objectives": [
+            "Solve probability problems",
+            "Use probability vocabulary"
+          ],
+          "vocabulary": [
+            {
+              "id": "mv115",
+              "word": "probability",
+              "phonetic": "",
+              "meaning": "(probability term)",
+              "meaningZh": "",
+              "example": "We use \"probability\" in probability."
+            },
+            {
+              "id": "mv116",
+              "word": "likely",
+              "phonetic": "",
+              "meaning": "(probability term)",
+              "meaningZh": "",
+              "example": "We use \"likely\" in probability."
+            },
+            {
+              "id": "mv117",
+              "word": "unlikely",
+              "phonetic": "",
+              "meaning": "(probability term)",
+              "meaningZh": "",
+              "example": "We use \"unlikely\" in probability."
+            },
+            {
+              "id": "mv118",
+              "word": "certain",
+              "phonetic": "",
+              "meaning": "(probability term)",
+              "meaningZh": "",
+              "example": "We use \"certain\" in probability."
+            },
+            {
+              "id": "mv119",
+              "word": "impossible",
+              "phonetic": "",
+              "meaning": "(probability term)",
+              "meaningZh": "",
+              "example": "We use \"impossible\" in probability."
+            },
+            {
+              "id": "mv120",
+              "word": "chance",
+              "phonetic": "",
+              "meaning": "(probability term)",
+              "meaningZh": "",
+              "example": "We use \"chance\" in probability."
+            }
+          ],
+          "listening": [
+            {
+              "id": "ml58",
+              "type": "mcq",
+              "instruction": "Listen and solve.",
+              "ttsText": "A coin has 2 sides. Probability of heads = 1/2 or 50%.",
+              "question": "Flip a coin. Probability of heads?",
+              "options": [
+                "1/4",
+                "1/3",
+                "1/2"
+              ],
+              "correctAnswer": "1/2",
+              "hint": "Think about the calculation"
+            },
+            {
+              "id": "ml59",
+              "type": "mcq",
+              "instruction": "Listen and solve.",
+              "ttsText": "A dice has 6 faces. Probability of any one number = 1/6.",
+              "question": "Roll a dice. Probability of getting 6?",
+              "options": [
+                "1/2",
+                "1/4",
+                "1/6"
+              ],
+              "correctAnswer": "1/6",
+              "hint": "Think about the calculation"
+            },
+            {
+              "id": "ml60",
+              "type": "mcq",
+              "instruction": "Listen and solve.",
+              "ttsText": "Total balls = 5. Red = 3. Probability = 3/5.",
+              "question": "Bag has 3 red and 2 blue balls. Probability of red?",
+              "options": [
+                "2/5",
+                "3/5",
+                "1/2"
+              ],
+              "correctAnswer": "3/5",
+              "hint": "Think about the calculation"
+            }
+          ],
+          "speaking": [
+            {
+              "id": "ms20a",
+              "type": "pronounce-word",
+              "instruction": "Say:",
+              "targetText": "probability",
+              "phonetic": ""
+            },
+            {
+              "id": "ms20b",
+              "type": "pronounce-sentence",
+              "instruction": "Read the problem aloud:",
+              "targetText": "A coin has 2 sides.",
+              "hint": "Clear maths language"
+            }
+          ],
+          "reading": [
+            {
+              "id": "mr20",
+              "type": "mcq",
+              "passage": "A coin has 2 sides. Probability of heads = 1/2 or 50%. A dice has 6 faces. Probability of any one number = 1/6. Total balls = 5. Red = 3. Probability = 3/5.",
+              "question": "Roll a dice. Probability of getting 6?",
+              "options": [
+                "1/2",
+                "1/4",
+                "1/6"
+              ],
+              "correctAnswer": "1/6",
+              "explanation": "A dice has 6 faces. Probability of any one number = 1/6."
+            }
+          ],
+          "writing": [
+            {
+              "id": "mw20a",
+              "type": "spelling",
+              "instruction": "Spell this maths word:",
+              "ttsText": "probability",
+              "correctAnswer": "probability",
+              "hint": "A probability term"
+            },
+            {
+              "id": "mw20b",
+              "type": "fill-blank",
+              "instruction": "Fill in: Flip a coin. Probability of heads_____",
+              "correctAnswer": "1/2",
+              "hint": "Calculate!"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

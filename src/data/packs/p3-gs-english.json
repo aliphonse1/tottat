@@ -1,0 +1,2329 @@
+{
+  "id": "p3-gs-english",
+  "name": "General Studies in English 3",
+  "publisher": "Tot & Tat",
+  "grade": "P3",
+  "version": "2.0.0",
+  "units": [
+    {
+      "id": "gs-u1",
+      "title": "Our Community",
+      "theme": "our-community",
+      "mascotTip": "Tot says: Let's explore our community!",
+      "lessons": [
+        {
+          "id": "gs-u1-l1",
+          "title": "Our Community",
+          "objectives": [
+            "Learn Our Community vocabulary",
+            "Discuss Our Community topics"
+          ],
+          "vocabulary": [
+            {
+              "id": "gs-v1",
+              "word": "(Our Community word 1)",
+              "phonetic": "",
+              "meaning": "General Studies vocabulary",
+              "meaningZh": "",
+              "example": "Related to Our Community."
+            },
+            {
+              "id": "gs-v2",
+              "word": "(Our Community word 2)",
+              "phonetic": "",
+              "meaning": "General Studies vocabulary",
+              "meaningZh": "",
+              "example": "Related to Our Community."
+            },
+            {
+              "id": "gs-v3",
+              "word": "(Our Community word 3)",
+              "phonetic": "",
+              "meaning": "General Studies vocabulary",
+              "meaningZh": "",
+              "example": "Related to Our Community."
+            },
+            {
+              "id": "gs-v4",
+              "word": "(Our Community word 4)",
+              "phonetic": "",
+              "meaning": "General Studies vocabulary",
+              "meaningZh": "",
+              "example": "Related to Our Community."
+            },
+            {
+              "id": "gs-v5",
+              "word": "(Our Community word 5)",
+              "phonetic": "",
+              "meaning": "General Studies vocabulary",
+              "meaningZh": "",
+              "example": "Related to Our Community."
+            },
+            {
+              "id": "gs-v6",
+              "word": "(Our Community word 6)",
+              "phonetic": "",
+              "meaning": "General Studies vocabulary",
+              "meaningZh": "",
+              "example": "Related to Our Community."
+            }
+          ],
+          "listening": [
+            {
+              "id": "gs-l1a",
+              "type": "mcq",
+              "instruction": "Listen about Our Community.",
+              "ttsText": "This topic is about Our Community.",
+              "question": "What is the topic?",
+              "options": [
+                "Our Community",
+                "Something else",
+                "Not sure"
+              ],
+              "correctAnswer": "Our Community",
+              "hint": "Listen to the topic"
+            }
+          ],
+          "speaking": [
+            {
+              "id": "gs-s1",
+              "type": "pronounce-sentence",
+              "instruction": "Read aloud:",
+              "targetText": "I am learning about our community.",
+              "hint": "Clear pronunciation"
+            }
+          ],
+          "reading": [
+            {
+              "id": "gs-r1",
+              "type": "mcq",
+              "passage": "Our Community is an important topic in General Studies. We can learn many new English words about it.",
+              "question": "What subject is this?",
+              "options": [
+                "General Studies",
+                "Art",
+                "Music"
+              ],
+              "correctAnswer": "General Studies",
+              "explanation": "This is a General Studies topic"
+            }
+          ],
+          "writing": [
+            {
+              "id": "gs-w1",
+              "type": "spelling",
+              "instruction": "Spell the topic name:",
+              "ttsText": "our",
+              "correctAnswer": "our",
+              "hint": "First word of the topic"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gs-u2",
+      "title": "Hong Kong Geography",
+      "theme": "hong-kong-geography",
+      "mascotTip": "Tat says: Let's explore hong kong geography!",
+      "lessons": [
+        {
+          "id": "gs-u2-l1",
+          "title": "Hong Kong Geography",
+          "objectives": [
+            "Learn Hong Kong Geography vocabulary",
+            "Discuss Hong Kong Geography topics"
+          ],
+          "vocabulary": [
+            {
+              "id": "gs-v7",
+              "word": "(Hong Kong Geography word 1)",
+              "phonetic": "",
+              "meaning": "General Studies vocabulary",
+              "meaningZh": "",
+              "example": "Related to Hong Kong Geography."
+            },
+            {
+              "id": "gs-v8",
+              "word": "(Hong Kong Geography word 2)",
+              "phonetic": "",
+              "meaning": "General Studies vocabulary",
+              "meaningZh": "",
+              "example": "Related to Hong Kong Geography."
+            },
+            {
+              "id": "gs-v9",
+              "word": "(Hong Kong Geography word 3)",
+              "phonetic": "",
+              "meaning": "General Studies vocabulary",
+              "meaningZh": "",
+              "example": "Related to Hong Kong Geography."
+            },
+            {
+              "id": "gs-v10",
+              "word": "(Hong Kong Geography word 4)",
+              "phonetic": "",
+              "meaning": "General Studies vocabulary",
+              "meaningZh": "",
+              "example": "Related to Hong Kong Geography."
+            },
+            {
+              "id": "gs-v11",
+              "word": "(Hong Kong Geography word 5)",
+              "phonetic": "",
+              "meaning": "General Studies vocabulary",
+              "meaningZh": "",
+              "example": "Related to Hong Kong Geography."
+            },
+            {
+              "id": "gs-v12",
+              "word": "(Hong Kong Geography word 6)",
+              "phonetic": "",
+              "meaning": "General Studies vocabulary",
+              "meaningZh": "",
+              "example": "Related to Hong Kong Geography."
+            }
+          ],
+          "listening": [
+            {
+              "id": "gs-l2a",
+              "type": "mcq",
+              "instruction": "Listen about Hong Kong Geography.",
+              "ttsText": "This topic is about Hong Kong Geography.",
+              "question": "What is the topic?",
+              "options": [
+                "Hong Kong Geography",
+                "Something else",
+                "Not sure"
+              ],
+              "correctAnswer": "Hong Kong Geography",
+              "hint": "Listen to the topic"
+            }
+          ],
+          "speaking": [
+            {
+              "id": "gs-s2",
+              "type": "pronounce-sentence",
+              "instruction": "Read aloud:",
+              "targetText": "I am learning about hong kong geography.",
+              "hint": "Clear pronunciation"
+            }
+          ],
+          "reading": [
+            {
+              "id": "gs-r2",
+              "type": "mcq",
+              "passage": "Hong Kong Geography is an important topic in General Studies. We can learn many new English words about it.",
+              "question": "What subject is this?",
+              "options": [
+                "General Studies",
+                "Art",
+                "Music"
+              ],
+              "correctAnswer": "General Studies",
+              "explanation": "This is a General Studies topic"
+            }
+          ],
+          "writing": [
+            {
+              "id": "gs-w2",
+              "type": "spelling",
+              "instruction": "Spell the topic name:",
+              "ttsText": "hong",
+              "correctAnswer": "hong",
+              "hint": "First word of the topic"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gs-u3",
+      "title": "Healthy Habits and Safety",
+      "theme": "healthy-habits-safety",
+      "mascotTip": "Tot says: Let's explore healthy habits and safety!",
+      "lessons": [
+        {
+          "id": "gs-u3-l1",
+          "title": "Healthy Habits and Safety",
+          "objectives": [
+            "Learn Healthy Habits and Safety vocabulary",
+            "Discuss Healthy Habits and Safety topics"
+          ],
+          "vocabulary": [
+            {
+              "id": "gs-v13",
+              "word": "(Healthy Habits and Safety word 1)",
+              "phonetic": "",
+              "meaning": "General Studies vocabulary",
+              "meaningZh": "",
+              "example": "Related to Healthy Habits and Safety."
+            },
+            {
+              "id": "gs-v14",
+              "word": "(Healthy Habits and Safety word 2)",
+              "phonetic": "",
+              "meaning": "General Studies vocabulary",
+              "meaningZh": "",
+              "example": "Related to Healthy Habits and Safety."
+            },
+            {
+              "id": "gs-v15",
+              "word": "(Healthy Habits and Safety word 3)",
+              "phonetic": "",
+              "meaning": "General Studies vocabulary",
+              "meaningZh": "",
+              "example": "Related to Healthy Habits and Safety."
+            },
+            {
+              "id": "gs-v16",
+              "word": "(Healthy Habits and Safety word 4)",
+              "phonetic": "",
+              "meaning": "General Studies vocabulary",
+              "meaningZh": "",
+              "example": "Related to Healthy Habits and Safety."
+            },
+            {
+              "id": "gs-v17",
+              "word": "(Healthy Habits and Safety word 5)",
+              "phonetic": "",
+              "meaning": "General Studies vocabulary",
+              "meaningZh": "",
+              "example": "Related to Healthy Habits and Safety."
+            },
+            {
+              "id": "gs-v18",
+              "word": "(Healthy Habits and Safety word 6)",
+              "phonetic": "",
+              "meaning": "General Studies vocabulary",
+              "meaningZh": "",
+              "example": "Related to Healthy Habits and Safety."
+            }
+          ],
+          "listening": [
+            {
+              "id": "gs-l3a",
+              "type": "mcq",
+              "instruction": "Listen about Healthy Habits and Safety.",
+              "ttsText": "This topic is about Healthy Habits and Safety.",
+              "question": "What is the topic?",
+              "options": [
+                "Healthy Habits and Safety",
+                "Something else",
+                "Not sure"
+              ],
+              "correctAnswer": "Healthy Habits and Safety",
+              "hint": "Listen to the topic"
+            }
+          ],
+          "speaking": [
+            {
+              "id": "gs-s3",
+              "type": "pronounce-sentence",
+              "instruction": "Read aloud:",
+              "targetText": "I am learning about healthy habits and safety.",
+              "hint": "Clear pronunciation"
+            }
+          ],
+          "reading": [
+            {
+              "id": "gs-r3",
+              "type": "mcq",
+              "passage": "Healthy Habits and Safety is an important topic in General Studies. We can learn many new English words about it.",
+              "question": "What subject is this?",
+              "options": [
+                "General Studies",
+                "Art",
+                "Music"
+              ],
+              "correctAnswer": "General Studies",
+              "explanation": "This is a General Studies topic"
+            }
+          ],
+          "writing": [
+            {
+              "id": "gs-w3",
+              "type": "spelling",
+              "instruction": "Spell the topic name:",
+              "ttsText": "healthy",
+              "correctAnswer": "healthy",
+              "hint": "First word of the topic"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gs-u4",
+      "title": "Chinese Festivals",
+      "theme": "chinese-festivals",
+      "mascotTip": "Tat says: Let's explore chinese festivals!",
+      "lessons": [
+        {
+          "id": "gs-u4-l1",
+          "title": "Chinese Festivals",
+          "objectives": [
+            "Learn Chinese Festivals vocabulary",
+            "Discuss Chinese Festivals topics"
+          ],
+          "vocabulary": [
+            {
+              "id": "gs-v19",
+              "word": "(Chinese Festivals word 1)",
+              "phonetic": "",
+              "meaning": "General Studies vocabulary",
+              "meaningZh": "",
+              "example": "Related to Chinese Festivals."
+            },
+            {
+              "id": "gs-v20",
+              "word": "(Chinese Festivals word 2)",
+              "phonetic": "",
+              "meaning": "General Studies vocabulary",
+              "meaningZh": "",
+              "example": "Related to Chinese Festivals."
+            },
+            {
+              "id": "gs-v21",
+              "word": "(Chinese Festivals word 3)",
+              "phonetic": "",
+              "meaning": "General Studies vocabulary",
+              "meaningZh": "",
+              "example": "Related to Chinese Festivals."
+            },
+            {
+              "id": "gs-v22",
+              "word": "(Chinese Festivals word 4)",
+              "phonetic": "",
+              "meaning": "General Studies vocabulary",
+              "meaningZh": "",
+              "example": "Related to Chinese Festivals."
+            },
+            {
+              "id": "gs-v23",
+              "word": "(Chinese Festivals word 5)",
+              "phonetic": "",
+              "meaning": "General Studies vocabulary",
+              "meaningZh": "",
+              "example": "Related to Chinese Festivals."
+            },
+            {
+              "id": "gs-v24",
+              "word": "(Chinese Festivals word 6)",
+              "phonetic": "",
+              "meaning": "General Studies vocabulary",
+              "meaningZh": "",
+              "example": "Related to Chinese Festivals."
+            }
+          ],
+          "listening": [
+            {
+              "id": "gs-l4a",
+              "type": "mcq",
+              "instruction": "Listen about Chinese Festivals.",
+              "ttsText": "This topic is about Chinese Festivals.",
+              "question": "What is the topic?",
+              "options": [
+                "Chinese Festivals",
+                "Something else",
+                "Not sure"
+              ],
+              "correctAnswer": "Chinese Festivals",
+              "hint": "Listen to the topic"
+            }
+          ],
+          "speaking": [
+            {
+              "id": "gs-s4",
+              "type": "pronounce-sentence",
+              "instruction": "Read aloud:",
+              "targetText": "I am learning about chinese festivals.",
+              "hint": "Clear pronunciation"
+            }
+          ],
+          "reading": [
+            {
+              "id": "gs-r4",
+              "type": "mcq",
+              "passage": "Chinese Festivals is an important topic in General Studies. We can learn many new English words about it.",
+              "question": "What subject is this?",
+              "options": [
+                "General Studies",
+                "Art",
+                "Music"
+              ],
+              "correctAnswer": "General Studies",
+              "explanation": "This is a General Studies topic"
+            }
+          ],
+          "writing": [
+            {
+              "id": "gs-w4",
+              "type": "spelling",
+              "instruction": "Spell the topic name:",
+              "ttsText": "chinese",
+              "correctAnswer": "chinese",
+              "hint": "First word of the topic"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gs-u5",
+      "title": "Transport in Hong Kong",
+      "theme": "transport-in-hong-kong",
+      "mascotTip": "Tot says: Let's explore transport in hong kong!",
+      "lessons": [
+        {
+          "id": "gs-u5-l1",
+          "title": "Transport in Hong Kong",
+          "objectives": [
+            "Learn Transport in Hong Kong vocabulary",
+            "Discuss Transport in Hong Kong topics"
+          ],
+          "vocabulary": [
+            {
+              "id": "gs-v25",
+              "word": "(Transport in Hong Kong word 1)",
+              "phonetic": "",
+              "meaning": "General Studies vocabulary",
+              "meaningZh": "",
+              "example": "Related to Transport in Hong Kong."
+            },
+            {
+              "id": "gs-v26",
+              "word": "(Transport in Hong Kong word 2)",
+              "phonetic": "",
+              "meaning": "General Studies vocabulary",
+              "meaningZh": "",
+              "example": "Related to Transport in Hong Kong."
+            },
+            {
+              "id": "gs-v27",
+              "word": "(Transport in Hong Kong word 3)",
+              "phonetic": "",
+              "meaning": "General Studies vocabulary",
+              "meaningZh": "",
+              "example": "Related to Transport in Hong Kong."
+            },
+            {
+              "id": "gs-v28",
+              "word": "(Transport in Hong Kong word 4)",
+              "phonetic": "",
+              "meaning": "General Studies vocabulary",
+              "meaningZh": "",
+              "example": "Related to Transport in Hong Kong."
+            },
+            {
+              "id": "gs-v29",
+              "word": "(Transport in Hong Kong word 5)",
+              "phonetic": "",
+              "meaning": "General Studies vocabulary",
+              "meaningZh": "",
+              "example": "Related to Transport in Hong Kong."
+            },
+            {
+              "id": "gs-v30",
+              "word": "(Transport in Hong Kong word 6)",
+              "phonetic": "",
+              "meaning": "General Studies vocabulary",
+              "meaningZh": "",
+              "example": "Related to Transport in Hong Kong."
+            }
+          ],
+          "listening": [
+            {
+              "id": "gs-l5a",
+              "type": "mcq",
+              "instruction": "Listen about Transport in Hong Kong.",
+              "ttsText": "This topic is about Transport in Hong Kong.",
+              "question": "What is the topic?",
+              "options": [
+                "Transport in Hong Kong",
+                "Something else",
+                "Not sure"
+              ],
+              "correctAnswer": "Transport in Hong Kong",
+              "hint": "Listen to the topic"
+            }
+          ],
+          "speaking": [
+            {
+              "id": "gs-s5",
+              "type": "pronounce-sentence",
+              "instruction": "Read aloud:",
+              "targetText": "I am learning about transport in hong kong.",
+              "hint": "Clear pronunciation"
+            }
+          ],
+          "reading": [
+            {
+              "id": "gs-r5",
+              "type": "mcq",
+              "passage": "Transport in Hong Kong is an important topic in General Studies. We can learn many new English words about it.",
+              "question": "What subject is this?",
+              "options": [
+                "General Studies",
+                "Art",
+                "Music"
+              ],
+              "correctAnswer": "General Studies",
+              "explanation": "This is a General Studies topic"
+            }
+          ],
+          "writing": [
+            {
+              "id": "gs-w5",
+              "type": "spelling",
+              "instruction": "Spell the topic name:",
+              "ttsText": "transport",
+              "correctAnswer": "transport",
+              "hint": "First word of the topic"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gs-u6",
+      "title": "Caring for Others",
+      "theme": "caring-for-others",
+      "mascotTip": "Tat says: Let's explore caring for others!",
+      "lessons": [
+        {
+          "id": "gs-u6-l1",
+          "title": "Caring for Others",
+          "objectives": [
+            "Learn Caring for Others vocabulary",
+            "Discuss Caring for Others topics"
+          ],
+          "vocabulary": [
+            {
+              "id": "gs-v31",
+              "word": "(Caring for Others word 1)",
+              "phonetic": "",
+              "meaning": "General Studies vocabulary",
+              "meaningZh": "",
+              "example": "Related to Caring for Others."
+            },
+            {
+              "id": "gs-v32",
+              "word": "(Caring for Others word 2)",
+              "phonetic": "",
+              "meaning": "General Studies vocabulary",
+              "meaningZh": "",
+              "example": "Related to Caring for Others."
+            },
+            {
+              "id": "gs-v33",
+              "word": "(Caring for Others word 3)",
+              "phonetic": "",
+              "meaning": "General Studies vocabulary",
+              "meaningZh": "",
+              "example": "Related to Caring for Others."
+            },
+            {
+              "id": "gs-v34",
+              "word": "(Caring for Others word 4)",
+              "phonetic": "",
+              "meaning": "General Studies vocabulary",
+              "meaningZh": "",
+              "example": "Related to Caring for Others."
+            },
+            {
+              "id": "gs-v35",
+              "word": "(Caring for Others word 5)",
+              "phonetic": "",
+              "meaning": "General Studies vocabulary",
+              "meaningZh": "",
+              "example": "Related to Caring for Others."
+            },
+            {
+              "id": "gs-v36",
+              "word": "(Caring for Others word 6)",
+              "phonetic": "",
+              "meaning": "General Studies vocabulary",
+              "meaningZh": "",
+              "example": "Related to Caring for Others."
+            }
+          ],
+          "listening": [
+            {
+              "id": "gs-l6a",
+              "type": "mcq",
+              "instruction": "Listen about Caring for Others.",
+              "ttsText": "This topic is about Caring for Others.",
+              "question": "What is the topic?",
+              "options": [
+                "Caring for Others",
+                "Something else",
+                "Not sure"
+              ],
+              "correctAnswer": "Caring for Others",
+              "hint": "Listen to the topic"
+            }
+          ],
+          "speaking": [
+            {
+              "id": "gs-s6",
+              "type": "pronounce-sentence",
+              "instruction": "Read aloud:",
+              "targetText": "I am learning about caring for others.",
+              "hint": "Clear pronunciation"
+            }
+          ],
+          "reading": [
+            {
+              "id": "gs-r6",
+              "type": "mcq",
+              "passage": "Caring for Others is an important topic in General Studies. We can learn many new English words about it.",
+              "question": "What subject is this?",
+              "options": [
+                "General Studies",
+                "Art",
+                "Music"
+              ],
+              "correctAnswer": "General Studies",
+              "explanation": "This is a General Studies topic"
+            }
+          ],
+          "writing": [
+            {
+              "id": "gs-w6",
+              "type": "spelling",
+              "instruction": "Spell the topic name:",
+              "ttsText": "caring",
+              "correctAnswer": "caring",
+              "hint": "First word of the topic"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gs-u7",
+      "title": "Rules and Laws",
+      "theme": "rules-laws",
+      "mascotTip": "Tot says: Let's explore rules and laws!",
+      "lessons": [
+        {
+          "id": "gs-u7-l1",
+          "title": "Rules and Laws",
+          "objectives": [
+            "Learn Rules and Laws vocabulary",
+            "Discuss Rules and Laws topics"
+          ],
+          "vocabulary": [
+            {
+              "id": "gs-v37",
+              "word": "(Rules and Laws word 1)",
+              "phonetic": "",
+              "meaning": "General Studies vocabulary",
+              "meaningZh": "",
+              "example": "Related to Rules and Laws."
+            },
+            {
+              "id": "gs-v38",
+              "word": "(Rules and Laws word 2)",
+              "phonetic": "",
+              "meaning": "General Studies vocabulary",
+              "meaningZh": "",
+              "example": "Related to Rules and Laws."
+            },
+            {
+              "id": "gs-v39",
+              "word": "(Rules and Laws word 3)",
+              "phonetic": "",
+              "meaning": "General Studies vocabulary",
+              "meaningZh": "",
+              "example": "Related to Rules and Laws."
+            },
+            {
+              "id": "gs-v40",
+              "word": "(Rules and Laws word 4)",
+              "phonetic": "",
+              "meaning": "General Studies vocabulary",
+              "meaningZh": "",
+              "example": "Related to Rules and Laws."
+            },
+            {
+              "id": "gs-v41",
+              "word": "(Rules and Laws word 5)",
+              "phonetic": "",
+              "meaning": "General Studies vocabulary",
+              "meaningZh": "",
+              "example": "Related to Rules and Laws."
+            },
+            {
+              "id": "gs-v42",
+              "word": "(Rules and Laws word 6)",
+              "phonetic": "",
+              "meaning": "General Studies vocabulary",
+              "meaningZh": "",
+              "example": "Related to Rules and Laws."
+            }
+          ],
+          "listening": [
+            {
+              "id": "gs-l7a",
+              "type": "mcq",
+              "instruction": "Listen about Rules and Laws.",
+              "ttsText": "This topic is about Rules and Laws.",
+              "question": "What is the topic?",
+              "options": [
+                "Rules and Laws",
+                "Something else",
+                "Not sure"
+              ],
+              "correctAnswer": "Rules and Laws",
+              "hint": "Listen to the topic"
+            }
+          ],
+          "speaking": [
+            {
+              "id": "gs-s7",
+              "type": "pronounce-sentence",
+              "instruction": "Read aloud:",
+              "targetText": "I am learning about rules and laws.",
+              "hint": "Clear pronunciation"
+            }
+          ],
+          "reading": [
+            {
+              "id": "gs-r7",
+              "type": "mcq",
+              "passage": "Rules and Laws is an important topic in General Studies. We can learn many new English words about it.",
+              "question": "What subject is this?",
+              "options": [
+                "General Studies",
+                "Art",
+                "Music"
+              ],
+              "correctAnswer": "General Studies",
+              "explanation": "This is a General Studies topic"
+            }
+          ],
+          "writing": [
+            {
+              "id": "gs-w7",
+              "type": "spelling",
+              "instruction": "Spell the topic name:",
+              "ttsText": "rules",
+              "correctAnswer": "rules",
+              "hint": "First word of the topic"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gs-u8",
+      "title": "Our Government",
+      "theme": "our-government",
+      "mascotTip": "Tat says: Let's explore our government!",
+      "lessons": [
+        {
+          "id": "gs-u8-l1",
+          "title": "Our Government",
+          "objectives": [
+            "Learn Our Government vocabulary",
+            "Discuss Our Government topics"
+          ],
+          "vocabulary": [
+            {
+              "id": "gs-v43",
+              "word": "(Our Government word 1)",
+              "phonetic": "",
+              "meaning": "General Studies vocabulary",
+              "meaningZh": "",
+              "example": "Related to Our Government."
+            },
+            {
+              "id": "gs-v44",
+              "word": "(Our Government word 2)",
+              "phonetic": "",
+              "meaning": "General Studies vocabulary",
+              "meaningZh": "",
+              "example": "Related to Our Government."
+            },
+            {
+              "id": "gs-v45",
+              "word": "(Our Government word 3)",
+              "phonetic": "",
+              "meaning": "General Studies vocabulary",
+              "meaningZh": "",
+              "example": "Related to Our Government."
+            },
+            {
+              "id": "gs-v46",
+              "word": "(Our Government word 4)",
+              "phonetic": "",
+              "meaning": "General Studies vocabulary",
+              "meaningZh": "",
+              "example": "Related to Our Government."
+            },
+            {
+              "id": "gs-v47",
+              "word": "(Our Government word 5)",
+              "phonetic": "",
+              "meaning": "General Studies vocabulary",
+              "meaningZh": "",
+              "example": "Related to Our Government."
+            },
+            {
+              "id": "gs-v48",
+              "word": "(Our Government word 6)",
+              "phonetic": "",
+              "meaning": "General Studies vocabulary",
+              "meaningZh": "",
+              "example": "Related to Our Government."
+            }
+          ],
+          "listening": [
+            {
+              "id": "gs-l8a",
+              "type": "mcq",
+              "instruction": "Listen about Our Government.",
+              "ttsText": "This topic is about Our Government.",
+              "question": "What is the topic?",
+              "options": [
+                "Our Government",
+                "Something else",
+                "Not sure"
+              ],
+              "correctAnswer": "Our Government",
+              "hint": "Listen to the topic"
+            }
+          ],
+          "speaking": [
+            {
+              "id": "gs-s8",
+              "type": "pronounce-sentence",
+              "instruction": "Read aloud:",
+              "targetText": "I am learning about our government.",
+              "hint": "Clear pronunciation"
+            }
+          ],
+          "reading": [
+            {
+              "id": "gs-r8",
+              "type": "mcq",
+              "passage": "Our Government is an important topic in General Studies. We can learn many new English words about it.",
+              "question": "What subject is this?",
+              "options": [
+                "General Studies",
+                "Art",
+                "Music"
+              ],
+              "correctAnswer": "General Studies",
+              "explanation": "This is a General Studies topic"
+            }
+          ],
+          "writing": [
+            {
+              "id": "gs-w8",
+              "type": "spelling",
+              "instruction": "Spell the topic name:",
+              "ttsText": "our",
+              "correctAnswer": "our",
+              "hint": "First word of the topic"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gs-u9",
+      "title": "Global Connections",
+      "theme": "global-connections",
+      "mascotTip": "Tot says: Let's explore global connections!",
+      "lessons": [
+        {
+          "id": "gs-u9-l1",
+          "title": "Global Connections",
+          "objectives": [
+            "Learn Global Connections vocabulary",
+            "Discuss Global Connections topics"
+          ],
+          "vocabulary": [
+            {
+              "id": "gs-v49",
+              "word": "(Global Connections word 1)",
+              "phonetic": "",
+              "meaning": "General Studies vocabulary",
+              "meaningZh": "",
+              "example": "Related to Global Connections."
+            },
+            {
+              "id": "gs-v50",
+              "word": "(Global Connections word 2)",
+              "phonetic": "",
+              "meaning": "General Studies vocabulary",
+              "meaningZh": "",
+              "example": "Related to Global Connections."
+            },
+            {
+              "id": "gs-v51",
+              "word": "(Global Connections word 3)",
+              "phonetic": "",
+              "meaning": "General Studies vocabulary",
+              "meaningZh": "",
+              "example": "Related to Global Connections."
+            },
+            {
+              "id": "gs-v52",
+              "word": "(Global Connections word 4)",
+              "phonetic": "",
+              "meaning": "General Studies vocabulary",
+              "meaningZh": "",
+              "example": "Related to Global Connections."
+            },
+            {
+              "id": "gs-v53",
+              "word": "(Global Connections word 5)",
+              "phonetic": "",
+              "meaning": "General Studies vocabulary",
+              "meaningZh": "",
+              "example": "Related to Global Connections."
+            },
+            {
+              "id": "gs-v54",
+              "word": "(Global Connections word 6)",
+              "phonetic": "",
+              "meaning": "General Studies vocabulary",
+              "meaningZh": "",
+              "example": "Related to Global Connections."
+            }
+          ],
+          "listening": [
+            {
+              "id": "gs-l9a",
+              "type": "mcq",
+              "instruction": "Listen about Global Connections.",
+              "ttsText": "This topic is about Global Connections.",
+              "question": "What is the topic?",
+              "options": [
+                "Global Connections",
+                "Something else",
+                "Not sure"
+              ],
+              "correctAnswer": "Global Connections",
+              "hint": "Listen to the topic"
+            }
+          ],
+          "speaking": [
+            {
+              "id": "gs-s9",
+              "type": "pronounce-sentence",
+              "instruction": "Read aloud:",
+              "targetText": "I am learning about global connections.",
+              "hint": "Clear pronunciation"
+            }
+          ],
+          "reading": [
+            {
+              "id": "gs-r9",
+              "type": "mcq",
+              "passage": "Global Connections is an important topic in General Studies. We can learn many new English words about it.",
+              "question": "What subject is this?",
+              "options": [
+                "General Studies",
+                "Art",
+                "Music"
+              ],
+              "correctAnswer": "General Studies",
+              "explanation": "This is a General Studies topic"
+            }
+          ],
+          "writing": [
+            {
+              "id": "gs-w9",
+              "type": "spelling",
+              "instruction": "Spell the topic name:",
+              "ttsText": "global",
+              "correctAnswer": "global",
+              "hint": "First word of the topic"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gs-u10",
+      "title": "Protecting the Environment",
+      "theme": "protecting-the-environment",
+      "mascotTip": "Tat says: Let's explore protecting the environment!",
+      "lessons": [
+        {
+          "id": "gs-u10-l1",
+          "title": "Protecting the Environment",
+          "objectives": [
+            "Learn Protecting the Environment vocabulary",
+            "Discuss Protecting the Environment topics"
+          ],
+          "vocabulary": [
+            {
+              "id": "gs-v55",
+              "word": "(Protecting the Environment word 1)",
+              "phonetic": "",
+              "meaning": "General Studies vocabulary",
+              "meaningZh": "",
+              "example": "Related to Protecting the Environment."
+            },
+            {
+              "id": "gs-v56",
+              "word": "(Protecting the Environment word 2)",
+              "phonetic": "",
+              "meaning": "General Studies vocabulary",
+              "meaningZh": "",
+              "example": "Related to Protecting the Environment."
+            },
+            {
+              "id": "gs-v57",
+              "word": "(Protecting the Environment word 3)",
+              "phonetic": "",
+              "meaning": "General Studies vocabulary",
+              "meaningZh": "",
+              "example": "Related to Protecting the Environment."
+            },
+            {
+              "id": "gs-v58",
+              "word": "(Protecting the Environment word 4)",
+              "phonetic": "",
+              "meaning": "General Studies vocabulary",
+              "meaningZh": "",
+              "example": "Related to Protecting the Environment."
+            },
+            {
+              "id": "gs-v59",
+              "word": "(Protecting the Environment word 5)",
+              "phonetic": "",
+              "meaning": "General Studies vocabulary",
+              "meaningZh": "",
+              "example": "Related to Protecting the Environment."
+            },
+            {
+              "id": "gs-v60",
+              "word": "(Protecting the Environment word 6)",
+              "phonetic": "",
+              "meaning": "General Studies vocabulary",
+              "meaningZh": "",
+              "example": "Related to Protecting the Environment."
+            }
+          ],
+          "listening": [
+            {
+              "id": "gs-l10a",
+              "type": "mcq",
+              "instruction": "Listen about Protecting the Environment.",
+              "ttsText": "This topic is about Protecting the Environment.",
+              "question": "What is the topic?",
+              "options": [
+                "Protecting the Environment",
+                "Something else",
+                "Not sure"
+              ],
+              "correctAnswer": "Protecting the Environment",
+              "hint": "Listen to the topic"
+            }
+          ],
+          "speaking": [
+            {
+              "id": "gs-s10",
+              "type": "pronounce-sentence",
+              "instruction": "Read aloud:",
+              "targetText": "I am learning about protecting the environment.",
+              "hint": "Clear pronunciation"
+            }
+          ],
+          "reading": [
+            {
+              "id": "gs-r10",
+              "type": "mcq",
+              "passage": "Protecting the Environment is an important topic in General Studies. We can learn many new English words about it.",
+              "question": "What subject is this?",
+              "options": [
+                "General Studies",
+                "Art",
+                "Music"
+              ],
+              "correctAnswer": "General Studies",
+              "explanation": "This is a General Studies topic"
+            }
+          ],
+          "writing": [
+            {
+              "id": "gs-w10",
+              "type": "spelling",
+              "instruction": "Spell the topic name:",
+              "ttsText": "protecting",
+              "correctAnswer": "protecting",
+              "hint": "First word of the topic"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gs-u11",
+      "title": "Water and Resources",
+      "theme": "water-resources",
+      "mascotTip": "Tot says: Let's explore water and resources!",
+      "lessons": [
+        {
+          "id": "gs-u11-l1",
+          "title": "Water and Resources",
+          "objectives": [
+            "Learn Water and Resources vocabulary",
+            "Discuss Water and Resources topics"
+          ],
+          "vocabulary": [
+            {
+              "id": "gs-v61",
+              "word": "(Water and Resources word 1)",
+              "phonetic": "",
+              "meaning": "General Studies vocabulary",
+              "meaningZh": "",
+              "example": "Related to Water and Resources."
+            },
+            {
+              "id": "gs-v62",
+              "word": "(Water and Resources word 2)",
+              "phonetic": "",
+              "meaning": "General Studies vocabulary",
+              "meaningZh": "",
+              "example": "Related to Water and Resources."
+            },
+            {
+              "id": "gs-v63",
+              "word": "(Water and Resources word 3)",
+              "phonetic": "",
+              "meaning": "General Studies vocabulary",
+              "meaningZh": "",
+              "example": "Related to Water and Resources."
+            },
+            {
+              "id": "gs-v64",
+              "word": "(Water and Resources word 4)",
+              "phonetic": "",
+              "meaning": "General Studies vocabulary",
+              "meaningZh": "",
+              "example": "Related to Water and Resources."
+            },
+            {
+              "id": "gs-v65",
+              "word": "(Water and Resources word 5)",
+              "phonetic": "",
+              "meaning": "General Studies vocabulary",
+              "meaningZh": "",
+              "example": "Related to Water and Resources."
+            },
+            {
+              "id": "gs-v66",
+              "word": "(Water and Resources word 6)",
+              "phonetic": "",
+              "meaning": "General Studies vocabulary",
+              "meaningZh": "",
+              "example": "Related to Water and Resources."
+            }
+          ],
+          "listening": [
+            {
+              "id": "gs-l11a",
+              "type": "mcq",
+              "instruction": "Listen about Water and Resources.",
+              "ttsText": "This topic is about Water and Resources.",
+              "question": "What is the topic?",
+              "options": [
+                "Water and Resources",
+                "Something else",
+                "Not sure"
+              ],
+              "correctAnswer": "Water and Resources",
+              "hint": "Listen to the topic"
+            }
+          ],
+          "speaking": [
+            {
+              "id": "gs-s11",
+              "type": "pronounce-sentence",
+              "instruction": "Read aloud:",
+              "targetText": "I am learning about water and resources.",
+              "hint": "Clear pronunciation"
+            }
+          ],
+          "reading": [
+            {
+              "id": "gs-r11",
+              "type": "mcq",
+              "passage": "Water and Resources is an important topic in General Studies. We can learn many new English words about it.",
+              "question": "What subject is this?",
+              "options": [
+                "General Studies",
+                "Art",
+                "Music"
+              ],
+              "correctAnswer": "General Studies",
+              "explanation": "This is a General Studies topic"
+            }
+          ],
+          "writing": [
+            {
+              "id": "gs-w11",
+              "type": "spelling",
+              "instruction": "Spell the topic name:",
+              "ttsText": "water",
+              "correctAnswer": "water",
+              "hint": "First word of the topic"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gs-u12",
+      "title": "History of Hong Kong",
+      "theme": "history-of-hong-kong",
+      "mascotTip": "Tat says: Let's explore history of hong kong!",
+      "lessons": [
+        {
+          "id": "gs-u12-l1",
+          "title": "History of Hong Kong",
+          "objectives": [
+            "Learn History of Hong Kong vocabulary",
+            "Discuss History of Hong Kong topics"
+          ],
+          "vocabulary": [
+            {
+              "id": "gs-v67",
+              "word": "(History of Hong Kong word 1)",
+              "phonetic": "",
+              "meaning": "General Studies vocabulary",
+              "meaningZh": "",
+              "example": "Related to History of Hong Kong."
+            },
+            {
+              "id": "gs-v68",
+              "word": "(History of Hong Kong word 2)",
+              "phonetic": "",
+              "meaning": "General Studies vocabulary",
+              "meaningZh": "",
+              "example": "Related to History of Hong Kong."
+            },
+            {
+              "id": "gs-v69",
+              "word": "(History of Hong Kong word 3)",
+              "phonetic": "",
+              "meaning": "General Studies vocabulary",
+              "meaningZh": "",
+              "example": "Related to History of Hong Kong."
+            },
+            {
+              "id": "gs-v70",
+              "word": "(History of Hong Kong word 4)",
+              "phonetic": "",
+              "meaning": "General Studies vocabulary",
+              "meaningZh": "",
+              "example": "Related to History of Hong Kong."
+            },
+            {
+              "id": "gs-v71",
+              "word": "(History of Hong Kong word 5)",
+              "phonetic": "",
+              "meaning": "General Studies vocabulary",
+              "meaningZh": "",
+              "example": "Related to History of Hong Kong."
+            },
+            {
+              "id": "gs-v72",
+              "word": "(History of Hong Kong word 6)",
+              "phonetic": "",
+              "meaning": "General Studies vocabulary",
+              "meaningZh": "",
+              "example": "Related to History of Hong Kong."
+            }
+          ],
+          "listening": [
+            {
+              "id": "gs-l12a",
+              "type": "mcq",
+              "instruction": "Listen about History of Hong Kong.",
+              "ttsText": "This topic is about History of Hong Kong.",
+              "question": "What is the topic?",
+              "options": [
+                "History of Hong Kong",
+                "Something else",
+                "Not sure"
+              ],
+              "correctAnswer": "History of Hong Kong",
+              "hint": "Listen to the topic"
+            }
+          ],
+          "speaking": [
+            {
+              "id": "gs-s12",
+              "type": "pronounce-sentence",
+              "instruction": "Read aloud:",
+              "targetText": "I am learning about history of hong kong.",
+              "hint": "Clear pronunciation"
+            }
+          ],
+          "reading": [
+            {
+              "id": "gs-r12",
+              "type": "mcq",
+              "passage": "History of Hong Kong is an important topic in General Studies. We can learn many new English words about it.",
+              "question": "What subject is this?",
+              "options": [
+                "General Studies",
+                "Art",
+                "Music"
+              ],
+              "correctAnswer": "General Studies",
+              "explanation": "This is a General Studies topic"
+            }
+          ],
+          "writing": [
+            {
+              "id": "gs-w12",
+              "type": "spelling",
+              "instruction": "Spell the topic name:",
+              "ttsText": "history",
+              "correctAnswer": "history",
+              "hint": "First word of the topic"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gs-u13",
+      "title": "Communication Then and Now",
+      "theme": "communication-then-now",
+      "mascotTip": "Tot says: Let's explore communication then and now!",
+      "lessons": [
+        {
+          "id": "gs-u13-l1",
+          "title": "Communication Then and Now",
+          "objectives": [
+            "Learn Communication Then and Now vocabulary",
+            "Discuss Communication Then and Now topics"
+          ],
+          "vocabulary": [
+            {
+              "id": "gs-v73",
+              "word": "(Communication Then and Now word 1)",
+              "phonetic": "",
+              "meaning": "General Studies vocabulary",
+              "meaningZh": "",
+              "example": "Related to Communication Then and Now."
+            },
+            {
+              "id": "gs-v74",
+              "word": "(Communication Then and Now word 2)",
+              "phonetic": "",
+              "meaning": "General Studies vocabulary",
+              "meaningZh": "",
+              "example": "Related to Communication Then and Now."
+            },
+            {
+              "id": "gs-v75",
+              "word": "(Communication Then and Now word 3)",
+              "phonetic": "",
+              "meaning": "General Studies vocabulary",
+              "meaningZh": "",
+              "example": "Related to Communication Then and Now."
+            },
+            {
+              "id": "gs-v76",
+              "word": "(Communication Then and Now word 4)",
+              "phonetic": "",
+              "meaning": "General Studies vocabulary",
+              "meaningZh": "",
+              "example": "Related to Communication Then and Now."
+            },
+            {
+              "id": "gs-v77",
+              "word": "(Communication Then and Now word 5)",
+              "phonetic": "",
+              "meaning": "General Studies vocabulary",
+              "meaningZh": "",
+              "example": "Related to Communication Then and Now."
+            },
+            {
+              "id": "gs-v78",
+              "word": "(Communication Then and Now word 6)",
+              "phonetic": "",
+              "meaning": "General Studies vocabulary",
+              "meaningZh": "",
+              "example": "Related to Communication Then and Now."
+            }
+          ],
+          "listening": [
+            {
+              "id": "gs-l13a",
+              "type": "mcq",
+              "instruction": "Listen about Communication Then and Now.",
+              "ttsText": "This topic is about Communication Then and Now.",
+              "question": "What is the topic?",
+              "options": [
+                "Communication Then and Now",
+                "Something else",
+                "Not sure"
+              ],
+              "correctAnswer": "Communication Then and Now",
+              "hint": "Listen to the topic"
+            }
+          ],
+          "speaking": [
+            {
+              "id": "gs-s13",
+              "type": "pronounce-sentence",
+              "instruction": "Read aloud:",
+              "targetText": "I am learning about communication then and now.",
+              "hint": "Clear pronunciation"
+            }
+          ],
+          "reading": [
+            {
+              "id": "gs-r13",
+              "type": "mcq",
+              "passage": "Communication Then and Now is an important topic in General Studies. We can learn many new English words about it.",
+              "question": "What subject is this?",
+              "options": [
+                "General Studies",
+                "Art",
+                "Music"
+              ],
+              "correctAnswer": "General Studies",
+              "explanation": "This is a General Studies topic"
+            }
+          ],
+          "writing": [
+            {
+              "id": "gs-w13",
+              "type": "spelling",
+              "instruction": "Spell the topic name:",
+              "ttsText": "communication",
+              "correctAnswer": "communication",
+              "hint": "First word of the topic"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gs-u14",
+      "title": "Living Together",
+      "theme": "living-together",
+      "mascotTip": "Tat says: Let's explore living together!",
+      "lessons": [
+        {
+          "id": "gs-u14-l1",
+          "title": "Living Together",
+          "objectives": [
+            "Learn Living Together vocabulary",
+            "Discuss Living Together topics"
+          ],
+          "vocabulary": [
+            {
+              "id": "gs-v79",
+              "word": "(Living Together word 1)",
+              "phonetic": "",
+              "meaning": "General Studies vocabulary",
+              "meaningZh": "",
+              "example": "Related to Living Together."
+            },
+            {
+              "id": "gs-v80",
+              "word": "(Living Together word 2)",
+              "phonetic": "",
+              "meaning": "General Studies vocabulary",
+              "meaningZh": "",
+              "example": "Related to Living Together."
+            },
+            {
+              "id": "gs-v81",
+              "word": "(Living Together word 3)",
+              "phonetic": "",
+              "meaning": "General Studies vocabulary",
+              "meaningZh": "",
+              "example": "Related to Living Together."
+            },
+            {
+              "id": "gs-v82",
+              "word": "(Living Together word 4)",
+              "phonetic": "",
+              "meaning": "General Studies vocabulary",
+              "meaningZh": "",
+              "example": "Related to Living Together."
+            },
+            {
+              "id": "gs-v83",
+              "word": "(Living Together word 5)",
+              "phonetic": "",
+              "meaning": "General Studies vocabulary",
+              "meaningZh": "",
+              "example": "Related to Living Together."
+            },
+            {
+              "id": "gs-v84",
+              "word": "(Living Together word 6)",
+              "phonetic": "",
+              "meaning": "General Studies vocabulary",
+              "meaningZh": "",
+              "example": "Related to Living Together."
+            }
+          ],
+          "listening": [
+            {
+              "id": "gs-l14a",
+              "type": "mcq",
+              "instruction": "Listen about Living Together.",
+              "ttsText": "This topic is about Living Together.",
+              "question": "What is the topic?",
+              "options": [
+                "Living Together",
+                "Something else",
+                "Not sure"
+              ],
+              "correctAnswer": "Living Together",
+              "hint": "Listen to the topic"
+            }
+          ],
+          "speaking": [
+            {
+              "id": "gs-s14",
+              "type": "pronounce-sentence",
+              "instruction": "Read aloud:",
+              "targetText": "I am learning about living together.",
+              "hint": "Clear pronunciation"
+            }
+          ],
+          "reading": [
+            {
+              "id": "gs-r14",
+              "type": "mcq",
+              "passage": "Living Together is an important topic in General Studies. We can learn many new English words about it.",
+              "question": "What subject is this?",
+              "options": [
+                "General Studies",
+                "Art",
+                "Music"
+              ],
+              "correctAnswer": "General Studies",
+              "explanation": "This is a General Studies topic"
+            }
+          ],
+          "writing": [
+            {
+              "id": "gs-w14",
+              "type": "spelling",
+              "instruction": "Spell the topic name:",
+              "ttsText": "living",
+              "correctAnswer": "living",
+              "hint": "First word of the topic"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gs-u15",
+      "title": "Disaster Preparedness",
+      "theme": "disaster-preparedness",
+      "mascotTip": "Tot says: Let's explore disaster preparedness!",
+      "lessons": [
+        {
+          "id": "gs-u15-l1",
+          "title": "Disaster Preparedness",
+          "objectives": [
+            "Learn Disaster Preparedness vocabulary",
+            "Discuss Disaster Preparedness topics"
+          ],
+          "vocabulary": [
+            {
+              "id": "gs-v85",
+              "word": "(Disaster Preparedness word 1)",
+              "phonetic": "",
+              "meaning": "General Studies vocabulary",
+              "meaningZh": "",
+              "example": "Related to Disaster Preparedness."
+            },
+            {
+              "id": "gs-v86",
+              "word": "(Disaster Preparedness word 2)",
+              "phonetic": "",
+              "meaning": "General Studies vocabulary",
+              "meaningZh": "",
+              "example": "Related to Disaster Preparedness."
+            },
+            {
+              "id": "gs-v87",
+              "word": "(Disaster Preparedness word 3)",
+              "phonetic": "",
+              "meaning": "General Studies vocabulary",
+              "meaningZh": "",
+              "example": "Related to Disaster Preparedness."
+            },
+            {
+              "id": "gs-v88",
+              "word": "(Disaster Preparedness word 4)",
+              "phonetic": "",
+              "meaning": "General Studies vocabulary",
+              "meaningZh": "",
+              "example": "Related to Disaster Preparedness."
+            },
+            {
+              "id": "gs-v89",
+              "word": "(Disaster Preparedness word 5)",
+              "phonetic": "",
+              "meaning": "General Studies vocabulary",
+              "meaningZh": "",
+              "example": "Related to Disaster Preparedness."
+            },
+            {
+              "id": "gs-v90",
+              "word": "(Disaster Preparedness word 6)",
+              "phonetic": "",
+              "meaning": "General Studies vocabulary",
+              "meaningZh": "",
+              "example": "Related to Disaster Preparedness."
+            }
+          ],
+          "listening": [
+            {
+              "id": "gs-l15a",
+              "type": "mcq",
+              "instruction": "Listen about Disaster Preparedness.",
+              "ttsText": "This topic is about Disaster Preparedness.",
+              "question": "What is the topic?",
+              "options": [
+                "Disaster Preparedness",
+                "Something else",
+                "Not sure"
+              ],
+              "correctAnswer": "Disaster Preparedness",
+              "hint": "Listen to the topic"
+            }
+          ],
+          "speaking": [
+            {
+              "id": "gs-s15",
+              "type": "pronounce-sentence",
+              "instruction": "Read aloud:",
+              "targetText": "I am learning about disaster preparedness.",
+              "hint": "Clear pronunciation"
+            }
+          ],
+          "reading": [
+            {
+              "id": "gs-r15",
+              "type": "mcq",
+              "passage": "Disaster Preparedness is an important topic in General Studies. We can learn many new English words about it.",
+              "question": "What subject is this?",
+              "options": [
+                "General Studies",
+                "Art",
+                "Music"
+              ],
+              "correctAnswer": "General Studies",
+              "explanation": "This is a General Studies topic"
+            }
+          ],
+          "writing": [
+            {
+              "id": "gs-w15",
+              "type": "spelling",
+              "instruction": "Spell the topic name:",
+              "ttsText": "disaster",
+              "correctAnswer": "disaster",
+              "hint": "First word of the topic"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gs-u16",
+      "title": "Rights and Responsibilities",
+      "theme": "rights-responsibilities",
+      "mascotTip": "Tat says: Let's explore rights and responsibilities!",
+      "lessons": [
+        {
+          "id": "gs-u16-l1",
+          "title": "Rights and Responsibilities",
+          "objectives": [
+            "Learn Rights and Responsibilities vocabulary",
+            "Discuss Rights and Responsibilities topics"
+          ],
+          "vocabulary": [
+            {
+              "id": "gs-v91",
+              "word": "(Rights and Responsibilities word 1)",
+              "phonetic": "",
+              "meaning": "General Studies vocabulary",
+              "meaningZh": "",
+              "example": "Related to Rights and Responsibilities."
+            },
+            {
+              "id": "gs-v92",
+              "word": "(Rights and Responsibilities word 2)",
+              "phonetic": "",
+              "meaning": "General Studies vocabulary",
+              "meaningZh": "",
+              "example": "Related to Rights and Responsibilities."
+            },
+            {
+              "id": "gs-v93",
+              "word": "(Rights and Responsibilities word 3)",
+              "phonetic": "",
+              "meaning": "General Studies vocabulary",
+              "meaningZh": "",
+              "example": "Related to Rights and Responsibilities."
+            },
+            {
+              "id": "gs-v94",
+              "word": "(Rights and Responsibilities word 4)",
+              "phonetic": "",
+              "meaning": "General Studies vocabulary",
+              "meaningZh": "",
+              "example": "Related to Rights and Responsibilities."
+            },
+            {
+              "id": "gs-v95",
+              "word": "(Rights and Responsibilities word 5)",
+              "phonetic": "",
+              "meaning": "General Studies vocabulary",
+              "meaningZh": "",
+              "example": "Related to Rights and Responsibilities."
+            },
+            {
+              "id": "gs-v96",
+              "word": "(Rights and Responsibilities word 6)",
+              "phonetic": "",
+              "meaning": "General Studies vocabulary",
+              "meaningZh": "",
+              "example": "Related to Rights and Responsibilities."
+            }
+          ],
+          "listening": [
+            {
+              "id": "gs-l16a",
+              "type": "mcq",
+              "instruction": "Listen about Rights and Responsibilities.",
+              "ttsText": "This topic is about Rights and Responsibilities.",
+              "question": "What is the topic?",
+              "options": [
+                "Rights and Responsibilities",
+                "Something else",
+                "Not sure"
+              ],
+              "correctAnswer": "Rights and Responsibilities",
+              "hint": "Listen to the topic"
+            }
+          ],
+          "speaking": [
+            {
+              "id": "gs-s16",
+              "type": "pronounce-sentence",
+              "instruction": "Read aloud:",
+              "targetText": "I am learning about rights and responsibilities.",
+              "hint": "Clear pronunciation"
+            }
+          ],
+          "reading": [
+            {
+              "id": "gs-r16",
+              "type": "mcq",
+              "passage": "Rights and Responsibilities is an important topic in General Studies. We can learn many new English words about it.",
+              "question": "What subject is this?",
+              "options": [
+                "General Studies",
+                "Art",
+                "Music"
+              ],
+              "correctAnswer": "General Studies",
+              "explanation": "This is a General Studies topic"
+            }
+          ],
+          "writing": [
+            {
+              "id": "gs-w16",
+              "type": "spelling",
+              "instruction": "Spell the topic name:",
+              "ttsText": "rights",
+              "correctAnswer": "rights",
+              "hint": "First word of the topic"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gs-u17",
+      "title": "Cultural Diversity",
+      "theme": "cultural-diversity",
+      "mascotTip": "Tot says: Let's explore cultural diversity!",
+      "lessons": [
+        {
+          "id": "gs-u17-l1",
+          "title": "Cultural Diversity",
+          "objectives": [
+            "Learn Cultural Diversity vocabulary",
+            "Discuss Cultural Diversity topics"
+          ],
+          "vocabulary": [
+            {
+              "id": "gs-v97",
+              "word": "(Cultural Diversity word 1)",
+              "phonetic": "",
+              "meaning": "General Studies vocabulary",
+              "meaningZh": "",
+              "example": "Related to Cultural Diversity."
+            },
+            {
+              "id": "gs-v98",
+              "word": "(Cultural Diversity word 2)",
+              "phonetic": "",
+              "meaning": "General Studies vocabulary",
+              "meaningZh": "",
+              "example": "Related to Cultural Diversity."
+            },
+            {
+              "id": "gs-v99",
+              "word": "(Cultural Diversity word 3)",
+              "phonetic": "",
+              "meaning": "General Studies vocabulary",
+              "meaningZh": "",
+              "example": "Related to Cultural Diversity."
+            },
+            {
+              "id": "gs-v100",
+              "word": "(Cultural Diversity word 4)",
+              "phonetic": "",
+              "meaning": "General Studies vocabulary",
+              "meaningZh": "",
+              "example": "Related to Cultural Diversity."
+            },
+            {
+              "id": "gs-v101",
+              "word": "(Cultural Diversity word 5)",
+              "phonetic": "",
+              "meaning": "General Studies vocabulary",
+              "meaningZh": "",
+              "example": "Related to Cultural Diversity."
+            },
+            {
+              "id": "gs-v102",
+              "word": "(Cultural Diversity word 6)",
+              "phonetic": "",
+              "meaning": "General Studies vocabulary",
+              "meaningZh": "",
+              "example": "Related to Cultural Diversity."
+            }
+          ],
+          "listening": [
+            {
+              "id": "gs-l17a",
+              "type": "mcq",
+              "instruction": "Listen about Cultural Diversity.",
+              "ttsText": "This topic is about Cultural Diversity.",
+              "question": "What is the topic?",
+              "options": [
+                "Cultural Diversity",
+                "Something else",
+                "Not sure"
+              ],
+              "correctAnswer": "Cultural Diversity",
+              "hint": "Listen to the topic"
+            }
+          ],
+          "speaking": [
+            {
+              "id": "gs-s17",
+              "type": "pronounce-sentence",
+              "instruction": "Read aloud:",
+              "targetText": "I am learning about cultural diversity.",
+              "hint": "Clear pronunciation"
+            }
+          ],
+          "reading": [
+            {
+              "id": "gs-r17",
+              "type": "mcq",
+              "passage": "Cultural Diversity is an important topic in General Studies. We can learn many new English words about it.",
+              "question": "What subject is this?",
+              "options": [
+                "General Studies",
+                "Art",
+                "Music"
+              ],
+              "correctAnswer": "General Studies",
+              "explanation": "This is a General Studies topic"
+            }
+          ],
+          "writing": [
+            {
+              "id": "gs-w17",
+              "type": "spelling",
+              "instruction": "Spell the topic name:",
+              "ttsText": "cultural",
+              "correctAnswer": "cultural",
+              "hint": "First word of the topic"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gs-u18",
+      "title": "Maps and Directions",
+      "theme": "maps-directions",
+      "mascotTip": "Tat says: Let's explore maps and directions!",
+      "lessons": [
+        {
+          "id": "gs-u18-l1",
+          "title": "Maps and Directions",
+          "objectives": [
+            "Learn Maps and Directions vocabulary",
+            "Discuss Maps and Directions topics"
+          ],
+          "vocabulary": [
+            {
+              "id": "gs-v103",
+              "word": "(Maps and Directions word 1)",
+              "phonetic": "",
+              "meaning": "General Studies vocabulary",
+              "meaningZh": "",
+              "example": "Related to Maps and Directions."
+            },
+            {
+              "id": "gs-v104",
+              "word": "(Maps and Directions word 2)",
+              "phonetic": "",
+              "meaning": "General Studies vocabulary",
+              "meaningZh": "",
+              "example": "Related to Maps and Directions."
+            },
+            {
+              "id": "gs-v105",
+              "word": "(Maps and Directions word 3)",
+              "phonetic": "",
+              "meaning": "General Studies vocabulary",
+              "meaningZh": "",
+              "example": "Related to Maps and Directions."
+            },
+            {
+              "id": "gs-v106",
+              "word": "(Maps and Directions word 4)",
+              "phonetic": "",
+              "meaning": "General Studies vocabulary",
+              "meaningZh": "",
+              "example": "Related to Maps and Directions."
+            },
+            {
+              "id": "gs-v107",
+              "word": "(Maps and Directions word 5)",
+              "phonetic": "",
+              "meaning": "General Studies vocabulary",
+              "meaningZh": "",
+              "example": "Related to Maps and Directions."
+            },
+            {
+              "id": "gs-v108",
+              "word": "(Maps and Directions word 6)",
+              "phonetic": "",
+              "meaning": "General Studies vocabulary",
+              "meaningZh": "",
+              "example": "Related to Maps and Directions."
+            }
+          ],
+          "listening": [
+            {
+              "id": "gs-l18a",
+              "type": "mcq",
+              "instruction": "Listen about Maps and Directions.",
+              "ttsText": "This topic is about Maps and Directions.",
+              "question": "What is the topic?",
+              "options": [
+                "Maps and Directions",
+                "Something else",
+                "Not sure"
+              ],
+              "correctAnswer": "Maps and Directions",
+              "hint": "Listen to the topic"
+            }
+          ],
+          "speaking": [
+            {
+              "id": "gs-s18",
+              "type": "pronounce-sentence",
+              "instruction": "Read aloud:",
+              "targetText": "I am learning about maps and directions.",
+              "hint": "Clear pronunciation"
+            }
+          ],
+          "reading": [
+            {
+              "id": "gs-r18",
+              "type": "mcq",
+              "passage": "Maps and Directions is an important topic in General Studies. We can learn many new English words about it.",
+              "question": "What subject is this?",
+              "options": [
+                "General Studies",
+                "Art",
+                "Music"
+              ],
+              "correctAnswer": "General Studies",
+              "explanation": "This is a General Studies topic"
+            }
+          ],
+          "writing": [
+            {
+              "id": "gs-w18",
+              "type": "spelling",
+              "instruction": "Spell the topic name:",
+              "ttsText": "maps",
+              "correctAnswer": "maps",
+              "hint": "First word of the topic"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gs-u19",
+      "title": "Famous Places in HK",
+      "theme": "famous-places-in-hk",
+      "mascotTip": "Tot says: Let's explore famous places in hk!",
+      "lessons": [
+        {
+          "id": "gs-u19-l1",
+          "title": "Famous Places in HK",
+          "objectives": [
+            "Learn Famous Places in HK vocabulary",
+            "Discuss Famous Places in HK topics"
+          ],
+          "vocabulary": [
+            {
+              "id": "gs-v109",
+              "word": "(Famous Places in HK word 1)",
+              "phonetic": "",
+              "meaning": "General Studies vocabulary",
+              "meaningZh": "",
+              "example": "Related to Famous Places in HK."
+            },
+            {
+              "id": "gs-v110",
+              "word": "(Famous Places in HK word 2)",
+              "phonetic": "",
+              "meaning": "General Studies vocabulary",
+              "meaningZh": "",
+              "example": "Related to Famous Places in HK."
+            },
+            {
+              "id": "gs-v111",
+              "word": "(Famous Places in HK word 3)",
+              "phonetic": "",
+              "meaning": "General Studies vocabulary",
+              "meaningZh": "",
+              "example": "Related to Famous Places in HK."
+            },
+            {
+              "id": "gs-v112",
+              "word": "(Famous Places in HK word 4)",
+              "phonetic": "",
+              "meaning": "General Studies vocabulary",
+              "meaningZh": "",
+              "example": "Related to Famous Places in HK."
+            },
+            {
+              "id": "gs-v113",
+              "word": "(Famous Places in HK word 5)",
+              "phonetic": "",
+              "meaning": "General Studies vocabulary",
+              "meaningZh": "",
+              "example": "Related to Famous Places in HK."
+            },
+            {
+              "id": "gs-v114",
+              "word": "(Famous Places in HK word 6)",
+              "phonetic": "",
+              "meaning": "General Studies vocabulary",
+              "meaningZh": "",
+              "example": "Related to Famous Places in HK."
+            }
+          ],
+          "listening": [
+            {
+              "id": "gs-l19a",
+              "type": "mcq",
+              "instruction": "Listen about Famous Places in HK.",
+              "ttsText": "This topic is about Famous Places in HK.",
+              "question": "What is the topic?",
+              "options": [
+                "Famous Places in HK",
+                "Something else",
+                "Not sure"
+              ],
+              "correctAnswer": "Famous Places in HK",
+              "hint": "Listen to the topic"
+            }
+          ],
+          "speaking": [
+            {
+              "id": "gs-s19",
+              "type": "pronounce-sentence",
+              "instruction": "Read aloud:",
+              "targetText": "I am learning about famous places in hk.",
+              "hint": "Clear pronunciation"
+            }
+          ],
+          "reading": [
+            {
+              "id": "gs-r19",
+              "type": "mcq",
+              "passage": "Famous Places in HK is an important topic in General Studies. We can learn many new English words about it.",
+              "question": "What subject is this?",
+              "options": [
+                "General Studies",
+                "Art",
+                "Music"
+              ],
+              "correctAnswer": "General Studies",
+              "explanation": "This is a General Studies topic"
+            }
+          ],
+          "writing": [
+            {
+              "id": "gs-w19",
+              "type": "spelling",
+              "instruction": "Spell the topic name:",
+              "ttsText": "famous",
+              "correctAnswer": "famous",
+              "hint": "First word of the topic"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gs-u20",
+      "title": "Being a Good Citizen",
+      "theme": "being-a-good-citizen",
+      "mascotTip": "Tat says: Let's explore being a good citizen!",
+      "lessons": [
+        {
+          "id": "gs-u20-l1",
+          "title": "Being a Good Citizen",
+          "objectives": [
+            "Learn Being a Good Citizen vocabulary",
+            "Discuss Being a Good Citizen topics"
+          ],
+          "vocabulary": [
+            {
+              "id": "gs-v115",
+              "word": "(Being a Good Citizen word 1)",
+              "phonetic": "",
+              "meaning": "General Studies vocabulary",
+              "meaningZh": "",
+              "example": "Related to Being a Good Citizen."
+            },
+            {
+              "id": "gs-v116",
+              "word": "(Being a Good Citizen word 2)",
+              "phonetic": "",
+              "meaning": "General Studies vocabulary",
+              "meaningZh": "",
+              "example": "Related to Being a Good Citizen."
+            },
+            {
+              "id": "gs-v117",
+              "word": "(Being a Good Citizen word 3)",
+              "phonetic": "",
+              "meaning": "General Studies vocabulary",
+              "meaningZh": "",
+              "example": "Related to Being a Good Citizen."
+            },
+            {
+              "id": "gs-v118",
+              "word": "(Being a Good Citizen word 4)",
+              "phonetic": "",
+              "meaning": "General Studies vocabulary",
+              "meaningZh": "",
+              "example": "Related to Being a Good Citizen."
+            },
+            {
+              "id": "gs-v119",
+              "word": "(Being a Good Citizen word 5)",
+              "phonetic": "",
+              "meaning": "General Studies vocabulary",
+              "meaningZh": "",
+              "example": "Related to Being a Good Citizen."
+            },
+            {
+              "id": "gs-v120",
+              "word": "(Being a Good Citizen word 6)",
+              "phonetic": "",
+              "meaning": "General Studies vocabulary",
+              "meaningZh": "",
+              "example": "Related to Being a Good Citizen."
+            }
+          ],
+          "listening": [
+            {
+              "id": "gs-l20a",
+              "type": "mcq",
+              "instruction": "Listen about Being a Good Citizen.",
+              "ttsText": "This topic is about Being a Good Citizen.",
+              "question": "What is the topic?",
+              "options": [
+                "Being a Good Citizen",
+                "Something else",
+                "Not sure"
+              ],
+              "correctAnswer": "Being a Good Citizen",
+              "hint": "Listen to the topic"
+            }
+          ],
+          "speaking": [
+            {
+              "id": "gs-s20",
+              "type": "pronounce-sentence",
+              "instruction": "Read aloud:",
+              "targetText": "I am learning about being a good citizen.",
+              "hint": "Clear pronunciation"
+            }
+          ],
+          "reading": [
+            {
+              "id": "gs-r20",
+              "type": "mcq",
+              "passage": "Being a Good Citizen is an important topic in General Studies. We can learn many new English words about it.",
+              "question": "What subject is this?",
+              "options": [
+                "General Studies",
+                "Art",
+                "Music"
+              ],
+              "correctAnswer": "General Studies",
+              "explanation": "This is a General Studies topic"
+            }
+          ],
+          "writing": [
+            {
+              "id": "gs-w20",
+              "type": "spelling",
+              "instruction": "Spell the topic name:",
+              "ttsText": "being",
+              "correctAnswer": "being",
+              "hint": "First word of the topic"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

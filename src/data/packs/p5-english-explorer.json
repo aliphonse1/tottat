@@ -1,0 +1,2329 @@
+{
+  "id": "p5-english-explorer",
+  "name": "English Explorer 5A",
+  "publisher": "Tot & Tat",
+  "grade": "P5",
+  "version": "2.0.0",
+  "units": [
+    {
+      "id": "p5-u1",
+      "title": "Healthy Living",
+      "theme": "healthy-living",
+      "mascotTip": "Tot says: Let's explore healthy living!",
+      "lessons": [
+        {
+          "id": "p5-u1-l1",
+          "title": "Healthy Living",
+          "objectives": [
+            "Learn Healthy Living vocabulary",
+            "Discuss Healthy Living topics"
+          ],
+          "vocabulary": [
+            {
+              "id": "p5-v1",
+              "word": "(Healthy Living word 1)",
+              "phonetic": "",
+              "meaning": "P5 vocabulary",
+              "meaningZh": "",
+              "example": "Related to Healthy Living."
+            },
+            {
+              "id": "p5-v2",
+              "word": "(Healthy Living word 2)",
+              "phonetic": "",
+              "meaning": "P5 vocabulary",
+              "meaningZh": "",
+              "example": "Related to Healthy Living."
+            },
+            {
+              "id": "p5-v3",
+              "word": "(Healthy Living word 3)",
+              "phonetic": "",
+              "meaning": "P5 vocabulary",
+              "meaningZh": "",
+              "example": "Related to Healthy Living."
+            },
+            {
+              "id": "p5-v4",
+              "word": "(Healthy Living word 4)",
+              "phonetic": "",
+              "meaning": "P5 vocabulary",
+              "meaningZh": "",
+              "example": "Related to Healthy Living."
+            },
+            {
+              "id": "p5-v5",
+              "word": "(Healthy Living word 5)",
+              "phonetic": "",
+              "meaning": "P5 vocabulary",
+              "meaningZh": "",
+              "example": "Related to Healthy Living."
+            },
+            {
+              "id": "p5-v6",
+              "word": "(Healthy Living word 6)",
+              "phonetic": "",
+              "meaning": "P5 vocabulary",
+              "meaningZh": "",
+              "example": "Related to Healthy Living."
+            }
+          ],
+          "listening": [
+            {
+              "id": "p5-l1a",
+              "type": "mcq",
+              "instruction": "Listen about Healthy Living.",
+              "ttsText": "This topic is about Healthy Living.",
+              "question": "What is the topic?",
+              "options": [
+                "Healthy Living",
+                "Something else",
+                "Not sure"
+              ],
+              "correctAnswer": "Healthy Living",
+              "hint": "Listen to the topic"
+            }
+          ],
+          "speaking": [
+            {
+              "id": "p5-s1",
+              "type": "pronounce-sentence",
+              "instruction": "Read aloud:",
+              "targetText": "I am learning about healthy living.",
+              "hint": "Clear pronunciation"
+            }
+          ],
+          "reading": [
+            {
+              "id": "p5-r1",
+              "type": "mcq",
+              "passage": "Healthy Living is an important topic in P5. We can learn many new English words about it.",
+              "question": "What subject is this?",
+              "options": [
+                "P5",
+                "Art",
+                "Music"
+              ],
+              "correctAnswer": "P5",
+              "explanation": "This is a P5 topic"
+            }
+          ],
+          "writing": [
+            {
+              "id": "p5-w1",
+              "type": "spelling",
+              "instruction": "Spell the topic name:",
+              "ttsText": "healthy",
+              "correctAnswer": "healthy",
+              "hint": "First word of the topic"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p5-u2",
+      "title": "Travel and Transport",
+      "theme": "travel-transport",
+      "mascotTip": "Tat says: Let's explore travel and transport!",
+      "lessons": [
+        {
+          "id": "p5-u2-l1",
+          "title": "Travel and Transport",
+          "objectives": [
+            "Learn Travel and Transport vocabulary",
+            "Discuss Travel and Transport topics"
+          ],
+          "vocabulary": [
+            {
+              "id": "p5-v7",
+              "word": "(Travel and Transport word 1)",
+              "phonetic": "",
+              "meaning": "P5 vocabulary",
+              "meaningZh": "",
+              "example": "Related to Travel and Transport."
+            },
+            {
+              "id": "p5-v8",
+              "word": "(Travel and Transport word 2)",
+              "phonetic": "",
+              "meaning": "P5 vocabulary",
+              "meaningZh": "",
+              "example": "Related to Travel and Transport."
+            },
+            {
+              "id": "p5-v9",
+              "word": "(Travel and Transport word 3)",
+              "phonetic": "",
+              "meaning": "P5 vocabulary",
+              "meaningZh": "",
+              "example": "Related to Travel and Transport."
+            },
+            {
+              "id": "p5-v10",
+              "word": "(Travel and Transport word 4)",
+              "phonetic": "",
+              "meaning": "P5 vocabulary",
+              "meaningZh": "",
+              "example": "Related to Travel and Transport."
+            },
+            {
+              "id": "p5-v11",
+              "word": "(Travel and Transport word 5)",
+              "phonetic": "",
+              "meaning": "P5 vocabulary",
+              "meaningZh": "",
+              "example": "Related to Travel and Transport."
+            },
+            {
+              "id": "p5-v12",
+              "word": "(Travel and Transport word 6)",
+              "phonetic": "",
+              "meaning": "P5 vocabulary",
+              "meaningZh": "",
+              "example": "Related to Travel and Transport."
+            }
+          ],
+          "listening": [
+            {
+              "id": "p5-l2a",
+              "type": "mcq",
+              "instruction": "Listen about Travel and Transport.",
+              "ttsText": "This topic is about Travel and Transport.",
+              "question": "What is the topic?",
+              "options": [
+                "Travel and Transport",
+                "Something else",
+                "Not sure"
+              ],
+              "correctAnswer": "Travel and Transport",
+              "hint": "Listen to the topic"
+            }
+          ],
+          "speaking": [
+            {
+              "id": "p5-s2",
+              "type": "pronounce-sentence",
+              "instruction": "Read aloud:",
+              "targetText": "I am learning about travel and transport.",
+              "hint": "Clear pronunciation"
+            }
+          ],
+          "reading": [
+            {
+              "id": "p5-r2",
+              "type": "mcq",
+              "passage": "Travel and Transport is an important topic in P5. We can learn many new English words about it.",
+              "question": "What subject is this?",
+              "options": [
+                "P5",
+                "Art",
+                "Music"
+              ],
+              "correctAnswer": "P5",
+              "explanation": "This is a P5 topic"
+            }
+          ],
+          "writing": [
+            {
+              "id": "p5-w2",
+              "type": "spelling",
+              "instruction": "Spell the topic name:",
+              "ttsText": "travel",
+              "correctAnswer": "travel",
+              "hint": "First word of the topic"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p5-u3",
+      "title": "The Environment",
+      "theme": "the-environment",
+      "mascotTip": "Tot says: Let's explore the environment!",
+      "lessons": [
+        {
+          "id": "p5-u3-l1",
+          "title": "The Environment",
+          "objectives": [
+            "Learn The Environment vocabulary",
+            "Discuss The Environment topics"
+          ],
+          "vocabulary": [
+            {
+              "id": "p5-v13",
+              "word": "(The Environment word 1)",
+              "phonetic": "",
+              "meaning": "P5 vocabulary",
+              "meaningZh": "",
+              "example": "Related to The Environment."
+            },
+            {
+              "id": "p5-v14",
+              "word": "(The Environment word 2)",
+              "phonetic": "",
+              "meaning": "P5 vocabulary",
+              "meaningZh": "",
+              "example": "Related to The Environment."
+            },
+            {
+              "id": "p5-v15",
+              "word": "(The Environment word 3)",
+              "phonetic": "",
+              "meaning": "P5 vocabulary",
+              "meaningZh": "",
+              "example": "Related to The Environment."
+            },
+            {
+              "id": "p5-v16",
+              "word": "(The Environment word 4)",
+              "phonetic": "",
+              "meaning": "P5 vocabulary",
+              "meaningZh": "",
+              "example": "Related to The Environment."
+            },
+            {
+              "id": "p5-v17",
+              "word": "(The Environment word 5)",
+              "phonetic": "",
+              "meaning": "P5 vocabulary",
+              "meaningZh": "",
+              "example": "Related to The Environment."
+            },
+            {
+              "id": "p5-v18",
+              "word": "(The Environment word 6)",
+              "phonetic": "",
+              "meaning": "P5 vocabulary",
+              "meaningZh": "",
+              "example": "Related to The Environment."
+            }
+          ],
+          "listening": [
+            {
+              "id": "p5-l3a",
+              "type": "mcq",
+              "instruction": "Listen about The Environment.",
+              "ttsText": "This topic is about The Environment.",
+              "question": "What is the topic?",
+              "options": [
+                "The Environment",
+                "Something else",
+                "Not sure"
+              ],
+              "correctAnswer": "The Environment",
+              "hint": "Listen to the topic"
+            }
+          ],
+          "speaking": [
+            {
+              "id": "p5-s3",
+              "type": "pronounce-sentence",
+              "instruction": "Read aloud:",
+              "targetText": "I am learning about the environment.",
+              "hint": "Clear pronunciation"
+            }
+          ],
+          "reading": [
+            {
+              "id": "p5-r3",
+              "type": "mcq",
+              "passage": "The Environment is an important topic in P5. We can learn many new English words about it.",
+              "question": "What subject is this?",
+              "options": [
+                "P5",
+                "Art",
+                "Music"
+              ],
+              "correctAnswer": "P5",
+              "explanation": "This is a P5 topic"
+            }
+          ],
+          "writing": [
+            {
+              "id": "p5-w3",
+              "type": "spelling",
+              "instruction": "Spell the topic name:",
+              "ttsText": "the",
+              "correctAnswer": "the",
+              "hint": "First word of the topic"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p5-u4",
+      "title": "Technology and Inventions",
+      "theme": "technology-inventions",
+      "mascotTip": "Tat says: Let's explore technology and inventions!",
+      "lessons": [
+        {
+          "id": "p5-u4-l1",
+          "title": "Technology and Inventions",
+          "objectives": [
+            "Learn Technology and Inventions vocabulary",
+            "Discuss Technology and Inventions topics"
+          ],
+          "vocabulary": [
+            {
+              "id": "p5-v19",
+              "word": "(Technology and Inventions word 1)",
+              "phonetic": "",
+              "meaning": "P5 vocabulary",
+              "meaningZh": "",
+              "example": "Related to Technology and Inventions."
+            },
+            {
+              "id": "p5-v20",
+              "word": "(Technology and Inventions word 2)",
+              "phonetic": "",
+              "meaning": "P5 vocabulary",
+              "meaningZh": "",
+              "example": "Related to Technology and Inventions."
+            },
+            {
+              "id": "p5-v21",
+              "word": "(Technology and Inventions word 3)",
+              "phonetic": "",
+              "meaning": "P5 vocabulary",
+              "meaningZh": "",
+              "example": "Related to Technology and Inventions."
+            },
+            {
+              "id": "p5-v22",
+              "word": "(Technology and Inventions word 4)",
+              "phonetic": "",
+              "meaning": "P5 vocabulary",
+              "meaningZh": "",
+              "example": "Related to Technology and Inventions."
+            },
+            {
+              "id": "p5-v23",
+              "word": "(Technology and Inventions word 5)",
+              "phonetic": "",
+              "meaning": "P5 vocabulary",
+              "meaningZh": "",
+              "example": "Related to Technology and Inventions."
+            },
+            {
+              "id": "p5-v24",
+              "word": "(Technology and Inventions word 6)",
+              "phonetic": "",
+              "meaning": "P5 vocabulary",
+              "meaningZh": "",
+              "example": "Related to Technology and Inventions."
+            }
+          ],
+          "listening": [
+            {
+              "id": "p5-l4a",
+              "type": "mcq",
+              "instruction": "Listen about Technology and Inventions.",
+              "ttsText": "This topic is about Technology and Inventions.",
+              "question": "What is the topic?",
+              "options": [
+                "Technology and Inventions",
+                "Something else",
+                "Not sure"
+              ],
+              "correctAnswer": "Technology and Inventions",
+              "hint": "Listen to the topic"
+            }
+          ],
+          "speaking": [
+            {
+              "id": "p5-s4",
+              "type": "pronounce-sentence",
+              "instruction": "Read aloud:",
+              "targetText": "I am learning about technology and inventions.",
+              "hint": "Clear pronunciation"
+            }
+          ],
+          "reading": [
+            {
+              "id": "p5-r4",
+              "type": "mcq",
+              "passage": "Technology and Inventions is an important topic in P5. We can learn many new English words about it.",
+              "question": "What subject is this?",
+              "options": [
+                "P5",
+                "Art",
+                "Music"
+              ],
+              "correctAnswer": "P5",
+              "explanation": "This is a P5 topic"
+            }
+          ],
+          "writing": [
+            {
+              "id": "p5-w4",
+              "type": "spelling",
+              "instruction": "Spell the topic name:",
+              "ttsText": "technology",
+              "correctAnswer": "technology",
+              "hint": "First word of the topic"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p5-u5",
+      "title": "Space and Universe",
+      "theme": "space-universe",
+      "mascotTip": "Tot says: Let's explore space and universe!",
+      "lessons": [
+        {
+          "id": "p5-u5-l1",
+          "title": "Space and Universe",
+          "objectives": [
+            "Learn Space and Universe vocabulary",
+            "Discuss Space and Universe topics"
+          ],
+          "vocabulary": [
+            {
+              "id": "p5-v25",
+              "word": "(Space and Universe word 1)",
+              "phonetic": "",
+              "meaning": "P5 vocabulary",
+              "meaningZh": "",
+              "example": "Related to Space and Universe."
+            },
+            {
+              "id": "p5-v26",
+              "word": "(Space and Universe word 2)",
+              "phonetic": "",
+              "meaning": "P5 vocabulary",
+              "meaningZh": "",
+              "example": "Related to Space and Universe."
+            },
+            {
+              "id": "p5-v27",
+              "word": "(Space and Universe word 3)",
+              "phonetic": "",
+              "meaning": "P5 vocabulary",
+              "meaningZh": "",
+              "example": "Related to Space and Universe."
+            },
+            {
+              "id": "p5-v28",
+              "word": "(Space and Universe word 4)",
+              "phonetic": "",
+              "meaning": "P5 vocabulary",
+              "meaningZh": "",
+              "example": "Related to Space and Universe."
+            },
+            {
+              "id": "p5-v29",
+              "word": "(Space and Universe word 5)",
+              "phonetic": "",
+              "meaning": "P5 vocabulary",
+              "meaningZh": "",
+              "example": "Related to Space and Universe."
+            },
+            {
+              "id": "p5-v30",
+              "word": "(Space and Universe word 6)",
+              "phonetic": "",
+              "meaning": "P5 vocabulary",
+              "meaningZh": "",
+              "example": "Related to Space and Universe."
+            }
+          ],
+          "listening": [
+            {
+              "id": "p5-l5a",
+              "type": "mcq",
+              "instruction": "Listen about Space and Universe.",
+              "ttsText": "This topic is about Space and Universe.",
+              "question": "What is the topic?",
+              "options": [
+                "Space and Universe",
+                "Something else",
+                "Not sure"
+              ],
+              "correctAnswer": "Space and Universe",
+              "hint": "Listen to the topic"
+            }
+          ],
+          "speaking": [
+            {
+              "id": "p5-s5",
+              "type": "pronounce-sentence",
+              "instruction": "Read aloud:",
+              "targetText": "I am learning about space and universe.",
+              "hint": "Clear pronunciation"
+            }
+          ],
+          "reading": [
+            {
+              "id": "p5-r5",
+              "type": "mcq",
+              "passage": "Space and Universe is an important topic in P5. We can learn many new English words about it.",
+              "question": "What subject is this?",
+              "options": [
+                "P5",
+                "Art",
+                "Music"
+              ],
+              "correctAnswer": "P5",
+              "explanation": "This is a P5 topic"
+            }
+          ],
+          "writing": [
+            {
+              "id": "p5-w5",
+              "type": "spelling",
+              "instruction": "Spell the topic name:",
+              "ttsText": "space",
+              "correctAnswer": "space",
+              "hint": "First word of the topic"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p5-u6",
+      "title": "World Cultures",
+      "theme": "world-cultures",
+      "mascotTip": "Tat says: Let's explore world cultures!",
+      "lessons": [
+        {
+          "id": "p5-u6-l1",
+          "title": "World Cultures",
+          "objectives": [
+            "Learn World Cultures vocabulary",
+            "Discuss World Cultures topics"
+          ],
+          "vocabulary": [
+            {
+              "id": "p5-v31",
+              "word": "(World Cultures word 1)",
+              "phonetic": "",
+              "meaning": "P5 vocabulary",
+              "meaningZh": "",
+              "example": "Related to World Cultures."
+            },
+            {
+              "id": "p5-v32",
+              "word": "(World Cultures word 2)",
+              "phonetic": "",
+              "meaning": "P5 vocabulary",
+              "meaningZh": "",
+              "example": "Related to World Cultures."
+            },
+            {
+              "id": "p5-v33",
+              "word": "(World Cultures word 3)",
+              "phonetic": "",
+              "meaning": "P5 vocabulary",
+              "meaningZh": "",
+              "example": "Related to World Cultures."
+            },
+            {
+              "id": "p5-v34",
+              "word": "(World Cultures word 4)",
+              "phonetic": "",
+              "meaning": "P5 vocabulary",
+              "meaningZh": "",
+              "example": "Related to World Cultures."
+            },
+            {
+              "id": "p5-v35",
+              "word": "(World Cultures word 5)",
+              "phonetic": "",
+              "meaning": "P5 vocabulary",
+              "meaningZh": "",
+              "example": "Related to World Cultures."
+            },
+            {
+              "id": "p5-v36",
+              "word": "(World Cultures word 6)",
+              "phonetic": "",
+              "meaning": "P5 vocabulary",
+              "meaningZh": "",
+              "example": "Related to World Cultures."
+            }
+          ],
+          "listening": [
+            {
+              "id": "p5-l6a",
+              "type": "mcq",
+              "instruction": "Listen about World Cultures.",
+              "ttsText": "This topic is about World Cultures.",
+              "question": "What is the topic?",
+              "options": [
+                "World Cultures",
+                "Something else",
+                "Not sure"
+              ],
+              "correctAnswer": "World Cultures",
+              "hint": "Listen to the topic"
+            }
+          ],
+          "speaking": [
+            {
+              "id": "p5-s6",
+              "type": "pronounce-sentence",
+              "instruction": "Read aloud:",
+              "targetText": "I am learning about world cultures.",
+              "hint": "Clear pronunciation"
+            }
+          ],
+          "reading": [
+            {
+              "id": "p5-r6",
+              "type": "mcq",
+              "passage": "World Cultures is an important topic in P5. We can learn many new English words about it.",
+              "question": "What subject is this?",
+              "options": [
+                "P5",
+                "Art",
+                "Music"
+              ],
+              "correctAnswer": "P5",
+              "explanation": "This is a P5 topic"
+            }
+          ],
+          "writing": [
+            {
+              "id": "p5-w6",
+              "type": "spelling",
+              "instruction": "Spell the topic name:",
+              "ttsText": "world",
+              "correctAnswer": "world",
+              "hint": "First word of the topic"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p5-u7",
+      "title": "Famous People",
+      "theme": "famous-people",
+      "mascotTip": "Tot says: Let's explore famous people!",
+      "lessons": [
+        {
+          "id": "p5-u7-l1",
+          "title": "Famous People",
+          "objectives": [
+            "Learn Famous People vocabulary",
+            "Discuss Famous People topics"
+          ],
+          "vocabulary": [
+            {
+              "id": "p5-v37",
+              "word": "(Famous People word 1)",
+              "phonetic": "",
+              "meaning": "P5 vocabulary",
+              "meaningZh": "",
+              "example": "Related to Famous People."
+            },
+            {
+              "id": "p5-v38",
+              "word": "(Famous People word 2)",
+              "phonetic": "",
+              "meaning": "P5 vocabulary",
+              "meaningZh": "",
+              "example": "Related to Famous People."
+            },
+            {
+              "id": "p5-v39",
+              "word": "(Famous People word 3)",
+              "phonetic": "",
+              "meaning": "P5 vocabulary",
+              "meaningZh": "",
+              "example": "Related to Famous People."
+            },
+            {
+              "id": "p5-v40",
+              "word": "(Famous People word 4)",
+              "phonetic": "",
+              "meaning": "P5 vocabulary",
+              "meaningZh": "",
+              "example": "Related to Famous People."
+            },
+            {
+              "id": "p5-v41",
+              "word": "(Famous People word 5)",
+              "phonetic": "",
+              "meaning": "P5 vocabulary",
+              "meaningZh": "",
+              "example": "Related to Famous People."
+            },
+            {
+              "id": "p5-v42",
+              "word": "(Famous People word 6)",
+              "phonetic": "",
+              "meaning": "P5 vocabulary",
+              "meaningZh": "",
+              "example": "Related to Famous People."
+            }
+          ],
+          "listening": [
+            {
+              "id": "p5-l7a",
+              "type": "mcq",
+              "instruction": "Listen about Famous People.",
+              "ttsText": "This topic is about Famous People.",
+              "question": "What is the topic?",
+              "options": [
+                "Famous People",
+                "Something else",
+                "Not sure"
+              ],
+              "correctAnswer": "Famous People",
+              "hint": "Listen to the topic"
+            }
+          ],
+          "speaking": [
+            {
+              "id": "p5-s7",
+              "type": "pronounce-sentence",
+              "instruction": "Read aloud:",
+              "targetText": "I am learning about famous people.",
+              "hint": "Clear pronunciation"
+            }
+          ],
+          "reading": [
+            {
+              "id": "p5-r7",
+              "type": "mcq",
+              "passage": "Famous People is an important topic in P5. We can learn many new English words about it.",
+              "question": "What subject is this?",
+              "options": [
+                "P5",
+                "Art",
+                "Music"
+              ],
+              "correctAnswer": "P5",
+              "explanation": "This is a P5 topic"
+            }
+          ],
+          "writing": [
+            {
+              "id": "p5-w7",
+              "type": "spelling",
+              "instruction": "Spell the topic name:",
+              "ttsText": "famous",
+              "correctAnswer": "famous",
+              "hint": "First word of the topic"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p5-u8",
+      "title": "Sports and Competition",
+      "theme": "sports-competition",
+      "mascotTip": "Tat says: Let's explore sports and competition!",
+      "lessons": [
+        {
+          "id": "p5-u8-l1",
+          "title": "Sports and Competition",
+          "objectives": [
+            "Learn Sports and Competition vocabulary",
+            "Discuss Sports and Competition topics"
+          ],
+          "vocabulary": [
+            {
+              "id": "p5-v43",
+              "word": "(Sports and Competition word 1)",
+              "phonetic": "",
+              "meaning": "P5 vocabulary",
+              "meaningZh": "",
+              "example": "Related to Sports and Competition."
+            },
+            {
+              "id": "p5-v44",
+              "word": "(Sports and Competition word 2)",
+              "phonetic": "",
+              "meaning": "P5 vocabulary",
+              "meaningZh": "",
+              "example": "Related to Sports and Competition."
+            },
+            {
+              "id": "p5-v45",
+              "word": "(Sports and Competition word 3)",
+              "phonetic": "",
+              "meaning": "P5 vocabulary",
+              "meaningZh": "",
+              "example": "Related to Sports and Competition."
+            },
+            {
+              "id": "p5-v46",
+              "word": "(Sports and Competition word 4)",
+              "phonetic": "",
+              "meaning": "P5 vocabulary",
+              "meaningZh": "",
+              "example": "Related to Sports and Competition."
+            },
+            {
+              "id": "p5-v47",
+              "word": "(Sports and Competition word 5)",
+              "phonetic": "",
+              "meaning": "P5 vocabulary",
+              "meaningZh": "",
+              "example": "Related to Sports and Competition."
+            },
+            {
+              "id": "p5-v48",
+              "word": "(Sports and Competition word 6)",
+              "phonetic": "",
+              "meaning": "P5 vocabulary",
+              "meaningZh": "",
+              "example": "Related to Sports and Competition."
+            }
+          ],
+          "listening": [
+            {
+              "id": "p5-l8a",
+              "type": "mcq",
+              "instruction": "Listen about Sports and Competition.",
+              "ttsText": "This topic is about Sports and Competition.",
+              "question": "What is the topic?",
+              "options": [
+                "Sports and Competition",
+                "Something else",
+                "Not sure"
+              ],
+              "correctAnswer": "Sports and Competition",
+              "hint": "Listen to the topic"
+            }
+          ],
+          "speaking": [
+            {
+              "id": "p5-s8",
+              "type": "pronounce-sentence",
+              "instruction": "Read aloud:",
+              "targetText": "I am learning about sports and competition.",
+              "hint": "Clear pronunciation"
+            }
+          ],
+          "reading": [
+            {
+              "id": "p5-r8",
+              "type": "mcq",
+              "passage": "Sports and Competition is an important topic in P5. We can learn many new English words about it.",
+              "question": "What subject is this?",
+              "options": [
+                "P5",
+                "Art",
+                "Music"
+              ],
+              "correctAnswer": "P5",
+              "explanation": "This is a P5 topic"
+            }
+          ],
+          "writing": [
+            {
+              "id": "p5-w8",
+              "type": "spelling",
+              "instruction": "Spell the topic name:",
+              "ttsText": "sports",
+              "correctAnswer": "sports",
+              "hint": "First word of the topic"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p5-u9",
+      "title": "Media and Communication",
+      "theme": "media-communication",
+      "mascotTip": "Tot says: Let's explore media and communication!",
+      "lessons": [
+        {
+          "id": "p5-u9-l1",
+          "title": "Media and Communication",
+          "objectives": [
+            "Learn Media and Communication vocabulary",
+            "Discuss Media and Communication topics"
+          ],
+          "vocabulary": [
+            {
+              "id": "p5-v49",
+              "word": "(Media and Communication word 1)",
+              "phonetic": "",
+              "meaning": "P5 vocabulary",
+              "meaningZh": "",
+              "example": "Related to Media and Communication."
+            },
+            {
+              "id": "p5-v50",
+              "word": "(Media and Communication word 2)",
+              "phonetic": "",
+              "meaning": "P5 vocabulary",
+              "meaningZh": "",
+              "example": "Related to Media and Communication."
+            },
+            {
+              "id": "p5-v51",
+              "word": "(Media and Communication word 3)",
+              "phonetic": "",
+              "meaning": "P5 vocabulary",
+              "meaningZh": "",
+              "example": "Related to Media and Communication."
+            },
+            {
+              "id": "p5-v52",
+              "word": "(Media and Communication word 4)",
+              "phonetic": "",
+              "meaning": "P5 vocabulary",
+              "meaningZh": "",
+              "example": "Related to Media and Communication."
+            },
+            {
+              "id": "p5-v53",
+              "word": "(Media and Communication word 5)",
+              "phonetic": "",
+              "meaning": "P5 vocabulary",
+              "meaningZh": "",
+              "example": "Related to Media and Communication."
+            },
+            {
+              "id": "p5-v54",
+              "word": "(Media and Communication word 6)",
+              "phonetic": "",
+              "meaning": "P5 vocabulary",
+              "meaningZh": "",
+              "example": "Related to Media and Communication."
+            }
+          ],
+          "listening": [
+            {
+              "id": "p5-l9a",
+              "type": "mcq",
+              "instruction": "Listen about Media and Communication.",
+              "ttsText": "This topic is about Media and Communication.",
+              "question": "What is the topic?",
+              "options": [
+                "Media and Communication",
+                "Something else",
+                "Not sure"
+              ],
+              "correctAnswer": "Media and Communication",
+              "hint": "Listen to the topic"
+            }
+          ],
+          "speaking": [
+            {
+              "id": "p5-s9",
+              "type": "pronounce-sentence",
+              "instruction": "Read aloud:",
+              "targetText": "I am learning about media and communication.",
+              "hint": "Clear pronunciation"
+            }
+          ],
+          "reading": [
+            {
+              "id": "p5-r9",
+              "type": "mcq",
+              "passage": "Media and Communication is an important topic in P5. We can learn many new English words about it.",
+              "question": "What subject is this?",
+              "options": [
+                "P5",
+                "Art",
+                "Music"
+              ],
+              "correctAnswer": "P5",
+              "explanation": "This is a P5 topic"
+            }
+          ],
+          "writing": [
+            {
+              "id": "p5-w9",
+              "type": "spelling",
+              "instruction": "Spell the topic name:",
+              "ttsText": "media",
+              "correctAnswer": "media",
+              "hint": "First word of the topic"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p5-u10",
+      "title": "Natural Disasters",
+      "theme": "natural-disasters",
+      "mascotTip": "Tat says: Let's explore natural disasters!",
+      "lessons": [
+        {
+          "id": "p5-u10-l1",
+          "title": "Natural Disasters",
+          "objectives": [
+            "Learn Natural Disasters vocabulary",
+            "Discuss Natural Disasters topics"
+          ],
+          "vocabulary": [
+            {
+              "id": "p5-v55",
+              "word": "(Natural Disasters word 1)",
+              "phonetic": "",
+              "meaning": "P5 vocabulary",
+              "meaningZh": "",
+              "example": "Related to Natural Disasters."
+            },
+            {
+              "id": "p5-v56",
+              "word": "(Natural Disasters word 2)",
+              "phonetic": "",
+              "meaning": "P5 vocabulary",
+              "meaningZh": "",
+              "example": "Related to Natural Disasters."
+            },
+            {
+              "id": "p5-v57",
+              "word": "(Natural Disasters word 3)",
+              "phonetic": "",
+              "meaning": "P5 vocabulary",
+              "meaningZh": "",
+              "example": "Related to Natural Disasters."
+            },
+            {
+              "id": "p5-v58",
+              "word": "(Natural Disasters word 4)",
+              "phonetic": "",
+              "meaning": "P5 vocabulary",
+              "meaningZh": "",
+              "example": "Related to Natural Disasters."
+            },
+            {
+              "id": "p5-v59",
+              "word": "(Natural Disasters word 5)",
+              "phonetic": "",
+              "meaning": "P5 vocabulary",
+              "meaningZh": "",
+              "example": "Related to Natural Disasters."
+            },
+            {
+              "id": "p5-v60",
+              "word": "(Natural Disasters word 6)",
+              "phonetic": "",
+              "meaning": "P5 vocabulary",
+              "meaningZh": "",
+              "example": "Related to Natural Disasters."
+            }
+          ],
+          "listening": [
+            {
+              "id": "p5-l10a",
+              "type": "mcq",
+              "instruction": "Listen about Natural Disasters.",
+              "ttsText": "This topic is about Natural Disasters.",
+              "question": "What is the topic?",
+              "options": [
+                "Natural Disasters",
+                "Something else",
+                "Not sure"
+              ],
+              "correctAnswer": "Natural Disasters",
+              "hint": "Listen to the topic"
+            }
+          ],
+          "speaking": [
+            {
+              "id": "p5-s10",
+              "type": "pronounce-sentence",
+              "instruction": "Read aloud:",
+              "targetText": "I am learning about natural disasters.",
+              "hint": "Clear pronunciation"
+            }
+          ],
+          "reading": [
+            {
+              "id": "p5-r10",
+              "type": "mcq",
+              "passage": "Natural Disasters is an important topic in P5. We can learn many new English words about it.",
+              "question": "What subject is this?",
+              "options": [
+                "P5",
+                "Art",
+                "Music"
+              ],
+              "correctAnswer": "P5",
+              "explanation": "This is a P5 topic"
+            }
+          ],
+          "writing": [
+            {
+              "id": "p5-w10",
+              "type": "spelling",
+              "instruction": "Spell the topic name:",
+              "ttsText": "natural",
+              "correctAnswer": "natural",
+              "hint": "First word of the topic"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p5-u11",
+      "title": "Music and Performance",
+      "theme": "music-performance",
+      "mascotTip": "Tot says: Let's explore music and performance!",
+      "lessons": [
+        {
+          "id": "p5-u11-l1",
+          "title": "Music and Performance",
+          "objectives": [
+            "Learn Music and Performance vocabulary",
+            "Discuss Music and Performance topics"
+          ],
+          "vocabulary": [
+            {
+              "id": "p5-v61",
+              "word": "(Music and Performance word 1)",
+              "phonetic": "",
+              "meaning": "P5 vocabulary",
+              "meaningZh": "",
+              "example": "Related to Music and Performance."
+            },
+            {
+              "id": "p5-v62",
+              "word": "(Music and Performance word 2)",
+              "phonetic": "",
+              "meaning": "P5 vocabulary",
+              "meaningZh": "",
+              "example": "Related to Music and Performance."
+            },
+            {
+              "id": "p5-v63",
+              "word": "(Music and Performance word 3)",
+              "phonetic": "",
+              "meaning": "P5 vocabulary",
+              "meaningZh": "",
+              "example": "Related to Music and Performance."
+            },
+            {
+              "id": "p5-v64",
+              "word": "(Music and Performance word 4)",
+              "phonetic": "",
+              "meaning": "P5 vocabulary",
+              "meaningZh": "",
+              "example": "Related to Music and Performance."
+            },
+            {
+              "id": "p5-v65",
+              "word": "(Music and Performance word 5)",
+              "phonetic": "",
+              "meaning": "P5 vocabulary",
+              "meaningZh": "",
+              "example": "Related to Music and Performance."
+            },
+            {
+              "id": "p5-v66",
+              "word": "(Music and Performance word 6)",
+              "phonetic": "",
+              "meaning": "P5 vocabulary",
+              "meaningZh": "",
+              "example": "Related to Music and Performance."
+            }
+          ],
+          "listening": [
+            {
+              "id": "p5-l11a",
+              "type": "mcq",
+              "instruction": "Listen about Music and Performance.",
+              "ttsText": "This topic is about Music and Performance.",
+              "question": "What is the topic?",
+              "options": [
+                "Music and Performance",
+                "Something else",
+                "Not sure"
+              ],
+              "correctAnswer": "Music and Performance",
+              "hint": "Listen to the topic"
+            }
+          ],
+          "speaking": [
+            {
+              "id": "p5-s11",
+              "type": "pronounce-sentence",
+              "instruction": "Read aloud:",
+              "targetText": "I am learning about music and performance.",
+              "hint": "Clear pronunciation"
+            }
+          ],
+          "reading": [
+            {
+              "id": "p5-r11",
+              "type": "mcq",
+              "passage": "Music and Performance is an important topic in P5. We can learn many new English words about it.",
+              "question": "What subject is this?",
+              "options": [
+                "P5",
+                "Art",
+                "Music"
+              ],
+              "correctAnswer": "P5",
+              "explanation": "This is a P5 topic"
+            }
+          ],
+          "writing": [
+            {
+              "id": "p5-w11",
+              "type": "spelling",
+              "instruction": "Spell the topic name:",
+              "ttsText": "music",
+              "correctAnswer": "music",
+              "hint": "First word of the topic"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p5-u12",
+      "title": "Food Around the World",
+      "theme": "food-around-the-world",
+      "mascotTip": "Tat says: Let's explore food around the world!",
+      "lessons": [
+        {
+          "id": "p5-u12-l1",
+          "title": "Food Around the World",
+          "objectives": [
+            "Learn Food Around the World vocabulary",
+            "Discuss Food Around the World topics"
+          ],
+          "vocabulary": [
+            {
+              "id": "p5-v67",
+              "word": "(Food Around the World word 1)",
+              "phonetic": "",
+              "meaning": "P5 vocabulary",
+              "meaningZh": "",
+              "example": "Related to Food Around the World."
+            },
+            {
+              "id": "p5-v68",
+              "word": "(Food Around the World word 2)",
+              "phonetic": "",
+              "meaning": "P5 vocabulary",
+              "meaningZh": "",
+              "example": "Related to Food Around the World."
+            },
+            {
+              "id": "p5-v69",
+              "word": "(Food Around the World word 3)",
+              "phonetic": "",
+              "meaning": "P5 vocabulary",
+              "meaningZh": "",
+              "example": "Related to Food Around the World."
+            },
+            {
+              "id": "p5-v70",
+              "word": "(Food Around the World word 4)",
+              "phonetic": "",
+              "meaning": "P5 vocabulary",
+              "meaningZh": "",
+              "example": "Related to Food Around the World."
+            },
+            {
+              "id": "p5-v71",
+              "word": "(Food Around the World word 5)",
+              "phonetic": "",
+              "meaning": "P5 vocabulary",
+              "meaningZh": "",
+              "example": "Related to Food Around the World."
+            },
+            {
+              "id": "p5-v72",
+              "word": "(Food Around the World word 6)",
+              "phonetic": "",
+              "meaning": "P5 vocabulary",
+              "meaningZh": "",
+              "example": "Related to Food Around the World."
+            }
+          ],
+          "listening": [
+            {
+              "id": "p5-l12a",
+              "type": "mcq",
+              "instruction": "Listen about Food Around the World.",
+              "ttsText": "This topic is about Food Around the World.",
+              "question": "What is the topic?",
+              "options": [
+                "Food Around the World",
+                "Something else",
+                "Not sure"
+              ],
+              "correctAnswer": "Food Around the World",
+              "hint": "Listen to the topic"
+            }
+          ],
+          "speaking": [
+            {
+              "id": "p5-s12",
+              "type": "pronounce-sentence",
+              "instruction": "Read aloud:",
+              "targetText": "I am learning about food around the world.",
+              "hint": "Clear pronunciation"
+            }
+          ],
+          "reading": [
+            {
+              "id": "p5-r12",
+              "type": "mcq",
+              "passage": "Food Around the World is an important topic in P5. We can learn many new English words about it.",
+              "question": "What subject is this?",
+              "options": [
+                "P5",
+                "Art",
+                "Music"
+              ],
+              "correctAnswer": "P5",
+              "explanation": "This is a P5 topic"
+            }
+          ],
+          "writing": [
+            {
+              "id": "p5-w12",
+              "type": "spelling",
+              "instruction": "Spell the topic name:",
+              "ttsText": "food",
+              "correctAnswer": "food",
+              "hint": "First word of the topic"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p5-u13",
+      "title": "Ocean and Marine Life",
+      "theme": "ocean-marine-life",
+      "mascotTip": "Tot says: Let's explore ocean and marine life!",
+      "lessons": [
+        {
+          "id": "p5-u13-l1",
+          "title": "Ocean and Marine Life",
+          "objectives": [
+            "Learn Ocean and Marine Life vocabulary",
+            "Discuss Ocean and Marine Life topics"
+          ],
+          "vocabulary": [
+            {
+              "id": "p5-v73",
+              "word": "(Ocean and Marine Life word 1)",
+              "phonetic": "",
+              "meaning": "P5 vocabulary",
+              "meaningZh": "",
+              "example": "Related to Ocean and Marine Life."
+            },
+            {
+              "id": "p5-v74",
+              "word": "(Ocean and Marine Life word 2)",
+              "phonetic": "",
+              "meaning": "P5 vocabulary",
+              "meaningZh": "",
+              "example": "Related to Ocean and Marine Life."
+            },
+            {
+              "id": "p5-v75",
+              "word": "(Ocean and Marine Life word 3)",
+              "phonetic": "",
+              "meaning": "P5 vocabulary",
+              "meaningZh": "",
+              "example": "Related to Ocean and Marine Life."
+            },
+            {
+              "id": "p5-v76",
+              "word": "(Ocean and Marine Life word 4)",
+              "phonetic": "",
+              "meaning": "P5 vocabulary",
+              "meaningZh": "",
+              "example": "Related to Ocean and Marine Life."
+            },
+            {
+              "id": "p5-v77",
+              "word": "(Ocean and Marine Life word 5)",
+              "phonetic": "",
+              "meaning": "P5 vocabulary",
+              "meaningZh": "",
+              "example": "Related to Ocean and Marine Life."
+            },
+            {
+              "id": "p5-v78",
+              "word": "(Ocean and Marine Life word 6)",
+              "phonetic": "",
+              "meaning": "P5 vocabulary",
+              "meaningZh": "",
+              "example": "Related to Ocean and Marine Life."
+            }
+          ],
+          "listening": [
+            {
+              "id": "p5-l13a",
+              "type": "mcq",
+              "instruction": "Listen about Ocean and Marine Life.",
+              "ttsText": "This topic is about Ocean and Marine Life.",
+              "question": "What is the topic?",
+              "options": [
+                "Ocean and Marine Life",
+                "Something else",
+                "Not sure"
+              ],
+              "correctAnswer": "Ocean and Marine Life",
+              "hint": "Listen to the topic"
+            }
+          ],
+          "speaking": [
+            {
+              "id": "p5-s13",
+              "type": "pronounce-sentence",
+              "instruction": "Read aloud:",
+              "targetText": "I am learning about ocean and marine life.",
+              "hint": "Clear pronunciation"
+            }
+          ],
+          "reading": [
+            {
+              "id": "p5-r13",
+              "type": "mcq",
+              "passage": "Ocean and Marine Life is an important topic in P5. We can learn many new English words about it.",
+              "question": "What subject is this?",
+              "options": [
+                "P5",
+                "Art",
+                "Music"
+              ],
+              "correctAnswer": "P5",
+              "explanation": "This is a P5 topic"
+            }
+          ],
+          "writing": [
+            {
+              "id": "p5-w13",
+              "type": "spelling",
+              "instruction": "Spell the topic name:",
+              "ttsText": "ocean",
+              "correctAnswer": "ocean",
+              "hint": "First word of the topic"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p5-u14",
+      "title": "Ancient Civilisations",
+      "theme": "ancient-civilisations",
+      "mascotTip": "Tat says: Let's explore ancient civilisations!",
+      "lessons": [
+        {
+          "id": "p5-u14-l1",
+          "title": "Ancient Civilisations",
+          "objectives": [
+            "Learn Ancient Civilisations vocabulary",
+            "Discuss Ancient Civilisations topics"
+          ],
+          "vocabulary": [
+            {
+              "id": "p5-v79",
+              "word": "(Ancient Civilisations word 1)",
+              "phonetic": "",
+              "meaning": "P5 vocabulary",
+              "meaningZh": "",
+              "example": "Related to Ancient Civilisations."
+            },
+            {
+              "id": "p5-v80",
+              "word": "(Ancient Civilisations word 2)",
+              "phonetic": "",
+              "meaning": "P5 vocabulary",
+              "meaningZh": "",
+              "example": "Related to Ancient Civilisations."
+            },
+            {
+              "id": "p5-v81",
+              "word": "(Ancient Civilisations word 3)",
+              "phonetic": "",
+              "meaning": "P5 vocabulary",
+              "meaningZh": "",
+              "example": "Related to Ancient Civilisations."
+            },
+            {
+              "id": "p5-v82",
+              "word": "(Ancient Civilisations word 4)",
+              "phonetic": "",
+              "meaning": "P5 vocabulary",
+              "meaningZh": "",
+              "example": "Related to Ancient Civilisations."
+            },
+            {
+              "id": "p5-v83",
+              "word": "(Ancient Civilisations word 5)",
+              "phonetic": "",
+              "meaning": "P5 vocabulary",
+              "meaningZh": "",
+              "example": "Related to Ancient Civilisations."
+            },
+            {
+              "id": "p5-v84",
+              "word": "(Ancient Civilisations word 6)",
+              "phonetic": "",
+              "meaning": "P5 vocabulary",
+              "meaningZh": "",
+              "example": "Related to Ancient Civilisations."
+            }
+          ],
+          "listening": [
+            {
+              "id": "p5-l14a",
+              "type": "mcq",
+              "instruction": "Listen about Ancient Civilisations.",
+              "ttsText": "This topic is about Ancient Civilisations.",
+              "question": "What is the topic?",
+              "options": [
+                "Ancient Civilisations",
+                "Something else",
+                "Not sure"
+              ],
+              "correctAnswer": "Ancient Civilisations",
+              "hint": "Listen to the topic"
+            }
+          ],
+          "speaking": [
+            {
+              "id": "p5-s14",
+              "type": "pronounce-sentence",
+              "instruction": "Read aloud:",
+              "targetText": "I am learning about ancient civilisations.",
+              "hint": "Clear pronunciation"
+            }
+          ],
+          "reading": [
+            {
+              "id": "p5-r14",
+              "type": "mcq",
+              "passage": "Ancient Civilisations is an important topic in P5. We can learn many new English words about it.",
+              "question": "What subject is this?",
+              "options": [
+                "P5",
+                "Art",
+                "Music"
+              ],
+              "correctAnswer": "P5",
+              "explanation": "This is a P5 topic"
+            }
+          ],
+          "writing": [
+            {
+              "id": "p5-w14",
+              "type": "spelling",
+              "instruction": "Spell the topic name:",
+              "ttsText": "ancient",
+              "correctAnswer": "ancient",
+              "hint": "First word of the topic"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p5-u15",
+      "title": "Money and Business",
+      "theme": "money-business",
+      "mascotTip": "Tot says: Let's explore money and business!",
+      "lessons": [
+        {
+          "id": "p5-u15-l1",
+          "title": "Money and Business",
+          "objectives": [
+            "Learn Money and Business vocabulary",
+            "Discuss Money and Business topics"
+          ],
+          "vocabulary": [
+            {
+              "id": "p5-v85",
+              "word": "(Money and Business word 1)",
+              "phonetic": "",
+              "meaning": "P5 vocabulary",
+              "meaningZh": "",
+              "example": "Related to Money and Business."
+            },
+            {
+              "id": "p5-v86",
+              "word": "(Money and Business word 2)",
+              "phonetic": "",
+              "meaning": "P5 vocabulary",
+              "meaningZh": "",
+              "example": "Related to Money and Business."
+            },
+            {
+              "id": "p5-v87",
+              "word": "(Money and Business word 3)",
+              "phonetic": "",
+              "meaning": "P5 vocabulary",
+              "meaningZh": "",
+              "example": "Related to Money and Business."
+            },
+            {
+              "id": "p5-v88",
+              "word": "(Money and Business word 4)",
+              "phonetic": "",
+              "meaning": "P5 vocabulary",
+              "meaningZh": "",
+              "example": "Related to Money and Business."
+            },
+            {
+              "id": "p5-v89",
+              "word": "(Money and Business word 5)",
+              "phonetic": "",
+              "meaning": "P5 vocabulary",
+              "meaningZh": "",
+              "example": "Related to Money and Business."
+            },
+            {
+              "id": "p5-v90",
+              "word": "(Money and Business word 6)",
+              "phonetic": "",
+              "meaning": "P5 vocabulary",
+              "meaningZh": "",
+              "example": "Related to Money and Business."
+            }
+          ],
+          "listening": [
+            {
+              "id": "p5-l15a",
+              "type": "mcq",
+              "instruction": "Listen about Money and Business.",
+              "ttsText": "This topic is about Money and Business.",
+              "question": "What is the topic?",
+              "options": [
+                "Money and Business",
+                "Something else",
+                "Not sure"
+              ],
+              "correctAnswer": "Money and Business",
+              "hint": "Listen to the topic"
+            }
+          ],
+          "speaking": [
+            {
+              "id": "p5-s15",
+              "type": "pronounce-sentence",
+              "instruction": "Read aloud:",
+              "targetText": "I am learning about money and business.",
+              "hint": "Clear pronunciation"
+            }
+          ],
+          "reading": [
+            {
+              "id": "p5-r15",
+              "type": "mcq",
+              "passage": "Money and Business is an important topic in P5. We can learn many new English words about it.",
+              "question": "What subject is this?",
+              "options": [
+                "P5",
+                "Art",
+                "Music"
+              ],
+              "correctAnswer": "P5",
+              "explanation": "This is a P5 topic"
+            }
+          ],
+          "writing": [
+            {
+              "id": "p5-w15",
+              "type": "spelling",
+              "instruction": "Spell the topic name:",
+              "ttsText": "money",
+              "correctAnswer": "money",
+              "hint": "First word of the topic"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p5-u16",
+      "title": "Art and Design",
+      "theme": "art-design",
+      "mascotTip": "Tat says: Let's explore art and design!",
+      "lessons": [
+        {
+          "id": "p5-u16-l1",
+          "title": "Art and Design",
+          "objectives": [
+            "Learn Art and Design vocabulary",
+            "Discuss Art and Design topics"
+          ],
+          "vocabulary": [
+            {
+              "id": "p5-v91",
+              "word": "(Art and Design word 1)",
+              "phonetic": "",
+              "meaning": "P5 vocabulary",
+              "meaningZh": "",
+              "example": "Related to Art and Design."
+            },
+            {
+              "id": "p5-v92",
+              "word": "(Art and Design word 2)",
+              "phonetic": "",
+              "meaning": "P5 vocabulary",
+              "meaningZh": "",
+              "example": "Related to Art and Design."
+            },
+            {
+              "id": "p5-v93",
+              "word": "(Art and Design word 3)",
+              "phonetic": "",
+              "meaning": "P5 vocabulary",
+              "meaningZh": "",
+              "example": "Related to Art and Design."
+            },
+            {
+              "id": "p5-v94",
+              "word": "(Art and Design word 4)",
+              "phonetic": "",
+              "meaning": "P5 vocabulary",
+              "meaningZh": "",
+              "example": "Related to Art and Design."
+            },
+            {
+              "id": "p5-v95",
+              "word": "(Art and Design word 5)",
+              "phonetic": "",
+              "meaning": "P5 vocabulary",
+              "meaningZh": "",
+              "example": "Related to Art and Design."
+            },
+            {
+              "id": "p5-v96",
+              "word": "(Art and Design word 6)",
+              "phonetic": "",
+              "meaning": "P5 vocabulary",
+              "meaningZh": "",
+              "example": "Related to Art and Design."
+            }
+          ],
+          "listening": [
+            {
+              "id": "p5-l16a",
+              "type": "mcq",
+              "instruction": "Listen about Art and Design.",
+              "ttsText": "This topic is about Art and Design.",
+              "question": "What is the topic?",
+              "options": [
+                "Art and Design",
+                "Something else",
+                "Not sure"
+              ],
+              "correctAnswer": "Art and Design",
+              "hint": "Listen to the topic"
+            }
+          ],
+          "speaking": [
+            {
+              "id": "p5-s16",
+              "type": "pronounce-sentence",
+              "instruction": "Read aloud:",
+              "targetText": "I am learning about art and design.",
+              "hint": "Clear pronunciation"
+            }
+          ],
+          "reading": [
+            {
+              "id": "p5-r16",
+              "type": "mcq",
+              "passage": "Art and Design is an important topic in P5. We can learn many new English words about it.",
+              "question": "What subject is this?",
+              "options": [
+                "P5",
+                "Art",
+                "Music"
+              ],
+              "correctAnswer": "P5",
+              "explanation": "This is a P5 topic"
+            }
+          ],
+          "writing": [
+            {
+              "id": "p5-w16",
+              "type": "spelling",
+              "instruction": "Spell the topic name:",
+              "ttsText": "art",
+              "correctAnswer": "art",
+              "hint": "First word of the topic"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p5-u17",
+      "title": "Friendship and Relationships",
+      "theme": "friendship-relationships",
+      "mascotTip": "Tot says: Let's explore friendship and relationships!",
+      "lessons": [
+        {
+          "id": "p5-u17-l1",
+          "title": "Friendship and Relationships",
+          "objectives": [
+            "Learn Friendship and Relationships vocabulary",
+            "Discuss Friendship and Relationships topics"
+          ],
+          "vocabulary": [
+            {
+              "id": "p5-v97",
+              "word": "(Friendship and Relationships word 1)",
+              "phonetic": "",
+              "meaning": "P5 vocabulary",
+              "meaningZh": "",
+              "example": "Related to Friendship and Relationships."
+            },
+            {
+              "id": "p5-v98",
+              "word": "(Friendship and Relationships word 2)",
+              "phonetic": "",
+              "meaning": "P5 vocabulary",
+              "meaningZh": "",
+              "example": "Related to Friendship and Relationships."
+            },
+            {
+              "id": "p5-v99",
+              "word": "(Friendship and Relationships word 3)",
+              "phonetic": "",
+              "meaning": "P5 vocabulary",
+              "meaningZh": "",
+              "example": "Related to Friendship and Relationships."
+            },
+            {
+              "id": "p5-v100",
+              "word": "(Friendship and Relationships word 4)",
+              "phonetic": "",
+              "meaning": "P5 vocabulary",
+              "meaningZh": "",
+              "example": "Related to Friendship and Relationships."
+            },
+            {
+              "id": "p5-v101",
+              "word": "(Friendship and Relationships word 5)",
+              "phonetic": "",
+              "meaning": "P5 vocabulary",
+              "meaningZh": "",
+              "example": "Related to Friendship and Relationships."
+            },
+            {
+              "id": "p5-v102",
+              "word": "(Friendship and Relationships word 6)",
+              "phonetic": "",
+              "meaning": "P5 vocabulary",
+              "meaningZh": "",
+              "example": "Related to Friendship and Relationships."
+            }
+          ],
+          "listening": [
+            {
+              "id": "p5-l17a",
+              "type": "mcq",
+              "instruction": "Listen about Friendship and Relationships.",
+              "ttsText": "This topic is about Friendship and Relationships.",
+              "question": "What is the topic?",
+              "options": [
+                "Friendship and Relationships",
+                "Something else",
+                "Not sure"
+              ],
+              "correctAnswer": "Friendship and Relationships",
+              "hint": "Listen to the topic"
+            }
+          ],
+          "speaking": [
+            {
+              "id": "p5-s17",
+              "type": "pronounce-sentence",
+              "instruction": "Read aloud:",
+              "targetText": "I am learning about friendship and relationships.",
+              "hint": "Clear pronunciation"
+            }
+          ],
+          "reading": [
+            {
+              "id": "p5-r17",
+              "type": "mcq",
+              "passage": "Friendship and Relationships is an important topic in P5. We can learn many new English words about it.",
+              "question": "What subject is this?",
+              "options": [
+                "P5",
+                "Art",
+                "Music"
+              ],
+              "correctAnswer": "P5",
+              "explanation": "This is a P5 topic"
+            }
+          ],
+          "writing": [
+            {
+              "id": "p5-w17",
+              "type": "spelling",
+              "instruction": "Spell the topic name:",
+              "ttsText": "friendship",
+              "correctAnswer": "friendship",
+              "hint": "First word of the topic"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p5-u18",
+      "title": "The Future",
+      "theme": "the-future",
+      "mascotTip": "Tat says: Let's explore the future!",
+      "lessons": [
+        {
+          "id": "p5-u18-l1",
+          "title": "The Future",
+          "objectives": [
+            "Learn The Future vocabulary",
+            "Discuss The Future topics"
+          ],
+          "vocabulary": [
+            {
+              "id": "p5-v103",
+              "word": "(The Future word 1)",
+              "phonetic": "",
+              "meaning": "P5 vocabulary",
+              "meaningZh": "",
+              "example": "Related to The Future."
+            },
+            {
+              "id": "p5-v104",
+              "word": "(The Future word 2)",
+              "phonetic": "",
+              "meaning": "P5 vocabulary",
+              "meaningZh": "",
+              "example": "Related to The Future."
+            },
+            {
+              "id": "p5-v105",
+              "word": "(The Future word 3)",
+              "phonetic": "",
+              "meaning": "P5 vocabulary",
+              "meaningZh": "",
+              "example": "Related to The Future."
+            },
+            {
+              "id": "p5-v106",
+              "word": "(The Future word 4)",
+              "phonetic": "",
+              "meaning": "P5 vocabulary",
+              "meaningZh": "",
+              "example": "Related to The Future."
+            },
+            {
+              "id": "p5-v107",
+              "word": "(The Future word 5)",
+              "phonetic": "",
+              "meaning": "P5 vocabulary",
+              "meaningZh": "",
+              "example": "Related to The Future."
+            },
+            {
+              "id": "p5-v108",
+              "word": "(The Future word 6)",
+              "phonetic": "",
+              "meaning": "P5 vocabulary",
+              "meaningZh": "",
+              "example": "Related to The Future."
+            }
+          ],
+          "listening": [
+            {
+              "id": "p5-l18a",
+              "type": "mcq",
+              "instruction": "Listen about The Future.",
+              "ttsText": "This topic is about The Future.",
+              "question": "What is the topic?",
+              "options": [
+                "The Future",
+                "Something else",
+                "Not sure"
+              ],
+              "correctAnswer": "The Future",
+              "hint": "Listen to the topic"
+            }
+          ],
+          "speaking": [
+            {
+              "id": "p5-s18",
+              "type": "pronounce-sentence",
+              "instruction": "Read aloud:",
+              "targetText": "I am learning about the future.",
+              "hint": "Clear pronunciation"
+            }
+          ],
+          "reading": [
+            {
+              "id": "p5-r18",
+              "type": "mcq",
+              "passage": "The Future is an important topic in P5. We can learn many new English words about it.",
+              "question": "What subject is this?",
+              "options": [
+                "P5",
+                "Art",
+                "Music"
+              ],
+              "correctAnswer": "P5",
+              "explanation": "This is a P5 topic"
+            }
+          ],
+          "writing": [
+            {
+              "id": "p5-w18",
+              "type": "spelling",
+              "instruction": "Spell the topic name:",
+              "ttsText": "the",
+              "correctAnswer": "the",
+              "hint": "First word of the topic"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p5-u19",
+      "title": "Adventure and Exploration",
+      "theme": "adventure-exploration",
+      "mascotTip": "Tot says: Let's explore adventure and exploration!",
+      "lessons": [
+        {
+          "id": "p5-u19-l1",
+          "title": "Adventure and Exploration",
+          "objectives": [
+            "Learn Adventure and Exploration vocabulary",
+            "Discuss Adventure and Exploration topics"
+          ],
+          "vocabulary": [
+            {
+              "id": "p5-v109",
+              "word": "(Adventure and Exploration word 1)",
+              "phonetic": "",
+              "meaning": "P5 vocabulary",
+              "meaningZh": "",
+              "example": "Related to Adventure and Exploration."
+            },
+            {
+              "id": "p5-v110",
+              "word": "(Adventure and Exploration word 2)",
+              "phonetic": "",
+              "meaning": "P5 vocabulary",
+              "meaningZh": "",
+              "example": "Related to Adventure and Exploration."
+            },
+            {
+              "id": "p5-v111",
+              "word": "(Adventure and Exploration word 3)",
+              "phonetic": "",
+              "meaning": "P5 vocabulary",
+              "meaningZh": "",
+              "example": "Related to Adventure and Exploration."
+            },
+            {
+              "id": "p5-v112",
+              "word": "(Adventure and Exploration word 4)",
+              "phonetic": "",
+              "meaning": "P5 vocabulary",
+              "meaningZh": "",
+              "example": "Related to Adventure and Exploration."
+            },
+            {
+              "id": "p5-v113",
+              "word": "(Adventure and Exploration word 5)",
+              "phonetic": "",
+              "meaning": "P5 vocabulary",
+              "meaningZh": "",
+              "example": "Related to Adventure and Exploration."
+            },
+            {
+              "id": "p5-v114",
+              "word": "(Adventure and Exploration word 6)",
+              "phonetic": "",
+              "meaning": "P5 vocabulary",
+              "meaningZh": "",
+              "example": "Related to Adventure and Exploration."
+            }
+          ],
+          "listening": [
+            {
+              "id": "p5-l19a",
+              "type": "mcq",
+              "instruction": "Listen about Adventure and Exploration.",
+              "ttsText": "This topic is about Adventure and Exploration.",
+              "question": "What is the topic?",
+              "options": [
+                "Adventure and Exploration",
+                "Something else",
+                "Not sure"
+              ],
+              "correctAnswer": "Adventure and Exploration",
+              "hint": "Listen to the topic"
+            }
+          ],
+          "speaking": [
+            {
+              "id": "p5-s19",
+              "type": "pronounce-sentence",
+              "instruction": "Read aloud:",
+              "targetText": "I am learning about adventure and exploration.",
+              "hint": "Clear pronunciation"
+            }
+          ],
+          "reading": [
+            {
+              "id": "p5-r19",
+              "type": "mcq",
+              "passage": "Adventure and Exploration is an important topic in P5. We can learn many new English words about it.",
+              "question": "What subject is this?",
+              "options": [
+                "P5",
+                "Art",
+                "Music"
+              ],
+              "correctAnswer": "P5",
+              "explanation": "This is a P5 topic"
+            }
+          ],
+          "writing": [
+            {
+              "id": "p5-w19",
+              "type": "spelling",
+              "instruction": "Spell the topic name:",
+              "ttsText": "adventure",
+              "correctAnswer": "adventure",
+              "hint": "First word of the topic"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p5-u20",
+      "title": "Life in Hong Kong",
+      "theme": "life-in-hong-kong",
+      "mascotTip": "Tat says: Let's explore life in hong kong!",
+      "lessons": [
+        {
+          "id": "p5-u20-l1",
+          "title": "Life in Hong Kong",
+          "objectives": [
+            "Learn Life in Hong Kong vocabulary",
+            "Discuss Life in Hong Kong topics"
+          ],
+          "vocabulary": [
+            {
+              "id": "p5-v115",
+              "word": "(Life in Hong Kong word 1)",
+              "phonetic": "",
+              "meaning": "P5 vocabulary",
+              "meaningZh": "",
+              "example": "Related to Life in Hong Kong."
+            },
+            {
+              "id": "p5-v116",
+              "word": "(Life in Hong Kong word 2)",
+              "phonetic": "",
+              "meaning": "P5 vocabulary",
+              "meaningZh": "",
+              "example": "Related to Life in Hong Kong."
+            },
+            {
+              "id": "p5-v117",
+              "word": "(Life in Hong Kong word 3)",
+              "phonetic": "",
+              "meaning": "P5 vocabulary",
+              "meaningZh": "",
+              "example": "Related to Life in Hong Kong."
+            },
+            {
+              "id": "p5-v118",
+              "word": "(Life in Hong Kong word 4)",
+              "phonetic": "",
+              "meaning": "P5 vocabulary",
+              "meaningZh": "",
+              "example": "Related to Life in Hong Kong."
+            },
+            {
+              "id": "p5-v119",
+              "word": "(Life in Hong Kong word 5)",
+              "phonetic": "",
+              "meaning": "P5 vocabulary",
+              "meaningZh": "",
+              "example": "Related to Life in Hong Kong."
+            },
+            {
+              "id": "p5-v120",
+              "word": "(Life in Hong Kong word 6)",
+              "phonetic": "",
+              "meaning": "P5 vocabulary",
+              "meaningZh": "",
+              "example": "Related to Life in Hong Kong."
+            }
+          ],
+          "listening": [
+            {
+              "id": "p5-l20a",
+              "type": "mcq",
+              "instruction": "Listen about Life in Hong Kong.",
+              "ttsText": "This topic is about Life in Hong Kong.",
+              "question": "What is the topic?",
+              "options": [
+                "Life in Hong Kong",
+                "Something else",
+                "Not sure"
+              ],
+              "correctAnswer": "Life in Hong Kong",
+              "hint": "Listen to the topic"
+            }
+          ],
+          "speaking": [
+            {
+              "id": "p5-s20",
+              "type": "pronounce-sentence",
+              "instruction": "Read aloud:",
+              "targetText": "I am learning about life in hong kong.",
+              "hint": "Clear pronunciation"
+            }
+          ],
+          "reading": [
+            {
+              "id": "p5-r20",
+              "type": "mcq",
+              "passage": "Life in Hong Kong is an important topic in P5. We can learn many new English words about it.",
+              "question": "What subject is this?",
+              "options": [
+                "P5",
+                "Art",
+                "Music"
+              ],
+              "correctAnswer": "P5",
+              "explanation": "This is a P5 topic"
+            }
+          ],
+          "writing": [
+            {
+              "id": "p5-w20",
+              "type": "spelling",
+              "instruction": "Spell the topic name:",
+              "ttsText": "life",
+              "correctAnswer": "life",
+              "hint": "First word of the topic"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

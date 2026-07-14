@@ -1,0 +1,2769 @@
+{
+  "id": "p3-english-fun",
+  "name": "English Fun 3A",
+  "publisher": "Tot & Tat",
+  "grade": "P3",
+  "version": "2.0.0",
+  "units": [
+    {
+      "id": "u1",
+      "title": "My Family",
+      "theme": "my-family",
+      "mascotTip": "Tot says: Let's learn about my family!",
+      "lessons": [
+        {
+          "id": "u1-l1",
+          "title": "My Family",
+          "objectives": [
+            "Learn My Family vocabulary",
+            "Use words in context"
+          ],
+          "vocabulary": [
+            {
+              "id": "v1",
+              "word": "mother",
+              "phonetic": "/ˈmʌðər/",
+              "meaning": "female parent",
+              "meaningZh": "母親",
+              "example": "My mother is a teacher."
+            },
+            {
+              "id": "v2",
+              "word": "father",
+              "phonetic": "/ˈfɑːðər/",
+              "meaning": "male parent",
+              "meaningZh": "父親",
+              "example": "My father likes to cook."
+            },
+            {
+              "id": "v3",
+              "word": "brother",
+              "phonetic": "/ˈbrʌðər/",
+              "meaning": "male sibling",
+              "meaningZh": "兄弟",
+              "example": "I have one brother."
+            },
+            {
+              "id": "v4",
+              "word": "sister",
+              "phonetic": "/ˈsɪstər/",
+              "meaning": "female sibling",
+              "meaningZh": "姐妹",
+              "example": "My sister is younger."
+            },
+            {
+              "id": "v5",
+              "word": "grandmother",
+              "phonetic": "/ˈɡrænˌmʌðər/",
+              "meaning": "parent's mother",
+              "meaningZh": "祖母",
+              "example": "Grandmother tells stories."
+            },
+            {
+              "id": "v6",
+              "word": "uncle",
+              "phonetic": "/ˈʌŋkl/",
+              "meaning": "parent's brother",
+              "meaningZh": "叔叔",
+              "example": "My uncle lives nearby."
+            }
+          ],
+          "listening": [
+            {
+              "id": "p3l1a",
+              "type": "mcq",
+              "instruction": "Listen about My Family.",
+              "ttsText": "This is about my family.",
+              "question": "What is the topic?",
+              "options": [
+                "My Family",
+                "Something else",
+                "Not mentioned"
+              ],
+              "correctAnswer": "My Family",
+              "hint": "Listen to the topic"
+            },
+            {
+              "id": "p3l1b",
+              "type": "dictation",
+              "instruction": "Listen and type:",
+              "ttsText": "I like learning about my family.",
+              "correctAnswer": "I like learning about my family",
+              "hint": "About a topic"
+            }
+          ],
+          "speaking": [
+            {
+              "id": "s1a",
+              "type": "pronounce-word",
+              "instruction": "Say:",
+              "targetText": "mother",
+              "phonetic": "/ˈmʌðər/"
+            },
+            {
+              "id": "s1b",
+              "type": "pronounce-sentence",
+              "instruction": "Read aloud:",
+              "targetText": "My mother is a teacher.",
+              "hint": "Clearly"
+            }
+          ],
+          "reading": [
+            {
+              "id": "p3r1",
+              "type": "mcq",
+              "passage": "My Family is something we learn about in school. It helps us understand the world better.",
+              "question": "What helps us understand the world?",
+              "options": [
+                "Playing games",
+                "Learning about My Family",
+                "Watching TV"
+              ],
+              "correctAnswer": "Learning about My Family",
+              "explanation": "Learning helps us understand"
+            }
+          ],
+          "writing": [
+            {
+              "id": "p3w1a",
+              "type": "spelling",
+              "instruction": "Spell:",
+              "ttsText": "my",
+              "correctAnswer": "my",
+              "hint": "First word of My Family"
+            },
+            {
+              "id": "p3w1b",
+              "type": "fill-blank",
+              "instruction": "I am learning about _____.",
+              "correctAnswer": "my family",
+              "hint": "The topic name"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u2",
+      "title": "My Home",
+      "theme": "my-home",
+      "mascotTip": "Tat says: Let's learn about my home!",
+      "lessons": [
+        {
+          "id": "u2-l1",
+          "title": "My Home",
+          "objectives": [
+            "Learn My Home vocabulary",
+            "Use words in context"
+          ],
+          "vocabulary": [
+            {
+              "id": "p3v7",
+              "word": "(My Home word 1)",
+              "phonetic": "",
+              "meaning": "Related to My Home",
+              "meaningZh": "",
+              "example": "A word about my home."
+            },
+            {
+              "id": "p3v8",
+              "word": "(My Home word 2)",
+              "phonetic": "",
+              "meaning": "Related to My Home",
+              "meaningZh": "",
+              "example": "A word about my home."
+            },
+            {
+              "id": "p3v9",
+              "word": "(My Home word 3)",
+              "phonetic": "",
+              "meaning": "Related to My Home",
+              "meaningZh": "",
+              "example": "A word about my home."
+            },
+            {
+              "id": "p3v10",
+              "word": "(My Home word 4)",
+              "phonetic": "",
+              "meaning": "Related to My Home",
+              "meaningZh": "",
+              "example": "A word about my home."
+            },
+            {
+              "id": "p3v11",
+              "word": "(My Home word 5)",
+              "phonetic": "",
+              "meaning": "Related to My Home",
+              "meaningZh": "",
+              "example": "A word about my home."
+            },
+            {
+              "id": "p3v12",
+              "word": "(My Home word 6)",
+              "phonetic": "",
+              "meaning": "Related to My Home",
+              "meaningZh": "",
+              "example": "A word about my home."
+            }
+          ],
+          "listening": [
+            {
+              "id": "p3l2a",
+              "type": "mcq",
+              "instruction": "Listen about My Home.",
+              "ttsText": "This is about my home.",
+              "question": "What is the topic?",
+              "options": [
+                "My Home",
+                "Something else",
+                "Not mentioned"
+              ],
+              "correctAnswer": "My Home",
+              "hint": "Listen to the topic"
+            },
+            {
+              "id": "p3l2b",
+              "type": "dictation",
+              "instruction": "Listen and type:",
+              "ttsText": "I like learning about my home.",
+              "correctAnswer": "I like learning about my home",
+              "hint": "About a topic"
+            }
+          ],
+          "speaking": [
+            {
+              "id": "s2a",
+              "type": "pronounce-word",
+              "instruction": "Say:",
+              "targetText": "(My Home word 1)",
+              "phonetic": ""
+            },
+            {
+              "id": "s2b",
+              "type": "pronounce-sentence",
+              "instruction": "Read aloud:",
+              "targetText": "A word about my home.",
+              "hint": "Clearly"
+            }
+          ],
+          "reading": [
+            {
+              "id": "p3r2",
+              "type": "mcq",
+              "passage": "My Home is something we learn about in school. It helps us understand the world better.",
+              "question": "What helps us understand the world?",
+              "options": [
+                "Playing games",
+                "Learning about My Home",
+                "Watching TV"
+              ],
+              "correctAnswer": "Learning about My Home",
+              "explanation": "Learning helps us understand"
+            }
+          ],
+          "writing": [
+            {
+              "id": "p3w2a",
+              "type": "spelling",
+              "instruction": "Spell:",
+              "ttsText": "my",
+              "correctAnswer": "my",
+              "hint": "First word of My Home"
+            },
+            {
+              "id": "p3w2b",
+              "type": "fill-blank",
+              "instruction": "I am learning about _____.",
+              "correctAnswer": "my home",
+              "hint": "The topic name"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u3",
+      "title": "Food and Drinks",
+      "theme": "food-drinks",
+      "mascotTip": "Tot says: Let's learn about food and drinks!",
+      "lessons": [
+        {
+          "id": "u3-l1",
+          "title": "Food and Drinks",
+          "objectives": [
+            "Learn Food and Drinks vocabulary",
+            "Use words in context"
+          ],
+          "vocabulary": [
+            {
+              "id": "p3v13",
+              "word": "(Food and Drinks word 1)",
+              "phonetic": "",
+              "meaning": "Related to Food and Drinks",
+              "meaningZh": "",
+              "example": "A word about food and drinks."
+            },
+            {
+              "id": "p3v14",
+              "word": "(Food and Drinks word 2)",
+              "phonetic": "",
+              "meaning": "Related to Food and Drinks",
+              "meaningZh": "",
+              "example": "A word about food and drinks."
+            },
+            {
+              "id": "p3v15",
+              "word": "(Food and Drinks word 3)",
+              "phonetic": "",
+              "meaning": "Related to Food and Drinks",
+              "meaningZh": "",
+              "example": "A word about food and drinks."
+            },
+            {
+              "id": "p3v16",
+              "word": "(Food and Drinks word 4)",
+              "phonetic": "",
+              "meaning": "Related to Food and Drinks",
+              "meaningZh": "",
+              "example": "A word about food and drinks."
+            },
+            {
+              "id": "p3v17",
+              "word": "(Food and Drinks word 5)",
+              "phonetic": "",
+              "meaning": "Related to Food and Drinks",
+              "meaningZh": "",
+              "example": "A word about food and drinks."
+            },
+            {
+              "id": "p3v18",
+              "word": "(Food and Drinks word 6)",
+              "phonetic": "",
+              "meaning": "Related to Food and Drinks",
+              "meaningZh": "",
+              "example": "A word about food and drinks."
+            }
+          ],
+          "listening": [
+            {
+              "id": "p3l3a",
+              "type": "mcq",
+              "instruction": "Listen about Food and Drinks.",
+              "ttsText": "This is about food and drinks.",
+              "question": "What is the topic?",
+              "options": [
+                "Food and Drinks",
+                "Something else",
+                "Not mentioned"
+              ],
+              "correctAnswer": "Food and Drinks",
+              "hint": "Listen to the topic"
+            },
+            {
+              "id": "p3l3b",
+              "type": "dictation",
+              "instruction": "Listen and type:",
+              "ttsText": "I like learning about food and drinks.",
+              "correctAnswer": "I like learning about food and drinks",
+              "hint": "About a topic"
+            }
+          ],
+          "speaking": [
+            {
+              "id": "s3a",
+              "type": "pronounce-word",
+              "instruction": "Say:",
+              "targetText": "(Food and Drinks word 1)",
+              "phonetic": ""
+            },
+            {
+              "id": "s3b",
+              "type": "pronounce-sentence",
+              "instruction": "Read aloud:",
+              "targetText": "A word about food and drinks.",
+              "hint": "Clearly"
+            }
+          ],
+          "reading": [
+            {
+              "id": "p3r3",
+              "type": "mcq",
+              "passage": "Food and Drinks is something we learn about in school. It helps us understand the world better.",
+              "question": "What helps us understand the world?",
+              "options": [
+                "Playing games",
+                "Learning about Food and Drinks",
+                "Watching TV"
+              ],
+              "correctAnswer": "Learning about Food and Drinks",
+              "explanation": "Learning helps us understand"
+            }
+          ],
+          "writing": [
+            {
+              "id": "p3w3a",
+              "type": "spelling",
+              "instruction": "Spell:",
+              "ttsText": "food",
+              "correctAnswer": "food",
+              "hint": "First word of Food and Drinks"
+            },
+            {
+              "id": "p3w3b",
+              "type": "fill-blank",
+              "instruction": "I am learning about _____.",
+              "correctAnswer": "food and drinks",
+              "hint": "The topic name"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u4",
+      "title": "My School",
+      "theme": "my-school",
+      "mascotTip": "Tat says: Let's learn about my school!",
+      "lessons": [
+        {
+          "id": "u4-l1",
+          "title": "My School",
+          "objectives": [
+            "Learn My School vocabulary",
+            "Use words in context"
+          ],
+          "vocabulary": [
+            {
+              "id": "p3v19",
+              "word": "(My School word 1)",
+              "phonetic": "",
+              "meaning": "Related to My School",
+              "meaningZh": "",
+              "example": "A word about my school."
+            },
+            {
+              "id": "p3v20",
+              "word": "(My School word 2)",
+              "phonetic": "",
+              "meaning": "Related to My School",
+              "meaningZh": "",
+              "example": "A word about my school."
+            },
+            {
+              "id": "p3v21",
+              "word": "(My School word 3)",
+              "phonetic": "",
+              "meaning": "Related to My School",
+              "meaningZh": "",
+              "example": "A word about my school."
+            },
+            {
+              "id": "p3v22",
+              "word": "(My School word 4)",
+              "phonetic": "",
+              "meaning": "Related to My School",
+              "meaningZh": "",
+              "example": "A word about my school."
+            },
+            {
+              "id": "p3v23",
+              "word": "(My School word 5)",
+              "phonetic": "",
+              "meaning": "Related to My School",
+              "meaningZh": "",
+              "example": "A word about my school."
+            },
+            {
+              "id": "p3v24",
+              "word": "(My School word 6)",
+              "phonetic": "",
+              "meaning": "Related to My School",
+              "meaningZh": "",
+              "example": "A word about my school."
+            }
+          ],
+          "listening": [
+            {
+              "id": "p3l4a",
+              "type": "mcq",
+              "instruction": "Listen about My School.",
+              "ttsText": "This is about my school.",
+              "question": "What is the topic?",
+              "options": [
+                "My School",
+                "Something else",
+                "Not mentioned"
+              ],
+              "correctAnswer": "My School",
+              "hint": "Listen to the topic"
+            },
+            {
+              "id": "p3l4b",
+              "type": "dictation",
+              "instruction": "Listen and type:",
+              "ttsText": "I like learning about my school.",
+              "correctAnswer": "I like learning about my school",
+              "hint": "About a topic"
+            }
+          ],
+          "speaking": [
+            {
+              "id": "s4a",
+              "type": "pronounce-word",
+              "instruction": "Say:",
+              "targetText": "(My School word 1)",
+              "phonetic": ""
+            },
+            {
+              "id": "s4b",
+              "type": "pronounce-sentence",
+              "instruction": "Read aloud:",
+              "targetText": "A word about my school.",
+              "hint": "Clearly"
+            }
+          ],
+          "reading": [
+            {
+              "id": "p3r4",
+              "type": "mcq",
+              "passage": "My School is something we learn about in school. It helps us understand the world better.",
+              "question": "What helps us understand the world?",
+              "options": [
+                "Playing games",
+                "Learning about My School",
+                "Watching TV"
+              ],
+              "correctAnswer": "Learning about My School",
+              "explanation": "Learning helps us understand"
+            }
+          ],
+          "writing": [
+            {
+              "id": "p3w4a",
+              "type": "spelling",
+              "instruction": "Spell:",
+              "ttsText": "my",
+              "correctAnswer": "my",
+              "hint": "First word of My School"
+            },
+            {
+              "id": "p3w4b",
+              "type": "fill-blank",
+              "instruction": "I am learning about _____.",
+              "correctAnswer": "my school",
+              "hint": "The topic name"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u5",
+      "title": "Animals",
+      "theme": "animals",
+      "mascotTip": "Tot says: Let's learn about animals!",
+      "lessons": [
+        {
+          "id": "u5-l1",
+          "title": "Animals",
+          "objectives": [
+            "Learn Animals vocabulary",
+            "Use words in context"
+          ],
+          "vocabulary": [
+            {
+              "id": "p3v25",
+              "word": "(Animals word 1)",
+              "phonetic": "",
+              "meaning": "Related to Animals",
+              "meaningZh": "",
+              "example": "A word about animals."
+            },
+            {
+              "id": "p3v26",
+              "word": "(Animals word 2)",
+              "phonetic": "",
+              "meaning": "Related to Animals",
+              "meaningZh": "",
+              "example": "A word about animals."
+            },
+            {
+              "id": "p3v27",
+              "word": "(Animals word 3)",
+              "phonetic": "",
+              "meaning": "Related to Animals",
+              "meaningZh": "",
+              "example": "A word about animals."
+            },
+            {
+              "id": "p3v28",
+              "word": "(Animals word 4)",
+              "phonetic": "",
+              "meaning": "Related to Animals",
+              "meaningZh": "",
+              "example": "A word about animals."
+            },
+            {
+              "id": "p3v29",
+              "word": "(Animals word 5)",
+              "phonetic": "",
+              "meaning": "Related to Animals",
+              "meaningZh": "",
+              "example": "A word about animals."
+            },
+            {
+              "id": "p3v30",
+              "word": "(Animals word 6)",
+              "phonetic": "",
+              "meaning": "Related to Animals",
+              "meaningZh": "",
+              "example": "A word about animals."
+            }
+          ],
+          "listening": [
+            {
+              "id": "p3l5a",
+              "type": "mcq",
+              "instruction": "Listen about Animals.",
+              "ttsText": "This is about animals.",
+              "question": "What is the topic?",
+              "options": [
+                "Animals",
+                "Something else",
+                "Not mentioned"
+              ],
+              "correctAnswer": "Animals",
+              "hint": "Listen to the topic"
+            },
+            {
+              "id": "p3l5b",
+              "type": "dictation",
+              "instruction": "Listen and type:",
+              "ttsText": "I like learning about animals.",
+              "correctAnswer": "I like learning about animals",
+              "hint": "About a topic"
+            }
+          ],
+          "speaking": [
+            {
+              "id": "s5a",
+              "type": "pronounce-word",
+              "instruction": "Say:",
+              "targetText": "(Animals word 1)",
+              "phonetic": ""
+            },
+            {
+              "id": "s5b",
+              "type": "pronounce-sentence",
+              "instruction": "Read aloud:",
+              "targetText": "A word about animals.",
+              "hint": "Clearly"
+            }
+          ],
+          "reading": [
+            {
+              "id": "p3r5",
+              "type": "mcq",
+              "passage": "Animals is something we learn about in school. It helps us understand the world better.",
+              "question": "What helps us understand the world?",
+              "options": [
+                "Playing games",
+                "Learning about Animals",
+                "Watching TV"
+              ],
+              "correctAnswer": "Learning about Animals",
+              "explanation": "Learning helps us understand"
+            }
+          ],
+          "writing": [
+            {
+              "id": "p3w5a",
+              "type": "spelling",
+              "instruction": "Spell:",
+              "ttsText": "animals",
+              "correctAnswer": "animals",
+              "hint": "First word of Animals"
+            },
+            {
+              "id": "p3w5b",
+              "type": "fill-blank",
+              "instruction": "I am learning about _____.",
+              "correctAnswer": "animals",
+              "hint": "The topic name"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u6",
+      "title": "Weather and Seasons",
+      "theme": "weather-seasons",
+      "mascotTip": "Tat says: Let's learn about weather and seasons!",
+      "lessons": [
+        {
+          "id": "u6-l1",
+          "title": "Weather and Seasons",
+          "objectives": [
+            "Learn Weather and Seasons vocabulary",
+            "Use words in context"
+          ],
+          "vocabulary": [
+            {
+              "id": "p3v31",
+              "word": "(Weather and Seasons word 1)",
+              "phonetic": "",
+              "meaning": "Related to Weather and Seasons",
+              "meaningZh": "",
+              "example": "A word about weather and seasons."
+            },
+            {
+              "id": "p3v32",
+              "word": "(Weather and Seasons word 2)",
+              "phonetic": "",
+              "meaning": "Related to Weather and Seasons",
+              "meaningZh": "",
+              "example": "A word about weather and seasons."
+            },
+            {
+              "id": "p3v33",
+              "word": "(Weather and Seasons word 3)",
+              "phonetic": "",
+              "meaning": "Related to Weather and Seasons",
+              "meaningZh": "",
+              "example": "A word about weather and seasons."
+            },
+            {
+              "id": "p3v34",
+              "word": "(Weather and Seasons word 4)",
+              "phonetic": "",
+              "meaning": "Related to Weather and Seasons",
+              "meaningZh": "",
+              "example": "A word about weather and seasons."
+            },
+            {
+              "id": "p3v35",
+              "word": "(Weather and Seasons word 5)",
+              "phonetic": "",
+              "meaning": "Related to Weather and Seasons",
+              "meaningZh": "",
+              "example": "A word about weather and seasons."
+            },
+            {
+              "id": "p3v36",
+              "word": "(Weather and Seasons word 6)",
+              "phonetic": "",
+              "meaning": "Related to Weather and Seasons",
+              "meaningZh": "",
+              "example": "A word about weather and seasons."
+            }
+          ],
+          "listening": [
+            {
+              "id": "p3l6a",
+              "type": "mcq",
+              "instruction": "Listen about Weather and Seasons.",
+              "ttsText": "This is about weather and seasons.",
+              "question": "What is the topic?",
+              "options": [
+                "Weather and Seasons",
+                "Something else",
+                "Not mentioned"
+              ],
+              "correctAnswer": "Weather and Seasons",
+              "hint": "Listen to the topic"
+            },
+            {
+              "id": "p3l6b",
+              "type": "dictation",
+              "instruction": "Listen and type:",
+              "ttsText": "I like learning about weather and seasons.",
+              "correctAnswer": "I like learning about weather and seasons",
+              "hint": "About a topic"
+            }
+          ],
+          "speaking": [
+            {
+              "id": "s6a",
+              "type": "pronounce-word",
+              "instruction": "Say:",
+              "targetText": "(Weather and Seasons word 1)",
+              "phonetic": ""
+            },
+            {
+              "id": "s6b",
+              "type": "pronounce-sentence",
+              "instruction": "Read aloud:",
+              "targetText": "A word about weather and seasons.",
+              "hint": "Clearly"
+            }
+          ],
+          "reading": [
+            {
+              "id": "p3r6",
+              "type": "mcq",
+              "passage": "Weather and Seasons is something we learn about in school. It helps us understand the world better.",
+              "question": "What helps us understand the world?",
+              "options": [
+                "Playing games",
+                "Learning about Weather and Seasons",
+                "Watching TV"
+              ],
+              "correctAnswer": "Learning about Weather and Seasons",
+              "explanation": "Learning helps us understand"
+            }
+          ],
+          "writing": [
+            {
+              "id": "p3w6a",
+              "type": "spelling",
+              "instruction": "Spell:",
+              "ttsText": "weather",
+              "correctAnswer": "weather",
+              "hint": "First word of Weather and Seasons"
+            },
+            {
+              "id": "p3w6b",
+              "type": "fill-blank",
+              "instruction": "I am learning about _____.",
+              "correctAnswer": "weather and seasons",
+              "hint": "The topic name"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u7",
+      "title": "Shopping",
+      "theme": "shopping",
+      "mascotTip": "Tot says: Let's learn about shopping!",
+      "lessons": [
+        {
+          "id": "u7-l1",
+          "title": "Shopping",
+          "objectives": [
+            "Learn Shopping vocabulary",
+            "Use words in context"
+          ],
+          "vocabulary": [
+            {
+              "id": "p3v37",
+              "word": "(Shopping word 1)",
+              "phonetic": "",
+              "meaning": "Related to Shopping",
+              "meaningZh": "",
+              "example": "A word about shopping."
+            },
+            {
+              "id": "p3v38",
+              "word": "(Shopping word 2)",
+              "phonetic": "",
+              "meaning": "Related to Shopping",
+              "meaningZh": "",
+              "example": "A word about shopping."
+            },
+            {
+              "id": "p3v39",
+              "word": "(Shopping word 3)",
+              "phonetic": "",
+              "meaning": "Related to Shopping",
+              "meaningZh": "",
+              "example": "A word about shopping."
+            },
+            {
+              "id": "p3v40",
+              "word": "(Shopping word 4)",
+              "phonetic": "",
+              "meaning": "Related to Shopping",
+              "meaningZh": "",
+              "example": "A word about shopping."
+            },
+            {
+              "id": "p3v41",
+              "word": "(Shopping word 5)",
+              "phonetic": "",
+              "meaning": "Related to Shopping",
+              "meaningZh": "",
+              "example": "A word about shopping."
+            },
+            {
+              "id": "p3v42",
+              "word": "(Shopping word 6)",
+              "phonetic": "",
+              "meaning": "Related to Shopping",
+              "meaningZh": "",
+              "example": "A word about shopping."
+            }
+          ],
+          "listening": [
+            {
+              "id": "p3l7a",
+              "type": "mcq",
+              "instruction": "Listen about Shopping.",
+              "ttsText": "This is about shopping.",
+              "question": "What is the topic?",
+              "options": [
+                "Shopping",
+                "Something else",
+                "Not mentioned"
+              ],
+              "correctAnswer": "Shopping",
+              "hint": "Listen to the topic"
+            },
+            {
+              "id": "p3l7b",
+              "type": "dictation",
+              "instruction": "Listen and type:",
+              "ttsText": "I like learning about shopping.",
+              "correctAnswer": "I like learning about shopping",
+              "hint": "About a topic"
+            }
+          ],
+          "speaking": [
+            {
+              "id": "s7a",
+              "type": "pronounce-word",
+              "instruction": "Say:",
+              "targetText": "(Shopping word 1)",
+              "phonetic": ""
+            },
+            {
+              "id": "s7b",
+              "type": "pronounce-sentence",
+              "instruction": "Read aloud:",
+              "targetText": "A word about shopping.",
+              "hint": "Clearly"
+            }
+          ],
+          "reading": [
+            {
+              "id": "p3r7",
+              "type": "mcq",
+              "passage": "Shopping is something we learn about in school. It helps us understand the world better.",
+              "question": "What helps us understand the world?",
+              "options": [
+                "Playing games",
+                "Learning about Shopping",
+                "Watching TV"
+              ],
+              "correctAnswer": "Learning about Shopping",
+              "explanation": "Learning helps us understand"
+            }
+          ],
+          "writing": [
+            {
+              "id": "p3w7a",
+              "type": "spelling",
+              "instruction": "Spell:",
+              "ttsText": "shopping",
+              "correctAnswer": "shopping",
+              "hint": "First word of Shopping"
+            },
+            {
+              "id": "p3w7b",
+              "type": "fill-blank",
+              "instruction": "I am learning about _____.",
+              "correctAnswer": "shopping",
+              "hint": "The topic name"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u8",
+      "title": "Sports and Hobbies",
+      "theme": "sports-hobbies",
+      "mascotTip": "Tat says: Let's learn about sports and hobbies!",
+      "lessons": [
+        {
+          "id": "u8-l1",
+          "title": "Sports and Hobbies",
+          "objectives": [
+            "Learn Sports and Hobbies vocabulary",
+            "Use words in context"
+          ],
+          "vocabulary": [
+            {
+              "id": "p3v43",
+              "word": "(Sports and Hobbies word 1)",
+              "phonetic": "",
+              "meaning": "Related to Sports and Hobbies",
+              "meaningZh": "",
+              "example": "A word about sports and hobbies."
+            },
+            {
+              "id": "p3v44",
+              "word": "(Sports and Hobbies word 2)",
+              "phonetic": "",
+              "meaning": "Related to Sports and Hobbies",
+              "meaningZh": "",
+              "example": "A word about sports and hobbies."
+            },
+            {
+              "id": "p3v45",
+              "word": "(Sports and Hobbies word 3)",
+              "phonetic": "",
+              "meaning": "Related to Sports and Hobbies",
+              "meaningZh": "",
+              "example": "A word about sports and hobbies."
+            },
+            {
+              "id": "p3v46",
+              "word": "(Sports and Hobbies word 4)",
+              "phonetic": "",
+              "meaning": "Related to Sports and Hobbies",
+              "meaningZh": "",
+              "example": "A word about sports and hobbies."
+            },
+            {
+              "id": "p3v47",
+              "word": "(Sports and Hobbies word 5)",
+              "phonetic": "",
+              "meaning": "Related to Sports and Hobbies",
+              "meaningZh": "",
+              "example": "A word about sports and hobbies."
+            },
+            {
+              "id": "p3v48",
+              "word": "(Sports and Hobbies word 6)",
+              "phonetic": "",
+              "meaning": "Related to Sports and Hobbies",
+              "meaningZh": "",
+              "example": "A word about sports and hobbies."
+            }
+          ],
+          "listening": [
+            {
+              "id": "p3l8a",
+              "type": "mcq",
+              "instruction": "Listen about Sports and Hobbies.",
+              "ttsText": "This is about sports and hobbies.",
+              "question": "What is the topic?",
+              "options": [
+                "Sports and Hobbies",
+                "Something else",
+                "Not mentioned"
+              ],
+              "correctAnswer": "Sports and Hobbies",
+              "hint": "Listen to the topic"
+            },
+            {
+              "id": "p3l8b",
+              "type": "dictation",
+              "instruction": "Listen and type:",
+              "ttsText": "I like learning about sports and hobbies.",
+              "correctAnswer": "I like learning about sports and hobbies",
+              "hint": "About a topic"
+            }
+          ],
+          "speaking": [
+            {
+              "id": "s8a",
+              "type": "pronounce-word",
+              "instruction": "Say:",
+              "targetText": "(Sports and Hobbies word 1)",
+              "phonetic": ""
+            },
+            {
+              "id": "s8b",
+              "type": "pronounce-sentence",
+              "instruction": "Read aloud:",
+              "targetText": "A word about sports and hobbies.",
+              "hint": "Clearly"
+            }
+          ],
+          "reading": [
+            {
+              "id": "p3r8",
+              "type": "mcq",
+              "passage": "Sports and Hobbies is something we learn about in school. It helps us understand the world better.",
+              "question": "What helps us understand the world?",
+              "options": [
+                "Playing games",
+                "Learning about Sports and Hobbies",
+                "Watching TV"
+              ],
+              "correctAnswer": "Learning about Sports and Hobbies",
+              "explanation": "Learning helps us understand"
+            }
+          ],
+          "writing": [
+            {
+              "id": "p3w8a",
+              "type": "spelling",
+              "instruction": "Spell:",
+              "ttsText": "sports",
+              "correctAnswer": "sports",
+              "hint": "First word of Sports and Hobbies"
+            },
+            {
+              "id": "p3w8b",
+              "type": "fill-blank",
+              "instruction": "I am learning about _____.",
+              "correctAnswer": "sports and hobbies",
+              "hint": "The topic name"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u9",
+      "title": "Holidays",
+      "theme": "holidays",
+      "mascotTip": "Tot says: Let's learn about holidays!",
+      "lessons": [
+        {
+          "id": "u9-l1",
+          "title": "Holidays",
+          "objectives": [
+            "Learn Holidays vocabulary",
+            "Use words in context"
+          ],
+          "vocabulary": [
+            {
+              "id": "p3v49",
+              "word": "(Holidays word 1)",
+              "phonetic": "",
+              "meaning": "Related to Holidays",
+              "meaningZh": "",
+              "example": "A word about holidays."
+            },
+            {
+              "id": "p3v50",
+              "word": "(Holidays word 2)",
+              "phonetic": "",
+              "meaning": "Related to Holidays",
+              "meaningZh": "",
+              "example": "A word about holidays."
+            },
+            {
+              "id": "p3v51",
+              "word": "(Holidays word 3)",
+              "phonetic": "",
+              "meaning": "Related to Holidays",
+              "meaningZh": "",
+              "example": "A word about holidays."
+            },
+            {
+              "id": "p3v52",
+              "word": "(Holidays word 4)",
+              "phonetic": "",
+              "meaning": "Related to Holidays",
+              "meaningZh": "",
+              "example": "A word about holidays."
+            },
+            {
+              "id": "p3v53",
+              "word": "(Holidays word 5)",
+              "phonetic": "",
+              "meaning": "Related to Holidays",
+              "meaningZh": "",
+              "example": "A word about holidays."
+            },
+            {
+              "id": "p3v54",
+              "word": "(Holidays word 6)",
+              "phonetic": "",
+              "meaning": "Related to Holidays",
+              "meaningZh": "",
+              "example": "A word about holidays."
+            }
+          ],
+          "listening": [
+            {
+              "id": "p3l9a",
+              "type": "mcq",
+              "instruction": "Listen about Holidays.",
+              "ttsText": "This is about holidays.",
+              "question": "What is the topic?",
+              "options": [
+                "Holidays",
+                "Something else",
+                "Not mentioned"
+              ],
+              "correctAnswer": "Holidays",
+              "hint": "Listen to the topic"
+            },
+            {
+              "id": "p3l9b",
+              "type": "dictation",
+              "instruction": "Listen and type:",
+              "ttsText": "I like learning about holidays.",
+              "correctAnswer": "I like learning about holidays",
+              "hint": "About a topic"
+            }
+          ],
+          "speaking": [
+            {
+              "id": "s9a",
+              "type": "pronounce-word",
+              "instruction": "Say:",
+              "targetText": "(Holidays word 1)",
+              "phonetic": ""
+            },
+            {
+              "id": "s9b",
+              "type": "pronounce-sentence",
+              "instruction": "Read aloud:",
+              "targetText": "A word about holidays.",
+              "hint": "Clearly"
+            }
+          ],
+          "reading": [
+            {
+              "id": "p3r9",
+              "type": "mcq",
+              "passage": "Holidays is something we learn about in school. It helps us understand the world better.",
+              "question": "What helps us understand the world?",
+              "options": [
+                "Playing games",
+                "Learning about Holidays",
+                "Watching TV"
+              ],
+              "correctAnswer": "Learning about Holidays",
+              "explanation": "Learning helps us understand"
+            }
+          ],
+          "writing": [
+            {
+              "id": "p3w9a",
+              "type": "spelling",
+              "instruction": "Spell:",
+              "ttsText": "holidays",
+              "correctAnswer": "holidays",
+              "hint": "First word of Holidays"
+            },
+            {
+              "id": "p3w9b",
+              "type": "fill-blank",
+              "instruction": "I am learning about _____.",
+              "correctAnswer": "holidays",
+              "hint": "The topic name"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u10",
+      "title": "Jobs and Work",
+      "theme": "jobs-work",
+      "mascotTip": "Tat says: Let's learn about jobs and work!",
+      "lessons": [
+        {
+          "id": "u10-l1",
+          "title": "Jobs and Work",
+          "objectives": [
+            "Learn Jobs and Work vocabulary",
+            "Use words in context"
+          ],
+          "vocabulary": [
+            {
+              "id": "p3v55",
+              "word": "(Jobs and Work word 1)",
+              "phonetic": "",
+              "meaning": "Related to Jobs and Work",
+              "meaningZh": "",
+              "example": "A word about jobs and work."
+            },
+            {
+              "id": "p3v56",
+              "word": "(Jobs and Work word 2)",
+              "phonetic": "",
+              "meaning": "Related to Jobs and Work",
+              "meaningZh": "",
+              "example": "A word about jobs and work."
+            },
+            {
+              "id": "p3v57",
+              "word": "(Jobs and Work word 3)",
+              "phonetic": "",
+              "meaning": "Related to Jobs and Work",
+              "meaningZh": "",
+              "example": "A word about jobs and work."
+            },
+            {
+              "id": "p3v58",
+              "word": "(Jobs and Work word 4)",
+              "phonetic": "",
+              "meaning": "Related to Jobs and Work",
+              "meaningZh": "",
+              "example": "A word about jobs and work."
+            },
+            {
+              "id": "p3v59",
+              "word": "(Jobs and Work word 5)",
+              "phonetic": "",
+              "meaning": "Related to Jobs and Work",
+              "meaningZh": "",
+              "example": "A word about jobs and work."
+            },
+            {
+              "id": "p3v60",
+              "word": "(Jobs and Work word 6)",
+              "phonetic": "",
+              "meaning": "Related to Jobs and Work",
+              "meaningZh": "",
+              "example": "A word about jobs and work."
+            }
+          ],
+          "listening": [
+            {
+              "id": "p3l10a",
+              "type": "mcq",
+              "instruction": "Listen about Jobs and Work.",
+              "ttsText": "This is about jobs and work.",
+              "question": "What is the topic?",
+              "options": [
+                "Jobs and Work",
+                "Something else",
+                "Not mentioned"
+              ],
+              "correctAnswer": "Jobs and Work",
+              "hint": "Listen to the topic"
+            },
+            {
+              "id": "p3l10b",
+              "type": "dictation",
+              "instruction": "Listen and type:",
+              "ttsText": "I like learning about jobs and work.",
+              "correctAnswer": "I like learning about jobs and work",
+              "hint": "About a topic"
+            }
+          ],
+          "speaking": [
+            {
+              "id": "s10a",
+              "type": "pronounce-word",
+              "instruction": "Say:",
+              "targetText": "(Jobs and Work word 1)",
+              "phonetic": ""
+            },
+            {
+              "id": "s10b",
+              "type": "pronounce-sentence",
+              "instruction": "Read aloud:",
+              "targetText": "A word about jobs and work.",
+              "hint": "Clearly"
+            }
+          ],
+          "reading": [
+            {
+              "id": "p3r10",
+              "type": "mcq",
+              "passage": "Jobs and Work is something we learn about in school. It helps us understand the world better.",
+              "question": "What helps us understand the world?",
+              "options": [
+                "Playing games",
+                "Learning about Jobs and Work",
+                "Watching TV"
+              ],
+              "correctAnswer": "Learning about Jobs and Work",
+              "explanation": "Learning helps us understand"
+            }
+          ],
+          "writing": [
+            {
+              "id": "p3w10a",
+              "type": "spelling",
+              "instruction": "Spell:",
+              "ttsText": "jobs",
+              "correctAnswer": "jobs",
+              "hint": "First word of Jobs and Work"
+            },
+            {
+              "id": "p3w10b",
+              "type": "fill-blank",
+              "instruction": "I am learning about _____.",
+              "correctAnswer": "jobs and work",
+              "hint": "The topic name"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u11",
+      "title": "The City",
+      "theme": "the-city",
+      "mascotTip": "Tot says: Let's learn about the city!",
+      "lessons": [
+        {
+          "id": "u11-l1",
+          "title": "The City",
+          "objectives": [
+            "Learn The City vocabulary",
+            "Use words in context"
+          ],
+          "vocabulary": [
+            {
+              "id": "p3v61",
+              "word": "(The City word 1)",
+              "phonetic": "",
+              "meaning": "Related to The City",
+              "meaningZh": "",
+              "example": "A word about the city."
+            },
+            {
+              "id": "p3v62",
+              "word": "(The City word 2)",
+              "phonetic": "",
+              "meaning": "Related to The City",
+              "meaningZh": "",
+              "example": "A word about the city."
+            },
+            {
+              "id": "p3v63",
+              "word": "(The City word 3)",
+              "phonetic": "",
+              "meaning": "Related to The City",
+              "meaningZh": "",
+              "example": "A word about the city."
+            },
+            {
+              "id": "p3v64",
+              "word": "(The City word 4)",
+              "phonetic": "",
+              "meaning": "Related to The City",
+              "meaningZh": "",
+              "example": "A word about the city."
+            },
+            {
+              "id": "p3v65",
+              "word": "(The City word 5)",
+              "phonetic": "",
+              "meaning": "Related to The City",
+              "meaningZh": "",
+              "example": "A word about the city."
+            },
+            {
+              "id": "p3v66",
+              "word": "(The City word 6)",
+              "phonetic": "",
+              "meaning": "Related to The City",
+              "meaningZh": "",
+              "example": "A word about the city."
+            }
+          ],
+          "listening": [
+            {
+              "id": "p3l11a",
+              "type": "mcq",
+              "instruction": "Listen about The City.",
+              "ttsText": "This is about the city.",
+              "question": "What is the topic?",
+              "options": [
+                "The City",
+                "Something else",
+                "Not mentioned"
+              ],
+              "correctAnswer": "The City",
+              "hint": "Listen to the topic"
+            },
+            {
+              "id": "p3l11b",
+              "type": "dictation",
+              "instruction": "Listen and type:",
+              "ttsText": "I like learning about the city.",
+              "correctAnswer": "I like learning about the city",
+              "hint": "About a topic"
+            }
+          ],
+          "speaking": [
+            {
+              "id": "s11a",
+              "type": "pronounce-word",
+              "instruction": "Say:",
+              "targetText": "(The City word 1)",
+              "phonetic": ""
+            },
+            {
+              "id": "s11b",
+              "type": "pronounce-sentence",
+              "instruction": "Read aloud:",
+              "targetText": "A word about the city.",
+              "hint": "Clearly"
+            }
+          ],
+          "reading": [
+            {
+              "id": "p3r11",
+              "type": "mcq",
+              "passage": "The City is something we learn about in school. It helps us understand the world better.",
+              "question": "What helps us understand the world?",
+              "options": [
+                "Playing games",
+                "Learning about The City",
+                "Watching TV"
+              ],
+              "correctAnswer": "Learning about The City",
+              "explanation": "Learning helps us understand"
+            }
+          ],
+          "writing": [
+            {
+              "id": "p3w11a",
+              "type": "spelling",
+              "instruction": "Spell:",
+              "ttsText": "the",
+              "correctAnswer": "the",
+              "hint": "First word of The City"
+            },
+            {
+              "id": "p3w11b",
+              "type": "fill-blank",
+              "instruction": "I am learning about _____.",
+              "correctAnswer": "the city",
+              "hint": "The topic name"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u12",
+      "title": "Health and Body",
+      "theme": "health-body",
+      "mascotTip": "Tat says: Let's learn about health and body!",
+      "lessons": [
+        {
+          "id": "u12-l1",
+          "title": "Health and Body",
+          "objectives": [
+            "Learn Health and Body vocabulary",
+            "Use words in context"
+          ],
+          "vocabulary": [
+            {
+              "id": "p3v67",
+              "word": "(Health and Body word 1)",
+              "phonetic": "",
+              "meaning": "Related to Health and Body",
+              "meaningZh": "",
+              "example": "A word about health and body."
+            },
+            {
+              "id": "p3v68",
+              "word": "(Health and Body word 2)",
+              "phonetic": "",
+              "meaning": "Related to Health and Body",
+              "meaningZh": "",
+              "example": "A word about health and body."
+            },
+            {
+              "id": "p3v69",
+              "word": "(Health and Body word 3)",
+              "phonetic": "",
+              "meaning": "Related to Health and Body",
+              "meaningZh": "",
+              "example": "A word about health and body."
+            },
+            {
+              "id": "p3v70",
+              "word": "(Health and Body word 4)",
+              "phonetic": "",
+              "meaning": "Related to Health and Body",
+              "meaningZh": "",
+              "example": "A word about health and body."
+            },
+            {
+              "id": "p3v71",
+              "word": "(Health and Body word 5)",
+              "phonetic": "",
+              "meaning": "Related to Health and Body",
+              "meaningZh": "",
+              "example": "A word about health and body."
+            },
+            {
+              "id": "p3v72",
+              "word": "(Health and Body word 6)",
+              "phonetic": "",
+              "meaning": "Related to Health and Body",
+              "meaningZh": "",
+              "example": "A word about health and body."
+            }
+          ],
+          "listening": [
+            {
+              "id": "p3l12a",
+              "type": "mcq",
+              "instruction": "Listen about Health and Body.",
+              "ttsText": "This is about health and body.",
+              "question": "What is the topic?",
+              "options": [
+                "Health and Body",
+                "Something else",
+                "Not mentioned"
+              ],
+              "correctAnswer": "Health and Body",
+              "hint": "Listen to the topic"
+            },
+            {
+              "id": "p3l12b",
+              "type": "dictation",
+              "instruction": "Listen and type:",
+              "ttsText": "I like learning about health and body.",
+              "correctAnswer": "I like learning about health and body",
+              "hint": "About a topic"
+            }
+          ],
+          "speaking": [
+            {
+              "id": "s12a",
+              "type": "pronounce-word",
+              "instruction": "Say:",
+              "targetText": "(Health and Body word 1)",
+              "phonetic": ""
+            },
+            {
+              "id": "s12b",
+              "type": "pronounce-sentence",
+              "instruction": "Read aloud:",
+              "targetText": "A word about health and body.",
+              "hint": "Clearly"
+            }
+          ],
+          "reading": [
+            {
+              "id": "p3r12",
+              "type": "mcq",
+              "passage": "Health and Body is something we learn about in school. It helps us understand the world better.",
+              "question": "What helps us understand the world?",
+              "options": [
+                "Playing games",
+                "Learning about Health and Body",
+                "Watching TV"
+              ],
+              "correctAnswer": "Learning about Health and Body",
+              "explanation": "Learning helps us understand"
+            }
+          ],
+          "writing": [
+            {
+              "id": "p3w12a",
+              "type": "spelling",
+              "instruction": "Spell:",
+              "ttsText": "health",
+              "correctAnswer": "health",
+              "hint": "First word of Health and Body"
+            },
+            {
+              "id": "p3w12b",
+              "type": "fill-blank",
+              "instruction": "I am learning about _____.",
+              "correctAnswer": "health and body",
+              "hint": "The topic name"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u13",
+      "title": "Nature",
+      "theme": "nature",
+      "mascotTip": "Tot says: Let's learn about nature!",
+      "lessons": [
+        {
+          "id": "u13-l1",
+          "title": "Nature",
+          "objectives": [
+            "Learn Nature vocabulary",
+            "Use words in context"
+          ],
+          "vocabulary": [
+            {
+              "id": "p3v73",
+              "word": "(Nature word 1)",
+              "phonetic": "",
+              "meaning": "Related to Nature",
+              "meaningZh": "",
+              "example": "A word about nature."
+            },
+            {
+              "id": "p3v74",
+              "word": "(Nature word 2)",
+              "phonetic": "",
+              "meaning": "Related to Nature",
+              "meaningZh": "",
+              "example": "A word about nature."
+            },
+            {
+              "id": "p3v75",
+              "word": "(Nature word 3)",
+              "phonetic": "",
+              "meaning": "Related to Nature",
+              "meaningZh": "",
+              "example": "A word about nature."
+            },
+            {
+              "id": "p3v76",
+              "word": "(Nature word 4)",
+              "phonetic": "",
+              "meaning": "Related to Nature",
+              "meaningZh": "",
+              "example": "A word about nature."
+            },
+            {
+              "id": "p3v77",
+              "word": "(Nature word 5)",
+              "phonetic": "",
+              "meaning": "Related to Nature",
+              "meaningZh": "",
+              "example": "A word about nature."
+            },
+            {
+              "id": "p3v78",
+              "word": "(Nature word 6)",
+              "phonetic": "",
+              "meaning": "Related to Nature",
+              "meaningZh": "",
+              "example": "A word about nature."
+            }
+          ],
+          "listening": [
+            {
+              "id": "p3l13a",
+              "type": "mcq",
+              "instruction": "Listen about Nature.",
+              "ttsText": "This is about nature.",
+              "question": "What is the topic?",
+              "options": [
+                "Nature",
+                "Something else",
+                "Not mentioned"
+              ],
+              "correctAnswer": "Nature",
+              "hint": "Listen to the topic"
+            },
+            {
+              "id": "p3l13b",
+              "type": "dictation",
+              "instruction": "Listen and type:",
+              "ttsText": "I like learning about nature.",
+              "correctAnswer": "I like learning about nature",
+              "hint": "About a topic"
+            }
+          ],
+          "speaking": [
+            {
+              "id": "s13a",
+              "type": "pronounce-word",
+              "instruction": "Say:",
+              "targetText": "(Nature word 1)",
+              "phonetic": ""
+            },
+            {
+              "id": "s13b",
+              "type": "pronounce-sentence",
+              "instruction": "Read aloud:",
+              "targetText": "A word about nature.",
+              "hint": "Clearly"
+            }
+          ],
+          "reading": [
+            {
+              "id": "p3r13",
+              "type": "mcq",
+              "passage": "Nature is something we learn about in school. It helps us understand the world better.",
+              "question": "What helps us understand the world?",
+              "options": [
+                "Playing games",
+                "Learning about Nature",
+                "Watching TV"
+              ],
+              "correctAnswer": "Learning about Nature",
+              "explanation": "Learning helps us understand"
+            }
+          ],
+          "writing": [
+            {
+              "id": "p3w13a",
+              "type": "spelling",
+              "instruction": "Spell:",
+              "ttsText": "nature",
+              "correctAnswer": "nature",
+              "hint": "First word of Nature"
+            },
+            {
+              "id": "p3w13b",
+              "type": "fill-blank",
+              "instruction": "I am learning about _____.",
+              "correctAnswer": "nature",
+              "hint": "The topic name"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u14",
+      "title": "Technology",
+      "theme": "technology",
+      "mascotTip": "Tat says: Let's learn about technology!",
+      "lessons": [
+        {
+          "id": "u14-l1",
+          "title": "Technology",
+          "objectives": [
+            "Learn Technology vocabulary",
+            "Use words in context"
+          ],
+          "vocabulary": [
+            {
+              "id": "p3v79",
+              "word": "(Technology word 1)",
+              "phonetic": "",
+              "meaning": "Related to Technology",
+              "meaningZh": "",
+              "example": "A word about technology."
+            },
+            {
+              "id": "p3v80",
+              "word": "(Technology word 2)",
+              "phonetic": "",
+              "meaning": "Related to Technology",
+              "meaningZh": "",
+              "example": "A word about technology."
+            },
+            {
+              "id": "p3v81",
+              "word": "(Technology word 3)",
+              "phonetic": "",
+              "meaning": "Related to Technology",
+              "meaningZh": "",
+              "example": "A word about technology."
+            },
+            {
+              "id": "p3v82",
+              "word": "(Technology word 4)",
+              "phonetic": "",
+              "meaning": "Related to Technology",
+              "meaningZh": "",
+              "example": "A word about technology."
+            },
+            {
+              "id": "p3v83",
+              "word": "(Technology word 5)",
+              "phonetic": "",
+              "meaning": "Related to Technology",
+              "meaningZh": "",
+              "example": "A word about technology."
+            },
+            {
+              "id": "p3v84",
+              "word": "(Technology word 6)",
+              "phonetic": "",
+              "meaning": "Related to Technology",
+              "meaningZh": "",
+              "example": "A word about technology."
+            }
+          ],
+          "listening": [
+            {
+              "id": "p3l14a",
+              "type": "mcq",
+              "instruction": "Listen about Technology.",
+              "ttsText": "This is about technology.",
+              "question": "What is the topic?",
+              "options": [
+                "Technology",
+                "Something else",
+                "Not mentioned"
+              ],
+              "correctAnswer": "Technology",
+              "hint": "Listen to the topic"
+            },
+            {
+              "id": "p3l14b",
+              "type": "dictation",
+              "instruction": "Listen and type:",
+              "ttsText": "I like learning about technology.",
+              "correctAnswer": "I like learning about technology",
+              "hint": "About a topic"
+            }
+          ],
+          "speaking": [
+            {
+              "id": "s14a",
+              "type": "pronounce-word",
+              "instruction": "Say:",
+              "targetText": "(Technology word 1)",
+              "phonetic": ""
+            },
+            {
+              "id": "s14b",
+              "type": "pronounce-sentence",
+              "instruction": "Read aloud:",
+              "targetText": "A word about technology.",
+              "hint": "Clearly"
+            }
+          ],
+          "reading": [
+            {
+              "id": "p3r14",
+              "type": "mcq",
+              "passage": "Technology is something we learn about in school. It helps us understand the world better.",
+              "question": "What helps us understand the world?",
+              "options": [
+                "Playing games",
+                "Learning about Technology",
+                "Watching TV"
+              ],
+              "correctAnswer": "Learning about Technology",
+              "explanation": "Learning helps us understand"
+            }
+          ],
+          "writing": [
+            {
+              "id": "p3w14a",
+              "type": "spelling",
+              "instruction": "Spell:",
+              "ttsText": "technology",
+              "correctAnswer": "technology",
+              "hint": "First word of Technology"
+            },
+            {
+              "id": "p3w14b",
+              "type": "fill-blank",
+              "instruction": "I am learning about _____.",
+              "correctAnswer": "technology",
+              "hint": "The topic name"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u15",
+      "title": "Music and Art",
+      "theme": "music-art",
+      "mascotTip": "Tot says: Let's learn about music and art!",
+      "lessons": [
+        {
+          "id": "u15-l1",
+          "title": "Music and Art",
+          "objectives": [
+            "Learn Music and Art vocabulary",
+            "Use words in context"
+          ],
+          "vocabulary": [
+            {
+              "id": "p3v85",
+              "word": "(Music and Art word 1)",
+              "phonetic": "",
+              "meaning": "Related to Music and Art",
+              "meaningZh": "",
+              "example": "A word about music and art."
+            },
+            {
+              "id": "p3v86",
+              "word": "(Music and Art word 2)",
+              "phonetic": "",
+              "meaning": "Related to Music and Art",
+              "meaningZh": "",
+              "example": "A word about music and art."
+            },
+            {
+              "id": "p3v87",
+              "word": "(Music and Art word 3)",
+              "phonetic": "",
+              "meaning": "Related to Music and Art",
+              "meaningZh": "",
+              "example": "A word about music and art."
+            },
+            {
+              "id": "p3v88",
+              "word": "(Music and Art word 4)",
+              "phonetic": "",
+              "meaning": "Related to Music and Art",
+              "meaningZh": "",
+              "example": "A word about music and art."
+            },
+            {
+              "id": "p3v89",
+              "word": "(Music and Art word 5)",
+              "phonetic": "",
+              "meaning": "Related to Music and Art",
+              "meaningZh": "",
+              "example": "A word about music and art."
+            },
+            {
+              "id": "p3v90",
+              "word": "(Music and Art word 6)",
+              "phonetic": "",
+              "meaning": "Related to Music and Art",
+              "meaningZh": "",
+              "example": "A word about music and art."
+            }
+          ],
+          "listening": [
+            {
+              "id": "p3l15a",
+              "type": "mcq",
+              "instruction": "Listen about Music and Art.",
+              "ttsText": "This is about music and art.",
+              "question": "What is the topic?",
+              "options": [
+                "Music and Art",
+                "Something else",
+                "Not mentioned"
+              ],
+              "correctAnswer": "Music and Art",
+              "hint": "Listen to the topic"
+            },
+            {
+              "id": "p3l15b",
+              "type": "dictation",
+              "instruction": "Listen and type:",
+              "ttsText": "I like learning about music and art.",
+              "correctAnswer": "I like learning about music and art",
+              "hint": "About a topic"
+            }
+          ],
+          "speaking": [
+            {
+              "id": "s15a",
+              "type": "pronounce-word",
+              "instruction": "Say:",
+              "targetText": "(Music and Art word 1)",
+              "phonetic": ""
+            },
+            {
+              "id": "s15b",
+              "type": "pronounce-sentence",
+              "instruction": "Read aloud:",
+              "targetText": "A word about music and art.",
+              "hint": "Clearly"
+            }
+          ],
+          "reading": [
+            {
+              "id": "p3r15",
+              "type": "mcq",
+              "passage": "Music and Art is something we learn about in school. It helps us understand the world better.",
+              "question": "What helps us understand the world?",
+              "options": [
+                "Playing games",
+                "Learning about Music and Art",
+                "Watching TV"
+              ],
+              "correctAnswer": "Learning about Music and Art",
+              "explanation": "Learning helps us understand"
+            }
+          ],
+          "writing": [
+            {
+              "id": "p3w15a",
+              "type": "spelling",
+              "instruction": "Spell:",
+              "ttsText": "music",
+              "correctAnswer": "music",
+              "hint": "First word of Music and Art"
+            },
+            {
+              "id": "p3w15b",
+              "type": "fill-blank",
+              "instruction": "I am learning about _____.",
+              "correctAnswer": "music and art",
+              "hint": "The topic name"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u16",
+      "title": "Feelings and Emotions",
+      "theme": "feelings-emotions",
+      "mascotTip": "Tat says: Let's learn about feelings and emotions!",
+      "lessons": [
+        {
+          "id": "u16-l1",
+          "title": "Feelings and Emotions",
+          "objectives": [
+            "Learn Feelings and Emotions vocabulary",
+            "Use words in context"
+          ],
+          "vocabulary": [
+            {
+              "id": "p3v91",
+              "word": "(Feelings and Emotions word 1)",
+              "phonetic": "",
+              "meaning": "Related to Feelings and Emotions",
+              "meaningZh": "",
+              "example": "A word about feelings and emotions."
+            },
+            {
+              "id": "p3v92",
+              "word": "(Feelings and Emotions word 2)",
+              "phonetic": "",
+              "meaning": "Related to Feelings and Emotions",
+              "meaningZh": "",
+              "example": "A word about feelings and emotions."
+            },
+            {
+              "id": "p3v93",
+              "word": "(Feelings and Emotions word 3)",
+              "phonetic": "",
+              "meaning": "Related to Feelings and Emotions",
+              "meaningZh": "",
+              "example": "A word about feelings and emotions."
+            },
+            {
+              "id": "p3v94",
+              "word": "(Feelings and Emotions word 4)",
+              "phonetic": "",
+              "meaning": "Related to Feelings and Emotions",
+              "meaningZh": "",
+              "example": "A word about feelings and emotions."
+            },
+            {
+              "id": "p3v95",
+              "word": "(Feelings and Emotions word 5)",
+              "phonetic": "",
+              "meaning": "Related to Feelings and Emotions",
+              "meaningZh": "",
+              "example": "A word about feelings and emotions."
+            },
+            {
+              "id": "p3v96",
+              "word": "(Feelings and Emotions word 6)",
+              "phonetic": "",
+              "meaning": "Related to Feelings and Emotions",
+              "meaningZh": "",
+              "example": "A word about feelings and emotions."
+            }
+          ],
+          "listening": [
+            {
+              "id": "p3l16a",
+              "type": "mcq",
+              "instruction": "Listen about Feelings and Emotions.",
+              "ttsText": "This is about feelings and emotions.",
+              "question": "What is the topic?",
+              "options": [
+                "Feelings and Emotions",
+                "Something else",
+                "Not mentioned"
+              ],
+              "correctAnswer": "Feelings and Emotions",
+              "hint": "Listen to the topic"
+            },
+            {
+              "id": "p3l16b",
+              "type": "dictation",
+              "instruction": "Listen and type:",
+              "ttsText": "I like learning about feelings and emotions.",
+              "correctAnswer": "I like learning about feelings and emotions",
+              "hint": "About a topic"
+            }
+          ],
+          "speaking": [
+            {
+              "id": "s16a",
+              "type": "pronounce-word",
+              "instruction": "Say:",
+              "targetText": "(Feelings and Emotions word 1)",
+              "phonetic": ""
+            },
+            {
+              "id": "s16b",
+              "type": "pronounce-sentence",
+              "instruction": "Read aloud:",
+              "targetText": "A word about feelings and emotions.",
+              "hint": "Clearly"
+            }
+          ],
+          "reading": [
+            {
+              "id": "p3r16",
+              "type": "mcq",
+              "passage": "Feelings and Emotions is something we learn about in school. It helps us understand the world better.",
+              "question": "What helps us understand the world?",
+              "options": [
+                "Playing games",
+                "Learning about Feelings and Emotions",
+                "Watching TV"
+              ],
+              "correctAnswer": "Learning about Feelings and Emotions",
+              "explanation": "Learning helps us understand"
+            }
+          ],
+          "writing": [
+            {
+              "id": "p3w16a",
+              "type": "spelling",
+              "instruction": "Spell:",
+              "ttsText": "feelings",
+              "correctAnswer": "feelings",
+              "hint": "First word of Feelings and Emotions"
+            },
+            {
+              "id": "p3w16b",
+              "type": "fill-blank",
+              "instruction": "I am learning about _____.",
+              "correctAnswer": "feelings and emotions",
+              "hint": "The topic name"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u17",
+      "title": "Books and Stories",
+      "theme": "books-stories",
+      "mascotTip": "Tot says: Let's learn about books and stories!",
+      "lessons": [
+        {
+          "id": "u17-l1",
+          "title": "Books and Stories",
+          "objectives": [
+            "Learn Books and Stories vocabulary",
+            "Use words in context"
+          ],
+          "vocabulary": [
+            {
+              "id": "p3v97",
+              "word": "(Books and Stories word 1)",
+              "phonetic": "",
+              "meaning": "Related to Books and Stories",
+              "meaningZh": "",
+              "example": "A word about books and stories."
+            },
+            {
+              "id": "p3v98",
+              "word": "(Books and Stories word 2)",
+              "phonetic": "",
+              "meaning": "Related to Books and Stories",
+              "meaningZh": "",
+              "example": "A word about books and stories."
+            },
+            {
+              "id": "p3v99",
+              "word": "(Books and Stories word 3)",
+              "phonetic": "",
+              "meaning": "Related to Books and Stories",
+              "meaningZh": "",
+              "example": "A word about books and stories."
+            },
+            {
+              "id": "p3v100",
+              "word": "(Books and Stories word 4)",
+              "phonetic": "",
+              "meaning": "Related to Books and Stories",
+              "meaningZh": "",
+              "example": "A word about books and stories."
+            },
+            {
+              "id": "p3v101",
+              "word": "(Books and Stories word 5)",
+              "phonetic": "",
+              "meaning": "Related to Books and Stories",
+              "meaningZh": "",
+              "example": "A word about books and stories."
+            },
+            {
+              "id": "p3v102",
+              "word": "(Books and Stories word 6)",
+              "phonetic": "",
+              "meaning": "Related to Books and Stories",
+              "meaningZh": "",
+              "example": "A word about books and stories."
+            }
+          ],
+          "listening": [
+            {
+              "id": "p3l17a",
+              "type": "mcq",
+              "instruction": "Listen about Books and Stories.",
+              "ttsText": "This is about books and stories.",
+              "question": "What is the topic?",
+              "options": [
+                "Books and Stories",
+                "Something else",
+                "Not mentioned"
+              ],
+              "correctAnswer": "Books and Stories",
+              "hint": "Listen to the topic"
+            },
+            {
+              "id": "p3l17b",
+              "type": "dictation",
+              "instruction": "Listen and type:",
+              "ttsText": "I like learning about books and stories.",
+              "correctAnswer": "I like learning about books and stories",
+              "hint": "About a topic"
+            }
+          ],
+          "speaking": [
+            {
+              "id": "s17a",
+              "type": "pronounce-word",
+              "instruction": "Say:",
+              "targetText": "(Books and Stories word 1)",
+              "phonetic": ""
+            },
+            {
+              "id": "s17b",
+              "type": "pronounce-sentence",
+              "instruction": "Read aloud:",
+              "targetText": "A word about books and stories.",
+              "hint": "Clearly"
+            }
+          ],
+          "reading": [
+            {
+              "id": "p3r17",
+              "type": "mcq",
+              "passage": "Books and Stories is something we learn about in school. It helps us understand the world better.",
+              "question": "What helps us understand the world?",
+              "options": [
+                "Playing games",
+                "Learning about Books and Stories",
+                "Watching TV"
+              ],
+              "correctAnswer": "Learning about Books and Stories",
+              "explanation": "Learning helps us understand"
+            }
+          ],
+          "writing": [
+            {
+              "id": "p3w17a",
+              "type": "spelling",
+              "instruction": "Spell:",
+              "ttsText": "books",
+              "correctAnswer": "books",
+              "hint": "First word of Books and Stories"
+            },
+            {
+              "id": "p3w17b",
+              "type": "fill-blank",
+              "instruction": "I am learning about _____.",
+              "correctAnswer": "books and stories",
+              "hint": "The topic name"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u18",
+      "title": "Friends and Friendship",
+      "theme": "friends-friendship",
+      "mascotTip": "Tat says: Let's learn about friends and friendship!",
+      "lessons": [
+        {
+          "id": "u18-l1",
+          "title": "Friends and Friendship",
+          "objectives": [
+            "Learn Friends and Friendship vocabulary",
+            "Use words in context"
+          ],
+          "vocabulary": [
+            {
+              "id": "p3v103",
+              "word": "(Friends and Friendship word 1)",
+              "phonetic": "",
+              "meaning": "Related to Friends and Friendship",
+              "meaningZh": "",
+              "example": "A word about friends and friendship."
+            },
+            {
+              "id": "p3v104",
+              "word": "(Friends and Friendship word 2)",
+              "phonetic": "",
+              "meaning": "Related to Friends and Friendship",
+              "meaningZh": "",
+              "example": "A word about friends and friendship."
+            },
+            {
+              "id": "p3v105",
+              "word": "(Friends and Friendship word 3)",
+              "phonetic": "",
+              "meaning": "Related to Friends and Friendship",
+              "meaningZh": "",
+              "example": "A word about friends and friendship."
+            },
+            {
+              "id": "p3v106",
+              "word": "(Friends and Friendship word 4)",
+              "phonetic": "",
+              "meaning": "Related to Friends and Friendship",
+              "meaningZh": "",
+              "example": "A word about friends and friendship."
+            },
+            {
+              "id": "p3v107",
+              "word": "(Friends and Friendship word 5)",
+              "phonetic": "",
+              "meaning": "Related to Friends and Friendship",
+              "meaningZh": "",
+              "example": "A word about friends and friendship."
+            },
+            {
+              "id": "p3v108",
+              "word": "(Friends and Friendship word 6)",
+              "phonetic": "",
+              "meaning": "Related to Friends and Friendship",
+              "meaningZh": "",
+              "example": "A word about friends and friendship."
+            }
+          ],
+          "listening": [
+            {
+              "id": "p3l18a",
+              "type": "mcq",
+              "instruction": "Listen about Friends and Friendship.",
+              "ttsText": "This is about friends and friendship.",
+              "question": "What is the topic?",
+              "options": [
+                "Friends and Friendship",
+                "Something else",
+                "Not mentioned"
+              ],
+              "correctAnswer": "Friends and Friendship",
+              "hint": "Listen to the topic"
+            },
+            {
+              "id": "p3l18b",
+              "type": "dictation",
+              "instruction": "Listen and type:",
+              "ttsText": "I like learning about friends and friendship.",
+              "correctAnswer": "I like learning about friends and friendship",
+              "hint": "About a topic"
+            }
+          ],
+          "speaking": [
+            {
+              "id": "s18a",
+              "type": "pronounce-word",
+              "instruction": "Say:",
+              "targetText": "(Friends and Friendship word 1)",
+              "phonetic": ""
+            },
+            {
+              "id": "s18b",
+              "type": "pronounce-sentence",
+              "instruction": "Read aloud:",
+              "targetText": "A word about friends and friendship.",
+              "hint": "Clearly"
+            }
+          ],
+          "reading": [
+            {
+              "id": "p3r18",
+              "type": "mcq",
+              "passage": "Friends and Friendship is something we learn about in school. It helps us understand the world better.",
+              "question": "What helps us understand the world?",
+              "options": [
+                "Playing games",
+                "Learning about Friends and Friendship",
+                "Watching TV"
+              ],
+              "correctAnswer": "Learning about Friends and Friendship",
+              "explanation": "Learning helps us understand"
+            }
+          ],
+          "writing": [
+            {
+              "id": "p3w18a",
+              "type": "spelling",
+              "instruction": "Spell:",
+              "ttsText": "friends",
+              "correctAnswer": "friends",
+              "hint": "First word of Friends and Friendship"
+            },
+            {
+              "id": "p3w18b",
+              "type": "fill-blank",
+              "instruction": "I am learning about _____.",
+              "correctAnswer": "friends and friendship",
+              "hint": "The topic name"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u19",
+      "title": "Travel",
+      "theme": "travel",
+      "mascotTip": "Tot says: Let's learn about travel!",
+      "lessons": [
+        {
+          "id": "u19-l1",
+          "title": "Travel",
+          "objectives": [
+            "Learn Travel vocabulary",
+            "Use words in context"
+          ],
+          "vocabulary": [
+            {
+              "id": "p3v109",
+              "word": "(Travel word 1)",
+              "phonetic": "",
+              "meaning": "Related to Travel",
+              "meaningZh": "",
+              "example": "A word about travel."
+            },
+            {
+              "id": "p3v110",
+              "word": "(Travel word 2)",
+              "phonetic": "",
+              "meaning": "Related to Travel",
+              "meaningZh": "",
+              "example": "A word about travel."
+            },
+            {
+              "id": "p3v111",
+              "word": "(Travel word 3)",
+              "phonetic": "",
+              "meaning": "Related to Travel",
+              "meaningZh": "",
+              "example": "A word about travel."
+            },
+            {
+              "id": "p3v112",
+              "word": "(Travel word 4)",
+              "phonetic": "",
+              "meaning": "Related to Travel",
+              "meaningZh": "",
+              "example": "A word about travel."
+            },
+            {
+              "id": "p3v113",
+              "word": "(Travel word 5)",
+              "phonetic": "",
+              "meaning": "Related to Travel",
+              "meaningZh": "",
+              "example": "A word about travel."
+            },
+            {
+              "id": "p3v114",
+              "word": "(Travel word 6)",
+              "phonetic": "",
+              "meaning": "Related to Travel",
+              "meaningZh": "",
+              "example": "A word about travel."
+            }
+          ],
+          "listening": [
+            {
+              "id": "p3l19a",
+              "type": "mcq",
+              "instruction": "Listen about Travel.",
+              "ttsText": "This is about travel.",
+              "question": "What is the topic?",
+              "options": [
+                "Travel",
+                "Something else",
+                "Not mentioned"
+              ],
+              "correctAnswer": "Travel",
+              "hint": "Listen to the topic"
+            },
+            {
+              "id": "p3l19b",
+              "type": "dictation",
+              "instruction": "Listen and type:",
+              "ttsText": "I like learning about travel.",
+              "correctAnswer": "I like learning about travel",
+              "hint": "About a topic"
+            }
+          ],
+          "speaking": [
+            {
+              "id": "s19a",
+              "type": "pronounce-word",
+              "instruction": "Say:",
+              "targetText": "(Travel word 1)",
+              "phonetic": ""
+            },
+            {
+              "id": "s19b",
+              "type": "pronounce-sentence",
+              "instruction": "Read aloud:",
+              "targetText": "A word about travel.",
+              "hint": "Clearly"
+            }
+          ],
+          "reading": [
+            {
+              "id": "p3r19",
+              "type": "mcq",
+              "passage": "Travel is something we learn about in school. It helps us understand the world better.",
+              "question": "What helps us understand the world?",
+              "options": [
+                "Playing games",
+                "Learning about Travel",
+                "Watching TV"
+              ],
+              "correctAnswer": "Learning about Travel",
+              "explanation": "Learning helps us understand"
+            }
+          ],
+          "writing": [
+            {
+              "id": "p3w19a",
+              "type": "spelling",
+              "instruction": "Spell:",
+              "ttsText": "travel",
+              "correctAnswer": "travel",
+              "hint": "First word of Travel"
+            },
+            {
+              "id": "p3w19b",
+              "type": "fill-blank",
+              "instruction": "I am learning about _____.",
+              "correctAnswer": "travel",
+              "hint": "The topic name"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u20",
+      "title": "Festivals and Celebrations",
+      "theme": "festivals-celebrations",
+      "mascotTip": "Tat says: Let's learn about festivals and celebrations!",
+      "lessons": [
+        {
+          "id": "u20-l1",
+          "title": "Festivals and Celebrations",
+          "objectives": [
+            "Learn Festivals and Celebrations vocabulary",
+            "Use words in context"
+          ],
+          "vocabulary": [
+            {
+              "id": "p3v115",
+              "word": "(Festivals and Celebrations word 1)",
+              "phonetic": "",
+              "meaning": "Related to Festivals and Celebrations",
+              "meaningZh": "",
+              "example": "A word about festivals and celebrations."
+            },
+            {
+              "id": "p3v116",
+              "word": "(Festivals and Celebrations word 2)",
+              "phonetic": "",
+              "meaning": "Related to Festivals and Celebrations",
+              "meaningZh": "",
+              "example": "A word about festivals and celebrations."
+            },
+            {
+              "id": "p3v117",
+              "word": "(Festivals and Celebrations word 3)",
+              "phonetic": "",
+              "meaning": "Related to Festivals and Celebrations",
+              "meaningZh": "",
+              "example": "A word about festivals and celebrations."
+            },
+            {
+              "id": "p3v118",
+              "word": "(Festivals and Celebrations word 4)",
+              "phonetic": "",
+              "meaning": "Related to Festivals and Celebrations",
+              "meaningZh": "",
+              "example": "A word about festivals and celebrations."
+            },
+            {
+              "id": "p3v119",
+              "word": "(Festivals and Celebrations word 5)",
+              "phonetic": "",
+              "meaning": "Related to Festivals and Celebrations",
+              "meaningZh": "",
+              "example": "A word about festivals and celebrations."
+            },
+            {
+              "id": "p3v120",
+              "word": "(Festivals and Celebrations word 6)",
+              "phonetic": "",
+              "meaning": "Related to Festivals and Celebrations",
+              "meaningZh": "",
+              "example": "A word about festivals and celebrations."
+            }
+          ],
+          "listening": [
+            {
+              "id": "p3l20a",
+              "type": "mcq",
+              "instruction": "Listen about Festivals and Celebrations.",
+              "ttsText": "This is about festivals and celebrations.",
+              "question": "What is the topic?",
+              "options": [
+                "Festivals and Celebrations",
+                "Something else",
+                "Not mentioned"
+              ],
+              "correctAnswer": "Festivals and Celebrations",
+              "hint": "Listen to the topic"
+            },
+            {
+              "id": "p3l20b",
+              "type": "dictation",
+              "instruction": "Listen and type:",
+              "ttsText": "I like learning about festivals and celebrations.",
+              "correctAnswer": "I like learning about festivals and celebrations",
+              "hint": "About a topic"
+            }
+          ],
+          "speaking": [
+            {
+              "id": "s20a",
+              "type": "pronounce-word",
+              "instruction": "Say:",
+              "targetText": "(Festivals and Celebrations word 1)",
+              "phonetic": ""
+            },
+            {
+              "id": "s20b",
+              "type": "pronounce-sentence",
+              "instruction": "Read aloud:",
+              "targetText": "A word about festivals and celebrations.",
+              "hint": "Clearly"
+            }
+          ],
+          "reading": [
+            {
+              "id": "p3r20",
+              "type": "mcq",
+              "passage": "Festivals and Celebrations is something we learn about in school. It helps us understand the world better.",
+              "question": "What helps us understand the world?",
+              "options": [
+                "Playing games",
+                "Learning about Festivals and Celebrations",
+                "Watching TV"
+              ],
+              "correctAnswer": "Learning about Festivals and Celebrations",
+              "explanation": "Learning helps us understand"
+            }
+          ],
+          "writing": [
+            {
+              "id": "p3w20a",
+              "type": "spelling",
+              "instruction": "Spell:",
+              "ttsText": "festivals",
+              "correctAnswer": "festivals",
+              "hint": "First word of Festivals and Celebrations"
+            },
+            {
+              "id": "p3w20b",
+              "type": "fill-blank",
+              "instruction": "I am learning about _____.",
+              "correctAnswer": "festivals and celebrations",
+              "hint": "The topic name"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,2329 @@
+{
+  "id": "p3-science-english",
+  "name": "Science in English 3",
+  "publisher": "Tot & Tat",
+  "grade": "P3",
+  "version": "2.0.0",
+  "units": [
+    {
+      "id": "sci-u1",
+      "title": "Plants and Growth",
+      "theme": "plants-growth",
+      "mascotTip": "Tot says: Let's explore plants and growth!",
+      "lessons": [
+        {
+          "id": "sci-u1-l1",
+          "title": "Plants and Growth",
+          "objectives": [
+            "Learn Plants and Growth vocabulary",
+            "Discuss Plants and Growth topics"
+          ],
+          "vocabulary": [
+            {
+              "id": "sci-v1",
+              "word": "(Plants and Growth word 1)",
+              "phonetic": "",
+              "meaning": "Science vocabulary",
+              "meaningZh": "",
+              "example": "Related to Plants and Growth."
+            },
+            {
+              "id": "sci-v2",
+              "word": "(Plants and Growth word 2)",
+              "phonetic": "",
+              "meaning": "Science vocabulary",
+              "meaningZh": "",
+              "example": "Related to Plants and Growth."
+            },
+            {
+              "id": "sci-v3",
+              "word": "(Plants and Growth word 3)",
+              "phonetic": "",
+              "meaning": "Science vocabulary",
+              "meaningZh": "",
+              "example": "Related to Plants and Growth."
+            },
+            {
+              "id": "sci-v4",
+              "word": "(Plants and Growth word 4)",
+              "phonetic": "",
+              "meaning": "Science vocabulary",
+              "meaningZh": "",
+              "example": "Related to Plants and Growth."
+            },
+            {
+              "id": "sci-v5",
+              "word": "(Plants and Growth word 5)",
+              "phonetic": "",
+              "meaning": "Science vocabulary",
+              "meaningZh": "",
+              "example": "Related to Plants and Growth."
+            },
+            {
+              "id": "sci-v6",
+              "word": "(Plants and Growth word 6)",
+              "phonetic": "",
+              "meaning": "Science vocabulary",
+              "meaningZh": "",
+              "example": "Related to Plants and Growth."
+            }
+          ],
+          "listening": [
+            {
+              "id": "sci-l1a",
+              "type": "mcq",
+              "instruction": "Listen about Plants and Growth.",
+              "ttsText": "This topic is about Plants and Growth.",
+              "question": "What is the topic?",
+              "options": [
+                "Plants and Growth",
+                "Something else",
+                "Not sure"
+              ],
+              "correctAnswer": "Plants and Growth",
+              "hint": "Listen to the topic"
+            }
+          ],
+          "speaking": [
+            {
+              "id": "sci-s1",
+              "type": "pronounce-sentence",
+              "instruction": "Read aloud:",
+              "targetText": "I am learning about plants and growth.",
+              "hint": "Clear pronunciation"
+            }
+          ],
+          "reading": [
+            {
+              "id": "sci-r1",
+              "type": "mcq",
+              "passage": "Plants and Growth is an important topic in Science. We can learn many new English words about it.",
+              "question": "What subject is this?",
+              "options": [
+                "Science",
+                "Art",
+                "Music"
+              ],
+              "correctAnswer": "Science",
+              "explanation": "This is a Science topic"
+            }
+          ],
+          "writing": [
+            {
+              "id": "sci-w1",
+              "type": "spelling",
+              "instruction": "Spell the topic name:",
+              "ttsText": "plants",
+              "correctAnswer": "plants",
+              "hint": "First word of the topic"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sci-u2",
+      "title": "Materials and Properties",
+      "theme": "materials-properties",
+      "mascotTip": "Tat says: Let's explore materials and properties!",
+      "lessons": [
+        {
+          "id": "sci-u2-l1",
+          "title": "Materials and Properties",
+          "objectives": [
+            "Learn Materials and Properties vocabulary",
+            "Discuss Materials and Properties topics"
+          ],
+          "vocabulary": [
+            {
+              "id": "sci-v7",
+              "word": "(Materials and Properties word 1)",
+              "phonetic": "",
+              "meaning": "Science vocabulary",
+              "meaningZh": "",
+              "example": "Related to Materials and Properties."
+            },
+            {
+              "id": "sci-v8",
+              "word": "(Materials and Properties word 2)",
+              "phonetic": "",
+              "meaning": "Science vocabulary",
+              "meaningZh": "",
+              "example": "Related to Materials and Properties."
+            },
+            {
+              "id": "sci-v9",
+              "word": "(Materials and Properties word 3)",
+              "phonetic": "",
+              "meaning": "Science vocabulary",
+              "meaningZh": "",
+              "example": "Related to Materials and Properties."
+            },
+            {
+              "id": "sci-v10",
+              "word": "(Materials and Properties word 4)",
+              "phonetic": "",
+              "meaning": "Science vocabulary",
+              "meaningZh": "",
+              "example": "Related to Materials and Properties."
+            },
+            {
+              "id": "sci-v11",
+              "word": "(Materials and Properties word 5)",
+              "phonetic": "",
+              "meaning": "Science vocabulary",
+              "meaningZh": "",
+              "example": "Related to Materials and Properties."
+            },
+            {
+              "id": "sci-v12",
+              "word": "(Materials and Properties word 6)",
+              "phonetic": "",
+              "meaning": "Science vocabulary",
+              "meaningZh": "",
+              "example": "Related to Materials and Properties."
+            }
+          ],
+          "listening": [
+            {
+              "id": "sci-l2a",
+              "type": "mcq",
+              "instruction": "Listen about Materials and Properties.",
+              "ttsText": "This topic is about Materials and Properties.",
+              "question": "What is the topic?",
+              "options": [
+                "Materials and Properties",
+                "Something else",
+                "Not sure"
+              ],
+              "correctAnswer": "Materials and Properties",
+              "hint": "Listen to the topic"
+            }
+          ],
+          "speaking": [
+            {
+              "id": "sci-s2",
+              "type": "pronounce-sentence",
+              "instruction": "Read aloud:",
+              "targetText": "I am learning about materials and properties.",
+              "hint": "Clear pronunciation"
+            }
+          ],
+          "reading": [
+            {
+              "id": "sci-r2",
+              "type": "mcq",
+              "passage": "Materials and Properties is an important topic in Science. We can learn many new English words about it.",
+              "question": "What subject is this?",
+              "options": [
+                "Science",
+                "Art",
+                "Music"
+              ],
+              "correctAnswer": "Science",
+              "explanation": "This is a Science topic"
+            }
+          ],
+          "writing": [
+            {
+              "id": "sci-w2",
+              "type": "spelling",
+              "instruction": "Spell the topic name:",
+              "ttsText": "materials",
+              "correctAnswer": "materials",
+              "hint": "First word of the topic"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sci-u3",
+      "title": "Forces and Movement",
+      "theme": "forces-movement",
+      "mascotTip": "Tot says: Let's explore forces and movement!",
+      "lessons": [
+        {
+          "id": "sci-u3-l1",
+          "title": "Forces and Movement",
+          "objectives": [
+            "Learn Forces and Movement vocabulary",
+            "Discuss Forces and Movement topics"
+          ],
+          "vocabulary": [
+            {
+              "id": "sci-v13",
+              "word": "(Forces and Movement word 1)",
+              "phonetic": "",
+              "meaning": "Science vocabulary",
+              "meaningZh": "",
+              "example": "Related to Forces and Movement."
+            },
+            {
+              "id": "sci-v14",
+              "word": "(Forces and Movement word 2)",
+              "phonetic": "",
+              "meaning": "Science vocabulary",
+              "meaningZh": "",
+              "example": "Related to Forces and Movement."
+            },
+            {
+              "id": "sci-v15",
+              "word": "(Forces and Movement word 3)",
+              "phonetic": "",
+              "meaning": "Science vocabulary",
+              "meaningZh": "",
+              "example": "Related to Forces and Movement."
+            },
+            {
+              "id": "sci-v16",
+              "word": "(Forces and Movement word 4)",
+              "phonetic": "",
+              "meaning": "Science vocabulary",
+              "meaningZh": "",
+              "example": "Related to Forces and Movement."
+            },
+            {
+              "id": "sci-v17",
+              "word": "(Forces and Movement word 5)",
+              "phonetic": "",
+              "meaning": "Science vocabulary",
+              "meaningZh": "",
+              "example": "Related to Forces and Movement."
+            },
+            {
+              "id": "sci-v18",
+              "word": "(Forces and Movement word 6)",
+              "phonetic": "",
+              "meaning": "Science vocabulary",
+              "meaningZh": "",
+              "example": "Related to Forces and Movement."
+            }
+          ],
+          "listening": [
+            {
+              "id": "sci-l3a",
+              "type": "mcq",
+              "instruction": "Listen about Forces and Movement.",
+              "ttsText": "This topic is about Forces and Movement.",
+              "question": "What is the topic?",
+              "options": [
+                "Forces and Movement",
+                "Something else",
+                "Not sure"
+              ],
+              "correctAnswer": "Forces and Movement",
+              "hint": "Listen to the topic"
+            }
+          ],
+          "speaking": [
+            {
+              "id": "sci-s3",
+              "type": "pronounce-sentence",
+              "instruction": "Read aloud:",
+              "targetText": "I am learning about forces and movement.",
+              "hint": "Clear pronunciation"
+            }
+          ],
+          "reading": [
+            {
+              "id": "sci-r3",
+              "type": "mcq",
+              "passage": "Forces and Movement is an important topic in Science. We can learn many new English words about it.",
+              "question": "What subject is this?",
+              "options": [
+                "Science",
+                "Art",
+                "Music"
+              ],
+              "correctAnswer": "Science",
+              "explanation": "This is a Science topic"
+            }
+          ],
+          "writing": [
+            {
+              "id": "sci-w3",
+              "type": "spelling",
+              "instruction": "Spell the topic name:",
+              "ttsText": "forces",
+              "correctAnswer": "forces",
+              "hint": "First word of the topic"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sci-u4",
+      "title": "The Human Body",
+      "theme": "the-human-body",
+      "mascotTip": "Tat says: Let's explore the human body!",
+      "lessons": [
+        {
+          "id": "sci-u4-l1",
+          "title": "The Human Body",
+          "objectives": [
+            "Learn The Human Body vocabulary",
+            "Discuss The Human Body topics"
+          ],
+          "vocabulary": [
+            {
+              "id": "sci-v19",
+              "word": "(The Human Body word 1)",
+              "phonetic": "",
+              "meaning": "Science vocabulary",
+              "meaningZh": "",
+              "example": "Related to The Human Body."
+            },
+            {
+              "id": "sci-v20",
+              "word": "(The Human Body word 2)",
+              "phonetic": "",
+              "meaning": "Science vocabulary",
+              "meaningZh": "",
+              "example": "Related to The Human Body."
+            },
+            {
+              "id": "sci-v21",
+              "word": "(The Human Body word 3)",
+              "phonetic": "",
+              "meaning": "Science vocabulary",
+              "meaningZh": "",
+              "example": "Related to The Human Body."
+            },
+            {
+              "id": "sci-v22",
+              "word": "(The Human Body word 4)",
+              "phonetic": "",
+              "meaning": "Science vocabulary",
+              "meaningZh": "",
+              "example": "Related to The Human Body."
+            },
+            {
+              "id": "sci-v23",
+              "word": "(The Human Body word 5)",
+              "phonetic": "",
+              "meaning": "Science vocabulary",
+              "meaningZh": "",
+              "example": "Related to The Human Body."
+            },
+            {
+              "id": "sci-v24",
+              "word": "(The Human Body word 6)",
+              "phonetic": "",
+              "meaning": "Science vocabulary",
+              "meaningZh": "",
+              "example": "Related to The Human Body."
+            }
+          ],
+          "listening": [
+            {
+              "id": "sci-l4a",
+              "type": "mcq",
+              "instruction": "Listen about The Human Body.",
+              "ttsText": "This topic is about The Human Body.",
+              "question": "What is the topic?",
+              "options": [
+                "The Human Body",
+                "Something else",
+                "Not sure"
+              ],
+              "correctAnswer": "The Human Body",
+              "hint": "Listen to the topic"
+            }
+          ],
+          "speaking": [
+            {
+              "id": "sci-s4",
+              "type": "pronounce-sentence",
+              "instruction": "Read aloud:",
+              "targetText": "I am learning about the human body.",
+              "hint": "Clear pronunciation"
+            }
+          ],
+          "reading": [
+            {
+              "id": "sci-r4",
+              "type": "mcq",
+              "passage": "The Human Body is an important topic in Science. We can learn many new English words about it.",
+              "question": "What subject is this?",
+              "options": [
+                "Science",
+                "Art",
+                "Music"
+              ],
+              "correctAnswer": "Science",
+              "explanation": "This is a Science topic"
+            }
+          ],
+          "writing": [
+            {
+              "id": "sci-w4",
+              "type": "spelling",
+              "instruction": "Spell the topic name:",
+              "ttsText": "the",
+              "correctAnswer": "the",
+              "hint": "First word of the topic"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sci-u5",
+      "title": "Light and Shadow",
+      "theme": "light-shadow",
+      "mascotTip": "Tot says: Let's explore light and shadow!",
+      "lessons": [
+        {
+          "id": "sci-u5-l1",
+          "title": "Light and Shadow",
+          "objectives": [
+            "Learn Light and Shadow vocabulary",
+            "Discuss Light and Shadow topics"
+          ],
+          "vocabulary": [
+            {
+              "id": "sci-v25",
+              "word": "(Light and Shadow word 1)",
+              "phonetic": "",
+              "meaning": "Science vocabulary",
+              "meaningZh": "",
+              "example": "Related to Light and Shadow."
+            },
+            {
+              "id": "sci-v26",
+              "word": "(Light and Shadow word 2)",
+              "phonetic": "",
+              "meaning": "Science vocabulary",
+              "meaningZh": "",
+              "example": "Related to Light and Shadow."
+            },
+            {
+              "id": "sci-v27",
+              "word": "(Light and Shadow word 3)",
+              "phonetic": "",
+              "meaning": "Science vocabulary",
+              "meaningZh": "",
+              "example": "Related to Light and Shadow."
+            },
+            {
+              "id": "sci-v28",
+              "word": "(Light and Shadow word 4)",
+              "phonetic": "",
+              "meaning": "Science vocabulary",
+              "meaningZh": "",
+              "example": "Related to Light and Shadow."
+            },
+            {
+              "id": "sci-v29",
+              "word": "(Light and Shadow word 5)",
+              "phonetic": "",
+              "meaning": "Science vocabulary",
+              "meaningZh": "",
+              "example": "Related to Light and Shadow."
+            },
+            {
+              "id": "sci-v30",
+              "word": "(Light and Shadow word 6)",
+              "phonetic": "",
+              "meaning": "Science vocabulary",
+              "meaningZh": "",
+              "example": "Related to Light and Shadow."
+            }
+          ],
+          "listening": [
+            {
+              "id": "sci-l5a",
+              "type": "mcq",
+              "instruction": "Listen about Light and Shadow.",
+              "ttsText": "This topic is about Light and Shadow.",
+              "question": "What is the topic?",
+              "options": [
+                "Light and Shadow",
+                "Something else",
+                "Not sure"
+              ],
+              "correctAnswer": "Light and Shadow",
+              "hint": "Listen to the topic"
+            }
+          ],
+          "speaking": [
+            {
+              "id": "sci-s5",
+              "type": "pronounce-sentence",
+              "instruction": "Read aloud:",
+              "targetText": "I am learning about light and shadow.",
+              "hint": "Clear pronunciation"
+            }
+          ],
+          "reading": [
+            {
+              "id": "sci-r5",
+              "type": "mcq",
+              "passage": "Light and Shadow is an important topic in Science. We can learn many new English words about it.",
+              "question": "What subject is this?",
+              "options": [
+                "Science",
+                "Art",
+                "Music"
+              ],
+              "correctAnswer": "Science",
+              "explanation": "This is a Science topic"
+            }
+          ],
+          "writing": [
+            {
+              "id": "sci-w5",
+              "type": "spelling",
+              "instruction": "Spell the topic name:",
+              "ttsText": "light",
+              "correctAnswer": "light",
+              "hint": "First word of the topic"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sci-u6",
+      "title": "Sound and Hearing",
+      "theme": "sound-hearing",
+      "mascotTip": "Tat says: Let's explore sound and hearing!",
+      "lessons": [
+        {
+          "id": "sci-u6-l1",
+          "title": "Sound and Hearing",
+          "objectives": [
+            "Learn Sound and Hearing vocabulary",
+            "Discuss Sound and Hearing topics"
+          ],
+          "vocabulary": [
+            {
+              "id": "sci-v31",
+              "word": "(Sound and Hearing word 1)",
+              "phonetic": "",
+              "meaning": "Science vocabulary",
+              "meaningZh": "",
+              "example": "Related to Sound and Hearing."
+            },
+            {
+              "id": "sci-v32",
+              "word": "(Sound and Hearing word 2)",
+              "phonetic": "",
+              "meaning": "Science vocabulary",
+              "meaningZh": "",
+              "example": "Related to Sound and Hearing."
+            },
+            {
+              "id": "sci-v33",
+              "word": "(Sound and Hearing word 3)",
+              "phonetic": "",
+              "meaning": "Science vocabulary",
+              "meaningZh": "",
+              "example": "Related to Sound and Hearing."
+            },
+            {
+              "id": "sci-v34",
+              "word": "(Sound and Hearing word 4)",
+              "phonetic": "",
+              "meaning": "Science vocabulary",
+              "meaningZh": "",
+              "example": "Related to Sound and Hearing."
+            },
+            {
+              "id": "sci-v35",
+              "word": "(Sound and Hearing word 5)",
+              "phonetic": "",
+              "meaning": "Science vocabulary",
+              "meaningZh": "",
+              "example": "Related to Sound and Hearing."
+            },
+            {
+              "id": "sci-v36",
+              "word": "(Sound and Hearing word 6)",
+              "phonetic": "",
+              "meaning": "Science vocabulary",
+              "meaningZh": "",
+              "example": "Related to Sound and Hearing."
+            }
+          ],
+          "listening": [
+            {
+              "id": "sci-l6a",
+              "type": "mcq",
+              "instruction": "Listen about Sound and Hearing.",
+              "ttsText": "This topic is about Sound and Hearing.",
+              "question": "What is the topic?",
+              "options": [
+                "Sound and Hearing",
+                "Something else",
+                "Not sure"
+              ],
+              "correctAnswer": "Sound and Hearing",
+              "hint": "Listen to the topic"
+            }
+          ],
+          "speaking": [
+            {
+              "id": "sci-s6",
+              "type": "pronounce-sentence",
+              "instruction": "Read aloud:",
+              "targetText": "I am learning about sound and hearing.",
+              "hint": "Clear pronunciation"
+            }
+          ],
+          "reading": [
+            {
+              "id": "sci-r6",
+              "type": "mcq",
+              "passage": "Sound and Hearing is an important topic in Science. We can learn many new English words about it.",
+              "question": "What subject is this?",
+              "options": [
+                "Science",
+                "Art",
+                "Music"
+              ],
+              "correctAnswer": "Science",
+              "explanation": "This is a Science topic"
+            }
+          ],
+          "writing": [
+            {
+              "id": "sci-w6",
+              "type": "spelling",
+              "instruction": "Spell the topic name:",
+              "ttsText": "sound",
+              "correctAnswer": "sound",
+              "hint": "First word of the topic"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sci-u7",
+      "title": "Electricity",
+      "theme": "electricity",
+      "mascotTip": "Tot says: Let's explore electricity!",
+      "lessons": [
+        {
+          "id": "sci-u7-l1",
+          "title": "Electricity",
+          "objectives": [
+            "Learn Electricity vocabulary",
+            "Discuss Electricity topics"
+          ],
+          "vocabulary": [
+            {
+              "id": "sci-v37",
+              "word": "(Electricity word 1)",
+              "phonetic": "",
+              "meaning": "Science vocabulary",
+              "meaningZh": "",
+              "example": "Related to Electricity."
+            },
+            {
+              "id": "sci-v38",
+              "word": "(Electricity word 2)",
+              "phonetic": "",
+              "meaning": "Science vocabulary",
+              "meaningZh": "",
+              "example": "Related to Electricity."
+            },
+            {
+              "id": "sci-v39",
+              "word": "(Electricity word 3)",
+              "phonetic": "",
+              "meaning": "Science vocabulary",
+              "meaningZh": "",
+              "example": "Related to Electricity."
+            },
+            {
+              "id": "sci-v40",
+              "word": "(Electricity word 4)",
+              "phonetic": "",
+              "meaning": "Science vocabulary",
+              "meaningZh": "",
+              "example": "Related to Electricity."
+            },
+            {
+              "id": "sci-v41",
+              "word": "(Electricity word 5)",
+              "phonetic": "",
+              "meaning": "Science vocabulary",
+              "meaningZh": "",
+              "example": "Related to Electricity."
+            },
+            {
+              "id": "sci-v42",
+              "word": "(Electricity word 6)",
+              "phonetic": "",
+              "meaning": "Science vocabulary",
+              "meaningZh": "",
+              "example": "Related to Electricity."
+            }
+          ],
+          "listening": [
+            {
+              "id": "sci-l7a",
+              "type": "mcq",
+              "instruction": "Listen about Electricity.",
+              "ttsText": "This topic is about Electricity.",
+              "question": "What is the topic?",
+              "options": [
+                "Electricity",
+                "Something else",
+                "Not sure"
+              ],
+              "correctAnswer": "Electricity",
+              "hint": "Listen to the topic"
+            }
+          ],
+          "speaking": [
+            {
+              "id": "sci-s7",
+              "type": "pronounce-sentence",
+              "instruction": "Read aloud:",
+              "targetText": "I am learning about electricity.",
+              "hint": "Clear pronunciation"
+            }
+          ],
+          "reading": [
+            {
+              "id": "sci-r7",
+              "type": "mcq",
+              "passage": "Electricity is an important topic in Science. We can learn many new English words about it.",
+              "question": "What subject is this?",
+              "options": [
+                "Science",
+                "Art",
+                "Music"
+              ],
+              "correctAnswer": "Science",
+              "explanation": "This is a Science topic"
+            }
+          ],
+          "writing": [
+            {
+              "id": "sci-w7",
+              "type": "spelling",
+              "instruction": "Spell the topic name:",
+              "ttsText": "electricity",
+              "correctAnswer": "electricity",
+              "hint": "First word of the topic"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sci-u8",
+      "title": "Magnets",
+      "theme": "magnets",
+      "mascotTip": "Tat says: Let's explore magnets!",
+      "lessons": [
+        {
+          "id": "sci-u8-l1",
+          "title": "Magnets",
+          "objectives": [
+            "Learn Magnets vocabulary",
+            "Discuss Magnets topics"
+          ],
+          "vocabulary": [
+            {
+              "id": "sci-v43",
+              "word": "(Magnets word 1)",
+              "phonetic": "",
+              "meaning": "Science vocabulary",
+              "meaningZh": "",
+              "example": "Related to Magnets."
+            },
+            {
+              "id": "sci-v44",
+              "word": "(Magnets word 2)",
+              "phonetic": "",
+              "meaning": "Science vocabulary",
+              "meaningZh": "",
+              "example": "Related to Magnets."
+            },
+            {
+              "id": "sci-v45",
+              "word": "(Magnets word 3)",
+              "phonetic": "",
+              "meaning": "Science vocabulary",
+              "meaningZh": "",
+              "example": "Related to Magnets."
+            },
+            {
+              "id": "sci-v46",
+              "word": "(Magnets word 4)",
+              "phonetic": "",
+              "meaning": "Science vocabulary",
+              "meaningZh": "",
+              "example": "Related to Magnets."
+            },
+            {
+              "id": "sci-v47",
+              "word": "(Magnets word 5)",
+              "phonetic": "",
+              "meaning": "Science vocabulary",
+              "meaningZh": "",
+              "example": "Related to Magnets."
+            },
+            {
+              "id": "sci-v48",
+              "word": "(Magnets word 6)",
+              "phonetic": "",
+              "meaning": "Science vocabulary",
+              "meaningZh": "",
+              "example": "Related to Magnets."
+            }
+          ],
+          "listening": [
+            {
+              "id": "sci-l8a",
+              "type": "mcq",
+              "instruction": "Listen about Magnets.",
+              "ttsText": "This topic is about Magnets.",
+              "question": "What is the topic?",
+              "options": [
+                "Magnets",
+                "Something else",
+                "Not sure"
+              ],
+              "correctAnswer": "Magnets",
+              "hint": "Listen to the topic"
+            }
+          ],
+          "speaking": [
+            {
+              "id": "sci-s8",
+              "type": "pronounce-sentence",
+              "instruction": "Read aloud:",
+              "targetText": "I am learning about magnets.",
+              "hint": "Clear pronunciation"
+            }
+          ],
+          "reading": [
+            {
+              "id": "sci-r8",
+              "type": "mcq",
+              "passage": "Magnets is an important topic in Science. We can learn many new English words about it.",
+              "question": "What subject is this?",
+              "options": [
+                "Science",
+                "Art",
+                "Music"
+              ],
+              "correctAnswer": "Science",
+              "explanation": "This is a Science topic"
+            }
+          ],
+          "writing": [
+            {
+              "id": "sci-w8",
+              "type": "spelling",
+              "instruction": "Spell the topic name:",
+              "ttsText": "magnets",
+              "correctAnswer": "magnets",
+              "hint": "First word of the topic"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sci-u9",
+      "title": "Water Cycle",
+      "theme": "water-cycle",
+      "mascotTip": "Tot says: Let's explore water cycle!",
+      "lessons": [
+        {
+          "id": "sci-u9-l1",
+          "title": "Water Cycle",
+          "objectives": [
+            "Learn Water Cycle vocabulary",
+            "Discuss Water Cycle topics"
+          ],
+          "vocabulary": [
+            {
+              "id": "sci-v49",
+              "word": "(Water Cycle word 1)",
+              "phonetic": "",
+              "meaning": "Science vocabulary",
+              "meaningZh": "",
+              "example": "Related to Water Cycle."
+            },
+            {
+              "id": "sci-v50",
+              "word": "(Water Cycle word 2)",
+              "phonetic": "",
+              "meaning": "Science vocabulary",
+              "meaningZh": "",
+              "example": "Related to Water Cycle."
+            },
+            {
+              "id": "sci-v51",
+              "word": "(Water Cycle word 3)",
+              "phonetic": "",
+              "meaning": "Science vocabulary",
+              "meaningZh": "",
+              "example": "Related to Water Cycle."
+            },
+            {
+              "id": "sci-v52",
+              "word": "(Water Cycle word 4)",
+              "phonetic": "",
+              "meaning": "Science vocabulary",
+              "meaningZh": "",
+              "example": "Related to Water Cycle."
+            },
+            {
+              "id": "sci-v53",
+              "word": "(Water Cycle word 5)",
+              "phonetic": "",
+              "meaning": "Science vocabulary",
+              "meaningZh": "",
+              "example": "Related to Water Cycle."
+            },
+            {
+              "id": "sci-v54",
+              "word": "(Water Cycle word 6)",
+              "phonetic": "",
+              "meaning": "Science vocabulary",
+              "meaningZh": "",
+              "example": "Related to Water Cycle."
+            }
+          ],
+          "listening": [
+            {
+              "id": "sci-l9a",
+              "type": "mcq",
+              "instruction": "Listen about Water Cycle.",
+              "ttsText": "This topic is about Water Cycle.",
+              "question": "What is the topic?",
+              "options": [
+                "Water Cycle",
+                "Something else",
+                "Not sure"
+              ],
+              "correctAnswer": "Water Cycle",
+              "hint": "Listen to the topic"
+            }
+          ],
+          "speaking": [
+            {
+              "id": "sci-s9",
+              "type": "pronounce-sentence",
+              "instruction": "Read aloud:",
+              "targetText": "I am learning about water cycle.",
+              "hint": "Clear pronunciation"
+            }
+          ],
+          "reading": [
+            {
+              "id": "sci-r9",
+              "type": "mcq",
+              "passage": "Water Cycle is an important topic in Science. We can learn many new English words about it.",
+              "question": "What subject is this?",
+              "options": [
+                "Science",
+                "Art",
+                "Music"
+              ],
+              "correctAnswer": "Science",
+              "explanation": "This is a Science topic"
+            }
+          ],
+          "writing": [
+            {
+              "id": "sci-w9",
+              "type": "spelling",
+              "instruction": "Spell the topic name:",
+              "ttsText": "water",
+              "correctAnswer": "water",
+              "hint": "First word of the topic"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sci-u10",
+      "title": "Food Chains",
+      "theme": "food-chains",
+      "mascotTip": "Tat says: Let's explore food chains!",
+      "lessons": [
+        {
+          "id": "sci-u10-l1",
+          "title": "Food Chains",
+          "objectives": [
+            "Learn Food Chains vocabulary",
+            "Discuss Food Chains topics"
+          ],
+          "vocabulary": [
+            {
+              "id": "sci-v55",
+              "word": "(Food Chains word 1)",
+              "phonetic": "",
+              "meaning": "Science vocabulary",
+              "meaningZh": "",
+              "example": "Related to Food Chains."
+            },
+            {
+              "id": "sci-v56",
+              "word": "(Food Chains word 2)",
+              "phonetic": "",
+              "meaning": "Science vocabulary",
+              "meaningZh": "",
+              "example": "Related to Food Chains."
+            },
+            {
+              "id": "sci-v57",
+              "word": "(Food Chains word 3)",
+              "phonetic": "",
+              "meaning": "Science vocabulary",
+              "meaningZh": "",
+              "example": "Related to Food Chains."
+            },
+            {
+              "id": "sci-v58",
+              "word": "(Food Chains word 4)",
+              "phonetic": "",
+              "meaning": "Science vocabulary",
+              "meaningZh": "",
+              "example": "Related to Food Chains."
+            },
+            {
+              "id": "sci-v59",
+              "word": "(Food Chains word 5)",
+              "phonetic": "",
+              "meaning": "Science vocabulary",
+              "meaningZh": "",
+              "example": "Related to Food Chains."
+            },
+            {
+              "id": "sci-v60",
+              "word": "(Food Chains word 6)",
+              "phonetic": "",
+              "meaning": "Science vocabulary",
+              "meaningZh": "",
+              "example": "Related to Food Chains."
+            }
+          ],
+          "listening": [
+            {
+              "id": "sci-l10a",
+              "type": "mcq",
+              "instruction": "Listen about Food Chains.",
+              "ttsText": "This topic is about Food Chains.",
+              "question": "What is the topic?",
+              "options": [
+                "Food Chains",
+                "Something else",
+                "Not sure"
+              ],
+              "correctAnswer": "Food Chains",
+              "hint": "Listen to the topic"
+            }
+          ],
+          "speaking": [
+            {
+              "id": "sci-s10",
+              "type": "pronounce-sentence",
+              "instruction": "Read aloud:",
+              "targetText": "I am learning about food chains.",
+              "hint": "Clear pronunciation"
+            }
+          ],
+          "reading": [
+            {
+              "id": "sci-r10",
+              "type": "mcq",
+              "passage": "Food Chains is an important topic in Science. We can learn many new English words about it.",
+              "question": "What subject is this?",
+              "options": [
+                "Science",
+                "Art",
+                "Music"
+              ],
+              "correctAnswer": "Science",
+              "explanation": "This is a Science topic"
+            }
+          ],
+          "writing": [
+            {
+              "id": "sci-w10",
+              "type": "spelling",
+              "instruction": "Spell the topic name:",
+              "ttsText": "food",
+              "correctAnswer": "food",
+              "hint": "First word of the topic"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sci-u11",
+      "title": "Habitats",
+      "theme": "habitats",
+      "mascotTip": "Tot says: Let's explore habitats!",
+      "lessons": [
+        {
+          "id": "sci-u11-l1",
+          "title": "Habitats",
+          "objectives": [
+            "Learn Habitats vocabulary",
+            "Discuss Habitats topics"
+          ],
+          "vocabulary": [
+            {
+              "id": "sci-v61",
+              "word": "(Habitats word 1)",
+              "phonetic": "",
+              "meaning": "Science vocabulary",
+              "meaningZh": "",
+              "example": "Related to Habitats."
+            },
+            {
+              "id": "sci-v62",
+              "word": "(Habitats word 2)",
+              "phonetic": "",
+              "meaning": "Science vocabulary",
+              "meaningZh": "",
+              "example": "Related to Habitats."
+            },
+            {
+              "id": "sci-v63",
+              "word": "(Habitats word 3)",
+              "phonetic": "",
+              "meaning": "Science vocabulary",
+              "meaningZh": "",
+              "example": "Related to Habitats."
+            },
+            {
+              "id": "sci-v64",
+              "word": "(Habitats word 4)",
+              "phonetic": "",
+              "meaning": "Science vocabulary",
+              "meaningZh": "",
+              "example": "Related to Habitats."
+            },
+            {
+              "id": "sci-v65",
+              "word": "(Habitats word 5)",
+              "phonetic": "",
+              "meaning": "Science vocabulary",
+              "meaningZh": "",
+              "example": "Related to Habitats."
+            },
+            {
+              "id": "sci-v66",
+              "word": "(Habitats word 6)",
+              "phonetic": "",
+              "meaning": "Science vocabulary",
+              "meaningZh": "",
+              "example": "Related to Habitats."
+            }
+          ],
+          "listening": [
+            {
+              "id": "sci-l11a",
+              "type": "mcq",
+              "instruction": "Listen about Habitats.",
+              "ttsText": "This topic is about Habitats.",
+              "question": "What is the topic?",
+              "options": [
+                "Habitats",
+                "Something else",
+                "Not sure"
+              ],
+              "correctAnswer": "Habitats",
+              "hint": "Listen to the topic"
+            }
+          ],
+          "speaking": [
+            {
+              "id": "sci-s11",
+              "type": "pronounce-sentence",
+              "instruction": "Read aloud:",
+              "targetText": "I am learning about habitats.",
+              "hint": "Clear pronunciation"
+            }
+          ],
+          "reading": [
+            {
+              "id": "sci-r11",
+              "type": "mcq",
+              "passage": "Habitats is an important topic in Science. We can learn many new English words about it.",
+              "question": "What subject is this?",
+              "options": [
+                "Science",
+                "Art",
+                "Music"
+              ],
+              "correctAnswer": "Science",
+              "explanation": "This is a Science topic"
+            }
+          ],
+          "writing": [
+            {
+              "id": "sci-w11",
+              "type": "spelling",
+              "instruction": "Spell the topic name:",
+              "ttsText": "habitats",
+              "correctAnswer": "habitats",
+              "hint": "First word of the topic"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sci-u12",
+      "title": "Earth and Space",
+      "theme": "earth-space",
+      "mascotTip": "Tat says: Let's explore earth and space!",
+      "lessons": [
+        {
+          "id": "sci-u12-l1",
+          "title": "Earth and Space",
+          "objectives": [
+            "Learn Earth and Space vocabulary",
+            "Discuss Earth and Space topics"
+          ],
+          "vocabulary": [
+            {
+              "id": "sci-v67",
+              "word": "(Earth and Space word 1)",
+              "phonetic": "",
+              "meaning": "Science vocabulary",
+              "meaningZh": "",
+              "example": "Related to Earth and Space."
+            },
+            {
+              "id": "sci-v68",
+              "word": "(Earth and Space word 2)",
+              "phonetic": "",
+              "meaning": "Science vocabulary",
+              "meaningZh": "",
+              "example": "Related to Earth and Space."
+            },
+            {
+              "id": "sci-v69",
+              "word": "(Earth and Space word 3)",
+              "phonetic": "",
+              "meaning": "Science vocabulary",
+              "meaningZh": "",
+              "example": "Related to Earth and Space."
+            },
+            {
+              "id": "sci-v70",
+              "word": "(Earth and Space word 4)",
+              "phonetic": "",
+              "meaning": "Science vocabulary",
+              "meaningZh": "",
+              "example": "Related to Earth and Space."
+            },
+            {
+              "id": "sci-v71",
+              "word": "(Earth and Space word 5)",
+              "phonetic": "",
+              "meaning": "Science vocabulary",
+              "meaningZh": "",
+              "example": "Related to Earth and Space."
+            },
+            {
+              "id": "sci-v72",
+              "word": "(Earth and Space word 6)",
+              "phonetic": "",
+              "meaning": "Science vocabulary",
+              "meaningZh": "",
+              "example": "Related to Earth and Space."
+            }
+          ],
+          "listening": [
+            {
+              "id": "sci-l12a",
+              "type": "mcq",
+              "instruction": "Listen about Earth and Space.",
+              "ttsText": "This topic is about Earth and Space.",
+              "question": "What is the topic?",
+              "options": [
+                "Earth and Space",
+                "Something else",
+                "Not sure"
+              ],
+              "correctAnswer": "Earth and Space",
+              "hint": "Listen to the topic"
+            }
+          ],
+          "speaking": [
+            {
+              "id": "sci-s12",
+              "type": "pronounce-sentence",
+              "instruction": "Read aloud:",
+              "targetText": "I am learning about earth and space.",
+              "hint": "Clear pronunciation"
+            }
+          ],
+          "reading": [
+            {
+              "id": "sci-r12",
+              "type": "mcq",
+              "passage": "Earth and Space is an important topic in Science. We can learn many new English words about it.",
+              "question": "What subject is this?",
+              "options": [
+                "Science",
+                "Art",
+                "Music"
+              ],
+              "correctAnswer": "Science",
+              "explanation": "This is a Science topic"
+            }
+          ],
+          "writing": [
+            {
+              "id": "sci-w12",
+              "type": "spelling",
+              "instruction": "Spell the topic name:",
+              "ttsText": "earth",
+              "correctAnswer": "earth",
+              "hint": "First word of the topic"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sci-u13",
+      "title": "Rocks and Soil",
+      "theme": "rocks-soil",
+      "mascotTip": "Tot says: Let's explore rocks and soil!",
+      "lessons": [
+        {
+          "id": "sci-u13-l1",
+          "title": "Rocks and Soil",
+          "objectives": [
+            "Learn Rocks and Soil vocabulary",
+            "Discuss Rocks and Soil topics"
+          ],
+          "vocabulary": [
+            {
+              "id": "sci-v73",
+              "word": "(Rocks and Soil word 1)",
+              "phonetic": "",
+              "meaning": "Science vocabulary",
+              "meaningZh": "",
+              "example": "Related to Rocks and Soil."
+            },
+            {
+              "id": "sci-v74",
+              "word": "(Rocks and Soil word 2)",
+              "phonetic": "",
+              "meaning": "Science vocabulary",
+              "meaningZh": "",
+              "example": "Related to Rocks and Soil."
+            },
+            {
+              "id": "sci-v75",
+              "word": "(Rocks and Soil word 3)",
+              "phonetic": "",
+              "meaning": "Science vocabulary",
+              "meaningZh": "",
+              "example": "Related to Rocks and Soil."
+            },
+            {
+              "id": "sci-v76",
+              "word": "(Rocks and Soil word 4)",
+              "phonetic": "",
+              "meaning": "Science vocabulary",
+              "meaningZh": "",
+              "example": "Related to Rocks and Soil."
+            },
+            {
+              "id": "sci-v77",
+              "word": "(Rocks and Soil word 5)",
+              "phonetic": "",
+              "meaning": "Science vocabulary",
+              "meaningZh": "",
+              "example": "Related to Rocks and Soil."
+            },
+            {
+              "id": "sci-v78",
+              "word": "(Rocks and Soil word 6)",
+              "phonetic": "",
+              "meaning": "Science vocabulary",
+              "meaningZh": "",
+              "example": "Related to Rocks and Soil."
+            }
+          ],
+          "listening": [
+            {
+              "id": "sci-l13a",
+              "type": "mcq",
+              "instruction": "Listen about Rocks and Soil.",
+              "ttsText": "This topic is about Rocks and Soil.",
+              "question": "What is the topic?",
+              "options": [
+                "Rocks and Soil",
+                "Something else",
+                "Not sure"
+              ],
+              "correctAnswer": "Rocks and Soil",
+              "hint": "Listen to the topic"
+            }
+          ],
+          "speaking": [
+            {
+              "id": "sci-s13",
+              "type": "pronounce-sentence",
+              "instruction": "Read aloud:",
+              "targetText": "I am learning about rocks and soil.",
+              "hint": "Clear pronunciation"
+            }
+          ],
+          "reading": [
+            {
+              "id": "sci-r13",
+              "type": "mcq",
+              "passage": "Rocks and Soil is an important topic in Science. We can learn many new English words about it.",
+              "question": "What subject is this?",
+              "options": [
+                "Science",
+                "Art",
+                "Music"
+              ],
+              "correctAnswer": "Science",
+              "explanation": "This is a Science topic"
+            }
+          ],
+          "writing": [
+            {
+              "id": "sci-w13",
+              "type": "spelling",
+              "instruction": "Spell the topic name:",
+              "ttsText": "rocks",
+              "correctAnswer": "rocks",
+              "hint": "First word of the topic"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sci-u14",
+      "title": "Air and Weather",
+      "theme": "air-weather",
+      "mascotTip": "Tat says: Let's explore air and weather!",
+      "lessons": [
+        {
+          "id": "sci-u14-l1",
+          "title": "Air and Weather",
+          "objectives": [
+            "Learn Air and Weather vocabulary",
+            "Discuss Air and Weather topics"
+          ],
+          "vocabulary": [
+            {
+              "id": "sci-v79",
+              "word": "(Air and Weather word 1)",
+              "phonetic": "",
+              "meaning": "Science vocabulary",
+              "meaningZh": "",
+              "example": "Related to Air and Weather."
+            },
+            {
+              "id": "sci-v80",
+              "word": "(Air and Weather word 2)",
+              "phonetic": "",
+              "meaning": "Science vocabulary",
+              "meaningZh": "",
+              "example": "Related to Air and Weather."
+            },
+            {
+              "id": "sci-v81",
+              "word": "(Air and Weather word 3)",
+              "phonetic": "",
+              "meaning": "Science vocabulary",
+              "meaningZh": "",
+              "example": "Related to Air and Weather."
+            },
+            {
+              "id": "sci-v82",
+              "word": "(Air and Weather word 4)",
+              "phonetic": "",
+              "meaning": "Science vocabulary",
+              "meaningZh": "",
+              "example": "Related to Air and Weather."
+            },
+            {
+              "id": "sci-v83",
+              "word": "(Air and Weather word 5)",
+              "phonetic": "",
+              "meaning": "Science vocabulary",
+              "meaningZh": "",
+              "example": "Related to Air and Weather."
+            },
+            {
+              "id": "sci-v84",
+              "word": "(Air and Weather word 6)",
+              "phonetic": "",
+              "meaning": "Science vocabulary",
+              "meaningZh": "",
+              "example": "Related to Air and Weather."
+            }
+          ],
+          "listening": [
+            {
+              "id": "sci-l14a",
+              "type": "mcq",
+              "instruction": "Listen about Air and Weather.",
+              "ttsText": "This topic is about Air and Weather.",
+              "question": "What is the topic?",
+              "options": [
+                "Air and Weather",
+                "Something else",
+                "Not sure"
+              ],
+              "correctAnswer": "Air and Weather",
+              "hint": "Listen to the topic"
+            }
+          ],
+          "speaking": [
+            {
+              "id": "sci-s14",
+              "type": "pronounce-sentence",
+              "instruction": "Read aloud:",
+              "targetText": "I am learning about air and weather.",
+              "hint": "Clear pronunciation"
+            }
+          ],
+          "reading": [
+            {
+              "id": "sci-r14",
+              "type": "mcq",
+              "passage": "Air and Weather is an important topic in Science. We can learn many new English words about it.",
+              "question": "What subject is this?",
+              "options": [
+                "Science",
+                "Art",
+                "Music"
+              ],
+              "correctAnswer": "Science",
+              "explanation": "This is a Science topic"
+            }
+          ],
+          "writing": [
+            {
+              "id": "sci-w14",
+              "type": "spelling",
+              "instruction": "Spell the topic name:",
+              "ttsText": "air",
+              "correctAnswer": "air",
+              "hint": "First word of the topic"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sci-u15",
+      "title": "Simple Machines",
+      "theme": "simple-machines",
+      "mascotTip": "Tot says: Let's explore simple machines!",
+      "lessons": [
+        {
+          "id": "sci-u15-l1",
+          "title": "Simple Machines",
+          "objectives": [
+            "Learn Simple Machines vocabulary",
+            "Discuss Simple Machines topics"
+          ],
+          "vocabulary": [
+            {
+              "id": "sci-v85",
+              "word": "(Simple Machines word 1)",
+              "phonetic": "",
+              "meaning": "Science vocabulary",
+              "meaningZh": "",
+              "example": "Related to Simple Machines."
+            },
+            {
+              "id": "sci-v86",
+              "word": "(Simple Machines word 2)",
+              "phonetic": "",
+              "meaning": "Science vocabulary",
+              "meaningZh": "",
+              "example": "Related to Simple Machines."
+            },
+            {
+              "id": "sci-v87",
+              "word": "(Simple Machines word 3)",
+              "phonetic": "",
+              "meaning": "Science vocabulary",
+              "meaningZh": "",
+              "example": "Related to Simple Machines."
+            },
+            {
+              "id": "sci-v88",
+              "word": "(Simple Machines word 4)",
+              "phonetic": "",
+              "meaning": "Science vocabulary",
+              "meaningZh": "",
+              "example": "Related to Simple Machines."
+            },
+            {
+              "id": "sci-v89",
+              "word": "(Simple Machines word 5)",
+              "phonetic": "",
+              "meaning": "Science vocabulary",
+              "meaningZh": "",
+              "example": "Related to Simple Machines."
+            },
+            {
+              "id": "sci-v90",
+              "word": "(Simple Machines word 6)",
+              "phonetic": "",
+              "meaning": "Science vocabulary",
+              "meaningZh": "",
+              "example": "Related to Simple Machines."
+            }
+          ],
+          "listening": [
+            {
+              "id": "sci-l15a",
+              "type": "mcq",
+              "instruction": "Listen about Simple Machines.",
+              "ttsText": "This topic is about Simple Machines.",
+              "question": "What is the topic?",
+              "options": [
+                "Simple Machines",
+                "Something else",
+                "Not sure"
+              ],
+              "correctAnswer": "Simple Machines",
+              "hint": "Listen to the topic"
+            }
+          ],
+          "speaking": [
+            {
+              "id": "sci-s15",
+              "type": "pronounce-sentence",
+              "instruction": "Read aloud:",
+              "targetText": "I am learning about simple machines.",
+              "hint": "Clear pronunciation"
+            }
+          ],
+          "reading": [
+            {
+              "id": "sci-r15",
+              "type": "mcq",
+              "passage": "Simple Machines is an important topic in Science. We can learn many new English words about it.",
+              "question": "What subject is this?",
+              "options": [
+                "Science",
+                "Art",
+                "Music"
+              ],
+              "correctAnswer": "Science",
+              "explanation": "This is a Science topic"
+            }
+          ],
+          "writing": [
+            {
+              "id": "sci-w15",
+              "type": "spelling",
+              "instruction": "Spell the topic name:",
+              "ttsText": "simple",
+              "correctAnswer": "simple",
+              "hint": "First word of the topic"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sci-u16",
+      "title": "Energy",
+      "theme": "energy",
+      "mascotTip": "Tat says: Let's explore energy!",
+      "lessons": [
+        {
+          "id": "sci-u16-l1",
+          "title": "Energy",
+          "objectives": [
+            "Learn Energy vocabulary",
+            "Discuss Energy topics"
+          ],
+          "vocabulary": [
+            {
+              "id": "sci-v91",
+              "word": "(Energy word 1)",
+              "phonetic": "",
+              "meaning": "Science vocabulary",
+              "meaningZh": "",
+              "example": "Related to Energy."
+            },
+            {
+              "id": "sci-v92",
+              "word": "(Energy word 2)",
+              "phonetic": "",
+              "meaning": "Science vocabulary",
+              "meaningZh": "",
+              "example": "Related to Energy."
+            },
+            {
+              "id": "sci-v93",
+              "word": "(Energy word 3)",
+              "phonetic": "",
+              "meaning": "Science vocabulary",
+              "meaningZh": "",
+              "example": "Related to Energy."
+            },
+            {
+              "id": "sci-v94",
+              "word": "(Energy word 4)",
+              "phonetic": "",
+              "meaning": "Science vocabulary",
+              "meaningZh": "",
+              "example": "Related to Energy."
+            },
+            {
+              "id": "sci-v95",
+              "word": "(Energy word 5)",
+              "phonetic": "",
+              "meaning": "Science vocabulary",
+              "meaningZh": "",
+              "example": "Related to Energy."
+            },
+            {
+              "id": "sci-v96",
+              "word": "(Energy word 6)",
+              "phonetic": "",
+              "meaning": "Science vocabulary",
+              "meaningZh": "",
+              "example": "Related to Energy."
+            }
+          ],
+          "listening": [
+            {
+              "id": "sci-l16a",
+              "type": "mcq",
+              "instruction": "Listen about Energy.",
+              "ttsText": "This topic is about Energy.",
+              "question": "What is the topic?",
+              "options": [
+                "Energy",
+                "Something else",
+                "Not sure"
+              ],
+              "correctAnswer": "Energy",
+              "hint": "Listen to the topic"
+            }
+          ],
+          "speaking": [
+            {
+              "id": "sci-s16",
+              "type": "pronounce-sentence",
+              "instruction": "Read aloud:",
+              "targetText": "I am learning about energy.",
+              "hint": "Clear pronunciation"
+            }
+          ],
+          "reading": [
+            {
+              "id": "sci-r16",
+              "type": "mcq",
+              "passage": "Energy is an important topic in Science. We can learn many new English words about it.",
+              "question": "What subject is this?",
+              "options": [
+                "Science",
+                "Art",
+                "Music"
+              ],
+              "correctAnswer": "Science",
+              "explanation": "This is a Science topic"
+            }
+          ],
+          "writing": [
+            {
+              "id": "sci-w16",
+              "type": "spelling",
+              "instruction": "Spell the topic name:",
+              "ttsText": "energy",
+              "correctAnswer": "energy",
+              "hint": "First word of the topic"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sci-u17",
+      "title": "Senses",
+      "theme": "senses",
+      "mascotTip": "Tot says: Let's explore senses!",
+      "lessons": [
+        {
+          "id": "sci-u17-l1",
+          "title": "Senses",
+          "objectives": [
+            "Learn Senses vocabulary",
+            "Discuss Senses topics"
+          ],
+          "vocabulary": [
+            {
+              "id": "sci-v97",
+              "word": "(Senses word 1)",
+              "phonetic": "",
+              "meaning": "Science vocabulary",
+              "meaningZh": "",
+              "example": "Related to Senses."
+            },
+            {
+              "id": "sci-v98",
+              "word": "(Senses word 2)",
+              "phonetic": "",
+              "meaning": "Science vocabulary",
+              "meaningZh": "",
+              "example": "Related to Senses."
+            },
+            {
+              "id": "sci-v99",
+              "word": "(Senses word 3)",
+              "phonetic": "",
+              "meaning": "Science vocabulary",
+              "meaningZh": "",
+              "example": "Related to Senses."
+            },
+            {
+              "id": "sci-v100",
+              "word": "(Senses word 4)",
+              "phonetic": "",
+              "meaning": "Science vocabulary",
+              "meaningZh": "",
+              "example": "Related to Senses."
+            },
+            {
+              "id": "sci-v101",
+              "word": "(Senses word 5)",
+              "phonetic": "",
+              "meaning": "Science vocabulary",
+              "meaningZh": "",
+              "example": "Related to Senses."
+            },
+            {
+              "id": "sci-v102",
+              "word": "(Senses word 6)",
+              "phonetic": "",
+              "meaning": "Science vocabulary",
+              "meaningZh": "",
+              "example": "Related to Senses."
+            }
+          ],
+          "listening": [
+            {
+              "id": "sci-l17a",
+              "type": "mcq",
+              "instruction": "Listen about Senses.",
+              "ttsText": "This topic is about Senses.",
+              "question": "What is the topic?",
+              "options": [
+                "Senses",
+                "Something else",
+                "Not sure"
+              ],
+              "correctAnswer": "Senses",
+              "hint": "Listen to the topic"
+            }
+          ],
+          "speaking": [
+            {
+              "id": "sci-s17",
+              "type": "pronounce-sentence",
+              "instruction": "Read aloud:",
+              "targetText": "I am learning about senses.",
+              "hint": "Clear pronunciation"
+            }
+          ],
+          "reading": [
+            {
+              "id": "sci-r17",
+              "type": "mcq",
+              "passage": "Senses is an important topic in Science. We can learn many new English words about it.",
+              "question": "What subject is this?",
+              "options": [
+                "Science",
+                "Art",
+                "Music"
+              ],
+              "correctAnswer": "Science",
+              "explanation": "This is a Science topic"
+            }
+          ],
+          "writing": [
+            {
+              "id": "sci-w17",
+              "type": "spelling",
+              "instruction": "Spell the topic name:",
+              "ttsText": "senses",
+              "correctAnswer": "senses",
+              "hint": "First word of the topic"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sci-u18",
+      "title": "Life Cycles",
+      "theme": "life-cycles",
+      "mascotTip": "Tat says: Let's explore life cycles!",
+      "lessons": [
+        {
+          "id": "sci-u18-l1",
+          "title": "Life Cycles",
+          "objectives": [
+            "Learn Life Cycles vocabulary",
+            "Discuss Life Cycles topics"
+          ],
+          "vocabulary": [
+            {
+              "id": "sci-v103",
+              "word": "(Life Cycles word 1)",
+              "phonetic": "",
+              "meaning": "Science vocabulary",
+              "meaningZh": "",
+              "example": "Related to Life Cycles."
+            },
+            {
+              "id": "sci-v104",
+              "word": "(Life Cycles word 2)",
+              "phonetic": "",
+              "meaning": "Science vocabulary",
+              "meaningZh": "",
+              "example": "Related to Life Cycles."
+            },
+            {
+              "id": "sci-v105",
+              "word": "(Life Cycles word 3)",
+              "phonetic": "",
+              "meaning": "Science vocabulary",
+              "meaningZh": "",
+              "example": "Related to Life Cycles."
+            },
+            {
+              "id": "sci-v106",
+              "word": "(Life Cycles word 4)",
+              "phonetic": "",
+              "meaning": "Science vocabulary",
+              "meaningZh": "",
+              "example": "Related to Life Cycles."
+            },
+            {
+              "id": "sci-v107",
+              "word": "(Life Cycles word 5)",
+              "phonetic": "",
+              "meaning": "Science vocabulary",
+              "meaningZh": "",
+              "example": "Related to Life Cycles."
+            },
+            {
+              "id": "sci-v108",
+              "word": "(Life Cycles word 6)",
+              "phonetic": "",
+              "meaning": "Science vocabulary",
+              "meaningZh": "",
+              "example": "Related to Life Cycles."
+            }
+          ],
+          "listening": [
+            {
+              "id": "sci-l18a",
+              "type": "mcq",
+              "instruction": "Listen about Life Cycles.",
+              "ttsText": "This topic is about Life Cycles.",
+              "question": "What is the topic?",
+              "options": [
+                "Life Cycles",
+                "Something else",
+                "Not sure"
+              ],
+              "correctAnswer": "Life Cycles",
+              "hint": "Listen to the topic"
+            }
+          ],
+          "speaking": [
+            {
+              "id": "sci-s18",
+              "type": "pronounce-sentence",
+              "instruction": "Read aloud:",
+              "targetText": "I am learning about life cycles.",
+              "hint": "Clear pronunciation"
+            }
+          ],
+          "reading": [
+            {
+              "id": "sci-r18",
+              "type": "mcq",
+              "passage": "Life Cycles is an important topic in Science. We can learn many new English words about it.",
+              "question": "What subject is this?",
+              "options": [
+                "Science",
+                "Art",
+                "Music"
+              ],
+              "correctAnswer": "Science",
+              "explanation": "This is a Science topic"
+            }
+          ],
+          "writing": [
+            {
+              "id": "sci-w18",
+              "type": "spelling",
+              "instruction": "Spell the topic name:",
+              "ttsText": "life",
+              "correctAnswer": "life",
+              "hint": "First word of the topic"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sci-u19",
+      "title": "Teeth and Digestion",
+      "theme": "teeth-digestion",
+      "mascotTip": "Tot says: Let's explore teeth and digestion!",
+      "lessons": [
+        {
+          "id": "sci-u19-l1",
+          "title": "Teeth and Digestion",
+          "objectives": [
+            "Learn Teeth and Digestion vocabulary",
+            "Discuss Teeth and Digestion topics"
+          ],
+          "vocabulary": [
+            {
+              "id": "sci-v109",
+              "word": "(Teeth and Digestion word 1)",
+              "phonetic": "",
+              "meaning": "Science vocabulary",
+              "meaningZh": "",
+              "example": "Related to Teeth and Digestion."
+            },
+            {
+              "id": "sci-v110",
+              "word": "(Teeth and Digestion word 2)",
+              "phonetic": "",
+              "meaning": "Science vocabulary",
+              "meaningZh": "",
+              "example": "Related to Teeth and Digestion."
+            },
+            {
+              "id": "sci-v111",
+              "word": "(Teeth and Digestion word 3)",
+              "phonetic": "",
+              "meaning": "Science vocabulary",
+              "meaningZh": "",
+              "example": "Related to Teeth and Digestion."
+            },
+            {
+              "id": "sci-v112",
+              "word": "(Teeth and Digestion word 4)",
+              "phonetic": "",
+              "meaning": "Science vocabulary",
+              "meaningZh": "",
+              "example": "Related to Teeth and Digestion."
+            },
+            {
+              "id": "sci-v113",
+              "word": "(Teeth and Digestion word 5)",
+              "phonetic": "",
+              "meaning": "Science vocabulary",
+              "meaningZh": "",
+              "example": "Related to Teeth and Digestion."
+            },
+            {
+              "id": "sci-v114",
+              "word": "(Teeth and Digestion word 6)",
+              "phonetic": "",
+              "meaning": "Science vocabulary",
+              "meaningZh": "",
+              "example": "Related to Teeth and Digestion."
+            }
+          ],
+          "listening": [
+            {
+              "id": "sci-l19a",
+              "type": "mcq",
+              "instruction": "Listen about Teeth and Digestion.",
+              "ttsText": "This topic is about Teeth and Digestion.",
+              "question": "What is the topic?",
+              "options": [
+                "Teeth and Digestion",
+                "Something else",
+                "Not sure"
+              ],
+              "correctAnswer": "Teeth and Digestion",
+              "hint": "Listen to the topic"
+            }
+          ],
+          "speaking": [
+            {
+              "id": "sci-s19",
+              "type": "pronounce-sentence",
+              "instruction": "Read aloud:",
+              "targetText": "I am learning about teeth and digestion.",
+              "hint": "Clear pronunciation"
+            }
+          ],
+          "reading": [
+            {
+              "id": "sci-r19",
+              "type": "mcq",
+              "passage": "Teeth and Digestion is an important topic in Science. We can learn many new English words about it.",
+              "question": "What subject is this?",
+              "options": [
+                "Science",
+                "Art",
+                "Music"
+              ],
+              "correctAnswer": "Science",
+              "explanation": "This is a Science topic"
+            }
+          ],
+          "writing": [
+            {
+              "id": "sci-w19",
+              "type": "spelling",
+              "instruction": "Spell the topic name:",
+              "ttsText": "teeth",
+              "correctAnswer": "teeth",
+              "hint": "First word of the topic"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sci-u20",
+      "title": "Staying Healthy",
+      "theme": "staying-healthy",
+      "mascotTip": "Tat says: Let's explore staying healthy!",
+      "lessons": [
+        {
+          "id": "sci-u20-l1",
+          "title": "Staying Healthy",
+          "objectives": [
+            "Learn Staying Healthy vocabulary",
+            "Discuss Staying Healthy topics"
+          ],
+          "vocabulary": [
+            {
+              "id": "sci-v115",
+              "word": "(Staying Healthy word 1)",
+              "phonetic": "",
+              "meaning": "Science vocabulary",
+              "meaningZh": "",
+              "example": "Related to Staying Healthy."
+            },
+            {
+              "id": "sci-v116",
+              "word": "(Staying Healthy word 2)",
+              "phonetic": "",
+              "meaning": "Science vocabulary",
+              "meaningZh": "",
+              "example": "Related to Staying Healthy."
+            },
+            {
+              "id": "sci-v117",
+              "word": "(Staying Healthy word 3)",
+              "phonetic": "",
+              "meaning": "Science vocabulary",
+              "meaningZh": "",
+              "example": "Related to Staying Healthy."
+            },
+            {
+              "id": "sci-v118",
+              "word": "(Staying Healthy word 4)",
+              "phonetic": "",
+              "meaning": "Science vocabulary",
+              "meaningZh": "",
+              "example": "Related to Staying Healthy."
+            },
+            {
+              "id": "sci-v119",
+              "word": "(Staying Healthy word 5)",
+              "phonetic": "",
+              "meaning": "Science vocabulary",
+              "meaningZh": "",
+              "example": "Related to Staying Healthy."
+            },
+            {
+              "id": "sci-v120",
+              "word": "(Staying Healthy word 6)",
+              "phonetic": "",
+              "meaning": "Science vocabulary",
+              "meaningZh": "",
+              "example": "Related to Staying Healthy."
+            }
+          ],
+          "listening": [
+            {
+              "id": "sci-l20a",
+              "type": "mcq",
+              "instruction": "Listen about Staying Healthy.",
+              "ttsText": "This topic is about Staying Healthy.",
+              "question": "What is the topic?",
+              "options": [
+                "Staying Healthy",
+                "Something else",
+                "Not sure"
+              ],
+              "correctAnswer": "Staying Healthy",
+              "hint": "Listen to the topic"
+            }
+          ],
+          "speaking": [
+            {
+              "id": "sci-s20",
+              "type": "pronounce-sentence",
+              "instruction": "Read aloud:",
+              "targetText": "I am learning about staying healthy.",
+              "hint": "Clear pronunciation"
+            }
+          ],
+          "reading": [
+            {
+              "id": "sci-r20",
+              "type": "mcq",
+              "passage": "Staying Healthy is an important topic in Science. We can learn many new English words about it.",
+              "question": "What subject is this?",
+              "options": [
+                "Science",
+                "Art",
+                "Music"
+              ],
+              "correctAnswer": "Science",
+              "explanation": "This is a Science topic"
+            }
+          ],
+          "writing": [
+            {
+              "id": "sci-w20",
+              "type": "spelling",
+              "instruction": "Spell the topic name:",
+              "ttsText": "staying",
+              "correctAnswer": "staying",
+              "hint": "First word of the topic"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
