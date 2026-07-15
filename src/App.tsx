@@ -1,5 +1,5 @@
 import { useEffect } from 'react'
-import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import { HashRouter, Routes, Route } from 'react-router-dom'
 import { AppShell } from '@/components/layout/AppShell'
 import { Home } from '@/pages/Home'
 import { BookShelf } from '@/pages/BookShelf'
@@ -17,7 +17,7 @@ export default function App() {
   }, [])
 
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Routes>
         <Route element={<AppShell />}>
           <Route path="/" element={<Home />} />
@@ -30,6 +30,6 @@ export default function App() {
           <Route path="/settings" element={<Settings />} />
         </Route>
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   )
 }
