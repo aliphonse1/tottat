@@ -158,52 +158,52 @@
           ],
           "vocabulary": [
             {
-              "id": "p3v7",
-              "word": "(My Home word 1)",
-              "phonetic": "",
-              "meaning": "Related to My Home",
-              "meaningZh": "",
-              "example": "A word about my home."
+              "id": "v7",
+              "word": "bedroom",
+              "phonetic": "/ˈbedruːm/",
+              "meaning": "a room for sleeping",
+              "meaningZh": "睡房",
+              "example": "I read in my bedroom."
             },
             {
-              "id": "p3v8",
-              "word": "(My Home word 2)",
-              "phonetic": "",
-              "meaning": "Related to My Home",
-              "meaningZh": "",
-              "example": "A word about my home."
+              "id": "v8",
+              "word": "kitchen",
+              "phonetic": "/ˈkɪtʃɪn/",
+              "meaning": "a room for cooking food",
+              "meaningZh": "廚房",
+              "example": "Mum cooks in the kitchen."
             },
             {
-              "id": "p3v9",
-              "word": "(My Home word 3)",
-              "phonetic": "",
-              "meaning": "Related to My Home",
-              "meaningZh": "",
-              "example": "A word about my home."
+              "id": "v9",
+              "word": "bathroom",
+              "phonetic": "/ˈbɑːθruːm/",
+              "meaning": "a room for washing",
+              "meaningZh": "浴室",
+              "example": "I brush my teeth in the bathroom."
             },
             {
-              "id": "p3v10",
-              "word": "(My Home word 4)",
-              "phonetic": "",
-              "meaning": "Related to My Home",
-              "meaningZh": "",
-              "example": "A word about my home."
+              "id": "v10",
+              "word": "living room",
+              "phonetic": "/ˈlɪvɪŋ ruːm/",
+              "meaning": "a room for relaxing with family",
+              "meaningZh": "客廳",
+              "example": "We watch TV in the living room."
             },
             {
-              "id": "p3v11",
-              "word": "(My Home word 5)",
-              "phonetic": "",
-              "meaning": "Related to My Home",
-              "meaningZh": "",
-              "example": "A word about my home."
+              "id": "v11",
+              "word": "balcony",
+              "phonetic": "/ˈbælkəni/",
+              "meaning": "an outdoor platform on a building",
+              "meaningZh": "陽台",
+              "example": "I can see the park from the balcony."
             },
             {
-              "id": "p3v12",
-              "word": "(My Home word 6)",
-              "phonetic": "",
-              "meaning": "Related to My Home",
-              "meaningZh": "",
-              "example": "A word about my home."
+              "id": "v12",
+              "word": "furniture",
+              "phonetic": "/ˈfɜːrnɪtʃər/",
+              "meaning": "things like tables and chairs in a room",
+              "meaningZh": "傢具",
+              "example": "We bought new furniture."
             }
           ],
           "listening": [
@@ -235,14 +235,14 @@
               "id": "s2a",
               "type": "pronounce-word",
               "instruction": "Say:",
-              "targetText": "(My Home word 1)",
-              "phonetic": ""
+              "targetText": "bedroom",
+              "phonetic": "/ˈbedruːm/"
             },
             {
               "id": "s2b",
               "type": "pronounce-sentence",
               "instruction": "Read aloud:",
-              "targetText": "A word about my home.",
+              "targetText": "I read in my bedroom.",
               "hint": "Clearly"
             }
           ],
@@ -296,52 +296,52 @@
           ],
           "vocabulary": [
             {
-              "id": "p3v13",
-              "word": "(Food and Drinks word 1)",
-              "phonetic": "",
-              "meaning": "Related to Food and Drinks",
-              "meaningZh": "",
-              "example": "A word about food and drinks."
+              "id": "v13",
+              "word": "breakfast",
+              "phonetic": "/ˈbrekfəst/",
+              "meaning": "the first meal of the day",
+              "meaningZh": "早餐",
+              "example": "I eat eggs for breakfast."
             },
             {
-              "id": "p3v14",
-              "word": "(Food and Drinks word 2)",
-              "phonetic": "",
-              "meaning": "Related to Food and Drinks",
-              "meaningZh": "",
-              "example": "A word about food and drinks."
+              "id": "v14",
+              "word": "lunch",
+              "phonetic": "/lʌntʃ/",
+              "meaning": "the midday meal",
+              "meaningZh": "午餐",
+              "example": "We have lunch at school."
             },
             {
-              "id": "p3v15",
-              "word": "(Food and Drinks word 3)",
-              "phonetic": "",
-              "meaning": "Related to Food and Drinks",
-              "meaningZh": "",
-              "example": "A word about food and drinks."
+              "id": "v15",
+              "word": "dinner",
+              "phonetic": "/ˈdɪnər/",
+              "meaning": "the evening meal",
+              "meaningZh": "晚餐",
+              "example": "Dinner is at 7 o'clock."
             },
             {
-              "id": "p3v16",
-              "word": "(Food and Drinks word 4)",
-              "phonetic": "",
-              "meaning": "Related to Food and Drinks",
-              "meaningZh": "",
-              "example": "A word about food and drinks."
+              "id": "v16",
+              "word": "thirsty",
+              "phonetic": "/ˈθɜːrsti/",
+              "meaning": "wanting something to drink",
+              "meaningZh": "口渴的",
+              "example": "I am thirsty after running."
             },
             {
-              "id": "p3v17",
-              "word": "(Food and Drinks word 5)",
-              "phonetic": "",
-              "meaning": "Related to Food and Drinks",
-              "meaningZh": "",
-              "example": "A word about food and drinks."
+              "id": "v17",
+              "word": "delicious",
+              "phonetic": "/dɪˈlɪʃəs/",
+              "meaning": "very tasty",
+              "meaningZh": "美味的",
+              "example": "The cake is delicious."
             },
             {
-              "id": "p3v18",
-              "word": "(Food and Drinks word 6)",
-              "phonetic": "",
-              "meaning": "Related to Food and Drinks",
-              "meaningZh": "",
-              "example": "A word about food and drinks."
+              "id": "v18",
+              "word": "healthy",
+              "phonetic": "/ˈhelθi/",
+              "meaning": "good for your body",
+              "meaningZh": "健康的",
+              "example": "Fruit is a healthy snack."
             }
           ],
           "listening": [
@@ -373,14 +373,14 @@
               "id": "s3a",
               "type": "pronounce-word",
               "instruction": "Say:",
-              "targetText": "(Food and Drinks word 1)",
-              "phonetic": ""
+              "targetText": "breakfast",
+              "phonetic": "/ˈbrekfəst/"
             },
             {
               "id": "s3b",
               "type": "pronounce-sentence",
               "instruction": "Read aloud:",
-              "targetText": "A word about food and drinks.",
+              "targetText": "I eat eggs for breakfast.",
               "hint": "Clearly"
             }
           ],
@@ -434,52 +434,52 @@
           ],
           "vocabulary": [
             {
-              "id": "p3v19",
-              "word": "(My School word 1)",
-              "phonetic": "",
-              "meaning": "Related to My School",
-              "meaningZh": "",
-              "example": "A word about my school."
+              "id": "v19",
+              "word": "classroom",
+              "phonetic": "/ˈklɑːsruːm/",
+              "meaning": "a room where lessons happen",
+              "meaningZh": "教室",
+              "example": "Our classroom is on the third floor."
             },
             {
-              "id": "p3v20",
-              "word": "(My School word 2)",
-              "phonetic": "",
-              "meaning": "Related to My School",
-              "meaningZh": "",
-              "example": "A word about my school."
+              "id": "v20",
+              "word": "teacher",
+              "phonetic": "/ˈtiːtʃər/",
+              "meaning": "a person who teaches",
+              "meaningZh": "老師",
+              "example": "Our teacher is kind."
             },
             {
-              "id": "p3v21",
-              "word": "(My School word 3)",
-              "phonetic": "",
-              "meaning": "Related to My School",
-              "meaningZh": "",
-              "example": "A word about my school."
+              "id": "v21",
+              "word": "homework",
+              "phonetic": "/ˈhoʊmwɜːrk/",
+              "meaning": "schoolwork done at home",
+              "meaningZh": "功課",
+              "example": "I finish my homework before dinner."
             },
             {
-              "id": "p3v22",
-              "word": "(My School word 4)",
-              "phonetic": "",
-              "meaning": "Related to My School",
-              "meaningZh": "",
-              "example": "A word about my school."
+              "id": "v22",
+              "word": "uniform",
+              "phonetic": "/ˈjuːnɪfɔːrm/",
+              "meaning": "special clothes for school",
+              "meaningZh": "校服",
+              "example": "I wear a uniform to school."
             },
             {
-              "id": "p3v23",
-              "word": "(My School word 5)",
-              "phonetic": "",
-              "meaning": "Related to My School",
-              "meaningZh": "",
-              "example": "A word about my school."
+              "id": "v23",
+              "word": "assembly",
+              "phonetic": "/əˈsembli/",
+              "meaning": "a school meeting for all students",
+              "meaningZh": "集會",
+              "example": "We sing at morning assembly."
             },
             {
-              "id": "p3v24",
-              "word": "(My School word 6)",
-              "phonetic": "",
-              "meaning": "Related to My School",
-              "meaningZh": "",
-              "example": "A word about my school."
+              "id": "v24",
+              "word": "recess",
+              "phonetic": "/rɪˈses/",
+              "meaning": "a break between lessons",
+              "meaningZh": "小息",
+              "example": "I play with friends at recess."
             }
           ],
           "listening": [
@@ -511,14 +511,14 @@
               "id": "s4a",
               "type": "pronounce-word",
               "instruction": "Say:",
-              "targetText": "(My School word 1)",
-              "phonetic": ""
+              "targetText": "classroom",
+              "phonetic": "/ˈklɑːsruːm/"
             },
             {
               "id": "s4b",
               "type": "pronounce-sentence",
               "instruction": "Read aloud:",
-              "targetText": "A word about my school.",
+              "targetText": "Our classroom is on the third floor.",
               "hint": "Clearly"
             }
           ],
@@ -572,52 +572,52 @@
           ],
           "vocabulary": [
             {
-              "id": "p3v25",
-              "word": "(Animals word 1)",
-              "phonetic": "",
-              "meaning": "Related to Animals",
-              "meaningZh": "",
-              "example": "A word about animals."
+              "id": "v25",
+              "word": "mammal",
+              "phonetic": "/ˈmæml/",
+              "meaning": "a warm-blooded animal that feeds milk",
+              "meaningZh": "哺乳動物",
+              "example": "A dog is a mammal."
             },
             {
-              "id": "p3v26",
-              "word": "(Animals word 2)",
-              "phonetic": "",
-              "meaning": "Related to Animals",
-              "meaningZh": "",
-              "example": "A word about animals."
+              "id": "v26",
+              "word": "reptile",
+              "phonetic": "/ˈreptaɪl/",
+              "meaning": "a cold-blooded animal with scales",
+              "meaningZh": "爬蟲類",
+              "example": "A snake is a reptile."
             },
             {
-              "id": "p3v27",
-              "word": "(Animals word 3)",
-              "phonetic": "",
-              "meaning": "Related to Animals",
-              "meaningZh": "",
-              "example": "A word about animals."
+              "id": "v27",
+              "word": "insect",
+              "phonetic": "/ˈɪnsekt/",
+              "meaning": "a tiny creature with six legs",
+              "meaningZh": "昆蟲",
+              "example": "A butterfly is an insect."
             },
             {
-              "id": "p3v28",
-              "word": "(Animals word 4)",
-              "phonetic": "",
-              "meaning": "Related to Animals",
-              "meaningZh": "",
-              "example": "A word about animals."
+              "id": "v28",
+              "word": "feather",
+              "phonetic": "/ˈfeðər/",
+              "meaning": "light covering on a bird",
+              "meaningZh": "羽毛",
+              "example": "Birds have feathers."
             },
             {
-              "id": "p3v29",
-              "word": "(Animals word 5)",
-              "phonetic": "",
-              "meaning": "Related to Animals",
-              "meaningZh": "",
-              "example": "A word about animals."
+              "id": "v29",
+              "word": "habitat",
+              "phonetic": "/ˈhæbɪtæt/",
+              "meaning": "the natural home of an animal",
+              "meaningZh": "棲息地",
+              "example": "The ocean is a whale's habitat."
             },
             {
-              "id": "p3v30",
-              "word": "(Animals word 6)",
-              "phonetic": "",
-              "meaning": "Related to Animals",
-              "meaningZh": "",
-              "example": "A word about animals."
+              "id": "v30",
+              "word": "endangered",
+              "phonetic": "/ɪnˈdeɪndʒərd/",
+              "meaning": "at risk of dying out",
+              "meaningZh": "瀕危的",
+              "example": "Pandas are endangered animals."
             }
           ],
           "listening": [
@@ -649,14 +649,14 @@
               "id": "s5a",
               "type": "pronounce-word",
               "instruction": "Say:",
-              "targetText": "(Animals word 1)",
-              "phonetic": ""
+              "targetText": "mammal",
+              "phonetic": "/ˈmæml/"
             },
             {
               "id": "s5b",
               "type": "pronounce-sentence",
               "instruction": "Read aloud:",
-              "targetText": "A word about animals.",
+              "targetText": "A dog is a mammal.",
               "hint": "Clearly"
             }
           ],
@@ -710,52 +710,52 @@
           ],
           "vocabulary": [
             {
-              "id": "p3v31",
-              "word": "(Weather and Seasons word 1)",
-              "phonetic": "",
-              "meaning": "Related to Weather and Seasons",
-              "meaningZh": "",
-              "example": "A word about weather and seasons."
+              "id": "v31",
+              "word": "sunny",
+              "phonetic": "/ˈsʌni/",
+              "meaning": "bright with sunshine",
+              "meaningZh": "晴朗的",
+              "example": "It is sunny today."
             },
             {
-              "id": "p3v32",
-              "word": "(Weather and Seasons word 2)",
-              "phonetic": "",
-              "meaning": "Related to Weather and Seasons",
-              "meaningZh": "",
-              "example": "A word about weather and seasons."
+              "id": "v32",
+              "word": "cloudy",
+              "phonetic": "/ˈklaʊdi/",
+              "meaning": "covered with clouds",
+              "meaningZh": "多雲的",
+              "example": "The sky is cloudy."
             },
             {
-              "id": "p3v33",
-              "word": "(Weather and Seasons word 3)",
-              "phonetic": "",
-              "meaning": "Related to Weather and Seasons",
-              "meaningZh": "",
-              "example": "A word about weather and seasons."
+              "id": "v33",
+              "word": "typhoon",
+              "phonetic": "/taɪˈfuːn/",
+              "meaning": "a strong tropical storm",
+              "meaningZh": "颱風",
+              "example": "A typhoon brings strong wind."
             },
             {
-              "id": "p3v34",
-              "word": "(Weather and Seasons word 4)",
-              "phonetic": "",
-              "meaning": "Related to Weather and Seasons",
-              "meaningZh": "",
-              "example": "A word about weather and seasons."
+              "id": "v34",
+              "word": "temperature",
+              "phonetic": "/ˈtemprətʃər/",
+              "meaning": "how hot or cold it is",
+              "meaningZh": "溫度",
+              "example": "The temperature is 30 degrees."
             },
             {
-              "id": "p3v35",
-              "word": "(Weather and Seasons word 5)",
-              "phonetic": "",
-              "meaning": "Related to Weather and Seasons",
-              "meaningZh": "",
-              "example": "A word about weather and seasons."
+              "id": "v35",
+              "word": "season",
+              "phonetic": "/ˈsiːzn/",
+              "meaning": "a time of year (spring, summer, etc.)",
+              "meaningZh": "季節",
+              "example": "Summer is my favourite season."
             },
             {
-              "id": "p3v36",
-              "word": "(Weather and Seasons word 6)",
-              "phonetic": "",
-              "meaning": "Related to Weather and Seasons",
-              "meaningZh": "",
-              "example": "A word about weather and seasons."
+              "id": "v36",
+              "word": "humid",
+              "phonetic": "/ˈhjuːmɪd/",
+              "meaning": "having a lot of moisture in the air",
+              "meaningZh": "潮濕的",
+              "example": "Hong Kong is very humid in spring."
             }
           ],
           "listening": [
@@ -787,14 +787,14 @@
               "id": "s6a",
               "type": "pronounce-word",
               "instruction": "Say:",
-              "targetText": "(Weather and Seasons word 1)",
-              "phonetic": ""
+              "targetText": "sunny",
+              "phonetic": "/ˈsʌni/"
             },
             {
               "id": "s6b",
               "type": "pronounce-sentence",
               "instruction": "Read aloud:",
-              "targetText": "A word about weather and seasons.",
+              "targetText": "It is sunny today.",
               "hint": "Clearly"
             }
           ],
@@ -848,52 +848,52 @@
           ],
           "vocabulary": [
             {
-              "id": "p3v37",
-              "word": "(Shopping word 1)",
-              "phonetic": "",
-              "meaning": "Related to Shopping",
-              "meaningZh": "",
-              "example": "A word about shopping."
+              "id": "v37",
+              "word": "receipt",
+              "phonetic": "/rɪˈsiːt/",
+              "meaning": "a paper showing what you paid",
+              "meaningZh": "收據",
+              "example": "Keep the receipt."
             },
             {
-              "id": "p3v38",
-              "word": "(Shopping word 2)",
-              "phonetic": "",
-              "meaning": "Related to Shopping",
-              "meaningZh": "",
-              "example": "A word about shopping."
+              "id": "v38",
+              "word": "cashier",
+              "phonetic": "/kæˈʃɪr/",
+              "meaning": "the person who takes your money",
+              "meaningZh": "收銀員",
+              "example": "Pay the cashier at the counter."
             },
             {
-              "id": "p3v39",
-              "word": "(Shopping word 3)",
-              "phonetic": "",
-              "meaning": "Related to Shopping",
-              "meaningZh": "",
-              "example": "A word about shopping."
+              "id": "v39",
+              "word": "bargain",
+              "phonetic": "/ˈbɑːrɡɪn/",
+              "meaning": "something sold at a low price",
+              "meaningZh": "便宜貨",
+              "example": "This shirt is a bargain!"
             },
             {
-              "id": "p3v40",
-              "word": "(Shopping word 4)",
-              "phonetic": "",
-              "meaning": "Related to Shopping",
-              "meaningZh": "",
-              "example": "A word about shopping."
+              "id": "v40",
+              "word": "size",
+              "phonetic": "/saɪz/",
+              "meaning": "how big or small something is",
+              "meaningZh": "尺寸",
+              "example": "What size do you need?"
             },
             {
-              "id": "p3v41",
-              "word": "(Shopping word 5)",
-              "phonetic": "",
-              "meaning": "Related to Shopping",
-              "meaningZh": "",
-              "example": "A word about shopping."
+              "id": "v41",
+              "word": "fitting room",
+              "phonetic": "/ˈfɪtɪŋ ruːm/",
+              "meaning": "a room to try on clothes",
+              "meaningZh": "試衣間",
+              "example": "I'll try this in the fitting room."
             },
             {
-              "id": "p3v42",
-              "word": "(Shopping word 6)",
-              "phonetic": "",
-              "meaning": "Related to Shopping",
-              "meaningZh": "",
-              "example": "A word about shopping."
+              "id": "v42",
+              "word": "queue",
+              "phonetic": "/kjuː/",
+              "meaning": "a line of people waiting",
+              "meaningZh": "排隊",
+              "example": "Please join the queue."
             }
           ],
           "listening": [
@@ -925,14 +925,14 @@
               "id": "s7a",
               "type": "pronounce-word",
               "instruction": "Say:",
-              "targetText": "(Shopping word 1)",
-              "phonetic": ""
+              "targetText": "receipt",
+              "phonetic": "/rɪˈsiːt/"
             },
             {
               "id": "s7b",
               "type": "pronounce-sentence",
               "instruction": "Read aloud:",
-              "targetText": "A word about shopping.",
+              "targetText": "Keep the receipt.",
               "hint": "Clearly"
             }
           ],
@@ -986,52 +986,52 @@
           ],
           "vocabulary": [
             {
-              "id": "p3v43",
-              "word": "(Sports and Hobbies word 1)",
-              "phonetic": "",
-              "meaning": "Related to Sports and Hobbies",
-              "meaningZh": "",
-              "example": "A word about sports and hobbies."
+              "id": "v43",
+              "word": "badminton",
+              "phonetic": "/ˈbædmɪntən/",
+              "meaning": "a sport using rackets and a shuttlecock",
+              "meaningZh": "羽毛球",
+              "example": "I play badminton after school."
             },
             {
-              "id": "p3v44",
-              "word": "(Sports and Hobbies word 2)",
-              "phonetic": "",
-              "meaning": "Related to Sports and Hobbies",
-              "meaningZh": "",
-              "example": "A word about sports and hobbies."
+              "id": "v44",
+              "word": "swimming",
+              "phonetic": "/ˈswɪmɪŋ/",
+              "meaning": "moving through water",
+              "meaningZh": "游泳",
+              "example": "Swimming is good exercise."
             },
             {
-              "id": "p3v45",
-              "word": "(Sports and Hobbies word 3)",
-              "phonetic": "",
-              "meaning": "Related to Sports and Hobbies",
-              "meaningZh": "",
-              "example": "A word about sports and hobbies."
+              "id": "v45",
+              "word": "hobby",
+              "phonetic": "/ˈhɒbi/",
+              "meaning": "an activity you enjoy in free time",
+              "meaningZh": "愛好",
+              "example": "Drawing is my hobby."
             },
             {
-              "id": "p3v46",
-              "word": "(Sports and Hobbies word 4)",
-              "phonetic": "",
-              "meaning": "Related to Sports and Hobbies",
-              "meaningZh": "",
-              "example": "A word about sports and hobbies."
+              "id": "v46",
+              "word": "competition",
+              "phonetic": "/ˌkɒmpəˈtɪʃən/",
+              "meaning": "a contest to find the best",
+              "meaningZh": "比賽",
+              "example": "I won the drawing competition."
             },
             {
-              "id": "p3v47",
-              "word": "(Sports and Hobbies word 5)",
-              "phonetic": "",
-              "meaning": "Related to Sports and Hobbies",
-              "meaningZh": "",
-              "example": "A word about sports and hobbies."
+              "id": "v47",
+              "word": "practice",
+              "phonetic": "/ˈpræktɪs/",
+              "meaning": "to do something again and again to improve",
+              "meaningZh": "練習",
+              "example": "I practice piano every day."
             },
             {
-              "id": "p3v48",
-              "word": "(Sports and Hobbies word 6)",
-              "phonetic": "",
-              "meaning": "Related to Sports and Hobbies",
-              "meaningZh": "",
-              "example": "A word about sports and hobbies."
+              "id": "v48",
+              "word": "score",
+              "phonetic": "/skɔːr/",
+              "meaning": "points won in a game",
+              "meaningZh": "分數",
+              "example": "The final score was 3 to 1."
             }
           ],
           "listening": [
@@ -1063,14 +1063,14 @@
               "id": "s8a",
               "type": "pronounce-word",
               "instruction": "Say:",
-              "targetText": "(Sports and Hobbies word 1)",
-              "phonetic": ""
+              "targetText": "badminton",
+              "phonetic": "/ˈbædmɪntən/"
             },
             {
               "id": "s8b",
               "type": "pronounce-sentence",
               "instruction": "Read aloud:",
-              "targetText": "A word about sports and hobbies.",
+              "targetText": "I play badminton after school.",
               "hint": "Clearly"
             }
           ],
@@ -1124,52 +1124,52 @@
           ],
           "vocabulary": [
             {
-              "id": "p3v49",
-              "word": "(Holidays word 1)",
-              "phonetic": "",
-              "meaning": "Related to Holidays",
-              "meaningZh": "",
-              "example": "A word about holidays."
+              "id": "v49",
+              "word": "holiday",
+              "phonetic": "/ˈhɒlɪdeɪ/",
+              "meaning": "a time away from school or work",
+              "meaningZh": "假期",
+              "example": "We go to the beach on holiday."
             },
             {
-              "id": "p3v50",
-              "word": "(Holidays word 2)",
-              "phonetic": "",
-              "meaning": "Related to Holidays",
-              "meaningZh": "",
-              "example": "A word about holidays."
+              "id": "v50",
+              "word": "suitcase",
+              "phonetic": "/ˈsuːtkeɪs/",
+              "meaning": "a bag for carrying clothes on trips",
+              "meaningZh": "行李箱",
+              "example": "I packed my suitcase."
             },
             {
-              "id": "p3v51",
-              "word": "(Holidays word 3)",
-              "phonetic": "",
-              "meaning": "Related to Holidays",
-              "meaningZh": "",
-              "example": "A word about holidays."
+              "id": "v51",
+              "word": "passport",
+              "phonetic": "/ˈpɑːspɔːrt/",
+              "meaning": "an official travel document",
+              "meaningZh": "護照",
+              "example": "Show your passport at the airport."
             },
             {
-              "id": "p3v52",
-              "word": "(Holidays word 4)",
-              "phonetic": "",
-              "meaning": "Related to Holidays",
-              "meaningZh": "",
-              "example": "A word about holidays."
+              "id": "v52",
+              "word": "souvenir",
+              "phonetic": "/ˌsuːvəˈnɪr/",
+              "meaning": "a thing bought to remember a trip",
+              "meaningZh": "紀念品",
+              "example": "I bought a souvenir keychain."
             },
             {
-              "id": "p3v53",
-              "word": "(Holidays word 5)",
-              "phonetic": "",
-              "meaning": "Related to Holidays",
-              "meaningZh": "",
-              "example": "A word about holidays."
+              "id": "v53",
+              "word": "hotel",
+              "phonetic": "/hoʊˈtel/",
+              "meaning": "a place to stay when travelling",
+              "meaningZh": "酒店",
+              "example": "We stayed at a nice hotel."
             },
             {
-              "id": "p3v54",
-              "word": "(Holidays word 6)",
-              "phonetic": "",
-              "meaning": "Related to Holidays",
-              "meaningZh": "",
-              "example": "A word about holidays."
+              "id": "v54",
+              "word": "explore",
+              "phonetic": "/ɪkˈsplɔːr/",
+              "meaning": "to travel and discover new places",
+              "meaningZh": "探索",
+              "example": "Let's explore the old town."
             }
           ],
           "listening": [
@@ -1201,14 +1201,14 @@
               "id": "s9a",
               "type": "pronounce-word",
               "instruction": "Say:",
-              "targetText": "(Holidays word 1)",
-              "phonetic": ""
+              "targetText": "holiday",
+              "phonetic": "/ˈhɒlɪdeɪ/"
             },
             {
               "id": "s9b",
               "type": "pronounce-sentence",
               "instruction": "Read aloud:",
-              "targetText": "A word about holidays.",
+              "targetText": "We go to the beach on holiday.",
               "hint": "Clearly"
             }
           ],
@@ -1262,52 +1262,52 @@
           ],
           "vocabulary": [
             {
-              "id": "p3v55",
-              "word": "(Jobs and Work word 1)",
-              "phonetic": "",
-              "meaning": "Related to Jobs and Work",
-              "meaningZh": "",
-              "example": "A word about jobs and work."
+              "id": "v55",
+              "word": "doctor",
+              "phonetic": "/ˈdɒktər/",
+              "meaning": "a person who helps sick people",
+              "meaningZh": "醫生",
+              "example": "The doctor checks my health."
             },
             {
-              "id": "p3v56",
-              "word": "(Jobs and Work word 2)",
-              "phonetic": "",
-              "meaning": "Related to Jobs and Work",
-              "meaningZh": "",
-              "example": "A word about jobs and work."
+              "id": "v56",
+              "word": "firefighter",
+              "phonetic": "/ˈfaɪərfaɪtər/",
+              "meaning": "a person who puts out fires",
+              "meaningZh": "消防員",
+              "example": "Firefighters are brave."
             },
             {
-              "id": "p3v57",
-              "word": "(Jobs and Work word 3)",
-              "phonetic": "",
-              "meaning": "Related to Jobs and Work",
-              "meaningZh": "",
-              "example": "A word about jobs and work."
+              "id": "v57",
+              "word": "pilot",
+              "phonetic": "/ˈpaɪlət/",
+              "meaning": "a person who flies an aeroplane",
+              "meaningZh": "飛機師",
+              "example": "The pilot flies the plane."
             },
             {
-              "id": "p3v58",
-              "word": "(Jobs and Work word 4)",
-              "phonetic": "",
-              "meaning": "Related to Jobs and Work",
-              "meaningZh": "",
-              "example": "A word about jobs and work."
+              "id": "v58",
+              "word": "engineer",
+              "phonetic": "/ˌendʒɪˈnɪr/",
+              "meaning": "a person who designs or builds things",
+              "meaningZh": "工程師",
+              "example": "The engineer built a bridge."
             },
             {
-              "id": "p3v59",
-              "word": "(Jobs and Work word 5)",
-              "phonetic": "",
-              "meaning": "Related to Jobs and Work",
-              "meaningZh": "",
-              "example": "A word about jobs and work."
+              "id": "v59",
+              "word": "salary",
+              "phonetic": "/ˈsæləri/",
+              "meaning": "money paid for work",
+              "meaningZh": "薪水",
+              "example": "She earns a good salary."
             },
             {
-              "id": "p3v60",
-              "word": "(Jobs and Work word 6)",
-              "phonetic": "",
-              "meaning": "Related to Jobs and Work",
-              "meaningZh": "",
-              "example": "A word about jobs and work."
+              "id": "v60",
+              "word": "career",
+              "phonetic": "/kəˈrɪr/",
+              "meaning": "a job or profession for a long time",
+              "meaningZh": "職業",
+              "example": "I want a career in science."
             }
           ],
           "listening": [
@@ -1339,14 +1339,14 @@
               "id": "s10a",
               "type": "pronounce-word",
               "instruction": "Say:",
-              "targetText": "(Jobs and Work word 1)",
-              "phonetic": ""
+              "targetText": "doctor",
+              "phonetic": "/ˈdɒktər/"
             },
             {
               "id": "s10b",
               "type": "pronounce-sentence",
               "instruction": "Read aloud:",
-              "targetText": "A word about jobs and work.",
+              "targetText": "The doctor checks my health.",
               "hint": "Clearly"
             }
           ],
@@ -1400,52 +1400,52 @@
           ],
           "vocabulary": [
             {
-              "id": "p3v61",
-              "word": "(The City word 1)",
-              "phonetic": "",
-              "meaning": "Related to The City",
-              "meaningZh": "",
-              "example": "A word about the city."
+              "id": "v61",
+              "word": "skyscraper",
+              "phonetic": "/ˈskaɪskreɪpər/",
+              "meaning": "a very tall building",
+              "meaningZh": "摩天大樓",
+              "example": "Hong Kong has many skyscrapers."
             },
             {
-              "id": "p3v62",
-              "word": "(The City word 2)",
-              "phonetic": "",
-              "meaning": "Related to The City",
-              "meaningZh": "",
-              "example": "A word about the city."
+              "id": "v62",
+              "word": "traffic",
+              "phonetic": "/ˈtræfɪk/",
+              "meaning": "vehicles moving on roads",
+              "meaningZh": "交通",
+              "example": "There is heavy traffic at rush hour."
             },
             {
-              "id": "p3v63",
-              "word": "(The City word 3)",
-              "phonetic": "",
-              "meaning": "Related to The City",
-              "meaningZh": "",
-              "example": "A word about the city."
+              "id": "v63",
+              "word": "intersection",
+              "phonetic": "/ˌɪntərˈsekʃən/",
+              "meaning": "where two roads cross",
+              "meaningZh": "十字路口",
+              "example": "Stop at the intersection."
             },
             {
-              "id": "p3v64",
-              "word": "(The City word 4)",
-              "phonetic": "",
-              "meaning": "Related to The City",
-              "meaningZh": "",
-              "example": "A word about the city."
+              "id": "v64",
+              "word": "pavement",
+              "phonetic": "/ˈpeɪvmənt/",
+              "meaning": "a path beside the road for walking",
+              "meaningZh": "行人路",
+              "example": "Walk on the pavement."
             },
             {
-              "id": "p3v65",
-              "word": "(The City word 5)",
-              "phonetic": "",
-              "meaning": "Related to The City",
-              "meaningZh": "",
-              "example": "A word about the city."
+              "id": "v65",
+              "word": "pollution",
+              "phonetic": "/pəˈluːʃən/",
+              "meaning": "dirty air or water from cars or factories",
+              "meaningZh": "污染",
+              "example": "City pollution is a problem."
             },
             {
-              "id": "p3v66",
-              "word": "(The City word 6)",
-              "phonetic": "",
-              "meaning": "Related to The City",
-              "meaningZh": "",
-              "example": "A word about the city."
+              "id": "v66",
+              "word": "crowded",
+              "phonetic": "/ˈkraʊdɪd/",
+              "meaning": "full of many people",
+              "meaningZh": "擠迫的",
+              "example": "The MTR is crowded in the morning."
             }
           ],
           "listening": [
@@ -1477,14 +1477,14 @@
               "id": "s11a",
               "type": "pronounce-word",
               "instruction": "Say:",
-              "targetText": "(The City word 1)",
-              "phonetic": ""
+              "targetText": "skyscraper",
+              "phonetic": "/ˈskaɪskreɪpər/"
             },
             {
               "id": "s11b",
               "type": "pronounce-sentence",
               "instruction": "Read aloud:",
-              "targetText": "A word about the city.",
+              "targetText": "Hong Kong has many skyscrapers.",
               "hint": "Clearly"
             }
           ],
@@ -1538,52 +1538,52 @@
           ],
           "vocabulary": [
             {
-              "id": "p3v67",
-              "word": "(Health and Body word 1)",
-              "phonetic": "",
-              "meaning": "Related to Health and Body",
-              "meaningZh": "",
-              "example": "A word about health and body."
+              "id": "v67",
+              "word": "stomach",
+              "phonetic": "/ˈstʌmək/",
+              "meaning": "the organ that digests food",
+              "meaningZh": "胃",
+              "example": "My stomach hurts after eating too much."
             },
             {
-              "id": "p3v68",
-              "word": "(Health and Body word 2)",
-              "phonetic": "",
-              "meaning": "Related to Health and Body",
-              "meaningZh": "",
-              "example": "A word about health and body."
+              "id": "v68",
+              "word": "fever",
+              "phonetic": "/ˈfiːvər/",
+              "meaning": "a body temperature higher than normal",
+              "meaningZh": "發燒",
+              "example": "I have a fever today."
             },
             {
-              "id": "p3v69",
-              "word": "(Health and Body word 3)",
-              "phonetic": "",
-              "meaning": "Related to Health and Body",
-              "meaningZh": "",
-              "example": "A word about health and body."
+              "id": "v69",
+              "word": "medicine",
+              "phonetic": "/ˈmedɪsɪn/",
+              "meaning": "something you take when you are sick",
+              "meaningZh": "藥物",
+              "example": "Take the medicine after meals."
             },
             {
-              "id": "p3v70",
-              "word": "(Health and Body word 4)",
-              "phonetic": "",
-              "meaning": "Related to Health and Body",
-              "meaningZh": "",
-              "example": "A word about health and body."
+              "id": "v70",
+              "word": "cough",
+              "phonetic": "/kɒf/",
+              "meaning": "to push air out noisily from the throat",
+              "meaningZh": "咳嗽",
+              "example": "Cover your mouth when you cough."
             },
             {
-              "id": "p3v71",
-              "word": "(Health and Body word 5)",
-              "phonetic": "",
-              "meaning": "Related to Health and Body",
-              "meaningZh": "",
-              "example": "A word about health and body."
+              "id": "v71",
+              "word": "bandage",
+              "phonetic": "/ˈbændɪdʒ/",
+              "meaning": "a strip of cloth to wrap a wound",
+              "meaningZh": "繃帶",
+              "example": "The nurse put a bandage on my knee."
             },
             {
-              "id": "p3v72",
-              "word": "(Health and Body word 6)",
-              "phonetic": "",
-              "meaning": "Related to Health and Body",
-              "meaningZh": "",
-              "example": "A word about health and body."
+              "id": "v72",
+              "word": "exercise",
+              "phonetic": "/ˈeksərsaɪz/",
+              "meaning": "physical activity to keep fit",
+              "meaningZh": "運動",
+              "example": "Regular exercise keeps you healthy."
             }
           ],
           "listening": [
@@ -1615,14 +1615,14 @@
               "id": "s12a",
               "type": "pronounce-word",
               "instruction": "Say:",
-              "targetText": "(Health and Body word 1)",
-              "phonetic": ""
+              "targetText": "stomach",
+              "phonetic": "/ˈstʌmək/"
             },
             {
               "id": "s12b",
               "type": "pronounce-sentence",
               "instruction": "Read aloud:",
-              "targetText": "A word about health and body.",
+              "targetText": "My stomach hurts after eating too much.",
               "hint": "Clearly"
             }
           ],
@@ -1676,52 +1676,52 @@
           ],
           "vocabulary": [
             {
-              "id": "p3v73",
-              "word": "(Nature word 1)",
-              "phonetic": "",
-              "meaning": "Related to Nature",
-              "meaningZh": "",
-              "example": "A word about nature."
+              "id": "v73",
+              "word": "forest",
+              "phonetic": "/ˈfɒrɪst/",
+              "meaning": "a large area covered with trees",
+              "meaningZh": "森林",
+              "example": "Many animals live in the forest."
             },
             {
-              "id": "p3v74",
-              "word": "(Nature word 2)",
-              "phonetic": "",
-              "meaning": "Related to Nature",
-              "meaningZh": "",
-              "example": "A word about nature."
+              "id": "v74",
+              "word": "river",
+              "phonetic": "/ˈrɪvər/",
+              "meaning": "a large stream of flowing water",
+              "meaningZh": "河流",
+              "example": "Fish swim in the river."
             },
             {
-              "id": "p3v75",
-              "word": "(Nature word 3)",
-              "phonetic": "",
-              "meaning": "Related to Nature",
-              "meaningZh": "",
-              "example": "A word about nature."
+              "id": "v75",
+              "word": "mountain",
+              "phonetic": "/ˈmaʊntən/",
+              "meaning": "a very high hill",
+              "meaningZh": "山",
+              "example": "We hiked up the mountain."
             },
             {
-              "id": "p3v76",
-              "word": "(Nature word 4)",
-              "phonetic": "",
-              "meaning": "Related to Nature",
-              "meaningZh": "",
-              "example": "A word about nature."
+              "id": "v76",
+              "word": "waterfall",
+              "phonetic": "/ˈwɔːtərfɔːl/",
+              "meaning": "water falling from a high place",
+              "meaningZh": "瀑布",
+              "example": "The waterfall is beautiful."
             },
             {
-              "id": "p3v77",
-              "word": "(Nature word 5)",
-              "phonetic": "",
-              "meaning": "Related to Nature",
-              "meaningZh": "",
-              "example": "A word about nature."
+              "id": "v77",
+              "word": "pond",
+              "phonetic": "/pɒnd/",
+              "meaning": "a small body of still water",
+              "meaningZh": "池塘",
+              "example": "Frogs live near the pond."
             },
             {
-              "id": "p3v78",
-              "word": "(Nature word 6)",
-              "phonetic": "",
-              "meaning": "Related to Nature",
-              "meaningZh": "",
-              "example": "A word about nature."
+              "id": "v78",
+              "word": "wildlife",
+              "phonetic": "/ˈwaɪldlaɪf/",
+              "meaning": "animals and plants living in nature",
+              "meaningZh": "野生動物",
+              "example": "We must protect wildlife."
             }
           ],
           "listening": [
@@ -1753,14 +1753,14 @@
               "id": "s13a",
               "type": "pronounce-word",
               "instruction": "Say:",
-              "targetText": "(Nature word 1)",
-              "phonetic": ""
+              "targetText": "forest",
+              "phonetic": "/ˈfɒrɪst/"
             },
             {
               "id": "s13b",
               "type": "pronounce-sentence",
               "instruction": "Read aloud:",
-              "targetText": "A word about nature.",
+              "targetText": "Many animals live in the forest.",
               "hint": "Clearly"
             }
           ],
@@ -1814,52 +1814,52 @@
           ],
           "vocabulary": [
             {
-              "id": "p3v79",
-              "word": "(Technology word 1)",
-              "phonetic": "",
-              "meaning": "Related to Technology",
-              "meaningZh": "",
-              "example": "A word about technology."
+              "id": "v79",
+              "word": "computer",
+              "phonetic": "/kəmˈpjuːtər/",
+              "meaning": "an electronic machine for work and games",
+              "meaningZh": "電腦",
+              "example": "I use the computer for homework."
             },
             {
-              "id": "p3v80",
-              "word": "(Technology word 2)",
-              "phonetic": "",
-              "meaning": "Related to Technology",
-              "meaningZh": "",
-              "example": "A word about technology."
+              "id": "v80",
+              "word": "keyboard",
+              "phonetic": "/ˈkiːbɔːrd/",
+              "meaning": "buttons you press to type",
+              "meaningZh": "鍵盤",
+              "example": "Type using the keyboard."
             },
             {
-              "id": "p3v81",
-              "word": "(Technology word 3)",
-              "phonetic": "",
-              "meaning": "Related to Technology",
-              "meaningZh": "",
-              "example": "A word about technology."
+              "id": "v81",
+              "word": "screen",
+              "phonetic": "/skriːn/",
+              "meaning": "the display part of a device",
+              "meaningZh": "螢幕",
+              "example": "Look at the screen."
             },
             {
-              "id": "p3v82",
-              "word": "(Technology word 4)",
-              "phonetic": "",
-              "meaning": "Related to Technology",
-              "meaningZh": "",
-              "example": "A word about technology."
+              "id": "v82",
+              "word": "password",
+              "phonetic": "/ˈpɑːswɜːrd/",
+              "meaning": "a secret word to log in",
+              "meaningZh": "密碼",
+              "example": "Don't share your password."
             },
             {
-              "id": "p3v83",
-              "word": "(Technology word 5)",
-              "phonetic": "",
-              "meaning": "Related to Technology",
-              "meaningZh": "",
-              "example": "A word about technology."
+              "id": "v83",
+              "word": "download",
+              "phonetic": "/ˈdaʊnloʊd/",
+              "meaning": "to copy from the internet to your device",
+              "meaningZh": "下載",
+              "example": "Download the app from the store."
             },
             {
-              "id": "p3v84",
-              "word": "(Technology word 6)",
-              "phonetic": "",
-              "meaning": "Related to Technology",
-              "meaningZh": "",
-              "example": "A word about technology."
+              "id": "v84",
+              "word": "website",
+              "phonetic": "/ˈwebsaɪt/",
+              "meaning": "a page on the internet",
+              "meaningZh": "網站",
+              "example": "Visit the school website."
             }
           ],
           "listening": [
@@ -1891,14 +1891,14 @@
               "id": "s14a",
               "type": "pronounce-word",
               "instruction": "Say:",
-              "targetText": "(Technology word 1)",
-              "phonetic": ""
+              "targetText": "computer",
+              "phonetic": "/kəmˈpjuːtər/"
             },
             {
               "id": "s14b",
               "type": "pronounce-sentence",
               "instruction": "Read aloud:",
-              "targetText": "A word about technology.",
+              "targetText": "I use the computer for homework.",
               "hint": "Clearly"
             }
           ],
@@ -1952,52 +1952,52 @@
           ],
           "vocabulary": [
             {
-              "id": "p3v85",
-              "word": "(Music and Art word 1)",
-              "phonetic": "",
-              "meaning": "Related to Music and Art",
-              "meaningZh": "",
-              "example": "A word about music and art."
+              "id": "v85",
+              "word": "melody",
+              "phonetic": "/ˈmelədi/",
+              "meaning": "a tune; a sequence of musical notes",
+              "meaningZh": "旋律",
+              "example": "The melody is beautiful."
             },
             {
-              "id": "p3v86",
-              "word": "(Music and Art word 2)",
-              "phonetic": "",
-              "meaning": "Related to Music and Art",
-              "meaningZh": "",
-              "example": "A word about music and art."
+              "id": "v86",
+              "word": "rhythm",
+              "phonetic": "/ˈrɪðəm/",
+              "meaning": "a regular pattern of beats",
+              "meaningZh": "節奏",
+              "example": "Clap to the rhythm."
             },
             {
-              "id": "p3v87",
-              "word": "(Music and Art word 3)",
-              "phonetic": "",
-              "meaning": "Related to Music and Art",
-              "meaningZh": "",
-              "example": "A word about music and art."
+              "id": "v87",
+              "word": "canvas",
+              "phonetic": "/ˈkænvəs/",
+              "meaning": "a surface for painting on",
+              "meaningZh": "畫布",
+              "example": "The artist painted on a canvas."
             },
             {
-              "id": "p3v88",
-              "word": "(Music and Art word 4)",
-              "phonetic": "",
-              "meaning": "Related to Music and Art",
-              "meaningZh": "",
-              "example": "A word about music and art."
+              "id": "v88",
+              "word": "sketch",
+              "phonetic": "/sketʃ/",
+              "meaning": "a quick, rough drawing",
+              "meaningZh": "素描",
+              "example": "She made a sketch of the flower."
             },
             {
-              "id": "p3v89",
-              "word": "(Music and Art word 5)",
-              "phonetic": "",
-              "meaning": "Related to Music and Art",
-              "meaningZh": "",
-              "example": "A word about music and art."
+              "id": "v89",
+              "word": "instrument",
+              "phonetic": "/ˈɪnstrəmənt/",
+              "meaning": "a thing used to make music",
+              "meaningZh": "樂器",
+              "example": "The piano is my favourite instrument."
             },
             {
-              "id": "p3v90",
-              "word": "(Music and Art word 6)",
-              "phonetic": "",
-              "meaning": "Related to Music and Art",
-              "meaningZh": "",
-              "example": "A word about music and art."
+              "id": "v90",
+              "word": "gallery",
+              "phonetic": "/ˈɡæləri/",
+              "meaning": "a place to display art",
+              "meaningZh": "畫廊",
+              "example": "We visited an art gallery."
             }
           ],
           "listening": [
@@ -2029,14 +2029,14 @@
               "id": "s15a",
               "type": "pronounce-word",
               "instruction": "Say:",
-              "targetText": "(Music and Art word 1)",
-              "phonetic": ""
+              "targetText": "melody",
+              "phonetic": "/ˈmelədi/"
             },
             {
               "id": "s15b",
               "type": "pronounce-sentence",
               "instruction": "Read aloud:",
-              "targetText": "A word about music and art.",
+              "targetText": "The melody is beautiful.",
               "hint": "Clearly"
             }
           ],
@@ -2090,52 +2090,52 @@
           ],
           "vocabulary": [
             {
-              "id": "p3v91",
-              "word": "(Feelings and Emotions word 1)",
-              "phonetic": "",
-              "meaning": "Related to Feelings and Emotions",
-              "meaningZh": "",
-              "example": "A word about feelings and emotions."
+              "id": "v91",
+              "word": "excited",
+              "phonetic": "/ɪkˈsaɪtɪd/",
+              "meaning": "very happy and eager",
+              "meaningZh": "興奮的",
+              "example": "I am excited about the trip."
             },
             {
-              "id": "p3v92",
-              "word": "(Feelings and Emotions word 2)",
-              "phonetic": "",
-              "meaning": "Related to Feelings and Emotions",
-              "meaningZh": "",
-              "example": "A word about feelings and emotions."
+              "id": "v92",
+              "word": "nervous",
+              "phonetic": "/ˈnɜːrvəs/",
+              "meaning": "feeling worried or uneasy",
+              "meaningZh": "緊張的",
+              "example": "I feel nervous before tests."
             },
             {
-              "id": "p3v93",
-              "word": "(Feelings and Emotions word 3)",
-              "phonetic": "",
-              "meaning": "Related to Feelings and Emotions",
-              "meaningZh": "",
-              "example": "A word about feelings and emotions."
+              "id": "v93",
+              "word": "proud",
+              "phonetic": "/praʊd/",
+              "meaning": "feeling good about something you did",
+              "meaningZh": "自豪的",
+              "example": "I am proud of my work."
             },
             {
-              "id": "p3v94",
-              "word": "(Feelings and Emotions word 4)",
-              "phonetic": "",
-              "meaning": "Related to Feelings and Emotions",
-              "meaningZh": "",
-              "example": "A word about feelings and emotions."
+              "id": "v94",
+              "word": "disappointed",
+              "phonetic": "/ˌdɪsəˈpɔɪntɪd/",
+              "meaning": "sad because something did not go well",
+              "meaningZh": "失望的",
+              "example": "I was disappointed about the rain."
             },
             {
-              "id": "p3v95",
-              "word": "(Feelings and Emotions word 5)",
-              "phonetic": "",
-              "meaning": "Related to Feelings and Emotions",
-              "meaningZh": "",
-              "example": "A word about feelings and emotions."
+              "id": "v95",
+              "word": "grateful",
+              "phonetic": "/ˈɡreɪtfəl/",
+              "meaning": "feeling thankful",
+              "meaningZh": "感恩的",
+              "example": "I am grateful for your help."
             },
             {
-              "id": "p3v96",
-              "word": "(Feelings and Emotions word 6)",
-              "phonetic": "",
-              "meaning": "Related to Feelings and Emotions",
-              "meaningZh": "",
-              "example": "A word about feelings and emotions."
+              "id": "v96",
+              "word": "confused",
+              "phonetic": "/kənˈfjuːzd/",
+              "meaning": "not understanding something",
+              "meaningZh": "困惑的",
+              "example": "I am confused by this question."
             }
           ],
           "listening": [
@@ -2167,14 +2167,14 @@
               "id": "s16a",
               "type": "pronounce-word",
               "instruction": "Say:",
-              "targetText": "(Feelings and Emotions word 1)",
-              "phonetic": ""
+              "targetText": "excited",
+              "phonetic": "/ɪkˈsaɪtɪd/"
             },
             {
               "id": "s16b",
               "type": "pronounce-sentence",
               "instruction": "Read aloud:",
-              "targetText": "A word about feelings and emotions.",
+              "targetText": "I am excited about the trip.",
               "hint": "Clearly"
             }
           ],
@@ -2228,52 +2228,52 @@
           ],
           "vocabulary": [
             {
-              "id": "p3v97",
-              "word": "(Books and Stories word 1)",
-              "phonetic": "",
-              "meaning": "Related to Books and Stories",
-              "meaningZh": "",
-              "example": "A word about books and stories."
+              "id": "v97",
+              "word": "character",
+              "phonetic": "/ˈkærɪktər/",
+              "meaning": "a person in a story",
+              "meaningZh": "角色",
+              "example": "The main character is brave."
             },
             {
-              "id": "p3v98",
-              "word": "(Books and Stories word 2)",
-              "phonetic": "",
-              "meaning": "Related to Books and Stories",
-              "meaningZh": "",
-              "example": "A word about books and stories."
+              "id": "v98",
+              "word": "author",
+              "phonetic": "/ˈɔːθər/",
+              "meaning": "a person who writes books",
+              "meaningZh": "作者",
+              "example": "Who is the author of this book?"
             },
             {
-              "id": "p3v99",
-              "word": "(Books and Stories word 3)",
-              "phonetic": "",
-              "meaning": "Related to Books and Stories",
-              "meaningZh": "",
-              "example": "A word about books and stories."
+              "id": "v99",
+              "word": "chapter",
+              "phonetic": "/ˈtʃæptər/",
+              "meaning": "a section of a book",
+              "meaningZh": "章節",
+              "example": "Read chapter 3 tonight."
             },
             {
-              "id": "p3v100",
-              "word": "(Books and Stories word 4)",
-              "phonetic": "",
-              "meaning": "Related to Books and Stories",
-              "meaningZh": "",
-              "example": "A word about books and stories."
+              "id": "v100",
+              "word": "plot",
+              "phonetic": "/plɒt/",
+              "meaning": "the main events of a story",
+              "meaningZh": "情節",
+              "example": "The plot is very exciting."
             },
             {
-              "id": "p3v101",
-              "word": "(Books and Stories word 5)",
-              "phonetic": "",
-              "meaning": "Related to Books and Stories",
-              "meaningZh": "",
-              "example": "A word about books and stories."
+              "id": "v101",
+              "word": "fiction",
+              "phonetic": "/ˈfɪkʃən/",
+              "meaning": "stories that are made up",
+              "meaningZh": "小說；虛構作品",
+              "example": "Harry Potter is fiction."
             },
             {
-              "id": "p3v102",
-              "word": "(Books and Stories word 6)",
-              "phonetic": "",
-              "meaning": "Related to Books and Stories",
-              "meaningZh": "",
-              "example": "A word about books and stories."
+              "id": "v102",
+              "word": "library",
+              "phonetic": "/ˈlaɪbrəri/",
+              "meaning": "a place to borrow books",
+              "meaningZh": "圖書館",
+              "example": "I borrow books from the library."
             }
           ],
           "listening": [
@@ -2305,14 +2305,14 @@
               "id": "s17a",
               "type": "pronounce-word",
               "instruction": "Say:",
-              "targetText": "(Books and Stories word 1)",
-              "phonetic": ""
+              "targetText": "character",
+              "phonetic": "/ˈkærɪktər/"
             },
             {
               "id": "s17b",
               "type": "pronounce-sentence",
               "instruction": "Read aloud:",
-              "targetText": "A word about books and stories.",
+              "targetText": "The main character is brave.",
               "hint": "Clearly"
             }
           ],
@@ -2366,52 +2366,52 @@
           ],
           "vocabulary": [
             {
-              "id": "p3v103",
-              "word": "(Friends and Friendship word 1)",
-              "phonetic": "",
-              "meaning": "Related to Friends and Friendship",
-              "meaningZh": "",
-              "example": "A word about friends and friendship."
+              "id": "v103",
+              "word": "loyal",
+              "phonetic": "/ˈlɔɪəl/",
+              "meaning": "always supporting someone",
+              "meaningZh": "忠誠的",
+              "example": "A good friend is loyal."
             },
             {
-              "id": "p3v104",
-              "word": "(Friends and Friendship word 2)",
-              "phonetic": "",
-              "meaning": "Related to Friends and Friendship",
-              "meaningZh": "",
-              "example": "A word about friends and friendship."
+              "id": "v104",
+              "word": "trust",
+              "phonetic": "/trʌst/",
+              "meaning": "to believe someone is honest",
+              "meaningZh": "信任",
+              "example": "Friends trust each other."
             },
             {
-              "id": "p3v105",
-              "word": "(Friends and Friendship word 3)",
-              "phonetic": "",
-              "meaning": "Related to Friends and Friendship",
-              "meaningZh": "",
-              "example": "A word about friends and friendship."
+              "id": "v105",
+              "word": "share",
+              "phonetic": "/ʃeər/",
+              "meaning": "to give part of something to others",
+              "meaningZh": "分享",
+              "example": "I share my snacks with friends."
             },
             {
-              "id": "p3v106",
-              "word": "(Friends and Friendship word 4)",
-              "phonetic": "",
-              "meaning": "Related to Friends and Friendship",
-              "meaningZh": "",
-              "example": "A word about friends and friendship."
+              "id": "v106",
+              "word": "kind",
+              "phonetic": "/kaɪnd/",
+              "meaning": "being nice and helpful to others",
+              "meaningZh": "善良的",
+              "example": "She is always kind to everyone."
             },
             {
-              "id": "p3v107",
-              "word": "(Friends and Friendship word 5)",
-              "phonetic": "",
-              "meaning": "Related to Friends and Friendship",
-              "meaningZh": "",
-              "example": "A word about friends and friendship."
+              "id": "v107",
+              "word": "apologise",
+              "phonetic": "/əˈpɒlədʒaɪz/",
+              "meaning": "to say sorry",
+              "meaningZh": "道歉",
+              "example": "I apologise for being late."
             },
             {
-              "id": "p3v108",
-              "word": "(Friends and Friendship word 6)",
-              "phonetic": "",
-              "meaning": "Related to Friends and Friendship",
-              "meaningZh": "",
-              "example": "A word about friends and friendship."
+              "id": "v108",
+              "word": "cooperate",
+              "phonetic": "/koʊˈɒpəreɪt/",
+              "meaning": "to work together",
+              "meaningZh": "合作",
+              "example": "We cooperate on the project."
             }
           ],
           "listening": [
@@ -2443,14 +2443,14 @@
               "id": "s18a",
               "type": "pronounce-word",
               "instruction": "Say:",
-              "targetText": "(Friends and Friendship word 1)",
-              "phonetic": ""
+              "targetText": "loyal",
+              "phonetic": "/ˈlɔɪəl/"
             },
             {
               "id": "s18b",
               "type": "pronounce-sentence",
               "instruction": "Read aloud:",
-              "targetText": "A word about friends and friendship.",
+              "targetText": "A good friend is loyal.",
               "hint": "Clearly"
             }
           ],
@@ -2504,52 +2504,52 @@
           ],
           "vocabulary": [
             {
-              "id": "p3v109",
-              "word": "(Travel word 1)",
-              "phonetic": "",
-              "meaning": "Related to Travel",
-              "meaningZh": "",
-              "example": "A word about travel."
+              "id": "v109",
+              "word": "destination",
+              "phonetic": "/ˌdestɪˈneɪʃən/",
+              "meaning": "the place you are going to",
+              "meaningZh": "目的地",
+              "example": "Japan is our destination."
             },
             {
-              "id": "p3v110",
-              "word": "(Travel word 2)",
-              "phonetic": "",
-              "meaning": "Related to Travel",
-              "meaningZh": "",
-              "example": "A word about travel."
+              "id": "v110",
+              "word": "luggage",
+              "phonetic": "/ˈlʌɡɪdʒ/",
+              "meaning": "bags and suitcases for a trip",
+              "meaningZh": "行李",
+              "example": "Don't lose your luggage."
             },
             {
-              "id": "p3v111",
-              "word": "(Travel word 3)",
-              "phonetic": "",
-              "meaning": "Related to Travel",
-              "meaningZh": "",
-              "example": "A word about travel."
+              "id": "v111",
+              "word": "boarding pass",
+              "phonetic": "/ˈbɔːrdɪŋ pɑːs/",
+              "meaning": "a ticket to get on a plane",
+              "meaningZh": "登機證",
+              "example": "Show your boarding pass at the gate."
             },
             {
-              "id": "p3v112",
-              "word": "(Travel word 4)",
-              "phonetic": "",
-              "meaning": "Related to Travel",
-              "meaningZh": "",
-              "example": "A word about travel."
+              "id": "v112",
+              "word": "currency",
+              "phonetic": "/ˈkʌrənsi/",
+              "meaning": "the money used in a country",
+              "meaningZh": "貨幣",
+              "example": "Japanese currency is the yen."
             },
             {
-              "id": "p3v113",
-              "word": "(Travel word 5)",
-              "phonetic": "",
-              "meaning": "Related to Travel",
-              "meaningZh": "",
-              "example": "A word about travel."
+              "id": "v113",
+              "word": "itinerary",
+              "phonetic": "/aɪˈtɪnərəri/",
+              "meaning": "a plan of where to go on a trip",
+              "meaningZh": "行程",
+              "example": "Our itinerary includes three cities."
             },
             {
-              "id": "p3v114",
-              "word": "(Travel word 6)",
-              "phonetic": "",
-              "meaning": "Related to Travel",
-              "meaningZh": "",
-              "example": "A word about travel."
+              "id": "v114",
+              "word": "souvenir",
+              "phonetic": "/ˌsuːvəˈnɪr/",
+              "meaning": "a thing bought to remember a trip",
+              "meaningZh": "紀念品",
+              "example": "I bought a souvenir for my friend."
             }
           ],
           "listening": [
@@ -2581,14 +2581,14 @@
               "id": "s19a",
               "type": "pronounce-word",
               "instruction": "Say:",
-              "targetText": "(Travel word 1)",
-              "phonetic": ""
+              "targetText": "destination",
+              "phonetic": "/ˌdestɪˈneɪʃən/"
             },
             {
               "id": "s19b",
               "type": "pronounce-sentence",
               "instruction": "Read aloud:",
-              "targetText": "A word about travel.",
+              "targetText": "Japan is our destination.",
               "hint": "Clearly"
             }
           ],
@@ -2642,52 +2642,52 @@
           ],
           "vocabulary": [
             {
-              "id": "p3v115",
-              "word": "(Festivals and Celebrations word 1)",
-              "phonetic": "",
-              "meaning": "Related to Festivals and Celebrations",
-              "meaningZh": "",
-              "example": "A word about festivals and celebrations."
+              "id": "v115",
+              "word": "fireworks",
+              "phonetic": "/ˈfaɪərwɜːrks/",
+              "meaning": "colourful lights that explode in the sky",
+              "meaningZh": "煙花",
+              "example": "We watch fireworks at New Year."
             },
             {
-              "id": "p3v116",
-              "word": "(Festivals and Celebrations word 2)",
-              "phonetic": "",
-              "meaning": "Related to Festivals and Celebrations",
-              "meaningZh": "",
-              "example": "A word about festivals and celebrations."
+              "id": "v116",
+              "word": "parade",
+              "phonetic": "/pəˈreɪd/",
+              "meaning": "a group of people marching together",
+              "meaningZh": "遊行",
+              "example": "There was a parade in the street."
             },
             {
-              "id": "p3v117",
-              "word": "(Festivals and Celebrations word 3)",
-              "phonetic": "",
-              "meaning": "Related to Festivals and Celebrations",
-              "meaningZh": "",
-              "example": "A word about festivals and celebrations."
+              "id": "v117",
+              "word": "decoration",
+              "phonetic": "/ˌdekəˈreɪʃən/",
+              "meaning": "things used to make a place look nice",
+              "meaningZh": "裝飾",
+              "example": "We put up decorations for Christmas."
             },
             {
-              "id": "p3v118",
-              "word": "(Festivals and Celebrations word 4)",
-              "phonetic": "",
-              "meaning": "Related to Festivals and Celebrations",
-              "meaningZh": "",
-              "example": "A word about festivals and celebrations."
+              "id": "v118",
+              "word": "costume",
+              "phonetic": "/ˈkɒstjuːm/",
+              "meaning": "special clothes for a festival or show",
+              "meaningZh": "服裝",
+              "example": "She wore a beautiful costume."
             },
             {
-              "id": "p3v119",
-              "word": "(Festivals and Celebrations word 5)",
-              "phonetic": "",
-              "meaning": "Related to Festivals and Celebrations",
-              "meaningZh": "",
-              "example": "A word about festivals and celebrations."
+              "id": "v119",
+              "word": "feast",
+              "phonetic": "/fiːst/",
+              "meaning": "a large special meal",
+              "meaningZh": "盛宴",
+              "example": "We had a feast at Chinese New Year."
             },
             {
-              "id": "p3v120",
-              "word": "(Festivals and Celebrations word 6)",
-              "phonetic": "",
-              "meaning": "Related to Festivals and Celebrations",
-              "meaningZh": "",
-              "example": "A word about festivals and celebrations."
+              "id": "v120",
+              "word": "custom",
+              "phonetic": "/ˈkʌstəm/",
+              "meaning": "a traditional way of doing things",
+              "meaningZh": "習俗",
+              "example": "Giving red packets is a custom."
             }
           ],
           "listening": [
@@ -2719,14 +2719,14 @@
               "id": "s20a",
               "type": "pronounce-word",
               "instruction": "Say:",
-              "targetText": "(Festivals and Celebrations word 1)",
-              "phonetic": ""
+              "targetText": "fireworks",
+              "phonetic": "/ˈfaɪərwɜːrks/"
             },
             {
               "id": "s20b",
               "type": "pronounce-sentence",
               "instruction": "Read aloud:",
-              "targetText": "A word about festivals and celebrations.",
+              "targetText": "We watch fireworks at New Year.",
               "hint": "Clearly"
             }
           ],

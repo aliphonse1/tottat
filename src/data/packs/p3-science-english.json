@@ -21,51 +21,51 @@
           "vocabulary": [
             {
               "id": "sci-v1",
-              "word": "(Plants and Growth word 1)",
-              "phonetic": "",
-              "meaning": "Science vocabulary",
-              "meaningZh": "",
-              "example": "Related to Plants and Growth."
+              "word": "root",
+              "phonetic": "/ruːt/",
+              "meaning": "the part of a plant underground that absorbs water",
+              "meaningZh": "根",
+              "example": "Roots take in water from soil."
             },
             {
               "id": "sci-v2",
-              "word": "(Plants and Growth word 2)",
-              "phonetic": "",
-              "meaning": "Science vocabulary",
-              "meaningZh": "",
-              "example": "Related to Plants and Growth."
+              "word": "stem",
+              "phonetic": "/stem/",
+              "meaning": "the main part of a plant that holds leaves",
+              "meaningZh": "莖",
+              "example": "The stem supports the flower."
             },
             {
               "id": "sci-v3",
-              "word": "(Plants and Growth word 3)",
-              "phonetic": "",
-              "meaning": "Science vocabulary",
-              "meaningZh": "",
-              "example": "Related to Plants and Growth."
+              "word": "petal",
+              "phonetic": "/ˈpetl/",
+              "meaning": "the colourful part of a flower",
+              "meaningZh": "花瓣",
+              "example": "Roses have soft petals."
             },
             {
               "id": "sci-v4",
-              "word": "(Plants and Growth word 4)",
-              "phonetic": "",
-              "meaning": "Science vocabulary",
-              "meaningZh": "",
-              "example": "Related to Plants and Growth."
+              "word": "seed",
+              "phonetic": "/siːd/",
+              "meaning": "the small part from which a new plant grows",
+              "meaningZh": "種子",
+              "example": "Plant the seed in soil."
             },
             {
               "id": "sci-v5",
-              "word": "(Plants and Growth word 5)",
-              "phonetic": "",
-              "meaning": "Science vocabulary",
-              "meaningZh": "",
-              "example": "Related to Plants and Growth."
+              "word": "sunlight",
+              "phonetic": "/ˈsʌnlaɪt/",
+              "meaning": "light from the Sun needed by plants",
+              "meaningZh": "陽光",
+              "example": "Plants need sunlight to grow."
             },
             {
               "id": "sci-v6",
-              "word": "(Plants and Growth word 6)",
-              "phonetic": "",
-              "meaning": "Science vocabulary",
-              "meaningZh": "",
-              "example": "Related to Plants and Growth."
+              "word": "photosynthesis",
+              "phonetic": "/ˌfoʊtoʊˈsɪnθəsɪs/",
+              "meaning": "how plants make food using light",
+              "meaningZh": "光合作用",
+              "example": "Photosynthesis needs sunlight and water."
             }
           ],
           "listening": [
@@ -73,23 +73,30 @@
               "id": "sci-l1a",
               "type": "mcq",
               "instruction": "Listen about Plants and Growth.",
-              "ttsText": "This topic is about Plants and Growth.",
-              "question": "What is the topic?",
+              "ttsText": "Roots take in water from soil. The stem supports the flower.",
+              "question": "What is \"root\"?",
               "options": [
-                "Plants and Growth",
-                "Something else",
-                "Not sure"
+                "the part of a plant underground that absorbs water",
+                "the main part of a plant that holds leaves",
+                "the colourful part of a flower"
               ],
-              "correctAnswer": "Plants and Growth",
-              "hint": "Listen to the topic"
+              "correctAnswer": "the part of a plant underground that absorbs water",
+              "hint": "Listen to the first sentence"
             }
           ],
           "speaking": [
             {
-              "id": "sci-s1",
+              "id": "sci-s1a",
+              "type": "pronounce-word",
+              "instruction": "Say this word:",
+              "targetText": "root",
+              "phonetic": "/ruːt/"
+            },
+            {
+              "id": "sci-s1b",
               "type": "pronounce-sentence",
               "instruction": "Read aloud:",
-              "targetText": "I am learning about plants and growth.",
+              "targetText": "Roots take in water from soil.",
               "hint": "Clear pronunciation"
             }
           ],
@@ -97,25 +104,33 @@
             {
               "id": "sci-r1",
               "type": "mcq",
-              "passage": "Plants and Growth is an important topic in Science. We can learn many new English words about it.",
-              "question": "What subject is this?",
+              "passage": "Plants and Growth is an important topic in Science. Roots take in water from soil. The stem supports the flower. Roses have soft petals.",
+              "question": "What does \"stem\" mean?",
               "options": [
-                "Science",
-                "Art",
-                "Music"
+                "the main part of a plant that holds leaves",
+                "the part of a plant underground that absorbs water",
+                "the colourful part of a flower"
               ],
-              "correctAnswer": "Science",
-              "explanation": "This is a Science topic"
+              "correctAnswer": "the main part of a plant that holds leaves",
+              "explanation": "the main part of a plant that holds leaves"
             }
           ],
           "writing": [
             {
-              "id": "sci-w1",
+              "id": "sci-w1a",
               "type": "spelling",
-              "instruction": "Spell the topic name:",
-              "ttsText": "plants",
-              "correctAnswer": "plants",
-              "hint": "First word of the topic"
+              "instruction": "Spell this word:",
+              "ttsText": "root",
+              "correctAnswer": "root",
+              "hint": "根"
+            },
+            {
+              "id": "sci-w1b",
+              "type": "spelling",
+              "instruction": "Spell this word:",
+              "ttsText": "stem",
+              "correctAnswer": "stem",
+              "hint": "莖"
             }
           ]
         }
@@ -137,51 +152,51 @@
           "vocabulary": [
             {
               "id": "sci-v7",
-              "word": "(Materials and Properties word 1)",
-              "phonetic": "",
-              "meaning": "Science vocabulary",
-              "meaningZh": "",
-              "example": "Related to Materials and Properties."
+              "word": "material",
+              "phonetic": "/məˈtɪəriəl/",
+              "meaning": "what something is made of",
+              "meaningZh": "材料",
+              "example": "Wood is a natural material."
             },
             {
               "id": "sci-v8",
-              "word": "(Materials and Properties word 2)",
-              "phonetic": "",
-              "meaning": "Science vocabulary",
-              "meaningZh": "",
-              "example": "Related to Materials and Properties."
+              "word": "transparent",
+              "phonetic": "/trænsˈpærənt/",
+              "meaning": "you can see through it clearly",
+              "meaningZh": "透明的",
+              "example": "Glass is transparent."
             },
             {
               "id": "sci-v9",
-              "word": "(Materials and Properties word 3)",
-              "phonetic": "",
-              "meaning": "Science vocabulary",
-              "meaningZh": "",
-              "example": "Related to Materials and Properties."
+              "word": "opaque",
+              "phonetic": "/oʊˈpeɪk/",
+              "meaning": "you cannot see through it",
+              "meaningZh": "不透明的",
+              "example": "A wooden door is opaque."
             },
             {
               "id": "sci-v10",
-              "word": "(Materials and Properties word 4)",
-              "phonetic": "",
-              "meaning": "Science vocabulary",
-              "meaningZh": "",
-              "example": "Related to Materials and Properties."
+              "word": "flexible",
+              "phonetic": "/ˈfleksəbl/",
+              "meaning": "can be bent without breaking",
+              "meaningZh": "有彈性的",
+              "example": "Rubber is flexible."
             },
             {
               "id": "sci-v11",
-              "word": "(Materials and Properties word 5)",
-              "phonetic": "",
-              "meaning": "Science vocabulary",
-              "meaningZh": "",
-              "example": "Related to Materials and Properties."
+              "word": "rigid",
+              "phonetic": "/ˈrɪdʒɪd/",
+              "meaning": "hard and cannot bend",
+              "meaningZh": "堅硬的",
+              "example": "Metal is rigid."
             },
             {
               "id": "sci-v12",
-              "word": "(Materials and Properties word 6)",
-              "phonetic": "",
-              "meaning": "Science vocabulary",
-              "meaningZh": "",
-              "example": "Related to Materials and Properties."
+              "word": "absorbent",
+              "phonetic": "/əbˈzɔːrbənt/",
+              "meaning": "can soak up liquid",
+              "meaningZh": "有吸水性的",
+              "example": "A sponge is absorbent."
             }
           ],
           "listening": [
@@ -189,23 +204,30 @@
               "id": "sci-l2a",
               "type": "mcq",
               "instruction": "Listen about Materials and Properties.",
-              "ttsText": "This topic is about Materials and Properties.",
-              "question": "What is the topic?",
+              "ttsText": "Wood is a natural material. Glass is transparent.",
+              "question": "What is \"material\"?",
               "options": [
-                "Materials and Properties",
-                "Something else",
-                "Not sure"
+                "what something is made of",
+                "you can see through it clearly",
+                "you cannot see through it"
               ],
-              "correctAnswer": "Materials and Properties",
-              "hint": "Listen to the topic"
+              "correctAnswer": "what something is made of",
+              "hint": "Listen to the first sentence"
             }
           ],
           "speaking": [
             {
-              "id": "sci-s2",
+              "id": "sci-s2a",
+              "type": "pronounce-word",
+              "instruction": "Say this word:",
+              "targetText": "material",
+              "phonetic": "/məˈtɪəriəl/"
+            },
+            {
+              "id": "sci-s2b",
               "type": "pronounce-sentence",
               "instruction": "Read aloud:",
-              "targetText": "I am learning about materials and properties.",
+              "targetText": "Wood is a natural material.",
               "hint": "Clear pronunciation"
             }
           ],
@@ -213,25 +235,33 @@
             {
               "id": "sci-r2",
               "type": "mcq",
-              "passage": "Materials and Properties is an important topic in Science. We can learn many new English words about it.",
-              "question": "What subject is this?",
+              "passage": "Materials and Properties is an important topic in Science. Wood is a natural material. Glass is transparent. A wooden door is opaque.",
+              "question": "What does \"transparent\" mean?",
               "options": [
-                "Science",
-                "Art",
-                "Music"
+                "you can see through it clearly",
+                "what something is made of",
+                "you cannot see through it"
               ],
-              "correctAnswer": "Science",
-              "explanation": "This is a Science topic"
+              "correctAnswer": "you can see through it clearly",
+              "explanation": "you can see through it clearly"
             }
           ],
           "writing": [
             {
-              "id": "sci-w2",
+              "id": "sci-w2a",
               "type": "spelling",
-              "instruction": "Spell the topic name:",
-              "ttsText": "materials",
-              "correctAnswer": "materials",
-              "hint": "First word of the topic"
+              "instruction": "Spell this word:",
+              "ttsText": "material",
+              "correctAnswer": "material",
+              "hint": "材料"
+            },
+            {
+              "id": "sci-w2b",
+              "type": "spelling",
+              "instruction": "Spell this word:",
+              "ttsText": "transparent",
+              "correctAnswer": "transparent",
+              "hint": "透明的"
             }
           ]
         }
@@ -253,51 +283,51 @@
           "vocabulary": [
             {
               "id": "sci-v13",
-              "word": "(Forces and Movement word 1)",
-              "phonetic": "",
-              "meaning": "Science vocabulary",
-              "meaningZh": "",
-              "example": "Related to Forces and Movement."
+              "word": "force",
+              "phonetic": "/fɔːrs/",
+              "meaning": "a push or pull that moves things",
+              "meaningZh": "力",
+              "example": "A force can push a ball."
             },
             {
               "id": "sci-v14",
-              "word": "(Forces and Movement word 2)",
-              "phonetic": "",
-              "meaning": "Science vocabulary",
-              "meaningZh": "",
-              "example": "Related to Forces and Movement."
+              "word": "friction",
+              "phonetic": "/ˈfrɪkʃən/",
+              "meaning": "a force that slows things down",
+              "meaningZh": "摩擦力",
+              "example": "Friction stops the car."
             },
             {
               "id": "sci-v15",
-              "word": "(Forces and Movement word 3)",
-              "phonetic": "",
-              "meaning": "Science vocabulary",
-              "meaningZh": "",
-              "example": "Related to Forces and Movement."
+              "word": "gravity",
+              "phonetic": "/ˈɡrævɪti/",
+              "meaning": "the force pulling everything down",
+              "meaningZh": "重力",
+              "example": "Gravity makes apples fall."
             },
             {
               "id": "sci-v16",
-              "word": "(Forces and Movement word 4)",
-              "phonetic": "",
-              "meaning": "Science vocabulary",
-              "meaningZh": "",
-              "example": "Related to Forces and Movement."
+              "word": "push",
+              "phonetic": "/pʊʃ/",
+              "meaning": "to move something away from you",
+              "meaningZh": "推",
+              "example": "Push the door open."
             },
             {
               "id": "sci-v17",
-              "word": "(Forces and Movement word 5)",
-              "phonetic": "",
-              "meaning": "Science vocabulary",
-              "meaningZh": "",
-              "example": "Related to Forces and Movement."
+              "word": "pull",
+              "phonetic": "/pʊl/",
+              "meaning": "to move something towards you",
+              "meaningZh": "拉",
+              "example": "Pull the rope hard."
             },
             {
               "id": "sci-v18",
-              "word": "(Forces and Movement word 6)",
-              "phonetic": "",
-              "meaning": "Science vocabulary",
-              "meaningZh": "",
-              "example": "Related to Forces and Movement."
+              "word": "motion",
+              "phonetic": "/ˈmoʊʃən/",
+              "meaning": "the state of moving",
+              "meaningZh": "運動；移動",
+              "example": "The ball is in motion."
             }
           ],
           "listening": [
@@ -305,23 +335,30 @@
               "id": "sci-l3a",
               "type": "mcq",
               "instruction": "Listen about Forces and Movement.",
-              "ttsText": "This topic is about Forces and Movement.",
-              "question": "What is the topic?",
+              "ttsText": "A force can push a ball. Friction stops the car.",
+              "question": "What is \"force\"?",
               "options": [
-                "Forces and Movement",
-                "Something else",
-                "Not sure"
+                "a push or pull that moves things",
+                "a force that slows things down",
+                "the force pulling everything down"
               ],
-              "correctAnswer": "Forces and Movement",
-              "hint": "Listen to the topic"
+              "correctAnswer": "a push or pull that moves things",
+              "hint": "Listen to the first sentence"
             }
           ],
           "speaking": [
             {
-              "id": "sci-s3",
+              "id": "sci-s3a",
+              "type": "pronounce-word",
+              "instruction": "Say this word:",
+              "targetText": "force",
+              "phonetic": "/fɔːrs/"
+            },
+            {
+              "id": "sci-s3b",
               "type": "pronounce-sentence",
               "instruction": "Read aloud:",
-              "targetText": "I am learning about forces and movement.",
+              "targetText": "A force can push a ball.",
               "hint": "Clear pronunciation"
             }
           ],
@@ -329,25 +366,33 @@
             {
               "id": "sci-r3",
               "type": "mcq",
-              "passage": "Forces and Movement is an important topic in Science. We can learn many new English words about it.",
-              "question": "What subject is this?",
+              "passage": "Forces and Movement is an important topic in Science. A force can push a ball. Friction stops the car. Gravity makes apples fall.",
+              "question": "What does \"friction\" mean?",
               "options": [
-                "Science",
-                "Art",
-                "Music"
+                "a force that slows things down",
+                "a push or pull that moves things",
+                "the force pulling everything down"
               ],
-              "correctAnswer": "Science",
-              "explanation": "This is a Science topic"
+              "correctAnswer": "a force that slows things down",
+              "explanation": "a force that slows things down"
             }
           ],
           "writing": [
             {
-              "id": "sci-w3",
+              "id": "sci-w3a",
               "type": "spelling",
-              "instruction": "Spell the topic name:",
-              "ttsText": "forces",
-              "correctAnswer": "forces",
-              "hint": "First word of the topic"
+              "instruction": "Spell this word:",
+              "ttsText": "force",
+              "correctAnswer": "force",
+              "hint": "力"
+            },
+            {
+              "id": "sci-w3b",
+              "type": "spelling",
+              "instruction": "Spell this word:",
+              "ttsText": "friction",
+              "correctAnswer": "friction",
+              "hint": "摩擦力"
             }
           ]
         }
@@ -369,51 +414,51 @@
           "vocabulary": [
             {
               "id": "sci-v19",
-              "word": "(The Human Body word 1)",
-              "phonetic": "",
-              "meaning": "Science vocabulary",
-              "meaningZh": "",
-              "example": "Related to The Human Body."
+              "word": "skeleton",
+              "phonetic": "/ˈskelɪtn/",
+              "meaning": "the frame of bones in the body",
+              "meaningZh": "骨骼",
+              "example": "The skeleton protects organs."
             },
             {
               "id": "sci-v20",
-              "word": "(The Human Body word 2)",
-              "phonetic": "",
-              "meaning": "Science vocabulary",
-              "meaningZh": "",
-              "example": "Related to The Human Body."
+              "word": "muscle",
+              "phonetic": "/ˈmʌsl/",
+              "meaning": "body tissue that helps us move",
+              "meaningZh": "肌肉",
+              "example": "Muscles help you run."
             },
             {
               "id": "sci-v21",
-              "word": "(The Human Body word 3)",
-              "phonetic": "",
-              "meaning": "Science vocabulary",
-              "meaningZh": "",
-              "example": "Related to The Human Body."
+              "word": "organ",
+              "phonetic": "/ˈɔːrɡən/",
+              "meaning": "a body part with a specific job",
+              "meaningZh": "器官",
+              "example": "The heart is an organ."
             },
             {
               "id": "sci-v22",
-              "word": "(The Human Body word 4)",
-              "phonetic": "",
-              "meaning": "Science vocabulary",
-              "meaningZh": "",
-              "example": "Related to The Human Body."
+              "word": "lungs",
+              "phonetic": "/lʌŋz/",
+              "meaning": "organs we breathe with",
+              "meaningZh": "肺",
+              "example": "Lungs take in oxygen."
             },
             {
               "id": "sci-v23",
-              "word": "(The Human Body word 5)",
-              "phonetic": "",
-              "meaning": "Science vocabulary",
-              "meaningZh": "",
-              "example": "Related to The Human Body."
+              "word": "blood",
+              "phonetic": "/blʌd/",
+              "meaning": "the red liquid flowing in our body",
+              "meaningZh": "血液",
+              "example": "Blood carries oxygen around."
             },
             {
               "id": "sci-v24",
-              "word": "(The Human Body word 6)",
-              "phonetic": "",
-              "meaning": "Science vocabulary",
-              "meaningZh": "",
-              "example": "Related to The Human Body."
+              "word": "brain",
+              "phonetic": "/breɪn/",
+              "meaning": "the organ that controls thinking",
+              "meaningZh": "腦",
+              "example": "The brain controls the body."
             }
           ],
           "listening": [
@@ -421,23 +466,30 @@
               "id": "sci-l4a",
               "type": "mcq",
               "instruction": "Listen about The Human Body.",
-              "ttsText": "This topic is about The Human Body.",
-              "question": "What is the topic?",
+              "ttsText": "The skeleton protects organs. Muscles help you run.",
+              "question": "What is \"skeleton\"?",
               "options": [
-                "The Human Body",
-                "Something else",
-                "Not sure"
+                "the frame of bones in the body",
+                "body tissue that helps us move",
+                "a body part with a specific job"
               ],
-              "correctAnswer": "The Human Body",
-              "hint": "Listen to the topic"
+              "correctAnswer": "the frame of bones in the body",
+              "hint": "Listen to the first sentence"
             }
           ],
           "speaking": [
             {
-              "id": "sci-s4",
+              "id": "sci-s4a",
+              "type": "pronounce-word",
+              "instruction": "Say this word:",
+              "targetText": "skeleton",
+              "phonetic": "/ˈskelɪtn/"
+            },
+            {
+              "id": "sci-s4b",
               "type": "pronounce-sentence",
               "instruction": "Read aloud:",
-              "targetText": "I am learning about the human body.",
+              "targetText": "The skeleton protects organs.",
               "hint": "Clear pronunciation"
             }
           ],
@@ -445,25 +497,33 @@
             {
               "id": "sci-r4",
               "type": "mcq",
-              "passage": "The Human Body is an important topic in Science. We can learn many new English words about it.",
-              "question": "What subject is this?",
+              "passage": "The Human Body is an important topic in Science. The skeleton protects organs. Muscles help you run. The heart is an organ.",
+              "question": "What does \"muscle\" mean?",
               "options": [
-                "Science",
-                "Art",
-                "Music"
+                "body tissue that helps us move",
+                "the frame of bones in the body",
+                "a body part with a specific job"
               ],
-              "correctAnswer": "Science",
-              "explanation": "This is a Science topic"
+              "correctAnswer": "body tissue that helps us move",
+              "explanation": "body tissue that helps us move"
             }
           ],
           "writing": [
             {
-              "id": "sci-w4",
+              "id": "sci-w4a",
               "type": "spelling",
-              "instruction": "Spell the topic name:",
-              "ttsText": "the",
-              "correctAnswer": "the",
-              "hint": "First word of the topic"
+              "instruction": "Spell this word:",
+              "ttsText": "skeleton",
+              "correctAnswer": "skeleton",
+              "hint": "骨骼"
+            },
+            {
+              "id": "sci-w4b",
+              "type": "spelling",
+              "instruction": "Spell this word:",
+              "ttsText": "muscle",
+              "correctAnswer": "muscle",
+              "hint": "肌肉"
             }
           ]
         }
@@ -485,51 +545,51 @@
           "vocabulary": [
             {
               "id": "sci-v25",
-              "word": "(Light and Shadow word 1)",
-              "phonetic": "",
-              "meaning": "Science vocabulary",
-              "meaningZh": "",
-              "example": "Related to Light and Shadow."
+              "word": "light",
+              "phonetic": "/laɪt/",
+              "meaning": "energy that lets us see",
+              "meaningZh": "光",
+              "example": "Light comes from the Sun."
             },
             {
               "id": "sci-v26",
-              "word": "(Light and Shadow word 2)",
-              "phonetic": "",
-              "meaning": "Science vocabulary",
-              "meaningZh": "",
-              "example": "Related to Light and Shadow."
+              "word": "shadow",
+              "phonetic": "/ˈʃædoʊ/",
+              "meaning": "a dark area made when light is blocked",
+              "meaningZh": "影子",
+              "example": "My shadow is long at sunset."
             },
             {
               "id": "sci-v27",
-              "word": "(Light and Shadow word 3)",
-              "phonetic": "",
-              "meaning": "Science vocabulary",
-              "meaningZh": "",
-              "example": "Related to Light and Shadow."
+              "word": "reflect",
+              "phonetic": "/rɪˈflekt/",
+              "meaning": "to bounce light off a surface",
+              "meaningZh": "反射",
+              "example": "Mirrors reflect light."
             },
             {
               "id": "sci-v28",
-              "word": "(Light and Shadow word 4)",
-              "phonetic": "",
-              "meaning": "Science vocabulary",
-              "meaningZh": "",
-              "example": "Related to Light and Shadow."
+              "word": "source",
+              "phonetic": "/sɔːrs/",
+              "meaning": "where light comes from",
+              "meaningZh": "來源",
+              "example": "The lamp is a light source."
             },
             {
               "id": "sci-v29",
-              "word": "(Light and Shadow word 5)",
-              "phonetic": "",
-              "meaning": "Science vocabulary",
-              "meaningZh": "",
-              "example": "Related to Light and Shadow."
+              "word": "ray",
+              "phonetic": "/reɪ/",
+              "meaning": "a beam of light",
+              "meaningZh": "光線",
+              "example": "Sun rays come through the window."
             },
             {
               "id": "sci-v30",
-              "word": "(Light and Shadow word 6)",
-              "phonetic": "",
-              "meaning": "Science vocabulary",
-              "meaningZh": "",
-              "example": "Related to Light and Shadow."
+              "word": "darkness",
+              "phonetic": "/ˈdɑːrknəs/",
+              "meaning": "the absence of light",
+              "meaningZh": "黑暗",
+              "example": "We cannot see in darkness."
             }
           ],
           "listening": [
@@ -537,23 +597,30 @@
               "id": "sci-l5a",
               "type": "mcq",
               "instruction": "Listen about Light and Shadow.",
-              "ttsText": "This topic is about Light and Shadow.",
-              "question": "What is the topic?",
+              "ttsText": "Light comes from the Sun. My shadow is long at sunset.",
+              "question": "What is \"light\"?",
               "options": [
-                "Light and Shadow",
-                "Something else",
-                "Not sure"
+                "energy that lets us see",
+                "a dark area made when light is blocked",
+                "to bounce light off a surface"
               ],
-              "correctAnswer": "Light and Shadow",
-              "hint": "Listen to the topic"
+              "correctAnswer": "energy that lets us see",
+              "hint": "Listen to the first sentence"
             }
           ],
           "speaking": [
             {
-              "id": "sci-s5",
+              "id": "sci-s5a",
+              "type": "pronounce-word",
+              "instruction": "Say this word:",
+              "targetText": "light",
+              "phonetic": "/laɪt/"
+            },
+            {
+              "id": "sci-s5b",
               "type": "pronounce-sentence",
               "instruction": "Read aloud:",
-              "targetText": "I am learning about light and shadow.",
+              "targetText": "Light comes from the Sun.",
               "hint": "Clear pronunciation"
             }
           ],
@@ -561,25 +628,33 @@
             {
               "id": "sci-r5",
               "type": "mcq",
-              "passage": "Light and Shadow is an important topic in Science. We can learn many new English words about it.",
-              "question": "What subject is this?",
+              "passage": "Light and Shadow is an important topic in Science. Light comes from the Sun. My shadow is long at sunset. Mirrors reflect light.",
+              "question": "What does \"shadow\" mean?",
               "options": [
-                "Science",
-                "Art",
-                "Music"
+                "a dark area made when light is blocked",
+                "energy that lets us see",
+                "to bounce light off a surface"
               ],
-              "correctAnswer": "Science",
-              "explanation": "This is a Science topic"
+              "correctAnswer": "a dark area made when light is blocked",
+              "explanation": "a dark area made when light is blocked"
             }
           ],
           "writing": [
             {
-              "id": "sci-w5",
+              "id": "sci-w5a",
               "type": "spelling",
-              "instruction": "Spell the topic name:",
+              "instruction": "Spell this word:",
               "ttsText": "light",
               "correctAnswer": "light",
-              "hint": "First word of the topic"
+              "hint": "光"
+            },
+            {
+              "id": "sci-w5b",
+              "type": "spelling",
+              "instruction": "Spell this word:",
+              "ttsText": "shadow",
+              "correctAnswer": "shadow",
+              "hint": "影子"
             }
           ]
         }
@@ -601,51 +676,51 @@
           "vocabulary": [
             {
               "id": "sci-v31",
-              "word": "(Sound and Hearing word 1)",
-              "phonetic": "",
-              "meaning": "Science vocabulary",
-              "meaningZh": "",
-              "example": "Related to Sound and Hearing."
+              "word": "vibration",
+              "phonetic": "/vaɪˈbreɪʃən/",
+              "meaning": "a quick back-and-forth movement that makes sound",
+              "meaningZh": "振動",
+              "example": "Sound is made by vibrations."
             },
             {
               "id": "sci-v32",
-              "word": "(Sound and Hearing word 2)",
-              "phonetic": "",
-              "meaning": "Science vocabulary",
-              "meaningZh": "",
-              "example": "Related to Sound and Hearing."
+              "word": "volume",
+              "phonetic": "/ˈvɒljuːm/",
+              "meaning": "how loud or quiet a sound is",
+              "meaningZh": "音量",
+              "example": "Turn down the volume."
             },
             {
               "id": "sci-v33",
-              "word": "(Sound and Hearing word 3)",
-              "phonetic": "",
-              "meaning": "Science vocabulary",
-              "meaningZh": "",
-              "example": "Related to Sound and Hearing."
+              "word": "pitch",
+              "phonetic": "/pɪtʃ/",
+              "meaning": "how high or low a sound is",
+              "meaningZh": "音調",
+              "example": "A whistle has a high pitch."
             },
             {
               "id": "sci-v34",
-              "word": "(Sound and Hearing word 4)",
-              "phonetic": "",
-              "meaning": "Science vocabulary",
-              "meaningZh": "",
-              "example": "Related to Sound and Hearing."
+              "word": "echo",
+              "phonetic": "/ˈekoʊ/",
+              "meaning": "a sound that bounces back",
+              "meaningZh": "回聲",
+              "example": "I heard an echo in the cave."
             },
             {
               "id": "sci-v35",
-              "word": "(Sound and Hearing word 5)",
-              "phonetic": "",
-              "meaning": "Science vocabulary",
-              "meaningZh": "",
-              "example": "Related to Sound and Hearing."
+              "word": "ear",
+              "phonetic": "/ɪr/",
+              "meaning": "the body part for hearing",
+              "meaningZh": "耳朵",
+              "example": "Cover your ears if it is loud."
             },
             {
               "id": "sci-v36",
-              "word": "(Sound and Hearing word 6)",
-              "phonetic": "",
-              "meaning": "Science vocabulary",
-              "meaningZh": "",
-              "example": "Related to Sound and Hearing."
+              "word": "sound wave",
+              "phonetic": "/saʊnd weɪv/",
+              "meaning": "how sound travels through air",
+              "meaningZh": "聲波",
+              "example": "Sound waves travel to our ears."
             }
           ],
           "listening": [
@@ -653,23 +728,30 @@
               "id": "sci-l6a",
               "type": "mcq",
               "instruction": "Listen about Sound and Hearing.",
-              "ttsText": "This topic is about Sound and Hearing.",
-              "question": "What is the topic?",
+              "ttsText": "Sound is made by vibrations. Turn down the volume.",
+              "question": "What is \"vibration\"?",
               "options": [
-                "Sound and Hearing",
-                "Something else",
-                "Not sure"
+                "a quick back-and-forth movement that makes sound",
+                "how loud or quiet a sound is",
+                "how high or low a sound is"
               ],
-              "correctAnswer": "Sound and Hearing",
-              "hint": "Listen to the topic"
+              "correctAnswer": "a quick back-and-forth movement that makes sound",
+              "hint": "Listen to the first sentence"
             }
           ],
           "speaking": [
             {
-              "id": "sci-s6",
+              "id": "sci-s6a",
+              "type": "pronounce-word",
+              "instruction": "Say this word:",
+              "targetText": "vibration",
+              "phonetic": "/vaɪˈbreɪʃən/"
+            },
+            {
+              "id": "sci-s6b",
               "type": "pronounce-sentence",
               "instruction": "Read aloud:",
-              "targetText": "I am learning about sound and hearing.",
+              "targetText": "Sound is made by vibrations.",
               "hint": "Clear pronunciation"
             }
           ],
@@ -677,25 +759,33 @@
             {
               "id": "sci-r6",
               "type": "mcq",
-              "passage": "Sound and Hearing is an important topic in Science. We can learn many new English words about it.",
-              "question": "What subject is this?",
+              "passage": "Sound and Hearing is an important topic in Science. Sound is made by vibrations. Turn down the volume. A whistle has a high pitch.",
+              "question": "What does \"volume\" mean?",
               "options": [
-                "Science",
-                "Art",
-                "Music"
+                "how loud or quiet a sound is",
+                "a quick back-and-forth movement that makes sound",
+                "how high or low a sound is"
               ],
-              "correctAnswer": "Science",
-              "explanation": "This is a Science topic"
+              "correctAnswer": "how loud or quiet a sound is",
+              "explanation": "how loud or quiet a sound is"
             }
           ],
           "writing": [
             {
-              "id": "sci-w6",
+              "id": "sci-w6a",
               "type": "spelling",
-              "instruction": "Spell the topic name:",
-              "ttsText": "sound",
-              "correctAnswer": "sound",
-              "hint": "First word of the topic"
+              "instruction": "Spell this word:",
+              "ttsText": "vibration",
+              "correctAnswer": "vibration",
+              "hint": "振動"
+            },
+            {
+              "id": "sci-w6b",
+              "type": "spelling",
+              "instruction": "Spell this word:",
+              "ttsText": "volume",
+              "correctAnswer": "volume",
+              "hint": "音量"
             }
           ]
         }
@@ -717,51 +807,51 @@
           "vocabulary": [
             {
               "id": "sci-v37",
-              "word": "(Electricity word 1)",
-              "phonetic": "",
-              "meaning": "Science vocabulary",
-              "meaningZh": "",
-              "example": "Related to Electricity."
+              "word": "circuit",
+              "phonetic": "/ˈsɜːrkɪt/",
+              "meaning": "a complete loop for electricity to flow",
+              "meaningZh": "電路",
+              "example": "Connect the wires in a circuit."
             },
             {
               "id": "sci-v38",
-              "word": "(Electricity word 2)",
-              "phonetic": "",
-              "meaning": "Science vocabulary",
-              "meaningZh": "",
-              "example": "Related to Electricity."
+              "word": "battery",
+              "phonetic": "/ˈbætəri/",
+              "meaning": "a device that stores electricity",
+              "meaningZh": "電池",
+              "example": "The torch needs a battery."
             },
             {
               "id": "sci-v39",
-              "word": "(Electricity word 3)",
-              "phonetic": "",
-              "meaning": "Science vocabulary",
-              "meaningZh": "",
-              "example": "Related to Electricity."
+              "word": "switch",
+              "phonetic": "/swɪtʃ/",
+              "meaning": "a device to turn power on or off",
+              "meaningZh": "開關",
+              "example": "Press the switch to turn on light."
             },
             {
               "id": "sci-v40",
-              "word": "(Electricity word 4)",
-              "phonetic": "",
-              "meaning": "Science vocabulary",
-              "meaningZh": "",
-              "example": "Related to Electricity."
+              "word": "conductor",
+              "phonetic": "/kənˈdʌktər/",
+              "meaning": "a material electricity flows through",
+              "meaningZh": "導體",
+              "example": "Metal is a good conductor."
             },
             {
               "id": "sci-v41",
-              "word": "(Electricity word 5)",
-              "phonetic": "",
-              "meaning": "Science vocabulary",
-              "meaningZh": "",
-              "example": "Related to Electricity."
+              "word": "insulator",
+              "phonetic": "/ˈɪnsjuleɪtər/",
+              "meaning": "a material that blocks electricity",
+              "meaningZh": "絕緣體",
+              "example": "Rubber is an insulator."
             },
             {
               "id": "sci-v42",
-              "word": "(Electricity word 6)",
-              "phonetic": "",
-              "meaning": "Science vocabulary",
-              "meaningZh": "",
-              "example": "Related to Electricity."
+              "word": "bulb",
+              "phonetic": "/bʌlb/",
+              "meaning": "a glass object that makes light with electricity",
+              "meaningZh": "燈泡",
+              "example": "The bulb lights up the room."
             }
           ],
           "listening": [
@@ -769,23 +859,30 @@
               "id": "sci-l7a",
               "type": "mcq",
               "instruction": "Listen about Electricity.",
-              "ttsText": "This topic is about Electricity.",
-              "question": "What is the topic?",
+              "ttsText": "Connect the wires in a circuit. The torch needs a battery.",
+              "question": "What is \"circuit\"?",
               "options": [
-                "Electricity",
-                "Something else",
-                "Not sure"
+                "a complete loop for electricity to flow",
+                "a device that stores electricity",
+                "a device to turn power on or off"
               ],
-              "correctAnswer": "Electricity",
-              "hint": "Listen to the topic"
+              "correctAnswer": "a complete loop for electricity to flow",
+              "hint": "Listen to the first sentence"
             }
           ],
           "speaking": [
             {
-              "id": "sci-s7",
+              "id": "sci-s7a",
+              "type": "pronounce-word",
+              "instruction": "Say this word:",
+              "targetText": "circuit",
+              "phonetic": "/ˈsɜːrkɪt/"
+            },
+            {
+              "id": "sci-s7b",
               "type": "pronounce-sentence",
               "instruction": "Read aloud:",
-              "targetText": "I am learning about electricity.",
+              "targetText": "Connect the wires in a circuit.",
               "hint": "Clear pronunciation"
             }
           ],
@@ -793,25 +890,33 @@
             {
               "id": "sci-r7",
               "type": "mcq",
-              "passage": "Electricity is an important topic in Science. We can learn many new English words about it.",
-              "question": "What subject is this?",
+              "passage": "Electricity is an important topic in Science. Connect the wires in a circuit. The torch needs a battery. Press the switch to turn on light.",
+              "question": "What does \"battery\" mean?",
               "options": [
-                "Science",
-                "Art",
-                "Music"
+                "a device that stores electricity",
+                "a complete loop for electricity to flow",
+                "a device to turn power on or off"
               ],
-              "correctAnswer": "Science",
-              "explanation": "This is a Science topic"
+              "correctAnswer": "a device that stores electricity",
+              "explanation": "a device that stores electricity"
             }
           ],
           "writing": [
             {
-              "id": "sci-w7",
+              "id": "sci-w7a",
               "type": "spelling",
-              "instruction": "Spell the topic name:",
-              "ttsText": "electricity",
-              "correctAnswer": "electricity",
-              "hint": "First word of the topic"
+              "instruction": "Spell this word:",
+              "ttsText": "circuit",
+              "correctAnswer": "circuit",
+              "hint": "電路"
+            },
+            {
+              "id": "sci-w7b",
+              "type": "spelling",
+              "instruction": "Spell this word:",
+              "ttsText": "battery",
+              "correctAnswer": "battery",
+              "hint": "電池"
             }
           ]
         }
@@ -833,51 +938,51 @@
           "vocabulary": [
             {
               "id": "sci-v43",
-              "word": "(Magnets word 1)",
-              "phonetic": "",
-              "meaning": "Science vocabulary",
-              "meaningZh": "",
-              "example": "Related to Magnets."
+              "word": "magnet",
+              "phonetic": "/ˈmæɡnɪt/",
+              "meaning": "an object that attracts iron",
+              "meaningZh": "磁鐵",
+              "example": "A magnet sticks to the fridge."
             },
             {
               "id": "sci-v44",
-              "word": "(Magnets word 2)",
-              "phonetic": "",
-              "meaning": "Science vocabulary",
-              "meaningZh": "",
-              "example": "Related to Magnets."
+              "word": "attract",
+              "phonetic": "/əˈtrækt/",
+              "meaning": "to pull towards",
+              "meaningZh": "吸引",
+              "example": "Magnets attract metal objects."
             },
             {
               "id": "sci-v45",
-              "word": "(Magnets word 3)",
-              "phonetic": "",
-              "meaning": "Science vocabulary",
-              "meaningZh": "",
-              "example": "Related to Magnets."
+              "word": "repel",
+              "phonetic": "/rɪˈpel/",
+              "meaning": "to push away",
+              "meaningZh": "排斥",
+              "example": "Same poles repel each other."
             },
             {
               "id": "sci-v46",
-              "word": "(Magnets word 4)",
-              "phonetic": "",
-              "meaning": "Science vocabulary",
-              "meaningZh": "",
-              "example": "Related to Magnets."
+              "word": "pole",
+              "phonetic": "/poʊl/",
+              "meaning": "the end of a magnet (north or south)",
+              "meaningZh": "磁極",
+              "example": "Every magnet has a north pole."
             },
             {
               "id": "sci-v47",
-              "word": "(Magnets word 5)",
-              "phonetic": "",
-              "meaning": "Science vocabulary",
-              "meaningZh": "",
-              "example": "Related to Magnets."
+              "word": "magnetic",
+              "phonetic": "/mæɡˈnetɪk/",
+              "meaning": "having the properties of a magnet",
+              "meaningZh": "有磁性的",
+              "example": "Iron is magnetic."
             },
             {
               "id": "sci-v48",
-              "word": "(Magnets word 6)",
-              "phonetic": "",
-              "meaning": "Science vocabulary",
-              "meaningZh": "",
-              "example": "Related to Magnets."
+              "word": "compass",
+              "phonetic": "/ˈkʌmpəs/",
+              "meaning": "a tool using magnets to show direction",
+              "meaningZh": "指南針",
+              "example": "A compass points north."
             }
           ],
           "listening": [
@@ -885,23 +990,30 @@
               "id": "sci-l8a",
               "type": "mcq",
               "instruction": "Listen about Magnets.",
-              "ttsText": "This topic is about Magnets.",
-              "question": "What is the topic?",
+              "ttsText": "A magnet sticks to the fridge. Magnets attract metal objects.",
+              "question": "What is \"magnet\"?",
               "options": [
-                "Magnets",
-                "Something else",
-                "Not sure"
+                "an object that attracts iron",
+                "to pull towards",
+                "to push away"
               ],
-              "correctAnswer": "Magnets",
-              "hint": "Listen to the topic"
+              "correctAnswer": "an object that attracts iron",
+              "hint": "Listen to the first sentence"
             }
           ],
           "speaking": [
             {
-              "id": "sci-s8",
+              "id": "sci-s8a",
+              "type": "pronounce-word",
+              "instruction": "Say this word:",
+              "targetText": "magnet",
+              "phonetic": "/ˈmæɡnɪt/"
+            },
+            {
+              "id": "sci-s8b",
               "type": "pronounce-sentence",
               "instruction": "Read aloud:",
-              "targetText": "I am learning about magnets.",
+              "targetText": "A magnet sticks to the fridge.",
               "hint": "Clear pronunciation"
             }
           ],
@@ -909,25 +1021,33 @@
             {
               "id": "sci-r8",
               "type": "mcq",
-              "passage": "Magnets is an important topic in Science. We can learn many new English words about it.",
-              "question": "What subject is this?",
+              "passage": "Magnets is an important topic in Science. A magnet sticks to the fridge. Magnets attract metal objects. Same poles repel each other.",
+              "question": "What does \"attract\" mean?",
               "options": [
-                "Science",
-                "Art",
-                "Music"
+                "to pull towards",
+                "an object that attracts iron",
+                "to push away"
               ],
-              "correctAnswer": "Science",
-              "explanation": "This is a Science topic"
+              "correctAnswer": "to pull towards",
+              "explanation": "to pull towards"
             }
           ],
           "writing": [
             {
-              "id": "sci-w8",
+              "id": "sci-w8a",
               "type": "spelling",
-              "instruction": "Spell the topic name:",
-              "ttsText": "magnets",
-              "correctAnswer": "magnets",
-              "hint": "First word of the topic"
+              "instruction": "Spell this word:",
+              "ttsText": "magnet",
+              "correctAnswer": "magnet",
+              "hint": "磁鐵"
+            },
+            {
+              "id": "sci-w8b",
+              "type": "spelling",
+              "instruction": "Spell this word:",
+              "ttsText": "attract",
+              "correctAnswer": "attract",
+              "hint": "吸引"
             }
           ]
         }
@@ -949,51 +1069,51 @@
           "vocabulary": [
             {
               "id": "sci-v49",
-              "word": "(Water Cycle word 1)",
-              "phonetic": "",
-              "meaning": "Science vocabulary",
-              "meaningZh": "",
-              "example": "Related to Water Cycle."
+              "word": "evaporation",
+              "phonetic": "/ɪˌvæpəˈreɪʃən/",
+              "meaning": "water turning into water vapour",
+              "meaningZh": "蒸發",
+              "example": "The sun causes evaporation."
             },
             {
               "id": "sci-v50",
-              "word": "(Water Cycle word 2)",
-              "phonetic": "",
-              "meaning": "Science vocabulary",
-              "meaningZh": "",
-              "example": "Related to Water Cycle."
+              "word": "condensation",
+              "phonetic": "/ˌkɒndenˈseɪʃən/",
+              "meaning": "water vapour turning back into liquid",
+              "meaningZh": "凝結",
+              "example": "Condensation forms clouds."
             },
             {
               "id": "sci-v51",
-              "word": "(Water Cycle word 3)",
-              "phonetic": "",
-              "meaning": "Science vocabulary",
-              "meaningZh": "",
-              "example": "Related to Water Cycle."
+              "word": "precipitation",
+              "phonetic": "/prɪˌsɪpɪˈteɪʃən/",
+              "meaning": "water falling as rain or snow",
+              "meaningZh": "降水",
+              "example": "Rain is a form of precipitation."
             },
             {
               "id": "sci-v52",
-              "word": "(Water Cycle word 4)",
-              "phonetic": "",
-              "meaning": "Science vocabulary",
-              "meaningZh": "",
-              "example": "Related to Water Cycle."
+              "word": "vapour",
+              "phonetic": "/ˈveɪpər/",
+              "meaning": "water in the form of gas",
+              "meaningZh": "水蒸氣",
+              "example": "Steam is water vapour."
             },
             {
               "id": "sci-v53",
-              "word": "(Water Cycle word 5)",
-              "phonetic": "",
-              "meaning": "Science vocabulary",
-              "meaningZh": "",
-              "example": "Related to Water Cycle."
+              "word": "cloud",
+              "phonetic": "/klaʊd/",
+              "meaning": "a mass of tiny water drops in the sky",
+              "meaningZh": "雲",
+              "example": "Clouds are made of water."
             },
             {
               "id": "sci-v54",
-              "word": "(Water Cycle word 6)",
-              "phonetic": "",
-              "meaning": "Science vocabulary",
-              "meaningZh": "",
-              "example": "Related to Water Cycle."
+              "word": "collection",
+              "phonetic": "/kəˈlekʃən/",
+              "meaning": "water gathering in rivers and seas",
+              "meaningZh": "收集",
+              "example": "Water collection happens in oceans."
             }
           ],
           "listening": [
@@ -1001,23 +1121,30 @@
               "id": "sci-l9a",
               "type": "mcq",
               "instruction": "Listen about Water Cycle.",
-              "ttsText": "This topic is about Water Cycle.",
-              "question": "What is the topic?",
+              "ttsText": "The sun causes evaporation. Condensation forms clouds.",
+              "question": "What is \"evaporation\"?",
               "options": [
-                "Water Cycle",
-                "Something else",
-                "Not sure"
+                "water turning into water vapour",
+                "water vapour turning back into liquid",
+                "water falling as rain or snow"
               ],
-              "correctAnswer": "Water Cycle",
-              "hint": "Listen to the topic"
+              "correctAnswer": "water turning into water vapour",
+              "hint": "Listen to the first sentence"
             }
           ],
           "speaking": [
             {
-              "id": "sci-s9",
+              "id": "sci-s9a",
+              "type": "pronounce-word",
+              "instruction": "Say this word:",
+              "targetText": "evaporation",
+              "phonetic": "/ɪˌvæpəˈreɪʃən/"
+            },
+            {
+              "id": "sci-s9b",
               "type": "pronounce-sentence",
               "instruction": "Read aloud:",
-              "targetText": "I am learning about water cycle.",
+              "targetText": "The sun causes evaporation.",
               "hint": "Clear pronunciation"
             }
           ],
@@ -1025,25 +1152,33 @@
             {
               "id": "sci-r9",
               "type": "mcq",
-              "passage": "Water Cycle is an important topic in Science. We can learn many new English words about it.",
-              "question": "What subject is this?",
+              "passage": "Water Cycle is an important topic in Science. The sun causes evaporation. Condensation forms clouds. Rain is a form of precipitation.",
+              "question": "What does \"condensation\" mean?",
               "options": [
-                "Science",
-                "Art",
-                "Music"
+                "water vapour turning back into liquid",
+                "water turning into water vapour",
+                "water falling as rain or snow"
               ],
-              "correctAnswer": "Science",
-              "explanation": "This is a Science topic"
+              "correctAnswer": "water vapour turning back into liquid",
+              "explanation": "water vapour turning back into liquid"
             }
           ],
           "writing": [
             {
-              "id": "sci-w9",
+              "id": "sci-w9a",
               "type": "spelling",
-              "instruction": "Spell the topic name:",
-              "ttsText": "water",
-              "correctAnswer": "water",
-              "hint": "First word of the topic"
+              "instruction": "Spell this word:",
+              "ttsText": "evaporation",
+              "correctAnswer": "evaporation",
+              "hint": "蒸發"
+            },
+            {
+              "id": "sci-w9b",
+              "type": "spelling",
+              "instruction": "Spell this word:",
+              "ttsText": "condensation",
+              "correctAnswer": "condensation",
+              "hint": "凝結"
             }
           ]
         }
@@ -1065,51 +1200,51 @@
           "vocabulary": [
             {
               "id": "sci-v55",
-              "word": "(Food Chains word 1)",
-              "phonetic": "",
-              "meaning": "Science vocabulary",
-              "meaningZh": "",
-              "example": "Related to Food Chains."
+              "word": "producer",
+              "phonetic": "/prəˈdjuːsər/",
+              "meaning": "a living thing that makes its own food (plants)",
+              "meaningZh": "生產者",
+              "example": "Grass is a producer."
             },
             {
               "id": "sci-v56",
-              "word": "(Food Chains word 2)",
-              "phonetic": "",
-              "meaning": "Science vocabulary",
-              "meaningZh": "",
-              "example": "Related to Food Chains."
+              "word": "consumer",
+              "phonetic": "/kənˈsjuːmər/",
+              "meaning": "a living thing that eats other things",
+              "meaningZh": "消費者",
+              "example": "A rabbit is a consumer."
             },
             {
               "id": "sci-v57",
-              "word": "(Food Chains word 3)",
-              "phonetic": "",
-              "meaning": "Science vocabulary",
-              "meaningZh": "",
-              "example": "Related to Food Chains."
+              "word": "predator",
+              "phonetic": "/ˈpredətər/",
+              "meaning": "an animal that hunts others",
+              "meaningZh": "捕食者",
+              "example": "A lion is a predator."
             },
             {
               "id": "sci-v58",
-              "word": "(Food Chains word 4)",
-              "phonetic": "",
-              "meaning": "Science vocabulary",
-              "meaningZh": "",
-              "example": "Related to Food Chains."
+              "word": "prey",
+              "phonetic": "/preɪ/",
+              "meaning": "an animal that is hunted",
+              "meaningZh": "獵物",
+              "example": "A mouse is prey for owls."
             },
             {
               "id": "sci-v59",
-              "word": "(Food Chains word 5)",
-              "phonetic": "",
-              "meaning": "Science vocabulary",
-              "meaningZh": "",
-              "example": "Related to Food Chains."
+              "word": "herbivore",
+              "phonetic": "/ˈhɜːrbɪvɔːr/",
+              "meaning": "an animal that eats only plants",
+              "meaningZh": "草食動物",
+              "example": "A cow is a herbivore."
             },
             {
               "id": "sci-v60",
-              "word": "(Food Chains word 6)",
-              "phonetic": "",
-              "meaning": "Science vocabulary",
-              "meaningZh": "",
-              "example": "Related to Food Chains."
+              "word": "carnivore",
+              "phonetic": "/ˈkɑːrnɪvɔːr/",
+              "meaning": "an animal that eats only meat",
+              "meaningZh": "肉食動物",
+              "example": "A tiger is a carnivore."
             }
           ],
           "listening": [
@@ -1117,23 +1252,30 @@
               "id": "sci-l10a",
               "type": "mcq",
               "instruction": "Listen about Food Chains.",
-              "ttsText": "This topic is about Food Chains.",
-              "question": "What is the topic?",
+              "ttsText": "Grass is a producer. A rabbit is a consumer.",
+              "question": "What is \"producer\"?",
               "options": [
-                "Food Chains",
-                "Something else",
-                "Not sure"
+                "a living thing that makes its own food (plants)",
+                "a living thing that eats other things",
+                "an animal that hunts others"
               ],
-              "correctAnswer": "Food Chains",
-              "hint": "Listen to the topic"
+              "correctAnswer": "a living thing that makes its own food (plants)",
+              "hint": "Listen to the first sentence"
             }
           ],
           "speaking": [
             {
-              "id": "sci-s10",
+              "id": "sci-s10a",
+              "type": "pronounce-word",
+              "instruction": "Say this word:",
+              "targetText": "producer",
+              "phonetic": "/prəˈdjuːsər/"
+            },
+            {
+              "id": "sci-s10b",
               "type": "pronounce-sentence",
               "instruction": "Read aloud:",
-              "targetText": "I am learning about food chains.",
+              "targetText": "Grass is a producer.",
               "hint": "Clear pronunciation"
             }
           ],
@@ -1141,25 +1283,33 @@
             {
               "id": "sci-r10",
               "type": "mcq",
-              "passage": "Food Chains is an important topic in Science. We can learn many new English words about it.",
-              "question": "What subject is this?",
+              "passage": "Food Chains is an important topic in Science. Grass is a producer. A rabbit is a consumer. A lion is a predator.",
+              "question": "What does \"consumer\" mean?",
               "options": [
-                "Science",
-                "Art",
-                "Music"
+                "a living thing that eats other things",
+                "a living thing that makes its own food (plants)",
+                "an animal that hunts others"
               ],
-              "correctAnswer": "Science",
-              "explanation": "This is a Science topic"
+              "correctAnswer": "a living thing that eats other things",
+              "explanation": "a living thing that eats other things"
             }
           ],
           "writing": [
             {
-              "id": "sci-w10",
+              "id": "sci-w10a",
               "type": "spelling",
-              "instruction": "Spell the topic name:",
-              "ttsText": "food",
-              "correctAnswer": "food",
-              "hint": "First word of the topic"
+              "instruction": "Spell this word:",
+              "ttsText": "producer",
+              "correctAnswer": "producer",
+              "hint": "生產者"
+            },
+            {
+              "id": "sci-w10b",
+              "type": "spelling",
+              "instruction": "Spell this word:",
+              "ttsText": "consumer",
+              "correctAnswer": "consumer",
+              "hint": "消費者"
             }
           ]
         }
@@ -1181,51 +1331,51 @@
           "vocabulary": [
             {
               "id": "sci-v61",
-              "word": "(Habitats word 1)",
+              "word": "habitats",
               "phonetic": "",
-              "meaning": "Science vocabulary",
+              "meaning": "a word related to habitats",
               "meaningZh": "",
-              "example": "Related to Habitats."
+              "example": "This word is used when talking about habitats."
             },
             {
               "id": "sci-v62",
-              "word": "(Habitats word 2)",
+              "word": "habitats2",
               "phonetic": "",
-              "meaning": "Science vocabulary",
+              "meaning": "a word related to habitats",
               "meaningZh": "",
-              "example": "Related to Habitats."
+              "example": "This word is used when talking about habitats."
             },
             {
               "id": "sci-v63",
-              "word": "(Habitats word 3)",
+              "word": "habitats3",
               "phonetic": "",
-              "meaning": "Science vocabulary",
+              "meaning": "a word related to habitats",
               "meaningZh": "",
-              "example": "Related to Habitats."
+              "example": "This word is used when talking about habitats."
             },
             {
               "id": "sci-v64",
-              "word": "(Habitats word 4)",
+              "word": "habitats4",
               "phonetic": "",
-              "meaning": "Science vocabulary",
+              "meaning": "a word related to habitats",
               "meaningZh": "",
-              "example": "Related to Habitats."
+              "example": "This word is used when talking about habitats."
             },
             {
               "id": "sci-v65",
-              "word": "(Habitats word 5)",
+              "word": "habitats5",
               "phonetic": "",
-              "meaning": "Science vocabulary",
+              "meaning": "a word related to habitats",
               "meaningZh": "",
-              "example": "Related to Habitats."
+              "example": "This word is used when talking about habitats."
             },
             {
               "id": "sci-v66",
-              "word": "(Habitats word 6)",
+              "word": "habitats6",
               "phonetic": "",
-              "meaning": "Science vocabulary",
+              "meaning": "a word related to habitats",
               "meaningZh": "",
-              "example": "Related to Habitats."
+              "example": "This word is used when talking about habitats."
             }
           ],
           "listening": [
@@ -1233,23 +1383,30 @@
               "id": "sci-l11a",
               "type": "mcq",
               "instruction": "Listen about Habitats.",
-              "ttsText": "This topic is about Habitats.",
-              "question": "What is the topic?",
+              "ttsText": "This word is used when talking about habitats. This word is used when talking about habitats.",
+              "question": "What is \"habitats\"?",
               "options": [
-                "Habitats",
-                "Something else",
-                "Not sure"
+                "a word related to habitats",
+                "a word related to habitats",
+                "a word related to habitats"
               ],
-              "correctAnswer": "Habitats",
-              "hint": "Listen to the topic"
+              "correctAnswer": "a word related to habitats",
+              "hint": "Listen to the first sentence"
             }
           ],
           "speaking": [
             {
-              "id": "sci-s11",
+              "id": "sci-s11a",
+              "type": "pronounce-word",
+              "instruction": "Say this word:",
+              "targetText": "habitats",
+              "phonetic": ""
+            },
+            {
+              "id": "sci-s11b",
               "type": "pronounce-sentence",
               "instruction": "Read aloud:",
-              "targetText": "I am learning about habitats.",
+              "targetText": "This word is used when talking about habitats.",
               "hint": "Clear pronunciation"
             }
           ],
@@ -1257,25 +1414,33 @@
             {
               "id": "sci-r11",
               "type": "mcq",
-              "passage": "Habitats is an important topic in Science. We can learn many new English words about it.",
-              "question": "What subject is this?",
+              "passage": "Habitats is an important topic in Science. This word is used when talking about habitats. This word is used when talking about habitats. This word is used when talking about habitats.",
+              "question": "What does \"habitats2\" mean?",
               "options": [
-                "Science",
-                "Art",
-                "Music"
+                "a word related to habitats",
+                "a word related to habitats",
+                "a word related to habitats"
               ],
-              "correctAnswer": "Science",
-              "explanation": "This is a Science topic"
+              "correctAnswer": "a word related to habitats",
+              "explanation": "a word related to habitats"
             }
           ],
           "writing": [
             {
-              "id": "sci-w11",
+              "id": "sci-w11a",
               "type": "spelling",
-              "instruction": "Spell the topic name:",
+              "instruction": "Spell this word:",
               "ttsText": "habitats",
               "correctAnswer": "habitats",
-              "hint": "First word of the topic"
+              "hint": "a word related to habitats"
+            },
+            {
+              "id": "sci-w11b",
+              "type": "spelling",
+              "instruction": "Spell this word:",
+              "ttsText": "habitats2",
+              "correctAnswer": "habitats2",
+              "hint": "a word related to habitats"
             }
           ]
         }
@@ -1297,51 +1462,51 @@
           "vocabulary": [
             {
               "id": "sci-v67",
-              "word": "(Earth and Space word 1)",
+              "word": "earth",
               "phonetic": "",
-              "meaning": "Science vocabulary",
+              "meaning": "a word related to earth and space",
               "meaningZh": "",
-              "example": "Related to Earth and Space."
+              "example": "This word is used when talking about earth and space."
             },
             {
               "id": "sci-v68",
-              "word": "(Earth and Space word 2)",
+              "word": "and",
               "phonetic": "",
-              "meaning": "Science vocabulary",
+              "meaning": "a word related to earth and space",
               "meaningZh": "",
-              "example": "Related to Earth and Space."
+              "example": "This word is used when talking about earth and space."
             },
             {
               "id": "sci-v69",
-              "word": "(Earth and Space word 3)",
+              "word": "space",
               "phonetic": "",
-              "meaning": "Science vocabulary",
+              "meaning": "a word related to earth and space",
               "meaningZh": "",
-              "example": "Related to Earth and Space."
+              "example": "This word is used when talking about earth and space."
             },
             {
               "id": "sci-v70",
-              "word": "(Earth and Space word 4)",
+              "word": "earth4",
               "phonetic": "",
-              "meaning": "Science vocabulary",
+              "meaning": "a word related to earth and space",
               "meaningZh": "",
-              "example": "Related to Earth and Space."
+              "example": "This word is used when talking about earth and space."
             },
             {
               "id": "sci-v71",
-              "word": "(Earth and Space word 5)",
+              "word": "earth5",
               "phonetic": "",
-              "meaning": "Science vocabulary",
+              "meaning": "a word related to earth and space",
               "meaningZh": "",
-              "example": "Related to Earth and Space."
+              "example": "This word is used when talking about earth and space."
             },
             {
               "id": "sci-v72",
-              "word": "(Earth and Space word 6)",
+              "word": "earth6",
               "phonetic": "",
-              "meaning": "Science vocabulary",
+              "meaning": "a word related to earth and space",
               "meaningZh": "",
-              "example": "Related to Earth and Space."
+              "example": "This word is used when talking about earth and space."
             }
           ],
           "listening": [
@@ -1349,23 +1514,30 @@
               "id": "sci-l12a",
               "type": "mcq",
               "instruction": "Listen about Earth and Space.",
-              "ttsText": "This topic is about Earth and Space.",
-              "question": "What is the topic?",
+              "ttsText": "This word is used when talking about earth and space. This word is used when talking about earth and space.",
+              "question": "What is \"earth\"?",
               "options": [
-                "Earth and Space",
-                "Something else",
-                "Not sure"
+                "a word related to earth and space",
+                "a word related to earth and space",
+                "a word related to earth and space"
               ],
-              "correctAnswer": "Earth and Space",
-              "hint": "Listen to the topic"
+              "correctAnswer": "a word related to earth and space",
+              "hint": "Listen to the first sentence"
             }
           ],
           "speaking": [
             {
-              "id": "sci-s12",
+              "id": "sci-s12a",
+              "type": "pronounce-word",
+              "instruction": "Say this word:",
+              "targetText": "earth",
+              "phonetic": ""
+            },
+            {
+              "id": "sci-s12b",
               "type": "pronounce-sentence",
               "instruction": "Read aloud:",
-              "targetText": "I am learning about earth and space.",
+              "targetText": "This word is used when talking about earth and space.",
               "hint": "Clear pronunciation"
             }
           ],
@@ -1373,25 +1545,33 @@
             {
               "id": "sci-r12",
               "type": "mcq",
-              "passage": "Earth and Space is an important topic in Science. We can learn many new English words about it.",
-              "question": "What subject is this?",
+              "passage": "Earth and Space is an important topic in Science. This word is used when talking about earth and space. This word is used when talking about earth and space. This word is used when talking about earth and space.",
+              "question": "What does \"and\" mean?",
               "options": [
-                "Science",
-                "Art",
-                "Music"
+                "a word related to earth and space",
+                "a word related to earth and space",
+                "a word related to earth and space"
               ],
-              "correctAnswer": "Science",
-              "explanation": "This is a Science topic"
+              "correctAnswer": "a word related to earth and space",
+              "explanation": "a word related to earth and space"
             }
           ],
           "writing": [
             {
-              "id": "sci-w12",
+              "id": "sci-w12a",
               "type": "spelling",
-              "instruction": "Spell the topic name:",
+              "instruction": "Spell this word:",
               "ttsText": "earth",
               "correctAnswer": "earth",
-              "hint": "First word of the topic"
+              "hint": "a word related to earth and space"
+            },
+            {
+              "id": "sci-w12b",
+              "type": "spelling",
+              "instruction": "Spell this word:",
+              "ttsText": "and",
+              "correctAnswer": "and",
+              "hint": "a word related to earth and space"
             }
           ]
         }
@@ -1413,51 +1593,51 @@
           "vocabulary": [
             {
               "id": "sci-v73",
-              "word": "(Rocks and Soil word 1)",
+              "word": "rocks",
               "phonetic": "",
-              "meaning": "Science vocabulary",
+              "meaning": "a word related to rocks and soil",
               "meaningZh": "",
-              "example": "Related to Rocks and Soil."
+              "example": "This word is used when talking about rocks and soil."
             },
             {
               "id": "sci-v74",
-              "word": "(Rocks and Soil word 2)",
+              "word": "and",
               "phonetic": "",
-              "meaning": "Science vocabulary",
+              "meaning": "a word related to rocks and soil",
               "meaningZh": "",
-              "example": "Related to Rocks and Soil."
+              "example": "This word is used when talking about rocks and soil."
             },
             {
               "id": "sci-v75",
-              "word": "(Rocks and Soil word 3)",
+              "word": "soil",
               "phonetic": "",
-              "meaning": "Science vocabulary",
+              "meaning": "a word related to rocks and soil",
               "meaningZh": "",
-              "example": "Related to Rocks and Soil."
+              "example": "This word is used when talking about rocks and soil."
             },
             {
               "id": "sci-v76",
-              "word": "(Rocks and Soil word 4)",
+              "word": "rocks4",
               "phonetic": "",
-              "meaning": "Science vocabulary",
+              "meaning": "a word related to rocks and soil",
               "meaningZh": "",
-              "example": "Related to Rocks and Soil."
+              "example": "This word is used when talking about rocks and soil."
             },
             {
               "id": "sci-v77",
-              "word": "(Rocks and Soil word 5)",
+              "word": "rocks5",
               "phonetic": "",
-              "meaning": "Science vocabulary",
+              "meaning": "a word related to rocks and soil",
               "meaningZh": "",
-              "example": "Related to Rocks and Soil."
+              "example": "This word is used when talking about rocks and soil."
             },
             {
               "id": "sci-v78",
-              "word": "(Rocks and Soil word 6)",
+              "word": "rocks6",
               "phonetic": "",
-              "meaning": "Science vocabulary",
+              "meaning": "a word related to rocks and soil",
               "meaningZh": "",
-              "example": "Related to Rocks and Soil."
+              "example": "This word is used when talking about rocks and soil."
             }
           ],
           "listening": [
@@ -1465,23 +1645,30 @@
               "id": "sci-l13a",
               "type": "mcq",
               "instruction": "Listen about Rocks and Soil.",
-              "ttsText": "This topic is about Rocks and Soil.",
-              "question": "What is the topic?",
+              "ttsText": "This word is used when talking about rocks and soil. This word is used when talking about rocks and soil.",
+              "question": "What is \"rocks\"?",
               "options": [
-                "Rocks and Soil",
-                "Something else",
-                "Not sure"
+                "a word related to rocks and soil",
+                "a word related to rocks and soil",
+                "a word related to rocks and soil"
               ],
-              "correctAnswer": "Rocks and Soil",
-              "hint": "Listen to the topic"
+              "correctAnswer": "a word related to rocks and soil",
+              "hint": "Listen to the first sentence"
             }
           ],
           "speaking": [
             {
-              "id": "sci-s13",
+              "id": "sci-s13a",
+              "type": "pronounce-word",
+              "instruction": "Say this word:",
+              "targetText": "rocks",
+              "phonetic": ""
+            },
+            {
+              "id": "sci-s13b",
               "type": "pronounce-sentence",
               "instruction": "Read aloud:",
-              "targetText": "I am learning about rocks and soil.",
+              "targetText": "This word is used when talking about rocks and soil.",
               "hint": "Clear pronunciation"
             }
           ],
@@ -1489,25 +1676,33 @@
             {
               "id": "sci-r13",
               "type": "mcq",
-              "passage": "Rocks and Soil is an important topic in Science. We can learn many new English words about it.",
-              "question": "What subject is this?",
+              "passage": "Rocks and Soil is an important topic in Science. This word is used when talking about rocks and soil. This word is used when talking about rocks and soil. This word is used when talking about rocks and soil.",
+              "question": "What does \"and\" mean?",
               "options": [
-                "Science",
-                "Art",
-                "Music"
+                "a word related to rocks and soil",
+                "a word related to rocks and soil",
+                "a word related to rocks and soil"
               ],
-              "correctAnswer": "Science",
-              "explanation": "This is a Science topic"
+              "correctAnswer": "a word related to rocks and soil",
+              "explanation": "a word related to rocks and soil"
             }
           ],
           "writing": [
             {
-              "id": "sci-w13",
+              "id": "sci-w13a",
               "type": "spelling",
-              "instruction": "Spell the topic name:",
+              "instruction": "Spell this word:",
               "ttsText": "rocks",
               "correctAnswer": "rocks",
-              "hint": "First word of the topic"
+              "hint": "a word related to rocks and soil"
+            },
+            {
+              "id": "sci-w13b",
+              "type": "spelling",
+              "instruction": "Spell this word:",
+              "ttsText": "and",
+              "correctAnswer": "and",
+              "hint": "a word related to rocks and soil"
             }
           ]
         }
@@ -1529,51 +1724,51 @@
           "vocabulary": [
             {
               "id": "sci-v79",
-              "word": "(Air and Weather word 1)",
+              "word": "air",
               "phonetic": "",
-              "meaning": "Science vocabulary",
+              "meaning": "a word related to air and weather",
               "meaningZh": "",
-              "example": "Related to Air and Weather."
+              "example": "This word is used when talking about air and weather."
             },
             {
               "id": "sci-v80",
-              "word": "(Air and Weather word 2)",
+              "word": "and",
               "phonetic": "",
-              "meaning": "Science vocabulary",
+              "meaning": "a word related to air and weather",
               "meaningZh": "",
-              "example": "Related to Air and Weather."
+              "example": "This word is used when talking about air and weather."
             },
             {
               "id": "sci-v81",
-              "word": "(Air and Weather word 3)",
+              "word": "weather",
               "phonetic": "",
-              "meaning": "Science vocabulary",
+              "meaning": "a word related to air and weather",
               "meaningZh": "",
-              "example": "Related to Air and Weather."
+              "example": "This word is used when talking about air and weather."
             },
             {
               "id": "sci-v82",
-              "word": "(Air and Weather word 4)",
+              "word": "air4",
               "phonetic": "",
-              "meaning": "Science vocabulary",
+              "meaning": "a word related to air and weather",
               "meaningZh": "",
-              "example": "Related to Air and Weather."
+              "example": "This word is used when talking about air and weather."
             },
             {
               "id": "sci-v83",
-              "word": "(Air and Weather word 5)",
+              "word": "air5",
               "phonetic": "",
-              "meaning": "Science vocabulary",
+              "meaning": "a word related to air and weather",
               "meaningZh": "",
-              "example": "Related to Air and Weather."
+              "example": "This word is used when talking about air and weather."
             },
             {
               "id": "sci-v84",
-              "word": "(Air and Weather word 6)",
+              "word": "air6",
               "phonetic": "",
-              "meaning": "Science vocabulary",
+              "meaning": "a word related to air and weather",
               "meaningZh": "",
-              "example": "Related to Air and Weather."
+              "example": "This word is used when talking about air and weather."
             }
           ],
           "listening": [
@@ -1581,23 +1776,30 @@
               "id": "sci-l14a",
               "type": "mcq",
               "instruction": "Listen about Air and Weather.",
-              "ttsText": "This topic is about Air and Weather.",
-              "question": "What is the topic?",
+              "ttsText": "This word is used when talking about air and weather. This word is used when talking about air and weather.",
+              "question": "What is \"air\"?",
               "options": [
-                "Air and Weather",
-                "Something else",
-                "Not sure"
+                "a word related to air and weather",
+                "a word related to air and weather",
+                "a word related to air and weather"
               ],
-              "correctAnswer": "Air and Weather",
-              "hint": "Listen to the topic"
+              "correctAnswer": "a word related to air and weather",
+              "hint": "Listen to the first sentence"
             }
           ],
           "speaking": [
             {
-              "id": "sci-s14",
+              "id": "sci-s14a",
+              "type": "pronounce-word",
+              "instruction": "Say this word:",
+              "targetText": "air",
+              "phonetic": ""
+            },
+            {
+              "id": "sci-s14b",
               "type": "pronounce-sentence",
               "instruction": "Read aloud:",
-              "targetText": "I am learning about air and weather.",
+              "targetText": "This word is used when talking about air and weather.",
               "hint": "Clear pronunciation"
             }
           ],
@@ -1605,25 +1807,33 @@
             {
               "id": "sci-r14",
               "type": "mcq",
-              "passage": "Air and Weather is an important topic in Science. We can learn many new English words about it.",
-              "question": "What subject is this?",
+              "passage": "Air and Weather is an important topic in Science. This word is used when talking about air and weather. This word is used when talking about air and weather. This word is used when talking about air and weather.",
+              "question": "What does \"and\" mean?",
               "options": [
-                "Science",
-                "Art",
-                "Music"
+                "a word related to air and weather",
+                "a word related to air and weather",
+                "a word related to air and weather"
               ],
-              "correctAnswer": "Science",
-              "explanation": "This is a Science topic"
+              "correctAnswer": "a word related to air and weather",
+              "explanation": "a word related to air and weather"
             }
           ],
           "writing": [
             {
-              "id": "sci-w14",
+              "id": "sci-w14a",
               "type": "spelling",
-              "instruction": "Spell the topic name:",
+              "instruction": "Spell this word:",
               "ttsText": "air",
               "correctAnswer": "air",
-              "hint": "First word of the topic"
+              "hint": "a word related to air and weather"
+            },
+            {
+              "id": "sci-w14b",
+              "type": "spelling",
+              "instruction": "Spell this word:",
+              "ttsText": "and",
+              "correctAnswer": "and",
+              "hint": "a word related to air and weather"
             }
           ]
         }
@@ -1645,51 +1855,51 @@
           "vocabulary": [
             {
               "id": "sci-v85",
-              "word": "(Simple Machines word 1)",
+              "word": "simple",
               "phonetic": "",
-              "meaning": "Science vocabulary",
+              "meaning": "a word related to simple machines",
               "meaningZh": "",
-              "example": "Related to Simple Machines."
+              "example": "This word is used when talking about simple machines."
             },
             {
               "id": "sci-v86",
-              "word": "(Simple Machines word 2)",
+              "word": "machines",
               "phonetic": "",
-              "meaning": "Science vocabulary",
+              "meaning": "a word related to simple machines",
               "meaningZh": "",
-              "example": "Related to Simple Machines."
+              "example": "This word is used when talking about simple machines."
             },
             {
               "id": "sci-v87",
-              "word": "(Simple Machines word 3)",
+              "word": "simple3",
               "phonetic": "",
-              "meaning": "Science vocabulary",
+              "meaning": "a word related to simple machines",
               "meaningZh": "",
-              "example": "Related to Simple Machines."
+              "example": "This word is used when talking about simple machines."
             },
             {
               "id": "sci-v88",
-              "word": "(Simple Machines word 4)",
+              "word": "simple4",
               "phonetic": "",
-              "meaning": "Science vocabulary",
+              "meaning": "a word related to simple machines",
               "meaningZh": "",
-              "example": "Related to Simple Machines."
+              "example": "This word is used when talking about simple machines."
             },
             {
               "id": "sci-v89",
-              "word": "(Simple Machines word 5)",
+              "word": "simple5",
               "phonetic": "",
-              "meaning": "Science vocabulary",
+              "meaning": "a word related to simple machines",
               "meaningZh": "",
-              "example": "Related to Simple Machines."
+              "example": "This word is used when talking about simple machines."
             },
             {
               "id": "sci-v90",
-              "word": "(Simple Machines word 6)",
+              "word": "simple6",
               "phonetic": "",
-              "meaning": "Science vocabulary",
+              "meaning": "a word related to simple machines",
               "meaningZh": "",
-              "example": "Related to Simple Machines."
+              "example": "This word is used when talking about simple machines."
             }
           ],
           "listening": [
@@ -1697,23 +1907,30 @@
               "id": "sci-l15a",
               "type": "mcq",
               "instruction": "Listen about Simple Machines.",
-              "ttsText": "This topic is about Simple Machines.",
-              "question": "What is the topic?",
+              "ttsText": "This word is used when talking about simple machines. This word is used when talking about simple machines.",
+              "question": "What is \"simple\"?",
               "options": [
-                "Simple Machines",
-                "Something else",
-                "Not sure"
+                "a word related to simple machines",
+                "a word related to simple machines",
+                "a word related to simple machines"
               ],
-              "correctAnswer": "Simple Machines",
-              "hint": "Listen to the topic"
+              "correctAnswer": "a word related to simple machines",
+              "hint": "Listen to the first sentence"
             }
           ],
           "speaking": [
             {
-              "id": "sci-s15",
+              "id": "sci-s15a",
+              "type": "pronounce-word",
+              "instruction": "Say this word:",
+              "targetText": "simple",
+              "phonetic": ""
+            },
+            {
+              "id": "sci-s15b",
               "type": "pronounce-sentence",
               "instruction": "Read aloud:",
-              "targetText": "I am learning about simple machines.",
+              "targetText": "This word is used when talking about simple machines.",
               "hint": "Clear pronunciation"
             }
           ],
@@ -1721,25 +1938,33 @@
             {
               "id": "sci-r15",
               "type": "mcq",
-              "passage": "Simple Machines is an important topic in Science. We can learn many new English words about it.",
-              "question": "What subject is this?",
+              "passage": "Simple Machines is an important topic in Science. This word is used when talking about simple machines. This word is used when talking about simple machines. This word is used when talking about simple machines.",
+              "question": "What does \"machines\" mean?",
               "options": [
-                "Science",
-                "Art",
-                "Music"
+                "a word related to simple machines",
+                "a word related to simple machines",
+                "a word related to simple machines"
               ],
-              "correctAnswer": "Science",
-              "explanation": "This is a Science topic"
+              "correctAnswer": "a word related to simple machines",
+              "explanation": "a word related to simple machines"
             }
           ],
           "writing": [
             {
-              "id": "sci-w15",
+              "id": "sci-w15a",
               "type": "spelling",
-              "instruction": "Spell the topic name:",
+              "instruction": "Spell this word:",
               "ttsText": "simple",
               "correctAnswer": "simple",
-              "hint": "First word of the topic"
+              "hint": "a word related to simple machines"
+            },
+            {
+              "id": "sci-w15b",
+              "type": "spelling",
+              "instruction": "Spell this word:",
+              "ttsText": "machines",
+              "correctAnswer": "machines",
+              "hint": "a word related to simple machines"
             }
           ]
         }
@@ -1761,51 +1986,51 @@
           "vocabulary": [
             {
               "id": "sci-v91",
-              "word": "(Energy word 1)",
+              "word": "energy",
               "phonetic": "",
-              "meaning": "Science vocabulary",
+              "meaning": "a word related to energy",
               "meaningZh": "",
-              "example": "Related to Energy."
+              "example": "This word is used when talking about energy."
             },
             {
               "id": "sci-v92",
-              "word": "(Energy word 2)",
+              "word": "energy2",
               "phonetic": "",
-              "meaning": "Science vocabulary",
+              "meaning": "a word related to energy",
               "meaningZh": "",
-              "example": "Related to Energy."
+              "example": "This word is used when talking about energy."
             },
             {
               "id": "sci-v93",
-              "word": "(Energy word 3)",
+              "word": "energy3",
               "phonetic": "",
-              "meaning": "Science vocabulary",
+              "meaning": "a word related to energy",
               "meaningZh": "",
-              "example": "Related to Energy."
+              "example": "This word is used when talking about energy."
             },
             {
               "id": "sci-v94",
-              "word": "(Energy word 4)",
+              "word": "energy4",
               "phonetic": "",
-              "meaning": "Science vocabulary",
+              "meaning": "a word related to energy",
               "meaningZh": "",
-              "example": "Related to Energy."
+              "example": "This word is used when talking about energy."
             },
             {
               "id": "sci-v95",
-              "word": "(Energy word 5)",
+              "word": "energy5",
               "phonetic": "",
-              "meaning": "Science vocabulary",
+              "meaning": "a word related to energy",
               "meaningZh": "",
-              "example": "Related to Energy."
+              "example": "This word is used when talking about energy."
             },
             {
               "id": "sci-v96",
-              "word": "(Energy word 6)",
+              "word": "energy6",
               "phonetic": "",
-              "meaning": "Science vocabulary",
+              "meaning": "a word related to energy",
               "meaningZh": "",
-              "example": "Related to Energy."
+              "example": "This word is used when talking about energy."
             }
           ],
           "listening": [
@@ -1813,23 +2038,30 @@
               "id": "sci-l16a",
               "type": "mcq",
               "instruction": "Listen about Energy.",
-              "ttsText": "This topic is about Energy.",
-              "question": "What is the topic?",
+              "ttsText": "This word is used when talking about energy. This word is used when talking about energy.",
+              "question": "What is \"energy\"?",
               "options": [
-                "Energy",
-                "Something else",
-                "Not sure"
+                "a word related to energy",
+                "a word related to energy",
+                "a word related to energy"
               ],
-              "correctAnswer": "Energy",
-              "hint": "Listen to the topic"
+              "correctAnswer": "a word related to energy",
+              "hint": "Listen to the first sentence"
             }
           ],
           "speaking": [
             {
-              "id": "sci-s16",
+              "id": "sci-s16a",
+              "type": "pronounce-word",
+              "instruction": "Say this word:",
+              "targetText": "energy",
+              "phonetic": ""
+            },
+            {
+              "id": "sci-s16b",
               "type": "pronounce-sentence",
               "instruction": "Read aloud:",
-              "targetText": "I am learning about energy.",
+              "targetText": "This word is used when talking about energy.",
               "hint": "Clear pronunciation"
             }
           ],
@@ -1837,25 +2069,33 @@
             {
               "id": "sci-r16",
               "type": "mcq",
-              "passage": "Energy is an important topic in Science. We can learn many new English words about it.",
-              "question": "What subject is this?",
+              "passage": "Energy is an important topic in Science. This word is used when talking about energy. This word is used when talking about energy. This word is used when talking about energy.",
+              "question": "What does \"energy2\" mean?",
               "options": [
-                "Science",
-                "Art",
-                "Music"
+                "a word related to energy",
+                "a word related to energy",
+                "a word related to energy"
               ],
-              "correctAnswer": "Science",
-              "explanation": "This is a Science topic"
+              "correctAnswer": "a word related to energy",
+              "explanation": "a word related to energy"
             }
           ],
           "writing": [
             {
-              "id": "sci-w16",
+              "id": "sci-w16a",
               "type": "spelling",
-              "instruction": "Spell the topic name:",
+              "instruction": "Spell this word:",
               "ttsText": "energy",
               "correctAnswer": "energy",
-              "hint": "First word of the topic"
+              "hint": "a word related to energy"
+            },
+            {
+              "id": "sci-w16b",
+              "type": "spelling",
+              "instruction": "Spell this word:",
+              "ttsText": "energy2",
+              "correctAnswer": "energy2",
+              "hint": "a word related to energy"
             }
           ]
         }
@@ -1877,51 +2117,51 @@
           "vocabulary": [
             {
               "id": "sci-v97",
-              "word": "(Senses word 1)",
+              "word": "senses",
               "phonetic": "",
-              "meaning": "Science vocabulary",
+              "meaning": "a word related to senses",
               "meaningZh": "",
-              "example": "Related to Senses."
+              "example": "This word is used when talking about senses."
             },
             {
               "id": "sci-v98",
-              "word": "(Senses word 2)",
+              "word": "senses2",
               "phonetic": "",
-              "meaning": "Science vocabulary",
+              "meaning": "a word related to senses",
               "meaningZh": "",
-              "example": "Related to Senses."
+              "example": "This word is used when talking about senses."
             },
             {
               "id": "sci-v99",
-              "word": "(Senses word 3)",
+              "word": "senses3",
               "phonetic": "",
-              "meaning": "Science vocabulary",
+              "meaning": "a word related to senses",
               "meaningZh": "",
-              "example": "Related to Senses."
+              "example": "This word is used when talking about senses."
             },
             {
               "id": "sci-v100",
-              "word": "(Senses word 4)",
+              "word": "senses4",
               "phonetic": "",
-              "meaning": "Science vocabulary",
+              "meaning": "a word related to senses",
               "meaningZh": "",
-              "example": "Related to Senses."
+              "example": "This word is used when talking about senses."
             },
             {
               "id": "sci-v101",
-              "word": "(Senses word 5)",
+              "word": "senses5",
               "phonetic": "",
-              "meaning": "Science vocabulary",
+              "meaning": "a word related to senses",
               "meaningZh": "",
-              "example": "Related to Senses."
+              "example": "This word is used when talking about senses."
             },
             {
               "id": "sci-v102",
-              "word": "(Senses word 6)",
+              "word": "senses6",
               "phonetic": "",
-              "meaning": "Science vocabulary",
+              "meaning": "a word related to senses",
               "meaningZh": "",
-              "example": "Related to Senses."
+              "example": "This word is used when talking about senses."
             }
           ],
           "listening": [
@@ -1929,23 +2169,30 @@
               "id": "sci-l17a",
               "type": "mcq",
               "instruction": "Listen about Senses.",
-              "ttsText": "This topic is about Senses.",
-              "question": "What is the topic?",
+              "ttsText": "This word is used when talking about senses. This word is used when talking about senses.",
+              "question": "What is \"senses\"?",
               "options": [
-                "Senses",
-                "Something else",
-                "Not sure"
+                "a word related to senses",
+                "a word related to senses",
+                "a word related to senses"
               ],
-              "correctAnswer": "Senses",
-              "hint": "Listen to the topic"
+              "correctAnswer": "a word related to senses",
+              "hint": "Listen to the first sentence"
             }
           ],
           "speaking": [
             {
-              "id": "sci-s17",
+              "id": "sci-s17a",
+              "type": "pronounce-word",
+              "instruction": "Say this word:",
+              "targetText": "senses",
+              "phonetic": ""
+            },
+            {
+              "id": "sci-s17b",
               "type": "pronounce-sentence",
               "instruction": "Read aloud:",
-              "targetText": "I am learning about senses.",
+              "targetText": "This word is used when talking about senses.",
               "hint": "Clear pronunciation"
             }
           ],
@@ -1953,25 +2200,33 @@
             {
               "id": "sci-r17",
               "type": "mcq",
-              "passage": "Senses is an important topic in Science. We can learn many new English words about it.",
-              "question": "What subject is this?",
+              "passage": "Senses is an important topic in Science. This word is used when talking about senses. This word is used when talking about senses. This word is used when talking about senses.",
+              "question": "What does \"senses2\" mean?",
               "options": [
-                "Science",
-                "Art",
-                "Music"
+                "a word related to senses",
+                "a word related to senses",
+                "a word related to senses"
               ],
-              "correctAnswer": "Science",
-              "explanation": "This is a Science topic"
+              "correctAnswer": "a word related to senses",
+              "explanation": "a word related to senses"
             }
           ],
           "writing": [
             {
-              "id": "sci-w17",
+              "id": "sci-w17a",
               "type": "spelling",
-              "instruction": "Spell the topic name:",
+              "instruction": "Spell this word:",
               "ttsText": "senses",
               "correctAnswer": "senses",
-              "hint": "First word of the topic"
+              "hint": "a word related to senses"
+            },
+            {
+              "id": "sci-w17b",
+              "type": "spelling",
+              "instruction": "Spell this word:",
+              "ttsText": "senses2",
+              "correctAnswer": "senses2",
+              "hint": "a word related to senses"
             }
           ]
         }
@@ -1993,51 +2248,51 @@
           "vocabulary": [
             {
               "id": "sci-v103",
-              "word": "(Life Cycles word 1)",
+              "word": "life",
               "phonetic": "",
-              "meaning": "Science vocabulary",
+              "meaning": "a word related to life cycles",
               "meaningZh": "",
-              "example": "Related to Life Cycles."
+              "example": "This word is used when talking about life cycles."
             },
             {
               "id": "sci-v104",
-              "word": "(Life Cycles word 2)",
+              "word": "cycles",
               "phonetic": "",
-              "meaning": "Science vocabulary",
+              "meaning": "a word related to life cycles",
               "meaningZh": "",
-              "example": "Related to Life Cycles."
+              "example": "This word is used when talking about life cycles."
             },
             {
               "id": "sci-v105",
-              "word": "(Life Cycles word 3)",
+              "word": "life3",
               "phonetic": "",
-              "meaning": "Science vocabulary",
+              "meaning": "a word related to life cycles",
               "meaningZh": "",
-              "example": "Related to Life Cycles."
+              "example": "This word is used when talking about life cycles."
             },
             {
               "id": "sci-v106",
-              "word": "(Life Cycles word 4)",
+              "word": "life4",
               "phonetic": "",
-              "meaning": "Science vocabulary",
+              "meaning": "a word related to life cycles",
               "meaningZh": "",
-              "example": "Related to Life Cycles."
+              "example": "This word is used when talking about life cycles."
             },
             {
               "id": "sci-v107",
-              "word": "(Life Cycles word 5)",
+              "word": "life5",
               "phonetic": "",
-              "meaning": "Science vocabulary",
+              "meaning": "a word related to life cycles",
               "meaningZh": "",
-              "example": "Related to Life Cycles."
+              "example": "This word is used when talking about life cycles."
             },
             {
               "id": "sci-v108",
-              "word": "(Life Cycles word 6)",
+              "word": "life6",
               "phonetic": "",
-              "meaning": "Science vocabulary",
+              "meaning": "a word related to life cycles",
               "meaningZh": "",
-              "example": "Related to Life Cycles."
+              "example": "This word is used when talking about life cycles."
             }
           ],
           "listening": [
@@ -2045,23 +2300,30 @@
               "id": "sci-l18a",
               "type": "mcq",
               "instruction": "Listen about Life Cycles.",
-              "ttsText": "This topic is about Life Cycles.",
-              "question": "What is the topic?",
+              "ttsText": "This word is used when talking about life cycles. This word is used when talking about life cycles.",
+              "question": "What is \"life\"?",
               "options": [
-                "Life Cycles",
-                "Something else",
-                "Not sure"
+                "a word related to life cycles",
+                "a word related to life cycles",
+                "a word related to life cycles"
               ],
-              "correctAnswer": "Life Cycles",
-              "hint": "Listen to the topic"
+              "correctAnswer": "a word related to life cycles",
+              "hint": "Listen to the first sentence"
             }
           ],
           "speaking": [
             {
-              "id": "sci-s18",
+              "id": "sci-s18a",
+              "type": "pronounce-word",
+              "instruction": "Say this word:",
+              "targetText": "life",
+              "phonetic": ""
+            },
+            {
+              "id": "sci-s18b",
               "type": "pronounce-sentence",
               "instruction": "Read aloud:",
-              "targetText": "I am learning about life cycles.",
+              "targetText": "This word is used when talking about life cycles.",
               "hint": "Clear pronunciation"
             }
           ],
@@ -2069,25 +2331,33 @@
             {
               "id": "sci-r18",
               "type": "mcq",
-              "passage": "Life Cycles is an important topic in Science. We can learn many new English words about it.",
-              "question": "What subject is this?",
+              "passage": "Life Cycles is an important topic in Science. This word is used when talking about life cycles. This word is used when talking about life cycles. This word is used when talking about life cycles.",
+              "question": "What does \"cycles\" mean?",
               "options": [
-                "Science",
-                "Art",
-                "Music"
+                "a word related to life cycles",
+                "a word related to life cycles",
+                "a word related to life cycles"
               ],
-              "correctAnswer": "Science",
-              "explanation": "This is a Science topic"
+              "correctAnswer": "a word related to life cycles",
+              "explanation": "a word related to life cycles"
             }
           ],
           "writing": [
             {
-              "id": "sci-w18",
+              "id": "sci-w18a",
               "type": "spelling",
-              "instruction": "Spell the topic name:",
+              "instruction": "Spell this word:",
               "ttsText": "life",
               "correctAnswer": "life",
-              "hint": "First word of the topic"
+              "hint": "a word related to life cycles"
+            },
+            {
+              "id": "sci-w18b",
+              "type": "spelling",
+              "instruction": "Spell this word:",
+              "ttsText": "cycles",
+              "correctAnswer": "cycles",
+              "hint": "a word related to life cycles"
             }
           ]
         }
@@ -2109,51 +2379,51 @@
           "vocabulary": [
             {
               "id": "sci-v109",
-              "word": "(Teeth and Digestion word 1)",
+              "word": "teeth",
               "phonetic": "",
-              "meaning": "Science vocabulary",
+              "meaning": "a word related to teeth and digestion",
               "meaningZh": "",
-              "example": "Related to Teeth and Digestion."
+              "example": "This word is used when talking about teeth and digestion."
             },
             {
               "id": "sci-v110",
-              "word": "(Teeth and Digestion word 2)",
+              "word": "and",
               "phonetic": "",
-              "meaning": "Science vocabulary",
+              "meaning": "a word related to teeth and digestion",
               "meaningZh": "",
-              "example": "Related to Teeth and Digestion."
+              "example": "This word is used when talking about teeth and digestion."
             },
             {
               "id": "sci-v111",
-              "word": "(Teeth and Digestion word 3)",
+              "word": "digestion",
               "phonetic": "",
-              "meaning": "Science vocabulary",
+              "meaning": "a word related to teeth and digestion",
               "meaningZh": "",
-              "example": "Related to Teeth and Digestion."
+              "example": "This word is used when talking about teeth and digestion."
             },
             {
               "id": "sci-v112",
-              "word": "(Teeth and Digestion word 4)",
+              "word": "teeth4",
               "phonetic": "",
-              "meaning": "Science vocabulary",
+              "meaning": "a word related to teeth and digestion",
               "meaningZh": "",
-              "example": "Related to Teeth and Digestion."
+              "example": "This word is used when talking about teeth and digestion."
             },
             {
               "id": "sci-v113",
-              "word": "(Teeth and Digestion word 5)",
+              "word": "teeth5",
               "phonetic": "",
-              "meaning": "Science vocabulary",
+              "meaning": "a word related to teeth and digestion",
               "meaningZh": "",
-              "example": "Related to Teeth and Digestion."
+              "example": "This word is used when talking about teeth and digestion."
             },
             {
               "id": "sci-v114",
-              "word": "(Teeth and Digestion word 6)",
+              "word": "teeth6",
               "phonetic": "",
-              "meaning": "Science vocabulary",
+              "meaning": "a word related to teeth and digestion",
               "meaningZh": "",
-              "example": "Related to Teeth and Digestion."
+              "example": "This word is used when talking about teeth and digestion."
             }
           ],
           "listening": [
@@ -2161,23 +2431,30 @@
               "id": "sci-l19a",
               "type": "mcq",
               "instruction": "Listen about Teeth and Digestion.",
-              "ttsText": "This topic is about Teeth and Digestion.",
-              "question": "What is the topic?",
+              "ttsText": "This word is used when talking about teeth and digestion. This word is used when talking about teeth and digestion.",
+              "question": "What is \"teeth\"?",
               "options": [
-                "Teeth and Digestion",
-                "Something else",
-                "Not sure"
+                "a word related to teeth and digestion",
+                "a word related to teeth and digestion",
+                "a word related to teeth and digestion"
               ],
-              "correctAnswer": "Teeth and Digestion",
-              "hint": "Listen to the topic"
+              "correctAnswer": "a word related to teeth and digestion",
+              "hint": "Listen to the first sentence"
             }
           ],
           "speaking": [
             {
-              "id": "sci-s19",
+              "id": "sci-s19a",
+              "type": "pronounce-word",
+              "instruction": "Say this word:",
+              "targetText": "teeth",
+              "phonetic": ""
+            },
+            {
+              "id": "sci-s19b",
               "type": "pronounce-sentence",
               "instruction": "Read aloud:",
-              "targetText": "I am learning about teeth and digestion.",
+              "targetText": "This word is used when talking about teeth and digestion.",
               "hint": "Clear pronunciation"
             }
           ],
@@ -2185,25 +2462,33 @@
             {
               "id": "sci-r19",
               "type": "mcq",
-              "passage": "Teeth and Digestion is an important topic in Science. We can learn many new English words about it.",
-              "question": "What subject is this?",
+              "passage": "Teeth and Digestion is an important topic in Science. This word is used when talking about teeth and digestion. This word is used when talking about teeth and digestion. This word is used when talking about teeth and digestion.",
+              "question": "What does \"and\" mean?",
               "options": [
-                "Science",
-                "Art",
-                "Music"
+                "a word related to teeth and digestion",
+                "a word related to teeth and digestion",
+                "a word related to teeth and digestion"
               ],
-              "correctAnswer": "Science",
-              "explanation": "This is a Science topic"
+              "correctAnswer": "a word related to teeth and digestion",
+              "explanation": "a word related to teeth and digestion"
             }
           ],
           "writing": [
             {
-              "id": "sci-w19",
+              "id": "sci-w19a",
               "type": "spelling",
-              "instruction": "Spell the topic name:",
+              "instruction": "Spell this word:",
               "ttsText": "teeth",
               "correctAnswer": "teeth",
-              "hint": "First word of the topic"
+              "hint": "a word related to teeth and digestion"
+            },
+            {
+              "id": "sci-w19b",
+              "type": "spelling",
+              "instruction": "Spell this word:",
+              "ttsText": "and",
+              "correctAnswer": "and",
+              "hint": "a word related to teeth and digestion"
             }
           ]
         }
@@ -2225,51 +2510,51 @@
           "vocabulary": [
             {
               "id": "sci-v115",
-              "word": "(Staying Healthy word 1)",
+              "word": "staying",
               "phonetic": "",
-              "meaning": "Science vocabulary",
+              "meaning": "a word related to staying healthy",
               "meaningZh": "",
-              "example": "Related to Staying Healthy."
+              "example": "This word is used when talking about staying healthy."
             },
             {
               "id": "sci-v116",
-              "word": "(Staying Healthy word 2)",
+              "word": "healthy",
               "phonetic": "",
-              "meaning": "Science vocabulary",
+              "meaning": "a word related to staying healthy",
               "meaningZh": "",
-              "example": "Related to Staying Healthy."
+              "example": "This word is used when talking about staying healthy."
             },
             {
               "id": "sci-v117",
-              "word": "(Staying Healthy word 3)",
+              "word": "staying3",
               "phonetic": "",
-              "meaning": "Science vocabulary",
+              "meaning": "a word related to staying healthy",
               "meaningZh": "",
-              "example": "Related to Staying Healthy."
+              "example": "This word is used when talking about staying healthy."
             },
             {
               "id": "sci-v118",
-              "word": "(Staying Healthy word 4)",
+              "word": "staying4",
               "phonetic": "",
-              "meaning": "Science vocabulary",
+              "meaning": "a word related to staying healthy",
               "meaningZh": "",
-              "example": "Related to Staying Healthy."
+              "example": "This word is used when talking about staying healthy."
             },
             {
               "id": "sci-v119",
-              "word": "(Staying Healthy word 5)",
+              "word": "staying5",
               "phonetic": "",
-              "meaning": "Science vocabulary",
+              "meaning": "a word related to staying healthy",
               "meaningZh": "",
-              "example": "Related to Staying Healthy."
+              "example": "This word is used when talking about staying healthy."
             },
             {
               "id": "sci-v120",
-              "word": "(Staying Healthy word 6)",
+              "word": "staying6",
               "phonetic": "",
-              "meaning": "Science vocabulary",
+              "meaning": "a word related to staying healthy",
               "meaningZh": "",
-              "example": "Related to Staying Healthy."
+              "example": "This word is used when talking about staying healthy."
             }
           ],
           "listening": [
@@ -2277,23 +2562,30 @@
               "id": "sci-l20a",
               "type": "mcq",
               "instruction": "Listen about Staying Healthy.",
-              "ttsText": "This topic is about Staying Healthy.",
-              "question": "What is the topic?",
+              "ttsText": "This word is used when talking about staying healthy. This word is used when talking about staying healthy.",
+              "question": "What is \"staying\"?",
               "options": [
-                "Staying Healthy",
-                "Something else",
-                "Not sure"
+                "a word related to staying healthy",
+                "a word related to staying healthy",
+                "a word related to staying healthy"
               ],
-              "correctAnswer": "Staying Healthy",
-              "hint": "Listen to the topic"
+              "correctAnswer": "a word related to staying healthy",
+              "hint": "Listen to the first sentence"
             }
           ],
           "speaking": [
             {
-              "id": "sci-s20",
+              "id": "sci-s20a",
+              "type": "pronounce-word",
+              "instruction": "Say this word:",
+              "targetText": "staying",
+              "phonetic": ""
+            },
+            {
+              "id": "sci-s20b",
               "type": "pronounce-sentence",
               "instruction": "Read aloud:",
-              "targetText": "I am learning about staying healthy.",
+              "targetText": "This word is used when talking about staying healthy.",
               "hint": "Clear pronunciation"
             }
           ],
@@ -2301,25 +2593,33 @@
             {
               "id": "sci-r20",
               "type": "mcq",
-              "passage": "Staying Healthy is an important topic in Science. We can learn many new English words about it.",
-              "question": "What subject is this?",
+              "passage": "Staying Healthy is an important topic in Science. This word is used when talking about staying healthy. This word is used when talking about staying healthy. This word is used when talking about staying healthy.",
+              "question": "What does \"healthy\" mean?",
               "options": [
-                "Science",
-                "Art",
-                "Music"
+                "a word related to staying healthy",
+                "a word related to staying healthy",
+                "a word related to staying healthy"
               ],
-              "correctAnswer": "Science",
-              "explanation": "This is a Science topic"
+              "correctAnswer": "a word related to staying healthy",
+              "explanation": "a word related to staying healthy"
             }
           ],
           "writing": [
             {
-              "id": "sci-w20",
+              "id": "sci-w20a",
               "type": "spelling",
-              "instruction": "Spell the topic name:",
+              "instruction": "Spell this word:",
               "ttsText": "staying",
               "correctAnswer": "staying",
-              "hint": "First word of the topic"
+              "hint": "a word related to staying healthy"
+            },
+            {
+              "id": "sci-w20b",
+              "type": "spelling",
+              "instruction": "Spell this word:",
+              "ttsText": "healthy",
+              "correctAnswer": "healthy",
+              "hint": "a word related to staying healthy"
             }
           ]
         }

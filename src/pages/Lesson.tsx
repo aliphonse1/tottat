@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react'
 import { useParams, useNavigate } from 'react-router-dom'
 import { motion } from 'framer-motion'
 import { useContentStore } from '@/stores/contentStore'
+import { useSpeechSynthesis } from '@/hooks/useSpeechSynthesis'
 import { PageHeader } from '@/components/layout/PageHeader'
 import { Card } from '@/components/shared/Card'
 import { staggerContainer, slideUp } from '@/theme'
@@ -20,6 +21,7 @@ export function Lesson() {
   const { packId, unitId } = useParams<{ packId: string; unitId: string }>()
   const navigate = useNavigate()
   const { currentPack, currentUnit, selectPack, selectUnit } = useContentStore()
+  const { speak } = useSpeechSynthesis()
   const [activeTab, setActiveTab] = useState<SkillTab>('vocabulary')
 
   useEffect(() => {
@@ -80,17 +82,17 @@ export function Lesson() {
       >
         {activeTab === 'vocabulary' && lesson.vocabulary.map((vocab) => (
           <motion.div key={vocab.id} variants={slideUp}>
-            <Card className="p-4">
+            <Card className="p-4 cursor-pointer active:bg-sky-50/50" onClick={() => speak(vocab.word)}>
               <div className="flex items-center justify-between">
-                <div>
+                <div className="flex-1 min-w-0">
                   <p className="font-semibold text-gray-800">{vocab.word}</p>
                   {vocab.phonetic && <p className="text-xs text-gray-400">{vocab.phonetic}</p>}
                   <p className="text-sm text-gray-600 mt-0.5">{vocab.meaning}</p>
-                  {vocab.meaningZh && <p className="text-xs text-gray-400">{vocab.meaningZh}</p>}
+                  {vocab.meaningZh && <p className="text-xs text-purple-400 mt-0.5">{vocab.meaningZh}</p>}
                 </div>
-                <button className="w-10 h-10 rounded-full bg-sky-50 flex items-center justify-center text-sky-500">
+                <div className="w-10 h-10 rounded-full bg-sky-50 flex items-center justify-center text-sky-500 flex-shrink-0 ml-3">
                   🔊
-                </button>
+                </div>
               </div>
               {vocab.example && (
                 <p className="text-xs text-gray-500 mt-2 italic">"{vocab.example}"</p>

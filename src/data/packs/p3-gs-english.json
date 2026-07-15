@@ -21,51 +21,51 @@
           "vocabulary": [
             {
               "id": "gs-v1",
-              "word": "(Our Community word 1)",
-              "phonetic": "",
-              "meaning": "General Studies vocabulary",
-              "meaningZh": "",
-              "example": "Related to Our Community."
+              "word": "community",
+              "phonetic": "/kəˈmjuːnəti/",
+              "meaning": "a group of people living in the same area",
+              "meaningZh": "社區",
+              "example": "Our community has a park."
             },
             {
               "id": "gs-v2",
-              "word": "(Our Community word 2)",
-              "phonetic": "",
-              "meaning": "General Studies vocabulary",
-              "meaningZh": "",
-              "example": "Related to Our Community."
+              "word": "neighbour",
+              "phonetic": "/ˈneɪbər/",
+              "meaning": "a person living near you",
+              "meaningZh": "鄰居",
+              "example": "My neighbour is friendly."
             },
             {
               "id": "gs-v3",
-              "word": "(Our Community word 3)",
-              "phonetic": "",
-              "meaning": "General Studies vocabulary",
-              "meaningZh": "",
-              "example": "Related to Our Community."
+              "word": "volunteer",
+              "phonetic": "/ˌvɒlənˈtɪr/",
+              "meaning": "a person who helps without pay",
+              "meaningZh": "義工",
+              "example": "She is a volunteer at the centre."
             },
             {
               "id": "gs-v4",
-              "word": "(Our Community word 4)",
-              "phonetic": "",
-              "meaning": "General Studies vocabulary",
-              "meaningZh": "",
-              "example": "Related to Our Community."
+              "word": "facility",
+              "phonetic": "/fəˈsɪlɪti/",
+              "meaning": "a building or place for a purpose",
+              "meaningZh": "設施",
+              "example": "The pool is a public facility."
             },
             {
               "id": "gs-v5",
-              "word": "(Our Community word 5)",
-              "phonetic": "",
-              "meaning": "General Studies vocabulary",
-              "meaningZh": "",
-              "example": "Related to Our Community."
+              "word": "service",
+              "phonetic": "/ˈsɜːrvɪs/",
+              "meaning": "work done to help others",
+              "meaningZh": "服務",
+              "example": "The fire service keeps us safe."
             },
             {
               "id": "gs-v6",
-              "word": "(Our Community word 6)",
-              "phonetic": "",
-              "meaning": "General Studies vocabulary",
-              "meaningZh": "",
-              "example": "Related to Our Community."
+              "word": "resident",
+              "phonetic": "/ˈrezɪdənt/",
+              "meaning": "a person who lives in a place",
+              "meaningZh": "居民",
+              "example": "Residents look after the estate."
             }
           ],
           "listening": [
@@ -73,23 +73,30 @@
               "id": "gs-l1a",
               "type": "mcq",
               "instruction": "Listen about Our Community.",
-              "ttsText": "This topic is about Our Community.",
-              "question": "What is the topic?",
+              "ttsText": "Our community has a park. My neighbour is friendly.",
+              "question": "What is \"community\"?",
               "options": [
-                "Our Community",
-                "Something else",
-                "Not sure"
+                "a group of people living in the same area",
+                "a person living near you",
+                "a person who helps without pay"
               ],
-              "correctAnswer": "Our Community",
-              "hint": "Listen to the topic"
+              "correctAnswer": "a group of people living in the same area",
+              "hint": "Listen to the first sentence"
             }
           ],
           "speaking": [
             {
-              "id": "gs-s1",
+              "id": "gs-s1a",
+              "type": "pronounce-word",
+              "instruction": "Say this word:",
+              "targetText": "community",
+              "phonetic": "/kəˈmjuːnəti/"
+            },
+            {
+              "id": "gs-s1b",
               "type": "pronounce-sentence",
               "instruction": "Read aloud:",
-              "targetText": "I am learning about our community.",
+              "targetText": "Our community has a park.",
               "hint": "Clear pronunciation"
             }
           ],
@@ -97,25 +104,33 @@
             {
               "id": "gs-r1",
               "type": "mcq",
-              "passage": "Our Community is an important topic in General Studies. We can learn many new English words about it.",
-              "question": "What subject is this?",
+              "passage": "Our Community is an important topic in General Studies. Our community has a park. My neighbour is friendly. She is a volunteer at the centre.",
+              "question": "What does \"neighbour\" mean?",
               "options": [
-                "General Studies",
-                "Art",
-                "Music"
+                "a person living near you",
+                "a group of people living in the same area",
+                "a person who helps without pay"
               ],
-              "correctAnswer": "General Studies",
-              "explanation": "This is a General Studies topic"
+              "correctAnswer": "a person living near you",
+              "explanation": "a person living near you"
             }
           ],
           "writing": [
             {
-              "id": "gs-w1",
+              "id": "gs-w1a",
               "type": "spelling",
-              "instruction": "Spell the topic name:",
-              "ttsText": "our",
-              "correctAnswer": "our",
-              "hint": "First word of the topic"
+              "instruction": "Spell this word:",
+              "ttsText": "community",
+              "correctAnswer": "community",
+              "hint": "社區"
+            },
+            {
+              "id": "gs-w1b",
+              "type": "spelling",
+              "instruction": "Spell this word:",
+              "ttsText": "neighbour",
+              "correctAnswer": "neighbour",
+              "hint": "鄰居"
             }
           ]
         }
@@ -137,51 +152,51 @@
           "vocabulary": [
             {
               "id": "gs-v7",
-              "word": "(Hong Kong Geography word 1)",
-              "phonetic": "",
-              "meaning": "General Studies vocabulary",
-              "meaningZh": "",
-              "example": "Related to Hong Kong Geography."
+              "word": "harbour",
+              "phonetic": "/ˈhɑːrbər/",
+              "meaning": "a sheltered area of water for ships",
+              "meaningZh": "海港",
+              "example": "Victoria Harbour is famous."
             },
             {
               "id": "gs-v8",
-              "word": "(Hong Kong Geography word 2)",
-              "phonetic": "",
-              "meaning": "General Studies vocabulary",
-              "meaningZh": "",
-              "example": "Related to Hong Kong Geography."
+              "word": "island",
+              "phonetic": "/ˈaɪlənd/",
+              "meaning": "land surrounded by water",
+              "meaningZh": "島嶼",
+              "example": "Hong Kong Island is busy."
             },
             {
               "id": "gs-v9",
-              "word": "(Hong Kong Geography word 3)",
-              "phonetic": "",
-              "meaning": "General Studies vocabulary",
-              "meaningZh": "",
-              "example": "Related to Hong Kong Geography."
+              "word": "peninsula",
+              "phonetic": "/pəˈnɪnsjulə/",
+              "meaning": "land surrounded by water on three sides",
+              "meaningZh": "半島",
+              "example": "Kowloon is a peninsula."
             },
             {
               "id": "gs-v10",
-              "word": "(Hong Kong Geography word 4)",
-              "phonetic": "",
-              "meaning": "General Studies vocabulary",
-              "meaningZh": "",
-              "example": "Related to Hong Kong Geography."
+              "word": "territory",
+              "phonetic": "/ˈterɪtɔːri/",
+              "meaning": "an area of land under one government",
+              "meaningZh": "領土",
+              "example": "The New Territories are large."
             },
             {
               "id": "gs-v11",
-              "word": "(Hong Kong Geography word 5)",
-              "phonetic": "",
-              "meaning": "General Studies vocabulary",
-              "meaningZh": "",
-              "example": "Related to Hong Kong Geography."
+              "word": "mountain",
+              "phonetic": "/ˈmaʊntən/",
+              "meaning": "very high land",
+              "meaningZh": "山",
+              "example": "Tai Mo Shan is the tallest mountain."
             },
             {
               "id": "gs-v12",
-              "word": "(Hong Kong Geography word 6)",
-              "phonetic": "",
-              "meaning": "General Studies vocabulary",
-              "meaningZh": "",
-              "example": "Related to Hong Kong Geography."
+              "word": "coast",
+              "phonetic": "/koʊst/",
+              "meaning": "land next to the sea",
+              "meaningZh": "海岸",
+              "example": "We walked along the coast."
             }
           ],
           "listening": [
@@ -189,23 +204,30 @@
               "id": "gs-l2a",
               "type": "mcq",
               "instruction": "Listen about Hong Kong Geography.",
-              "ttsText": "This topic is about Hong Kong Geography.",
-              "question": "What is the topic?",
+              "ttsText": "Victoria Harbour is famous. Hong Kong Island is busy.",
+              "question": "What is \"harbour\"?",
               "options": [
-                "Hong Kong Geography",
-                "Something else",
-                "Not sure"
+                "a sheltered area of water for ships",
+                "land surrounded by water",
+                "land surrounded by water on three sides"
               ],
-              "correctAnswer": "Hong Kong Geography",
-              "hint": "Listen to the topic"
+              "correctAnswer": "a sheltered area of water for ships",
+              "hint": "Listen to the first sentence"
             }
           ],
           "speaking": [
             {
-              "id": "gs-s2",
+              "id": "gs-s2a",
+              "type": "pronounce-word",
+              "instruction": "Say this word:",
+              "targetText": "harbour",
+              "phonetic": "/ˈhɑːrbər/"
+            },
+            {
+              "id": "gs-s2b",
               "type": "pronounce-sentence",
               "instruction": "Read aloud:",
-              "targetText": "I am learning about hong kong geography.",
+              "targetText": "Victoria Harbour is famous.",
               "hint": "Clear pronunciation"
             }
           ],
@@ -213,25 +235,33 @@
             {
               "id": "gs-r2",
               "type": "mcq",
-              "passage": "Hong Kong Geography is an important topic in General Studies. We can learn many new English words about it.",
-              "question": "What subject is this?",
+              "passage": "Hong Kong Geography is an important topic in General Studies. Victoria Harbour is famous. Hong Kong Island is busy. Kowloon is a peninsula.",
+              "question": "What does \"island\" mean?",
               "options": [
-                "General Studies",
-                "Art",
-                "Music"
+                "land surrounded by water",
+                "a sheltered area of water for ships",
+                "land surrounded by water on three sides"
               ],
-              "correctAnswer": "General Studies",
-              "explanation": "This is a General Studies topic"
+              "correctAnswer": "land surrounded by water",
+              "explanation": "land surrounded by water"
             }
           ],
           "writing": [
             {
-              "id": "gs-w2",
+              "id": "gs-w2a",
               "type": "spelling",
-              "instruction": "Spell the topic name:",
-              "ttsText": "hong",
-              "correctAnswer": "hong",
-              "hint": "First word of the topic"
+              "instruction": "Spell this word:",
+              "ttsText": "harbour",
+              "correctAnswer": "harbour",
+              "hint": "海港"
+            },
+            {
+              "id": "gs-w2b",
+              "type": "spelling",
+              "instruction": "Spell this word:",
+              "ttsText": "island",
+              "correctAnswer": "island",
+              "hint": "島嶼"
             }
           ]
         }
@@ -253,51 +283,51 @@
           "vocabulary": [
             {
               "id": "gs-v13",
-              "word": "(Healthy Habits and Safety word 1)",
-              "phonetic": "",
-              "meaning": "General Studies vocabulary",
-              "meaningZh": "",
-              "example": "Related to Healthy Habits and Safety."
+              "word": "habit",
+              "phonetic": "/ˈhæbɪt/",
+              "meaning": "something you do regularly",
+              "meaningZh": "習慣",
+              "example": "Brushing teeth is a good habit."
             },
             {
               "id": "gs-v14",
-              "word": "(Healthy Habits and Safety word 2)",
-              "phonetic": "",
-              "meaning": "General Studies vocabulary",
-              "meaningZh": "",
-              "example": "Related to Healthy Habits and Safety."
+              "word": "safety",
+              "phonetic": "/ˈseɪfti/",
+              "meaning": "being protected from danger",
+              "meaningZh": "安全",
+              "example": "Safety first when crossing roads."
             },
             {
               "id": "gs-v15",
-              "word": "(Healthy Habits and Safety word 3)",
-              "phonetic": "",
-              "meaning": "General Studies vocabulary",
-              "meaningZh": "",
-              "example": "Related to Healthy Habits and Safety."
+              "word": "helmet",
+              "phonetic": "/ˈhelmɪt/",
+              "meaning": "a hard hat that protects the head",
+              "meaningZh": "頭盔",
+              "example": "Wear a helmet when cycling."
             },
             {
               "id": "gs-v16",
-              "word": "(Healthy Habits and Safety word 4)",
-              "phonetic": "",
-              "meaning": "General Studies vocabulary",
-              "meaningZh": "",
-              "example": "Related to Healthy Habits and Safety."
+              "word": "emergency",
+              "phonetic": "/ɪˈmɜːrdʒənsi/",
+              "meaning": "a sudden dangerous situation",
+              "meaningZh": "緊急情況",
+              "example": "Call 999 in an emergency."
             },
             {
               "id": "gs-v17",
-              "word": "(Healthy Habits and Safety word 5)",
-              "phonetic": "",
-              "meaning": "General Studies vocabulary",
-              "meaningZh": "",
-              "example": "Related to Healthy Habits and Safety."
+              "word": "pedestrian",
+              "phonetic": "/pəˈdestriən/",
+              "meaning": "a person walking on foot",
+              "meaningZh": "行人",
+              "example": "The pedestrian crossed at the light."
             },
             {
               "id": "gs-v18",
-              "word": "(Healthy Habits and Safety word 6)",
-              "phonetic": "",
-              "meaning": "General Studies vocabulary",
-              "meaningZh": "",
-              "example": "Related to Healthy Habits and Safety."
+              "word": "prevention",
+              "phonetic": "/prɪˈvenʃən/",
+              "meaning": "stopping something bad from happening",
+              "meaningZh": "預防",
+              "example": "Prevention is better than cure."
             }
           ],
           "listening": [
@@ -305,23 +335,30 @@
               "id": "gs-l3a",
               "type": "mcq",
               "instruction": "Listen about Healthy Habits and Safety.",
-              "ttsText": "This topic is about Healthy Habits and Safety.",
-              "question": "What is the topic?",
+              "ttsText": "Brushing teeth is a good habit. Safety first when crossing roads.",
+              "question": "What is \"habit\"?",
               "options": [
-                "Healthy Habits and Safety",
-                "Something else",
-                "Not sure"
+                "something you do regularly",
+                "being protected from danger",
+                "a hard hat that protects the head"
               ],
-              "correctAnswer": "Healthy Habits and Safety",
-              "hint": "Listen to the topic"
+              "correctAnswer": "something you do regularly",
+              "hint": "Listen to the first sentence"
             }
           ],
           "speaking": [
             {
-              "id": "gs-s3",
+              "id": "gs-s3a",
+              "type": "pronounce-word",
+              "instruction": "Say this word:",
+              "targetText": "habit",
+              "phonetic": "/ˈhæbɪt/"
+            },
+            {
+              "id": "gs-s3b",
               "type": "pronounce-sentence",
               "instruction": "Read aloud:",
-              "targetText": "I am learning about healthy habits and safety.",
+              "targetText": "Brushing teeth is a good habit.",
               "hint": "Clear pronunciation"
             }
           ],
@@ -329,25 +366,33 @@
             {
               "id": "gs-r3",
               "type": "mcq",
-              "passage": "Healthy Habits and Safety is an important topic in General Studies. We can learn many new English words about it.",
-              "question": "What subject is this?",
+              "passage": "Healthy Habits and Safety is an important topic in General Studies. Brushing teeth is a good habit. Safety first when crossing roads. Wear a helmet when cycling.",
+              "question": "What does \"safety\" mean?",
               "options": [
-                "General Studies",
-                "Art",
-                "Music"
+                "being protected from danger",
+                "something you do regularly",
+                "a hard hat that protects the head"
               ],
-              "correctAnswer": "General Studies",
-              "explanation": "This is a General Studies topic"
+              "correctAnswer": "being protected from danger",
+              "explanation": "being protected from danger"
             }
           ],
           "writing": [
             {
-              "id": "gs-w3",
+              "id": "gs-w3a",
               "type": "spelling",
-              "instruction": "Spell the topic name:",
-              "ttsText": "healthy",
-              "correctAnswer": "healthy",
-              "hint": "First word of the topic"
+              "instruction": "Spell this word:",
+              "ttsText": "habit",
+              "correctAnswer": "habit",
+              "hint": "習慣"
+            },
+            {
+              "id": "gs-w3b",
+              "type": "spelling",
+              "instruction": "Spell this word:",
+              "ttsText": "safety",
+              "correctAnswer": "safety",
+              "hint": "安全"
             }
           ]
         }
@@ -369,51 +414,51 @@
           "vocabulary": [
             {
               "id": "gs-v19",
-              "word": "(Chinese Festivals word 1)",
-              "phonetic": "",
-              "meaning": "General Studies vocabulary",
-              "meaningZh": "",
-              "example": "Related to Chinese Festivals."
+              "word": "festival",
+              "phonetic": "/ˈfestɪvl/",
+              "meaning": "a special celebration day",
+              "meaningZh": "節日",
+              "example": "Chinese New Year is a big festival."
             },
             {
               "id": "gs-v20",
-              "word": "(Chinese Festivals word 2)",
-              "phonetic": "",
-              "meaning": "General Studies vocabulary",
-              "meaningZh": "",
-              "example": "Related to Chinese Festivals."
+              "word": "tradition",
+              "phonetic": "/trəˈdɪʃən/",
+              "meaning": "a custom passed down over time",
+              "meaningZh": "傳統",
+              "example": "Dragon boat racing is a tradition."
             },
             {
               "id": "gs-v21",
-              "word": "(Chinese Festivals word 3)",
-              "phonetic": "",
-              "meaning": "General Studies vocabulary",
-              "meaningZh": "",
-              "example": "Related to Chinese Festivals."
+              "word": "lantern",
+              "phonetic": "/ˈlæntərn/",
+              "meaning": "a light in a decorative case",
+              "meaningZh": "燈籠",
+              "example": "We carry lanterns at Mid-Autumn."
             },
             {
               "id": "gs-v22",
-              "word": "(Chinese Festivals word 4)",
-              "phonetic": "",
-              "meaning": "General Studies vocabulary",
-              "meaningZh": "",
-              "example": "Related to Chinese Festivals."
+              "word": "dumpling",
+              "phonetic": "/ˈdʌmplɪŋ/",
+              "meaning": "food wrapped in thin dough",
+              "meaningZh": "餃子",
+              "example": "We eat dumplings at New Year."
             },
             {
               "id": "gs-v23",
-              "word": "(Chinese Festivals word 5)",
-              "phonetic": "",
-              "meaning": "General Studies vocabulary",
-              "meaningZh": "",
-              "example": "Related to Chinese Festivals."
+              "word": "celebration",
+              "phonetic": "/ˌselɪˈbreɪʃən/",
+              "meaning": "a special event to mark an occasion",
+              "meaningZh": "慶祝",
+              "example": "The celebration was exciting."
             },
             {
               "id": "gs-v24",
-              "word": "(Chinese Festivals word 6)",
-              "phonetic": "",
-              "meaning": "General Studies vocabulary",
-              "meaningZh": "",
-              "example": "Related to Chinese Festivals."
+              "word": "ancestor",
+              "phonetic": "/ˈænsestər/",
+              "meaning": "a family member from long ago",
+              "meaningZh": "祖先",
+              "example": "We honour our ancestors."
             }
           ],
           "listening": [
@@ -421,23 +466,30 @@
               "id": "gs-l4a",
               "type": "mcq",
               "instruction": "Listen about Chinese Festivals.",
-              "ttsText": "This topic is about Chinese Festivals.",
-              "question": "What is the topic?",
+              "ttsText": "Chinese New Year is a big festival. Dragon boat racing is a tradition.",
+              "question": "What is \"festival\"?",
               "options": [
-                "Chinese Festivals",
-                "Something else",
-                "Not sure"
+                "a special celebration day",
+                "a custom passed down over time",
+                "a light in a decorative case"
               ],
-              "correctAnswer": "Chinese Festivals",
-              "hint": "Listen to the topic"
+              "correctAnswer": "a special celebration day",
+              "hint": "Listen to the first sentence"
             }
           ],
           "speaking": [
             {
-              "id": "gs-s4",
+              "id": "gs-s4a",
+              "type": "pronounce-word",
+              "instruction": "Say this word:",
+              "targetText": "festival",
+              "phonetic": "/ˈfestɪvl/"
+            },
+            {
+              "id": "gs-s4b",
               "type": "pronounce-sentence",
               "instruction": "Read aloud:",
-              "targetText": "I am learning about chinese festivals.",
+              "targetText": "Chinese New Year is a big festival.",
               "hint": "Clear pronunciation"
             }
           ],
@@ -445,25 +497,33 @@
             {
               "id": "gs-r4",
               "type": "mcq",
-              "passage": "Chinese Festivals is an important topic in General Studies. We can learn many new English words about it.",
-              "question": "What subject is this?",
+              "passage": "Chinese Festivals is an important topic in General Studies. Chinese New Year is a big festival. Dragon boat racing is a tradition. We carry lanterns at Mid-Autumn.",
+              "question": "What does \"tradition\" mean?",
               "options": [
-                "General Studies",
-                "Art",
-                "Music"
+                "a custom passed down over time",
+                "a special celebration day",
+                "a light in a decorative case"
               ],
-              "correctAnswer": "General Studies",
-              "explanation": "This is a General Studies topic"
+              "correctAnswer": "a custom passed down over time",
+              "explanation": "a custom passed down over time"
             }
           ],
           "writing": [
             {
-              "id": "gs-w4",
+              "id": "gs-w4a",
               "type": "spelling",
-              "instruction": "Spell the topic name:",
-              "ttsText": "chinese",
-              "correctAnswer": "chinese",
-              "hint": "First word of the topic"
+              "instruction": "Spell this word:",
+              "ttsText": "festival",
+              "correctAnswer": "festival",
+              "hint": "節日"
+            },
+            {
+              "id": "gs-w4b",
+              "type": "spelling",
+              "instruction": "Spell this word:",
+              "ttsText": "tradition",
+              "correctAnswer": "tradition",
+              "hint": "傳統"
             }
           ]
         }
@@ -485,51 +545,51 @@
           "vocabulary": [
             {
               "id": "gs-v25",
-              "word": "(Transport in Hong Kong word 1)",
-              "phonetic": "",
-              "meaning": "General Studies vocabulary",
-              "meaningZh": "",
-              "example": "Related to Transport in Hong Kong."
+              "word": "MTR",
+              "phonetic": "/ˌemtiːˈɑːr/",
+              "meaning": "the underground railway system in HK",
+              "meaningZh": "港鐵",
+              "example": "I take the MTR to school."
             },
             {
               "id": "gs-v26",
-              "word": "(Transport in Hong Kong word 2)",
-              "phonetic": "",
-              "meaning": "General Studies vocabulary",
-              "meaningZh": "",
-              "example": "Related to Transport in Hong Kong."
+              "word": "ferry",
+              "phonetic": "/ˈferi/",
+              "meaning": "a boat that carries people across water",
+              "meaningZh": "渡輪",
+              "example": "The Star Ferry crosses the harbour."
             },
             {
               "id": "gs-v27",
-              "word": "(Transport in Hong Kong word 3)",
-              "phonetic": "",
-              "meaning": "General Studies vocabulary",
-              "meaningZh": "",
-              "example": "Related to Transport in Hong Kong."
+              "word": "tram",
+              "phonetic": "/træm/",
+              "meaning": "an electric rail vehicle on streets",
+              "meaningZh": "電車",
+              "example": "The tram runs on Hong Kong Island."
             },
             {
               "id": "gs-v28",
-              "word": "(Transport in Hong Kong word 4)",
-              "phonetic": "",
-              "meaning": "General Studies vocabulary",
-              "meaningZh": "",
-              "example": "Related to Transport in Hong Kong."
+              "word": "minibus",
+              "phonetic": "/ˈmɪnibʌs/",
+              "meaning": "a small public bus",
+              "meaningZh": "小巴",
+              "example": "The red minibus is fast."
             },
             {
               "id": "gs-v29",
-              "word": "(Transport in Hong Kong word 5)",
-              "phonetic": "",
-              "meaning": "General Studies vocabulary",
-              "meaningZh": "",
-              "example": "Related to Transport in Hong Kong."
+              "word": "octopus card",
+              "phonetic": "/ˈɒktəpəs kɑːrd/",
+              "meaning": "a contactless payment card for transport",
+              "meaningZh": "八達通",
+              "example": "Tap your Octopus card here."
             },
             {
               "id": "gs-v30",
-              "word": "(Transport in Hong Kong word 6)",
-              "phonetic": "",
-              "meaning": "General Studies vocabulary",
-              "meaningZh": "",
-              "example": "Related to Transport in Hong Kong."
+              "word": "peak tram",
+              "phonetic": "/piːk træm/",
+              "meaning": "a funicular railway going up Victoria Peak",
+              "meaningZh": "山頂纜車",
+              "example": "The Peak Tram is a tourist attraction."
             }
           ],
           "listening": [
@@ -537,23 +597,30 @@
               "id": "gs-l5a",
               "type": "mcq",
               "instruction": "Listen about Transport in Hong Kong.",
-              "ttsText": "This topic is about Transport in Hong Kong.",
-              "question": "What is the topic?",
+              "ttsText": "I take the MTR to school. The Star Ferry crosses the harbour.",
+              "question": "What is \"MTR\"?",
               "options": [
-                "Transport in Hong Kong",
-                "Something else",
-                "Not sure"
+                "the underground railway system in HK",
+                "a boat that carries people across water",
+                "an electric rail vehicle on streets"
               ],
-              "correctAnswer": "Transport in Hong Kong",
-              "hint": "Listen to the topic"
+              "correctAnswer": "the underground railway system in HK",
+              "hint": "Listen to the first sentence"
             }
           ],
           "speaking": [
             {
-              "id": "gs-s5",
+              "id": "gs-s5a",
+              "type": "pronounce-word",
+              "instruction": "Say this word:",
+              "targetText": "MTR",
+              "phonetic": "/ˌemtiːˈɑːr/"
+            },
+            {
+              "id": "gs-s5b",
               "type": "pronounce-sentence",
               "instruction": "Read aloud:",
-              "targetText": "I am learning about transport in hong kong.",
+              "targetText": "I take the MTR to school.",
               "hint": "Clear pronunciation"
             }
           ],
@@ -561,25 +628,33 @@
             {
               "id": "gs-r5",
               "type": "mcq",
-              "passage": "Transport in Hong Kong is an important topic in General Studies. We can learn many new English words about it.",
-              "question": "What subject is this?",
+              "passage": "Transport in Hong Kong is an important topic in General Studies. I take the MTR to school. The Star Ferry crosses the harbour. The tram runs on Hong Kong Island.",
+              "question": "What does \"ferry\" mean?",
               "options": [
-                "General Studies",
-                "Art",
-                "Music"
+                "a boat that carries people across water",
+                "the underground railway system in HK",
+                "an electric rail vehicle on streets"
               ],
-              "correctAnswer": "General Studies",
-              "explanation": "This is a General Studies topic"
+              "correctAnswer": "a boat that carries people across water",
+              "explanation": "a boat that carries people across water"
             }
           ],
           "writing": [
             {
-              "id": "gs-w5",
+              "id": "gs-w5a",
               "type": "spelling",
-              "instruction": "Spell the topic name:",
-              "ttsText": "transport",
-              "correctAnswer": "transport",
-              "hint": "First word of the topic"
+              "instruction": "Spell this word:",
+              "ttsText": "MTR",
+              "correctAnswer": "MTR",
+              "hint": "港鐵"
+            },
+            {
+              "id": "gs-w5b",
+              "type": "spelling",
+              "instruction": "Spell this word:",
+              "ttsText": "ferry",
+              "correctAnswer": "ferry",
+              "hint": "渡輪"
             }
           ]
         }
@@ -601,51 +676,51 @@
           "vocabulary": [
             {
               "id": "gs-v31",
-              "word": "(Caring for Others word 1)",
+              "word": "caring",
               "phonetic": "",
-              "meaning": "General Studies vocabulary",
+              "meaning": "a word related to caring for others",
               "meaningZh": "",
-              "example": "Related to Caring for Others."
+              "example": "This word is used when talking about caring for others."
             },
             {
               "id": "gs-v32",
-              "word": "(Caring for Others word 2)",
+              "word": "for",
               "phonetic": "",
-              "meaning": "General Studies vocabulary",
+              "meaning": "a word related to caring for others",
               "meaningZh": "",
-              "example": "Related to Caring for Others."
+              "example": "This word is used when talking about caring for others."
             },
             {
               "id": "gs-v33",
-              "word": "(Caring for Others word 3)",
+              "word": "others",
               "phonetic": "",
-              "meaning": "General Studies vocabulary",
+              "meaning": "a word related to caring for others",
               "meaningZh": "",
-              "example": "Related to Caring for Others."
+              "example": "This word is used when talking about caring for others."
             },
             {
               "id": "gs-v34",
-              "word": "(Caring for Others word 4)",
+              "word": "caring4",
               "phonetic": "",
-              "meaning": "General Studies vocabulary",
+              "meaning": "a word related to caring for others",
               "meaningZh": "",
-              "example": "Related to Caring for Others."
+              "example": "This word is used when talking about caring for others."
             },
             {
               "id": "gs-v35",
-              "word": "(Caring for Others word 5)",
+              "word": "caring5",
               "phonetic": "",
-              "meaning": "General Studies vocabulary",
+              "meaning": "a word related to caring for others",
               "meaningZh": "",
-              "example": "Related to Caring for Others."
+              "example": "This word is used when talking about caring for others."
             },
             {
               "id": "gs-v36",
-              "word": "(Caring for Others word 6)",
+              "word": "caring6",
               "phonetic": "",
-              "meaning": "General Studies vocabulary",
+              "meaning": "a word related to caring for others",
               "meaningZh": "",
-              "example": "Related to Caring for Others."
+              "example": "This word is used when talking about caring for others."
             }
           ],
           "listening": [
@@ -653,23 +728,30 @@
               "id": "gs-l6a",
               "type": "mcq",
               "instruction": "Listen about Caring for Others.",
-              "ttsText": "This topic is about Caring for Others.",
-              "question": "What is the topic?",
+              "ttsText": "This word is used when talking about caring for others. This word is used when talking about caring for others.",
+              "question": "What is \"caring\"?",
               "options": [
-                "Caring for Others",
-                "Something else",
-                "Not sure"
+                "a word related to caring for others",
+                "a word related to caring for others",
+                "a word related to caring for others"
               ],
-              "correctAnswer": "Caring for Others",
-              "hint": "Listen to the topic"
+              "correctAnswer": "a word related to caring for others",
+              "hint": "Listen to the first sentence"
             }
           ],
           "speaking": [
             {
-              "id": "gs-s6",
+              "id": "gs-s6a",
+              "type": "pronounce-word",
+              "instruction": "Say this word:",
+              "targetText": "caring",
+              "phonetic": ""
+            },
+            {
+              "id": "gs-s6b",
               "type": "pronounce-sentence",
               "instruction": "Read aloud:",
-              "targetText": "I am learning about caring for others.",
+              "targetText": "This word is used when talking about caring for others.",
               "hint": "Clear pronunciation"
             }
           ],
@@ -677,25 +759,33 @@
             {
               "id": "gs-r6",
               "type": "mcq",
-              "passage": "Caring for Others is an important topic in General Studies. We can learn many new English words about it.",
-              "question": "What subject is this?",
+              "passage": "Caring for Others is an important topic in General Studies. This word is used when talking about caring for others. This word is used when talking about caring for others. This word is used when talking about caring for others.",
+              "question": "What does \"for\" mean?",
               "options": [
-                "General Studies",
-                "Art",
-                "Music"
+                "a word related to caring for others",
+                "a word related to caring for others",
+                "a word related to caring for others"
               ],
-              "correctAnswer": "General Studies",
-              "explanation": "This is a General Studies topic"
+              "correctAnswer": "a word related to caring for others",
+              "explanation": "a word related to caring for others"
             }
           ],
           "writing": [
             {
-              "id": "gs-w6",
+              "id": "gs-w6a",
               "type": "spelling",
-              "instruction": "Spell the topic name:",
+              "instruction": "Spell this word:",
               "ttsText": "caring",
               "correctAnswer": "caring",
-              "hint": "First word of the topic"
+              "hint": "a word related to caring for others"
+            },
+            {
+              "id": "gs-w6b",
+              "type": "spelling",
+              "instruction": "Spell this word:",
+              "ttsText": "for",
+              "correctAnswer": "for",
+              "hint": "a word related to caring for others"
             }
           ]
         }
@@ -717,51 +807,51 @@
           "vocabulary": [
             {
               "id": "gs-v37",
-              "word": "(Rules and Laws word 1)",
+              "word": "rules",
               "phonetic": "",
-              "meaning": "General Studies vocabulary",
+              "meaning": "a word related to rules and laws",
               "meaningZh": "",
-              "example": "Related to Rules and Laws."
+              "example": "This word is used when talking about rules and laws."
             },
             {
               "id": "gs-v38",
-              "word": "(Rules and Laws word 2)",
+              "word": "and",
               "phonetic": "",
-              "meaning": "General Studies vocabulary",
+              "meaning": "a word related to rules and laws",
               "meaningZh": "",
-              "example": "Related to Rules and Laws."
+              "example": "This word is used when talking about rules and laws."
             },
             {
               "id": "gs-v39",
-              "word": "(Rules and Laws word 3)",
+              "word": "laws",
               "phonetic": "",
-              "meaning": "General Studies vocabulary",
+              "meaning": "a word related to rules and laws",
               "meaningZh": "",
-              "example": "Related to Rules and Laws."
+              "example": "This word is used when talking about rules and laws."
             },
             {
               "id": "gs-v40",
-              "word": "(Rules and Laws word 4)",
+              "word": "rules4",
               "phonetic": "",
-              "meaning": "General Studies vocabulary",
+              "meaning": "a word related to rules and laws",
               "meaningZh": "",
-              "example": "Related to Rules and Laws."
+              "example": "This word is used when talking about rules and laws."
             },
             {
               "id": "gs-v41",
-              "word": "(Rules and Laws word 5)",
+              "word": "rules5",
               "phonetic": "",
-              "meaning": "General Studies vocabulary",
+              "meaning": "a word related to rules and laws",
               "meaningZh": "",
-              "example": "Related to Rules and Laws."
+              "example": "This word is used when talking about rules and laws."
             },
             {
               "id": "gs-v42",
-              "word": "(Rules and Laws word 6)",
+              "word": "rules6",
               "phonetic": "",
-              "meaning": "General Studies vocabulary",
+              "meaning": "a word related to rules and laws",
               "meaningZh": "",
-              "example": "Related to Rules and Laws."
+              "example": "This word is used when talking about rules and laws."
             }
           ],
           "listening": [
@@ -769,23 +859,30 @@
               "id": "gs-l7a",
               "type": "mcq",
               "instruction": "Listen about Rules and Laws.",
-              "ttsText": "This topic is about Rules and Laws.",
-              "question": "What is the topic?",
+              "ttsText": "This word is used when talking about rules and laws. This word is used when talking about rules and laws.",
+              "question": "What is \"rules\"?",
               "options": [
-                "Rules and Laws",
-                "Something else",
-                "Not sure"
+                "a word related to rules and laws",
+                "a word related to rules and laws",
+                "a word related to rules and laws"
               ],
-              "correctAnswer": "Rules and Laws",
-              "hint": "Listen to the topic"
+              "correctAnswer": "a word related to rules and laws",
+              "hint": "Listen to the first sentence"
             }
           ],
           "speaking": [
             {
-              "id": "gs-s7",
+              "id": "gs-s7a",
+              "type": "pronounce-word",
+              "instruction": "Say this word:",
+              "targetText": "rules",
+              "phonetic": ""
+            },
+            {
+              "id": "gs-s7b",
               "type": "pronounce-sentence",
               "instruction": "Read aloud:",
-              "targetText": "I am learning about rules and laws.",
+              "targetText": "This word is used when talking about rules and laws.",
               "hint": "Clear pronunciation"
             }
           ],
@@ -793,25 +890,33 @@
             {
               "id": "gs-r7",
               "type": "mcq",
-              "passage": "Rules and Laws is an important topic in General Studies. We can learn many new English words about it.",
-              "question": "What subject is this?",
+              "passage": "Rules and Laws is an important topic in General Studies. This word is used when talking about rules and laws. This word is used when talking about rules and laws. This word is used when talking about rules and laws.",
+              "question": "What does \"and\" mean?",
               "options": [
-                "General Studies",
-                "Art",
-                "Music"
+                "a word related to rules and laws",
+                "a word related to rules and laws",
+                "a word related to rules and laws"
               ],
-              "correctAnswer": "General Studies",
-              "explanation": "This is a General Studies topic"
+              "correctAnswer": "a word related to rules and laws",
+              "explanation": "a word related to rules and laws"
             }
           ],
           "writing": [
             {
-              "id": "gs-w7",
+              "id": "gs-w7a",
               "type": "spelling",
-              "instruction": "Spell the topic name:",
+              "instruction": "Spell this word:",
               "ttsText": "rules",
               "correctAnswer": "rules",
-              "hint": "First word of the topic"
+              "hint": "a word related to rules and laws"
+            },
+            {
+              "id": "gs-w7b",
+              "type": "spelling",
+              "instruction": "Spell this word:",
+              "ttsText": "and",
+              "correctAnswer": "and",
+              "hint": "a word related to rules and laws"
             }
           ]
         }
@@ -833,51 +938,51 @@
           "vocabulary": [
             {
               "id": "gs-v43",
-              "word": "(Our Government word 1)",
+              "word": "our",
               "phonetic": "",
-              "meaning": "General Studies vocabulary",
+              "meaning": "a word related to our government",
               "meaningZh": "",
-              "example": "Related to Our Government."
+              "example": "This word is used when talking about our government."
             },
             {
               "id": "gs-v44",
-              "word": "(Our Government word 2)",
+              "word": "government",
               "phonetic": "",
-              "meaning": "General Studies vocabulary",
+              "meaning": "a word related to our government",
               "meaningZh": "",
-              "example": "Related to Our Government."
+              "example": "This word is used when talking about our government."
             },
             {
               "id": "gs-v45",
-              "word": "(Our Government word 3)",
+              "word": "our3",
               "phonetic": "",
-              "meaning": "General Studies vocabulary",
+              "meaning": "a word related to our government",
               "meaningZh": "",
-              "example": "Related to Our Government."
+              "example": "This word is used when talking about our government."
             },
             {
               "id": "gs-v46",
-              "word": "(Our Government word 4)",
+              "word": "our4",
               "phonetic": "",
-              "meaning": "General Studies vocabulary",
+              "meaning": "a word related to our government",
               "meaningZh": "",
-              "example": "Related to Our Government."
+              "example": "This word is used when talking about our government."
             },
             {
               "id": "gs-v47",
-              "word": "(Our Government word 5)",
+              "word": "our5",
               "phonetic": "",
-              "meaning": "General Studies vocabulary",
+              "meaning": "a word related to our government",
               "meaningZh": "",
-              "example": "Related to Our Government."
+              "example": "This word is used when talking about our government."
             },
             {
               "id": "gs-v48",
-              "word": "(Our Government word 6)",
+              "word": "our6",
               "phonetic": "",
-              "meaning": "General Studies vocabulary",
+              "meaning": "a word related to our government",
               "meaningZh": "",
-              "example": "Related to Our Government."
+              "example": "This word is used when talking about our government."
             }
           ],
           "listening": [
@@ -885,23 +990,30 @@
               "id": "gs-l8a",
               "type": "mcq",
               "instruction": "Listen about Our Government.",
-              "ttsText": "This topic is about Our Government.",
-              "question": "What is the topic?",
+              "ttsText": "This word is used when talking about our government. This word is used when talking about our government.",
+              "question": "What is \"our\"?",
               "options": [
-                "Our Government",
-                "Something else",
-                "Not sure"
+                "a word related to our government",
+                "a word related to our government",
+                "a word related to our government"
               ],
-              "correctAnswer": "Our Government",
-              "hint": "Listen to the topic"
+              "correctAnswer": "a word related to our government",
+              "hint": "Listen to the first sentence"
             }
           ],
           "speaking": [
             {
-              "id": "gs-s8",
+              "id": "gs-s8a",
+              "type": "pronounce-word",
+              "instruction": "Say this word:",
+              "targetText": "our",
+              "phonetic": ""
+            },
+            {
+              "id": "gs-s8b",
               "type": "pronounce-sentence",
               "instruction": "Read aloud:",
-              "targetText": "I am learning about our government.",
+              "targetText": "This word is used when talking about our government.",
               "hint": "Clear pronunciation"
             }
           ],
@@ -909,25 +1021,33 @@
             {
               "id": "gs-r8",
               "type": "mcq",
-              "passage": "Our Government is an important topic in General Studies. We can learn many new English words about it.",
-              "question": "What subject is this?",
+              "passage": "Our Government is an important topic in General Studies. This word is used when talking about our government. This word is used when talking about our government. This word is used when talking about our government.",
+              "question": "What does \"government\" mean?",
               "options": [
-                "General Studies",
-                "Art",
-                "Music"
+                "a word related to our government",
+                "a word related to our government",
+                "a word related to our government"
               ],
-              "correctAnswer": "General Studies",
-              "explanation": "This is a General Studies topic"
+              "correctAnswer": "a word related to our government",
+              "explanation": "a word related to our government"
             }
           ],
           "writing": [
             {
-              "id": "gs-w8",
+              "id": "gs-w8a",
               "type": "spelling",
-              "instruction": "Spell the topic name:",
+              "instruction": "Spell this word:",
               "ttsText": "our",
               "correctAnswer": "our",
-              "hint": "First word of the topic"
+              "hint": "a word related to our government"
+            },
+            {
+              "id": "gs-w8b",
+              "type": "spelling",
+              "instruction": "Spell this word:",
+              "ttsText": "government",
+              "correctAnswer": "government",
+              "hint": "a word related to our government"
             }
           ]
         }
@@ -949,51 +1069,51 @@
           "vocabulary": [
             {
               "id": "gs-v49",
-              "word": "(Global Connections word 1)",
+              "word": "global",
               "phonetic": "",
-              "meaning": "General Studies vocabulary",
+              "meaning": "a word related to global connections",
               "meaningZh": "",
-              "example": "Related to Global Connections."
+              "example": "This word is used when talking about global connections."
             },
             {
               "id": "gs-v50",
-              "word": "(Global Connections word 2)",
+              "word": "connections",
               "phonetic": "",
-              "meaning": "General Studies vocabulary",
+              "meaning": "a word related to global connections",
               "meaningZh": "",
-              "example": "Related to Global Connections."
+              "example": "This word is used when talking about global connections."
             },
             {
               "id": "gs-v51",
-              "word": "(Global Connections word 3)",
+              "word": "global3",
               "phonetic": "",
-              "meaning": "General Studies vocabulary",
+              "meaning": "a word related to global connections",
               "meaningZh": "",
-              "example": "Related to Global Connections."
+              "example": "This word is used when talking about global connections."
             },
             {
               "id": "gs-v52",
-              "word": "(Global Connections word 4)",
+              "word": "global4",
               "phonetic": "",
-              "meaning": "General Studies vocabulary",
+              "meaning": "a word related to global connections",
               "meaningZh": "",
-              "example": "Related to Global Connections."
+              "example": "This word is used when talking about global connections."
             },
             {
               "id": "gs-v53",
-              "word": "(Global Connections word 5)",
+              "word": "global5",
               "phonetic": "",
-              "meaning": "General Studies vocabulary",
+              "meaning": "a word related to global connections",
               "meaningZh": "",
-              "example": "Related to Global Connections."
+              "example": "This word is used when talking about global connections."
             },
             {
               "id": "gs-v54",
-              "word": "(Global Connections word 6)",
+              "word": "global6",
               "phonetic": "",
-              "meaning": "General Studies vocabulary",
+              "meaning": "a word related to global connections",
               "meaningZh": "",
-              "example": "Related to Global Connections."
+              "example": "This word is used when talking about global connections."
             }
           ],
           "listening": [
@@ -1001,23 +1121,30 @@
               "id": "gs-l9a",
               "type": "mcq",
               "instruction": "Listen about Global Connections.",
-              "ttsText": "This topic is about Global Connections.",
-              "question": "What is the topic?",
+              "ttsText": "This word is used when talking about global connections. This word is used when talking about global connections.",
+              "question": "What is \"global\"?",
               "options": [
-                "Global Connections",
-                "Something else",
-                "Not sure"
+                "a word related to global connections",
+                "a word related to global connections",
+                "a word related to global connections"
               ],
-              "correctAnswer": "Global Connections",
-              "hint": "Listen to the topic"
+              "correctAnswer": "a word related to global connections",
+              "hint": "Listen to the first sentence"
             }
           ],
           "speaking": [
             {
-              "id": "gs-s9",
+              "id": "gs-s9a",
+              "type": "pronounce-word",
+              "instruction": "Say this word:",
+              "targetText": "global",
+              "phonetic": ""
+            },
+            {
+              "id": "gs-s9b",
               "type": "pronounce-sentence",
               "instruction": "Read aloud:",
-              "targetText": "I am learning about global connections.",
+              "targetText": "This word is used when talking about global connections.",
               "hint": "Clear pronunciation"
             }
           ],
@@ -1025,25 +1152,33 @@
             {
               "id": "gs-r9",
               "type": "mcq",
-              "passage": "Global Connections is an important topic in General Studies. We can learn many new English words about it.",
-              "question": "What subject is this?",
+              "passage": "Global Connections is an important topic in General Studies. This word is used when talking about global connections. This word is used when talking about global connections. This word is used when talking about global connections.",
+              "question": "What does \"connections\" mean?",
               "options": [
-                "General Studies",
-                "Art",
-                "Music"
+                "a word related to global connections",
+                "a word related to global connections",
+                "a word related to global connections"
               ],
-              "correctAnswer": "General Studies",
-              "explanation": "This is a General Studies topic"
+              "correctAnswer": "a word related to global connections",
+              "explanation": "a word related to global connections"
             }
           ],
           "writing": [
             {
-              "id": "gs-w9",
+              "id": "gs-w9a",
               "type": "spelling",
-              "instruction": "Spell the topic name:",
+              "instruction": "Spell this word:",
               "ttsText": "global",
               "correctAnswer": "global",
-              "hint": "First word of the topic"
+              "hint": "a word related to global connections"
+            },
+            {
+              "id": "gs-w9b",
+              "type": "spelling",
+              "instruction": "Spell this word:",
+              "ttsText": "connections",
+              "correctAnswer": "connections",
+              "hint": "a word related to global connections"
             }
           ]
         }
@@ -1065,51 +1200,51 @@
           "vocabulary": [
             {
               "id": "gs-v55",
-              "word": "(Protecting the Environment word 1)",
+              "word": "protecting",
               "phonetic": "",
-              "meaning": "General Studies vocabulary",
+              "meaning": "a word related to protecting the environment",
               "meaningZh": "",
-              "example": "Related to Protecting the Environment."
+              "example": "This word is used when talking about protecting the environment."
             },
             {
               "id": "gs-v56",
-              "word": "(Protecting the Environment word 2)",
+              "word": "the",
               "phonetic": "",
-              "meaning": "General Studies vocabulary",
+              "meaning": "a word related to protecting the environment",
               "meaningZh": "",
-              "example": "Related to Protecting the Environment."
+              "example": "This word is used when talking about protecting the environment."
             },
             {
               "id": "gs-v57",
-              "word": "(Protecting the Environment word 3)",
+              "word": "environment",
               "phonetic": "",
-              "meaning": "General Studies vocabulary",
+              "meaning": "a word related to protecting the environment",
               "meaningZh": "",
-              "example": "Related to Protecting the Environment."
+              "example": "This word is used when talking about protecting the environment."
             },
             {
               "id": "gs-v58",
-              "word": "(Protecting the Environment word 4)",
+              "word": "protecting4",
               "phonetic": "",
-              "meaning": "General Studies vocabulary",
+              "meaning": "a word related to protecting the environment",
               "meaningZh": "",
-              "example": "Related to Protecting the Environment."
+              "example": "This word is used when talking about protecting the environment."
             },
             {
               "id": "gs-v59",
-              "word": "(Protecting the Environment word 5)",
+              "word": "protecting5",
               "phonetic": "",
-              "meaning": "General Studies vocabulary",
+              "meaning": "a word related to protecting the environment",
               "meaningZh": "",
-              "example": "Related to Protecting the Environment."
+              "example": "This word is used when talking about protecting the environment."
             },
             {
               "id": "gs-v60",
-              "word": "(Protecting the Environment word 6)",
+              "word": "protecting6",
               "phonetic": "",
-              "meaning": "General Studies vocabulary",
+              "meaning": "a word related to protecting the environment",
               "meaningZh": "",
-              "example": "Related to Protecting the Environment."
+              "example": "This word is used when talking about protecting the environment."
             }
           ],
           "listening": [
@@ -1117,23 +1252,30 @@
               "id": "gs-l10a",
               "type": "mcq",
               "instruction": "Listen about Protecting the Environment.",
-              "ttsText": "This topic is about Protecting the Environment.",
-              "question": "What is the topic?",
+              "ttsText": "This word is used when talking about protecting the environment. This word is used when talking about protecting the environment.",
+              "question": "What is \"protecting\"?",
               "options": [
-                "Protecting the Environment",
-                "Something else",
-                "Not sure"
+                "a word related to protecting the environment",
+                "a word related to protecting the environment",
+                "a word related to protecting the environment"
               ],
-              "correctAnswer": "Protecting the Environment",
-              "hint": "Listen to the topic"
+              "correctAnswer": "a word related to protecting the environment",
+              "hint": "Listen to the first sentence"
             }
           ],
           "speaking": [
             {
-              "id": "gs-s10",
+              "id": "gs-s10a",
+              "type": "pronounce-word",
+              "instruction": "Say this word:",
+              "targetText": "protecting",
+              "phonetic": ""
+            },
+            {
+              "id": "gs-s10b",
               "type": "pronounce-sentence",
               "instruction": "Read aloud:",
-              "targetText": "I am learning about protecting the environment.",
+              "targetText": "This word is used when talking about protecting the environment.",
               "hint": "Clear pronunciation"
             }
           ],
@@ -1141,25 +1283,33 @@
             {
               "id": "gs-r10",
               "type": "mcq",
-              "passage": "Protecting the Environment is an important topic in General Studies. We can learn many new English words about it.",
-              "question": "What subject is this?",
+              "passage": "Protecting the Environment is an important topic in General Studies. This word is used when talking about protecting the environment. This word is used when talking about protecting the environment. This word is used when talking about protecting the environment.",
+              "question": "What does \"the\" mean?",
               "options": [
-                "General Studies",
-                "Art",
-                "Music"
+                "a word related to protecting the environment",
+                "a word related to protecting the environment",
+                "a word related to protecting the environment"
               ],
-              "correctAnswer": "General Studies",
-              "explanation": "This is a General Studies topic"
+              "correctAnswer": "a word related to protecting the environment",
+              "explanation": "a word related to protecting the environment"
             }
           ],
           "writing": [
             {
-              "id": "gs-w10",
+              "id": "gs-w10a",
               "type": "spelling",
-              "instruction": "Spell the topic name:",
+              "instruction": "Spell this word:",
               "ttsText": "protecting",
               "correctAnswer": "protecting",
-              "hint": "First word of the topic"
+              "hint": "a word related to protecting the environment"
+            },
+            {
+              "id": "gs-w10b",
+              "type": "spelling",
+              "instruction": "Spell this word:",
+              "ttsText": "the",
+              "correctAnswer": "the",
+              "hint": "a word related to protecting the environment"
             }
           ]
         }
@@ -1181,51 +1331,51 @@
           "vocabulary": [
             {
               "id": "gs-v61",
-              "word": "(Water and Resources word 1)",
+              "word": "water",
               "phonetic": "",
-              "meaning": "General Studies vocabulary",
+              "meaning": "a word related to water and resources",
               "meaningZh": "",
-              "example": "Related to Water and Resources."
+              "example": "This word is used when talking about water and resources."
             },
             {
               "id": "gs-v62",
-              "word": "(Water and Resources word 2)",
+              "word": "and",
               "phonetic": "",
-              "meaning": "General Studies vocabulary",
+              "meaning": "a word related to water and resources",
               "meaningZh": "",
-              "example": "Related to Water and Resources."
+              "example": "This word is used when talking about water and resources."
             },
             {
               "id": "gs-v63",
-              "word": "(Water and Resources word 3)",
+              "word": "resources",
               "phonetic": "",
-              "meaning": "General Studies vocabulary",
+              "meaning": "a word related to water and resources",
               "meaningZh": "",
-              "example": "Related to Water and Resources."
+              "example": "This word is used when talking about water and resources."
             },
             {
               "id": "gs-v64",
-              "word": "(Water and Resources word 4)",
+              "word": "water4",
               "phonetic": "",
-              "meaning": "General Studies vocabulary",
+              "meaning": "a word related to water and resources",
               "meaningZh": "",
-              "example": "Related to Water and Resources."
+              "example": "This word is used when talking about water and resources."
             },
             {
               "id": "gs-v65",
-              "word": "(Water and Resources word 5)",
+              "word": "water5",
               "phonetic": "",
-              "meaning": "General Studies vocabulary",
+              "meaning": "a word related to water and resources",
               "meaningZh": "",
-              "example": "Related to Water and Resources."
+              "example": "This word is used when talking about water and resources."
             },
             {
               "id": "gs-v66",
-              "word": "(Water and Resources word 6)",
+              "word": "water6",
               "phonetic": "",
-              "meaning": "General Studies vocabulary",
+              "meaning": "a word related to water and resources",
               "meaningZh": "",
-              "example": "Related to Water and Resources."
+              "example": "This word is used when talking about water and resources."
             }
           ],
           "listening": [
@@ -1233,23 +1383,30 @@
               "id": "gs-l11a",
               "type": "mcq",
               "instruction": "Listen about Water and Resources.",
-              "ttsText": "This topic is about Water and Resources.",
-              "question": "What is the topic?",
+              "ttsText": "This word is used when talking about water and resources. This word is used when talking about water and resources.",
+              "question": "What is \"water\"?",
               "options": [
-                "Water and Resources",
-                "Something else",
-                "Not sure"
+                "a word related to water and resources",
+                "a word related to water and resources",
+                "a word related to water and resources"
               ],
-              "correctAnswer": "Water and Resources",
-              "hint": "Listen to the topic"
+              "correctAnswer": "a word related to water and resources",
+              "hint": "Listen to the first sentence"
             }
           ],
           "speaking": [
             {
-              "id": "gs-s11",
+              "id": "gs-s11a",
+              "type": "pronounce-word",
+              "instruction": "Say this word:",
+              "targetText": "water",
+              "phonetic": ""
+            },
+            {
+              "id": "gs-s11b",
               "type": "pronounce-sentence",
               "instruction": "Read aloud:",
-              "targetText": "I am learning about water and resources.",
+              "targetText": "This word is used when talking about water and resources.",
               "hint": "Clear pronunciation"
             }
           ],
@@ -1257,25 +1414,33 @@
             {
               "id": "gs-r11",
               "type": "mcq",
-              "passage": "Water and Resources is an important topic in General Studies. We can learn many new English words about it.",
-              "question": "What subject is this?",
+              "passage": "Water and Resources is an important topic in General Studies. This word is used when talking about water and resources. This word is used when talking about water and resources. This word is used when talking about water and resources.",
+              "question": "What does \"and\" mean?",
               "options": [
-                "General Studies",
-                "Art",
-                "Music"
+                "a word related to water and resources",
+                "a word related to water and resources",
+                "a word related to water and resources"
               ],
-              "correctAnswer": "General Studies",
-              "explanation": "This is a General Studies topic"
+              "correctAnswer": "a word related to water and resources",
+              "explanation": "a word related to water and resources"
             }
           ],
           "writing": [
             {
-              "id": "gs-w11",
+              "id": "gs-w11a",
               "type": "spelling",
-              "instruction": "Spell the topic name:",
+              "instruction": "Spell this word:",
               "ttsText": "water",
               "correctAnswer": "water",
-              "hint": "First word of the topic"
+              "hint": "a word related to water and resources"
+            },
+            {
+              "id": "gs-w11b",
+              "type": "spelling",
+              "instruction": "Spell this word:",
+              "ttsText": "and",
+              "correctAnswer": "and",
+              "hint": "a word related to water and resources"
             }
           ]
         }
@@ -1297,51 +1462,51 @@
           "vocabulary": [
             {
               "id": "gs-v67",
-              "word": "(History of Hong Kong word 1)",
+              "word": "history",
               "phonetic": "",
-              "meaning": "General Studies vocabulary",
+              "meaning": "a word related to history of hong kong",
               "meaningZh": "",
-              "example": "Related to History of Hong Kong."
+              "example": "This word is used when talking about history of hong kong."
             },
             {
               "id": "gs-v68",
-              "word": "(History of Hong Kong word 2)",
+              "word": "of",
               "phonetic": "",
-              "meaning": "General Studies vocabulary",
+              "meaning": "a word related to history of hong kong",
               "meaningZh": "",
-              "example": "Related to History of Hong Kong."
+              "example": "This word is used when talking about history of hong kong."
             },
             {
               "id": "gs-v69",
-              "word": "(History of Hong Kong word 3)",
+              "word": "hong",
               "phonetic": "",
-              "meaning": "General Studies vocabulary",
+              "meaning": "a word related to history of hong kong",
               "meaningZh": "",
-              "example": "Related to History of Hong Kong."
+              "example": "This word is used when talking about history of hong kong."
             },
             {
               "id": "gs-v70",
-              "word": "(History of Hong Kong word 4)",
+              "word": "kong",
               "phonetic": "",
-              "meaning": "General Studies vocabulary",
+              "meaning": "a word related to history of hong kong",
               "meaningZh": "",
-              "example": "Related to History of Hong Kong."
+              "example": "This word is used when talking about history of hong kong."
             },
             {
               "id": "gs-v71",
-              "word": "(History of Hong Kong word 5)",
+              "word": "history5",
               "phonetic": "",
-              "meaning": "General Studies vocabulary",
+              "meaning": "a word related to history of hong kong",
               "meaningZh": "",
-              "example": "Related to History of Hong Kong."
+              "example": "This word is used when talking about history of hong kong."
             },
             {
               "id": "gs-v72",
-              "word": "(History of Hong Kong word 6)",
+              "word": "history6",
               "phonetic": "",
-              "meaning": "General Studies vocabulary",
+              "meaning": "a word related to history of hong kong",
               "meaningZh": "",
-              "example": "Related to History of Hong Kong."
+              "example": "This word is used when talking about history of hong kong."
             }
           ],
           "listening": [
@@ -1349,23 +1514,30 @@
               "id": "gs-l12a",
               "type": "mcq",
               "instruction": "Listen about History of Hong Kong.",
-              "ttsText": "This topic is about History of Hong Kong.",
-              "question": "What is the topic?",
+              "ttsText": "This word is used when talking about history of hong kong. This word is used when talking about history of hong kong.",
+              "question": "What is \"history\"?",
               "options": [
-                "History of Hong Kong",
-                "Something else",
-                "Not sure"
+                "a word related to history of hong kong",
+                "a word related to history of hong kong",
+                "a word related to history of hong kong"
               ],
-              "correctAnswer": "History of Hong Kong",
-              "hint": "Listen to the topic"
+              "correctAnswer": "a word related to history of hong kong",
+              "hint": "Listen to the first sentence"
             }
           ],
           "speaking": [
             {
-              "id": "gs-s12",
+              "id": "gs-s12a",
+              "type": "pronounce-word",
+              "instruction": "Say this word:",
+              "targetText": "history",
+              "phonetic": ""
+            },
+            {
+              "id": "gs-s12b",
               "type": "pronounce-sentence",
               "instruction": "Read aloud:",
-              "targetText": "I am learning about history of hong kong.",
+              "targetText": "This word is used when talking about history of hong kong.",
               "hint": "Clear pronunciation"
             }
           ],
@@ -1373,25 +1545,33 @@
             {
               "id": "gs-r12",
               "type": "mcq",
-              "passage": "History of Hong Kong is an important topic in General Studies. We can learn many new English words about it.",
-              "question": "What subject is this?",
+              "passage": "History of Hong Kong is an important topic in General Studies. This word is used when talking about history of hong kong. This word is used when talking about history of hong kong. This word is used when talking about history of hong kong.",
+              "question": "What does \"of\" mean?",
               "options": [
-                "General Studies",
-                "Art",
-                "Music"
+                "a word related to history of hong kong",
+                "a word related to history of hong kong",
+                "a word related to history of hong kong"
               ],
-              "correctAnswer": "General Studies",
-              "explanation": "This is a General Studies topic"
+              "correctAnswer": "a word related to history of hong kong",
+              "explanation": "a word related to history of hong kong"
             }
           ],
           "writing": [
             {
-              "id": "gs-w12",
+              "id": "gs-w12a",
               "type": "spelling",
-              "instruction": "Spell the topic name:",
+              "instruction": "Spell this word:",
               "ttsText": "history",
               "correctAnswer": "history",
-              "hint": "First word of the topic"
+              "hint": "a word related to history of hong kong"
+            },
+            {
+              "id": "gs-w12b",
+              "type": "spelling",
+              "instruction": "Spell this word:",
+              "ttsText": "of",
+              "correctAnswer": "of",
+              "hint": "a word related to history of hong kong"
             }
           ]
         }
@@ -1413,51 +1593,51 @@
           "vocabulary": [
             {
               "id": "gs-v73",
-              "word": "(Communication Then and Now word 1)",
+              "word": "communication",
               "phonetic": "",
-              "meaning": "General Studies vocabulary",
+              "meaning": "a word related to communication then and now",
               "meaningZh": "",
-              "example": "Related to Communication Then and Now."
+              "example": "This word is used when talking about communication then and now."
             },
             {
               "id": "gs-v74",
-              "word": "(Communication Then and Now word 2)",
+              "word": "then",
               "phonetic": "",
-              "meaning": "General Studies vocabulary",
+              "meaning": "a word related to communication then and now",
               "meaningZh": "",
-              "example": "Related to Communication Then and Now."
+              "example": "This word is used when talking about communication then and now."
             },
             {
               "id": "gs-v75",
-              "word": "(Communication Then and Now word 3)",
+              "word": "and",
               "phonetic": "",
-              "meaning": "General Studies vocabulary",
+              "meaning": "a word related to communication then and now",
               "meaningZh": "",
-              "example": "Related to Communication Then and Now."
+              "example": "This word is used when talking about communication then and now."
             },
             {
               "id": "gs-v76",
-              "word": "(Communication Then and Now word 4)",
+              "word": "now",
               "phonetic": "",
-              "meaning": "General Studies vocabulary",
+              "meaning": "a word related to communication then and now",
               "meaningZh": "",
-              "example": "Related to Communication Then and Now."
+              "example": "This word is used when talking about communication then and now."
             },
             {
               "id": "gs-v77",
-              "word": "(Communication Then and Now word 5)",
+              "word": "communication5",
               "phonetic": "",
-              "meaning": "General Studies vocabulary",
+              "meaning": "a word related to communication then and now",
               "meaningZh": "",
-              "example": "Related to Communication Then and Now."
+              "example": "This word is used when talking about communication then and now."
             },
             {
               "id": "gs-v78",
-              "word": "(Communication Then and Now word 6)",
+              "word": "communication6",
               "phonetic": "",
-              "meaning": "General Studies vocabulary",
+              "meaning": "a word related to communication then and now",
               "meaningZh": "",
-              "example": "Related to Communication Then and Now."
+              "example": "This word is used when talking about communication then and now."
             }
           ],
           "listening": [
@@ -1465,23 +1645,30 @@
               "id": "gs-l13a",
               "type": "mcq",
               "instruction": "Listen about Communication Then and Now.",
-              "ttsText": "This topic is about Communication Then and Now.",
-              "question": "What is the topic?",
+              "ttsText": "This word is used when talking about communication then and now. This word is used when talking about communication then and now.",
+              "question": "What is \"communication\"?",
               "options": [
-                "Communication Then and Now",
-                "Something else",
-                "Not sure"
+                "a word related to communication then and now",
+                "a word related to communication then and now",
+                "a word related to communication then and now"
               ],
-              "correctAnswer": "Communication Then and Now",
-              "hint": "Listen to the topic"
+              "correctAnswer": "a word related to communication then and now",
+              "hint": "Listen to the first sentence"
             }
           ],
           "speaking": [
             {
-              "id": "gs-s13",
+              "id": "gs-s13a",
+              "type": "pronounce-word",
+              "instruction": "Say this word:",
+              "targetText": "communication",
+              "phonetic": ""
+            },
+            {
+              "id": "gs-s13b",
               "type": "pronounce-sentence",
               "instruction": "Read aloud:",
-              "targetText": "I am learning about communication then and now.",
+              "targetText": "This word is used when talking about communication then and now.",
               "hint": "Clear pronunciation"
             }
           ],
@@ -1489,25 +1676,33 @@
             {
               "id": "gs-r13",
               "type": "mcq",
-              "passage": "Communication Then and Now is an important topic in General Studies. We can learn many new English words about it.",
-              "question": "What subject is this?",
+              "passage": "Communication Then and Now is an important topic in General Studies. This word is used when talking about communication then and now. This word is used when talking about communication then and now. This word is used when talking about communication then and now.",
+              "question": "What does \"then\" mean?",
               "options": [
-                "General Studies",
-                "Art",
-                "Music"
+                "a word related to communication then and now",
+                "a word related to communication then and now",
+                "a word related to communication then and now"
               ],
-              "correctAnswer": "General Studies",
-              "explanation": "This is a General Studies topic"
+              "correctAnswer": "a word related to communication then and now",
+              "explanation": "a word related to communication then and now"
             }
           ],
           "writing": [
             {
-              "id": "gs-w13",
+              "id": "gs-w13a",
               "type": "spelling",
-              "instruction": "Spell the topic name:",
+              "instruction": "Spell this word:",
               "ttsText": "communication",
               "correctAnswer": "communication",
-              "hint": "First word of the topic"
+              "hint": "a word related to communication then and now"
+            },
+            {
+              "id": "gs-w13b",
+              "type": "spelling",
+              "instruction": "Spell this word:",
+              "ttsText": "then",
+              "correctAnswer": "then",
+              "hint": "a word related to communication then and now"
             }
           ]
         }
@@ -1529,51 +1724,51 @@
           "vocabulary": [
             {
               "id": "gs-v79",
-              "word": "(Living Together word 1)",
+              "word": "living",
               "phonetic": "",
-              "meaning": "General Studies vocabulary",
+              "meaning": "a word related to living together",
               "meaningZh": "",
-              "example": "Related to Living Together."
+              "example": "This word is used when talking about living together."
             },
             {
               "id": "gs-v80",
-              "word": "(Living Together word 2)",
+              "word": "together",
               "phonetic": "",
-              "meaning": "General Studies vocabulary",
+              "meaning": "a word related to living together",
               "meaningZh": "",
-              "example": "Related to Living Together."
+              "example": "This word is used when talking about living together."
             },
             {
               "id": "gs-v81",
-              "word": "(Living Together word 3)",
+              "word": "living3",
               "phonetic": "",
-              "meaning": "General Studies vocabulary",
+              "meaning": "a word related to living together",
               "meaningZh": "",
-              "example": "Related to Living Together."
+              "example": "This word is used when talking about living together."
             },
             {
               "id": "gs-v82",
-              "word": "(Living Together word 4)",
+              "word": "living4",
               "phonetic": "",
-              "meaning": "General Studies vocabulary",
+              "meaning": "a word related to living together",
               "meaningZh": "",
-              "example": "Related to Living Together."
+              "example": "This word is used when talking about living together."
             },
             {
               "id": "gs-v83",
-              "word": "(Living Together word 5)",
+              "word": "living5",
               "phonetic": "",
-              "meaning": "General Studies vocabulary",
+              "meaning": "a word related to living together",
               "meaningZh": "",
-              "example": "Related to Living Together."
+              "example": "This word is used when talking about living together."
             },
             {
               "id": "gs-v84",
-              "word": "(Living Together word 6)",
+              "word": "living6",
               "phonetic": "",
-              "meaning": "General Studies vocabulary",
+              "meaning": "a word related to living together",
               "meaningZh": "",
-              "example": "Related to Living Together."
+              "example": "This word is used when talking about living together."
             }
           ],
           "listening": [
@@ -1581,23 +1776,30 @@
               "id": "gs-l14a",
               "type": "mcq",
               "instruction": "Listen about Living Together.",
-              "ttsText": "This topic is about Living Together.",
-              "question": "What is the topic?",
+              "ttsText": "This word is used when talking about living together. This word is used when talking about living together.",
+              "question": "What is \"living\"?",
               "options": [
-                "Living Together",
-                "Something else",
-                "Not sure"
+                "a word related to living together",
+                "a word related to living together",
+                "a word related to living together"
               ],
-              "correctAnswer": "Living Together",
-              "hint": "Listen to the topic"
+              "correctAnswer": "a word related to living together",
+              "hint": "Listen to the first sentence"
             }
           ],
           "speaking": [
             {
-              "id": "gs-s14",
+              "id": "gs-s14a",
+              "type": "pronounce-word",
+              "instruction": "Say this word:",
+              "targetText": "living",
+              "phonetic": ""
+            },
+            {
+              "id": "gs-s14b",
               "type": "pronounce-sentence",
               "instruction": "Read aloud:",
-              "targetText": "I am learning about living together.",
+              "targetText": "This word is used when talking about living together.",
               "hint": "Clear pronunciation"
             }
           ],
@@ -1605,25 +1807,33 @@
             {
               "id": "gs-r14",
               "type": "mcq",
-              "passage": "Living Together is an important topic in General Studies. We can learn many new English words about it.",
-              "question": "What subject is this?",
+              "passage": "Living Together is an important topic in General Studies. This word is used when talking about living together. This word is used when talking about living together. This word is used when talking about living together.",
+              "question": "What does \"together\" mean?",
               "options": [
-                "General Studies",
-                "Art",
-                "Music"
+                "a word related to living together",
+                "a word related to living together",
+                "a word related to living together"
               ],
-              "correctAnswer": "General Studies",
-              "explanation": "This is a General Studies topic"
+              "correctAnswer": "a word related to living together",
+              "explanation": "a word related to living together"
             }
           ],
           "writing": [
             {
-              "id": "gs-w14",
+              "id": "gs-w14a",
               "type": "spelling",
-              "instruction": "Spell the topic name:",
+              "instruction": "Spell this word:",
               "ttsText": "living",
               "correctAnswer": "living",
-              "hint": "First word of the topic"
+              "hint": "a word related to living together"
+            },
+            {
+              "id": "gs-w14b",
+              "type": "spelling",
+              "instruction": "Spell this word:",
+              "ttsText": "together",
+              "correctAnswer": "together",
+              "hint": "a word related to living together"
             }
           ]
         }
@@ -1645,51 +1855,51 @@
           "vocabulary": [
             {
               "id": "gs-v85",
-              "word": "(Disaster Preparedness word 1)",
+              "word": "disaster",
               "phonetic": "",
-              "meaning": "General Studies vocabulary",
+              "meaning": "a word related to disaster preparedness",
               "meaningZh": "",
-              "example": "Related to Disaster Preparedness."
+              "example": "This word is used when talking about disaster preparedness."
             },
             {
               "id": "gs-v86",
-              "word": "(Disaster Preparedness word 2)",
+              "word": "preparedness",
               "phonetic": "",
-              "meaning": "General Studies vocabulary",
+              "meaning": "a word related to disaster preparedness",
               "meaningZh": "",
-              "example": "Related to Disaster Preparedness."
+              "example": "This word is used when talking about disaster preparedness."
             },
             {
               "id": "gs-v87",
-              "word": "(Disaster Preparedness word 3)",
+              "word": "disaster3",
               "phonetic": "",
-              "meaning": "General Studies vocabulary",
+              "meaning": "a word related to disaster preparedness",
               "meaningZh": "",
-              "example": "Related to Disaster Preparedness."
+              "example": "This word is used when talking about disaster preparedness."
             },
             {
               "id": "gs-v88",
-              "word": "(Disaster Preparedness word 4)",
+              "word": "disaster4",
               "phonetic": "",
-              "meaning": "General Studies vocabulary",
+              "meaning": "a word related to disaster preparedness",
               "meaningZh": "",
-              "example": "Related to Disaster Preparedness."
+              "example": "This word is used when talking about disaster preparedness."
             },
             {
               "id": "gs-v89",
-              "word": "(Disaster Preparedness word 5)",
+              "word": "disaster5",
               "phonetic": "",
-              "meaning": "General Studies vocabulary",
+              "meaning": "a word related to disaster preparedness",
               "meaningZh": "",
-              "example": "Related to Disaster Preparedness."
+              "example": "This word is used when talking about disaster preparedness."
             },
             {
               "id": "gs-v90",
-              "word": "(Disaster Preparedness word 6)",
+              "word": "disaster6",
               "phonetic": "",
-              "meaning": "General Studies vocabulary",
+              "meaning": "a word related to disaster preparedness",
               "meaningZh": "",
-              "example": "Related to Disaster Preparedness."
+              "example": "This word is used when talking about disaster preparedness."
             }
           ],
           "listening": [
@@ -1697,23 +1907,30 @@
               "id": "gs-l15a",
               "type": "mcq",
               "instruction": "Listen about Disaster Preparedness.",
-              "ttsText": "This topic is about Disaster Preparedness.",
-              "question": "What is the topic?",
+              "ttsText": "This word is used when talking about disaster preparedness. This word is used when talking about disaster preparedness.",
+              "question": "What is \"disaster\"?",
               "options": [
-                "Disaster Preparedness",
-                "Something else",
-                "Not sure"
+                "a word related to disaster preparedness",
+                "a word related to disaster preparedness",
+                "a word related to disaster preparedness"
               ],
-              "correctAnswer": "Disaster Preparedness",
-              "hint": "Listen to the topic"
+              "correctAnswer": "a word related to disaster preparedness",
+              "hint": "Listen to the first sentence"
             }
           ],
           "speaking": [
             {
-              "id": "gs-s15",
+              "id": "gs-s15a",
+              "type": "pronounce-word",
+              "instruction": "Say this word:",
+              "targetText": "disaster",
+              "phonetic": ""
+            },
+            {
+              "id": "gs-s15b",
               "type": "pronounce-sentence",
               "instruction": "Read aloud:",
-              "targetText": "I am learning about disaster preparedness.",
+              "targetText": "This word is used when talking about disaster preparedness.",
               "hint": "Clear pronunciation"
             }
           ],
@@ -1721,25 +1938,33 @@
             {
               "id": "gs-r15",
               "type": "mcq",
-              "passage": "Disaster Preparedness is an important topic in General Studies. We can learn many new English words about it.",
-              "question": "What subject is this?",
+              "passage": "Disaster Preparedness is an important topic in General Studies. This word is used when talking about disaster preparedness. This word is used when talking about disaster preparedness. This word is used when talking about disaster preparedness.",
+              "question": "What does \"preparedness\" mean?",
               "options": [
-                "General Studies",
-                "Art",
-                "Music"
+                "a word related to disaster preparedness",
+                "a word related to disaster preparedness",
+                "a word related to disaster preparedness"
               ],
-              "correctAnswer": "General Studies",
-              "explanation": "This is a General Studies topic"
+              "correctAnswer": "a word related to disaster preparedness",
+              "explanation": "a word related to disaster preparedness"
             }
           ],
           "writing": [
             {
-              "id": "gs-w15",
+              "id": "gs-w15a",
               "type": "spelling",
-              "instruction": "Spell the topic name:",
+              "instruction": "Spell this word:",
               "ttsText": "disaster",
               "correctAnswer": "disaster",
-              "hint": "First word of the topic"
+              "hint": "a word related to disaster preparedness"
+            },
+            {
+              "id": "gs-w15b",
+              "type": "spelling",
+              "instruction": "Spell this word:",
+              "ttsText": "preparedness",
+              "correctAnswer": "preparedness",
+              "hint": "a word related to disaster preparedness"
             }
           ]
         }
@@ -1761,51 +1986,51 @@
           "vocabulary": [
             {
               "id": "gs-v91",
-              "word": "(Rights and Responsibilities word 1)",
+              "word": "rights",
               "phonetic": "",
-              "meaning": "General Studies vocabulary",
+              "meaning": "a word related to rights and responsibilities",
               "meaningZh": "",
-              "example": "Related to Rights and Responsibilities."
+              "example": "This word is used when talking about rights and responsibilities."
             },
             {
               "id": "gs-v92",
-              "word": "(Rights and Responsibilities word 2)",
+              "word": "and",
               "phonetic": "",
-              "meaning": "General Studies vocabulary",
+              "meaning": "a word related to rights and responsibilities",
               "meaningZh": "",
-              "example": "Related to Rights and Responsibilities."
+              "example": "This word is used when talking about rights and responsibilities."
             },
             {
               "id": "gs-v93",
-              "word": "(Rights and Responsibilities word 3)",
+              "word": "responsibilities",
               "phonetic": "",
-              "meaning": "General Studies vocabulary",
+              "meaning": "a word related to rights and responsibilities",
               "meaningZh": "",
-              "example": "Related to Rights and Responsibilities."
+              "example": "This word is used when talking about rights and responsibilities."
             },
             {
               "id": "gs-v94",
-              "word": "(Rights and Responsibilities word 4)",
+              "word": "rights4",
               "phonetic": "",
-              "meaning": "General Studies vocabulary",
+              "meaning": "a word related to rights and responsibilities",
               "meaningZh": "",
-              "example": "Related to Rights and Responsibilities."
+              "example": "This word is used when talking about rights and responsibilities."
             },
             {
               "id": "gs-v95",
-              "word": "(Rights and Responsibilities word 5)",
+              "word": "rights5",
               "phonetic": "",
-              "meaning": "General Studies vocabulary",
+              "meaning": "a word related to rights and responsibilities",
               "meaningZh": "",
-              "example": "Related to Rights and Responsibilities."
+              "example": "This word is used when talking about rights and responsibilities."
             },
             {
               "id": "gs-v96",
-              "word": "(Rights and Responsibilities word 6)",
+              "word": "rights6",
               "phonetic": "",
-              "meaning": "General Studies vocabulary",
+              "meaning": "a word related to rights and responsibilities",
               "meaningZh": "",
-              "example": "Related to Rights and Responsibilities."
+              "example": "This word is used when talking about rights and responsibilities."
             }
           ],
           "listening": [
@@ -1813,23 +2038,30 @@
               "id": "gs-l16a",
               "type": "mcq",
               "instruction": "Listen about Rights and Responsibilities.",
-              "ttsText": "This topic is about Rights and Responsibilities.",
-              "question": "What is the topic?",
+              "ttsText": "This word is used when talking about rights and responsibilities. This word is used when talking about rights and responsibilities.",
+              "question": "What is \"rights\"?",
               "options": [
-                "Rights and Responsibilities",
-                "Something else",
-                "Not sure"
+                "a word related to rights and responsibilities",
+                "a word related to rights and responsibilities",
+                "a word related to rights and responsibilities"
               ],
-              "correctAnswer": "Rights and Responsibilities",
-              "hint": "Listen to the topic"
+              "correctAnswer": "a word related to rights and responsibilities",
+              "hint": "Listen to the first sentence"
             }
           ],
           "speaking": [
             {
-              "id": "gs-s16",
+              "id": "gs-s16a",
+              "type": "pronounce-word",
+              "instruction": "Say this word:",
+              "targetText": "rights",
+              "phonetic": ""
+            },
+            {
+              "id": "gs-s16b",
               "type": "pronounce-sentence",
               "instruction": "Read aloud:",
-              "targetText": "I am learning about rights and responsibilities.",
+              "targetText": "This word is used when talking about rights and responsibilities.",
               "hint": "Clear pronunciation"
             }
           ],
@@ -1837,25 +2069,33 @@
             {
               "id": "gs-r16",
               "type": "mcq",
-              "passage": "Rights and Responsibilities is an important topic in General Studies. We can learn many new English words about it.",
-              "question": "What subject is this?",
+              "passage": "Rights and Responsibilities is an important topic in General Studies. This word is used when talking about rights and responsibilities. This word is used when talking about rights and responsibilities. This word is used when talking about rights and responsibilities.",
+              "question": "What does \"and\" mean?",
               "options": [
-                "General Studies",
-                "Art",
-                "Music"
+                "a word related to rights and responsibilities",
+                "a word related to rights and responsibilities",
+                "a word related to rights and responsibilities"
               ],
-              "correctAnswer": "General Studies",
-              "explanation": "This is a General Studies topic"
+              "correctAnswer": "a word related to rights and responsibilities",
+              "explanation": "a word related to rights and responsibilities"
             }
           ],
           "writing": [
             {
-              "id": "gs-w16",
+              "id": "gs-w16a",
               "type": "spelling",
-              "instruction": "Spell the topic name:",
+              "instruction": "Spell this word:",
               "ttsText": "rights",
               "correctAnswer": "rights",
-              "hint": "First word of the topic"
+              "hint": "a word related to rights and responsibilities"
+            },
+            {
+              "id": "gs-w16b",
+              "type": "spelling",
+              "instruction": "Spell this word:",
+              "ttsText": "and",
+              "correctAnswer": "and",
+              "hint": "a word related to rights and responsibilities"
             }
           ]
         }
@@ -1877,51 +2117,51 @@
           "vocabulary": [
             {
               "id": "gs-v97",
-              "word": "(Cultural Diversity word 1)",
+              "word": "cultural",
               "phonetic": "",
-              "meaning": "General Studies vocabulary",
+              "meaning": "a word related to cultural diversity",
               "meaningZh": "",
-              "example": "Related to Cultural Diversity."
+              "example": "This word is used when talking about cultural diversity."
             },
             {
               "id": "gs-v98",
-              "word": "(Cultural Diversity word 2)",
+              "word": "diversity",
               "phonetic": "",
-              "meaning": "General Studies vocabulary",
+              "meaning": "a word related to cultural diversity",
               "meaningZh": "",
-              "example": "Related to Cultural Diversity."
+              "example": "This word is used when talking about cultural diversity."
             },
             {
               "id": "gs-v99",
-              "word": "(Cultural Diversity word 3)",
+              "word": "cultural3",
               "phonetic": "",
-              "meaning": "General Studies vocabulary",
+              "meaning": "a word related to cultural diversity",
               "meaningZh": "",
-              "example": "Related to Cultural Diversity."
+              "example": "This word is used when talking about cultural diversity."
             },
             {
               "id": "gs-v100",
-              "word": "(Cultural Diversity word 4)",
+              "word": "cultural4",
               "phonetic": "",
-              "meaning": "General Studies vocabulary",
+              "meaning": "a word related to cultural diversity",
               "meaningZh": "",
-              "example": "Related to Cultural Diversity."
+              "example": "This word is used when talking about cultural diversity."
             },
             {
               "id": "gs-v101",
-              "word": "(Cultural Diversity word 5)",
+              "word": "cultural5",
               "phonetic": "",
-              "meaning": "General Studies vocabulary",
+              "meaning": "a word related to cultural diversity",
               "meaningZh": "",
-              "example": "Related to Cultural Diversity."
+              "example": "This word is used when talking about cultural diversity."
             },
             {
               "id": "gs-v102",
-              "word": "(Cultural Diversity word 6)",
+              "word": "cultural6",
               "phonetic": "",
-              "meaning": "General Studies vocabulary",
+              "meaning": "a word related to cultural diversity",
               "meaningZh": "",
-              "example": "Related to Cultural Diversity."
+              "example": "This word is used when talking about cultural diversity."
             }
           ],
           "listening": [
@@ -1929,23 +2169,30 @@
               "id": "gs-l17a",
               "type": "mcq",
               "instruction": "Listen about Cultural Diversity.",
-              "ttsText": "This topic is about Cultural Diversity.",
-              "question": "What is the topic?",
+              "ttsText": "This word is used when talking about cultural diversity. This word is used when talking about cultural diversity.",
+              "question": "What is \"cultural\"?",
               "options": [
-                "Cultural Diversity",
-                "Something else",
-                "Not sure"
+                "a word related to cultural diversity",
+                "a word related to cultural diversity",
+                "a word related to cultural diversity"
               ],
-              "correctAnswer": "Cultural Diversity",
-              "hint": "Listen to the topic"
+              "correctAnswer": "a word related to cultural diversity",
+              "hint": "Listen to the first sentence"
             }
           ],
           "speaking": [
             {
-              "id": "gs-s17",
+              "id": "gs-s17a",
+              "type": "pronounce-word",
+              "instruction": "Say this word:",
+              "targetText": "cultural",
+              "phonetic": ""
+            },
+            {
+              "id": "gs-s17b",
               "type": "pronounce-sentence",
               "instruction": "Read aloud:",
-              "targetText": "I am learning about cultural diversity.",
+              "targetText": "This word is used when talking about cultural diversity.",
               "hint": "Clear pronunciation"
             }
           ],
@@ -1953,25 +2200,33 @@
             {
               "id": "gs-r17",
               "type": "mcq",
-              "passage": "Cultural Diversity is an important topic in General Studies. We can learn many new English words about it.",
-              "question": "What subject is this?",
+              "passage": "Cultural Diversity is an important topic in General Studies. This word is used when talking about cultural diversity. This word is used when talking about cultural diversity. This word is used when talking about cultural diversity.",
+              "question": "What does \"diversity\" mean?",
               "options": [
-                "General Studies",
-                "Art",
-                "Music"
+                "a word related to cultural diversity",
+                "a word related to cultural diversity",
+                "a word related to cultural diversity"
               ],
-              "correctAnswer": "General Studies",
-              "explanation": "This is a General Studies topic"
+              "correctAnswer": "a word related to cultural diversity",
+              "explanation": "a word related to cultural diversity"
             }
           ],
           "writing": [
             {
-              "id": "gs-w17",
+              "id": "gs-w17a",
               "type": "spelling",
-              "instruction": "Spell the topic name:",
+              "instruction": "Spell this word:",
               "ttsText": "cultural",
               "correctAnswer": "cultural",
-              "hint": "First word of the topic"
+              "hint": "a word related to cultural diversity"
+            },
+            {
+              "id": "gs-w17b",
+              "type": "spelling",
+              "instruction": "Spell this word:",
+              "ttsText": "diversity",
+              "correctAnswer": "diversity",
+              "hint": "a word related to cultural diversity"
             }
           ]
         }
@@ -1993,51 +2248,51 @@
           "vocabulary": [
             {
               "id": "gs-v103",
-              "word": "(Maps and Directions word 1)",
+              "word": "maps",
               "phonetic": "",
-              "meaning": "General Studies vocabulary",
+              "meaning": "a word related to maps and directions",
               "meaningZh": "",
-              "example": "Related to Maps and Directions."
+              "example": "This word is used when talking about maps and directions."
             },
             {
               "id": "gs-v104",
-              "word": "(Maps and Directions word 2)",
+              "word": "and",
               "phonetic": "",
-              "meaning": "General Studies vocabulary",
+              "meaning": "a word related to maps and directions",
               "meaningZh": "",
-              "example": "Related to Maps and Directions."
+              "example": "This word is used when talking about maps and directions."
             },
             {
               "id": "gs-v105",
-              "word": "(Maps and Directions word 3)",
+              "word": "directions",
               "phonetic": "",
-              "meaning": "General Studies vocabulary",
+              "meaning": "a word related to maps and directions",
               "meaningZh": "",
-              "example": "Related to Maps and Directions."
+              "example": "This word is used when talking about maps and directions."
             },
             {
               "id": "gs-v106",
-              "word": "(Maps and Directions word 4)",
+              "word": "maps4",
               "phonetic": "",
-              "meaning": "General Studies vocabulary",
+              "meaning": "a word related to maps and directions",
               "meaningZh": "",
-              "example": "Related to Maps and Directions."
+              "example": "This word is used when talking about maps and directions."
             },
             {
               "id": "gs-v107",
-              "word": "(Maps and Directions word 5)",
+              "word": "maps5",
               "phonetic": "",
-              "meaning": "General Studies vocabulary",
+              "meaning": "a word related to maps and directions",
               "meaningZh": "",
-              "example": "Related to Maps and Directions."
+              "example": "This word is used when talking about maps and directions."
             },
             {
               "id": "gs-v108",
-              "word": "(Maps and Directions word 6)",
+              "word": "maps6",
               "phonetic": "",
-              "meaning": "General Studies vocabulary",
+              "meaning": "a word related to maps and directions",
               "meaningZh": "",
-              "example": "Related to Maps and Directions."
+              "example": "This word is used when talking about maps and directions."
             }
           ],
           "listening": [
@@ -2045,23 +2300,30 @@
               "id": "gs-l18a",
               "type": "mcq",
               "instruction": "Listen about Maps and Directions.",
-              "ttsText": "This topic is about Maps and Directions.",
-              "question": "What is the topic?",
+              "ttsText": "This word is used when talking about maps and directions. This word is used when talking about maps and directions.",
+              "question": "What is \"maps\"?",
               "options": [
-                "Maps and Directions",
-                "Something else",
-                "Not sure"
+                "a word related to maps and directions",
+                "a word related to maps and directions",
+                "a word related to maps and directions"
               ],
-              "correctAnswer": "Maps and Directions",
-              "hint": "Listen to the topic"
+              "correctAnswer": "a word related to maps and directions",
+              "hint": "Listen to the first sentence"
             }
           ],
           "speaking": [
             {
-              "id": "gs-s18",
+              "id": "gs-s18a",
+              "type": "pronounce-word",
+              "instruction": "Say this word:",
+              "targetText": "maps",
+              "phonetic": ""
+            },
+            {
+              "id": "gs-s18b",
               "type": "pronounce-sentence",
               "instruction": "Read aloud:",
-              "targetText": "I am learning about maps and directions.",
+              "targetText": "This word is used when talking about maps and directions.",
               "hint": "Clear pronunciation"
             }
           ],
@@ -2069,25 +2331,33 @@
             {
               "id": "gs-r18",
               "type": "mcq",
-              "passage": "Maps and Directions is an important topic in General Studies. We can learn many new English words about it.",
-              "question": "What subject is this?",
+              "passage": "Maps and Directions is an important topic in General Studies. This word is used when talking about maps and directions. This word is used when talking about maps and directions. This word is used when talking about maps and directions.",
+              "question": "What does \"and\" mean?",
               "options": [
-                "General Studies",
-                "Art",
-                "Music"
+                "a word related to maps and directions",
+                "a word related to maps and directions",
+                "a word related to maps and directions"
               ],
-              "correctAnswer": "General Studies",
-              "explanation": "This is a General Studies topic"
+              "correctAnswer": "a word related to maps and directions",
+              "explanation": "a word related to maps and directions"
             }
           ],
           "writing": [
             {
-              "id": "gs-w18",
+              "id": "gs-w18a",
               "type": "spelling",
-              "instruction": "Spell the topic name:",
+              "instruction": "Spell this word:",
               "ttsText": "maps",
               "correctAnswer": "maps",
-              "hint": "First word of the topic"
+              "hint": "a word related to maps and directions"
+            },
+            {
+              "id": "gs-w18b",
+              "type": "spelling",
+              "instruction": "Spell this word:",
+              "ttsText": "and",
+              "correctAnswer": "and",
+              "hint": "a word related to maps and directions"
             }
           ]
         }
@@ -2109,51 +2379,51 @@
           "vocabulary": [
             {
               "id": "gs-v109",
-              "word": "(Famous Places in HK word 1)",
+              "word": "famous",
               "phonetic": "",
-              "meaning": "General Studies vocabulary",
+              "meaning": "a word related to famous places in hk",
               "meaningZh": "",
-              "example": "Related to Famous Places in HK."
+              "example": "This word is used when talking about famous places in hk."
             },
             {
               "id": "gs-v110",
-              "word": "(Famous Places in HK word 2)",
+              "word": "places",
               "phonetic": "",
-              "meaning": "General Studies vocabulary",
+              "meaning": "a word related to famous places in hk",
               "meaningZh": "",
-              "example": "Related to Famous Places in HK."
+              "example": "This word is used when talking about famous places in hk."
             },
             {
               "id": "gs-v111",
-              "word": "(Famous Places in HK word 3)",
+              "word": "in",
               "phonetic": "",
-              "meaning": "General Studies vocabulary",
+              "meaning": "a word related to famous places in hk",
               "meaningZh": "",
-              "example": "Related to Famous Places in HK."
+              "example": "This word is used when talking about famous places in hk."
             },
             {
               "id": "gs-v112",
-              "word": "(Famous Places in HK word 4)",
+              "word": "hk",
               "phonetic": "",
-              "meaning": "General Studies vocabulary",
+              "meaning": "a word related to famous places in hk",
               "meaningZh": "",
-              "example": "Related to Famous Places in HK."
+              "example": "This word is used when talking about famous places in hk."
             },
             {
               "id": "gs-v113",
-              "word": "(Famous Places in HK word 5)",
+              "word": "famous5",
               "phonetic": "",
-              "meaning": "General Studies vocabulary",
+              "meaning": "a word related to famous places in hk",
               "meaningZh": "",
-              "example": "Related to Famous Places in HK."
+              "example": "This word is used when talking about famous places in hk."
             },
             {
               "id": "gs-v114",
-              "word": "(Famous Places in HK word 6)",
+              "word": "famous6",
               "phonetic": "",
-              "meaning": "General Studies vocabulary",
+              "meaning": "a word related to famous places in hk",
               "meaningZh": "",
-              "example": "Related to Famous Places in HK."
+              "example": "This word is used when talking about famous places in hk."
             }
           ],
           "listening": [
@@ -2161,23 +2431,30 @@
               "id": "gs-l19a",
               "type": "mcq",
               "instruction": "Listen about Famous Places in HK.",
-              "ttsText": "This topic is about Famous Places in HK.",
-              "question": "What is the topic?",
+              "ttsText": "This word is used when talking about famous places in hk. This word is used when talking about famous places in hk.",
+              "question": "What is \"famous\"?",
               "options": [
-                "Famous Places in HK",
-                "Something else",
-                "Not sure"
+                "a word related to famous places in hk",
+                "a word related to famous places in hk",
+                "a word related to famous places in hk"
               ],
-              "correctAnswer": "Famous Places in HK",
-              "hint": "Listen to the topic"
+              "correctAnswer": "a word related to famous places in hk",
+              "hint": "Listen to the first sentence"
             }
           ],
           "speaking": [
             {
-              "id": "gs-s19",
+              "id": "gs-s19a",
+              "type": "pronounce-word",
+              "instruction": "Say this word:",
+              "targetText": "famous",
+              "phonetic": ""
+            },
+            {
+              "id": "gs-s19b",
               "type": "pronounce-sentence",
               "instruction": "Read aloud:",
-              "targetText": "I am learning about famous places in hk.",
+              "targetText": "This word is used when talking about famous places in hk.",
               "hint": "Clear pronunciation"
             }
           ],
@@ -2185,25 +2462,33 @@
             {
               "id": "gs-r19",
               "type": "mcq",
-              "passage": "Famous Places in HK is an important topic in General Studies. We can learn many new English words about it.",
-              "question": "What subject is this?",
+              "passage": "Famous Places in HK is an important topic in General Studies. This word is used when talking about famous places in hk. This word is used when talking about famous places in hk. This word is used when talking about famous places in hk.",
+              "question": "What does \"places\" mean?",
               "options": [
-                "General Studies",
-                "Art",
-                "Music"
+                "a word related to famous places in hk",
+                "a word related to famous places in hk",
+                "a word related to famous places in hk"
               ],
-              "correctAnswer": "General Studies",
-              "explanation": "This is a General Studies topic"
+              "correctAnswer": "a word related to famous places in hk",
+              "explanation": "a word related to famous places in hk"
             }
           ],
           "writing": [
             {
-              "id": "gs-w19",
+              "id": "gs-w19a",
               "type": "spelling",
-              "instruction": "Spell the topic name:",
+              "instruction": "Spell this word:",
               "ttsText": "famous",
               "correctAnswer": "famous",
-              "hint": "First word of the topic"
+              "hint": "a word related to famous places in hk"
+            },
+            {
+              "id": "gs-w19b",
+              "type": "spelling",
+              "instruction": "Spell this word:",
+              "ttsText": "places",
+              "correctAnswer": "places",
+              "hint": "a word related to famous places in hk"
             }
           ]
         }
@@ -2225,51 +2510,51 @@
           "vocabulary": [
             {
               "id": "gs-v115",
-              "word": "(Being a Good Citizen word 1)",
+              "word": "being",
               "phonetic": "",
-              "meaning": "General Studies vocabulary",
+              "meaning": "a word related to being a good citizen",
               "meaningZh": "",
-              "example": "Related to Being a Good Citizen."
+              "example": "This word is used when talking about being a good citizen."
             },
             {
               "id": "gs-v116",
-              "word": "(Being a Good Citizen word 2)",
+              "word": "a",
               "phonetic": "",
-              "meaning": "General Studies vocabulary",
+              "meaning": "a word related to being a good citizen",
               "meaningZh": "",
-              "example": "Related to Being a Good Citizen."
+              "example": "This word is used when talking about being a good citizen."
             },
             {
               "id": "gs-v117",
-              "word": "(Being a Good Citizen word 3)",
+              "word": "good",
               "phonetic": "",
-              "meaning": "General Studies vocabulary",
+              "meaning": "a word related to being a good citizen",
               "meaningZh": "",
-              "example": "Related to Being a Good Citizen."
+              "example": "This word is used when talking about being a good citizen."
             },
             {
               "id": "gs-v118",
-              "word": "(Being a Good Citizen word 4)",
+              "word": "citizen",
               "phonetic": "",
-              "meaning": "General Studies vocabulary",
+              "meaning": "a word related to being a good citizen",
               "meaningZh": "",
-              "example": "Related to Being a Good Citizen."
+              "example": "This word is used when talking about being a good citizen."
             },
             {
               "id": "gs-v119",
-              "word": "(Being a Good Citizen word 5)",
+              "word": "being5",
               "phonetic": "",
-              "meaning": "General Studies vocabulary",
+              "meaning": "a word related to being a good citizen",
               "meaningZh": "",
-              "example": "Related to Being a Good Citizen."
+              "example": "This word is used when talking about being a good citizen."
             },
             {
               "id": "gs-v120",
-              "word": "(Being a Good Citizen word 6)",
+              "word": "being6",
               "phonetic": "",
-              "meaning": "General Studies vocabulary",
+              "meaning": "a word related to being a good citizen",
               "meaningZh": "",
-              "example": "Related to Being a Good Citizen."
+              "example": "This word is used when talking about being a good citizen."
             }
           ],
           "listening": [
@@ -2277,23 +2562,30 @@
               "id": "gs-l20a",
               "type": "mcq",
               "instruction": "Listen about Being a Good Citizen.",
-              "ttsText": "This topic is about Being a Good Citizen.",
-              "question": "What is the topic?",
+              "ttsText": "This word is used when talking about being a good citizen. This word is used when talking about being a good citizen.",
+              "question": "What is \"being\"?",
               "options": [
-                "Being a Good Citizen",
-                "Something else",
-                "Not sure"
+                "a word related to being a good citizen",
+                "a word related to being a good citizen",
+                "a word related to being a good citizen"
               ],
-              "correctAnswer": "Being a Good Citizen",
-              "hint": "Listen to the topic"
+              "correctAnswer": "a word related to being a good citizen",
+              "hint": "Listen to the first sentence"
             }
           ],
           "speaking": [
             {
-              "id": "gs-s20",
+              "id": "gs-s20a",
+              "type": "pronounce-word",
+              "instruction": "Say this word:",
+              "targetText": "being",
+              "phonetic": ""
+            },
+            {
+              "id": "gs-s20b",
               "type": "pronounce-sentence",
               "instruction": "Read aloud:",
-              "targetText": "I am learning about being a good citizen.",
+              "targetText": "This word is used when talking about being a good citizen.",
               "hint": "Clear pronunciation"
             }
           ],
@@ -2301,25 +2593,33 @@
             {
               "id": "gs-r20",
               "type": "mcq",
-              "passage": "Being a Good Citizen is an important topic in General Studies. We can learn many new English words about it.",
-              "question": "What subject is this?",
+              "passage": "Being a Good Citizen is an important topic in General Studies. This word is used when talking about being a good citizen. This word is used when talking about being a good citizen. This word is used when talking about being a good citizen.",
+              "question": "What does \"a\" mean?",
               "options": [
-                "General Studies",
-                "Art",
-                "Music"
+                "a word related to being a good citizen",
+                "a word related to being a good citizen",
+                "a word related to being a good citizen"
               ],
-              "correctAnswer": "General Studies",
-              "explanation": "This is a General Studies topic"
+              "correctAnswer": "a word related to being a good citizen",
+              "explanation": "a word related to being a good citizen"
             }
           ],
           "writing": [
             {
-              "id": "gs-w20",
+              "id": "gs-w20a",
               "type": "spelling",
-              "instruction": "Spell the topic name:",
+              "instruction": "Spell this word:",
               "ttsText": "being",
               "correctAnswer": "being",
-              "hint": "First word of the topic"
+              "hint": "a word related to being a good citizen"
+            },
+            {
+              "id": "gs-w20b",
+              "type": "spelling",
+              "instruction": "Spell this word:",
+              "ttsText": "a",
+              "correctAnswer": "a",
+              "hint": "a word related to being a good citizen"
             }
           ]
         }

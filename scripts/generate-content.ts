@@ -287,9 +287,9 @@ writePack({ id: 'p1-english-starter', name: 'English Starter 1A', publisher: 'To
 
 // ============================================================
 // MATHS PACK - with proper calculations
+// (mathVocabData and createMathUnit defined below, called via getMathUnits)
 // ============================================================
-const mathUnits: Unit[] = [
-  // Existing 5 units rewritten with calculations...
+function getMathUnits(): Unit[] { return [
   createMathUnit(1, 'Addition', 'addition', 'Tot says: Let\'s add numbers together!', ['sum', 'plus', 'add', 'total', 'equals', 'altogether'], [
     { q: '5 + 3 = ?', opts: ['7', '8', '9'], ans: '8', text: 'Five plus three equals eight. 5 + 3 = 8.' },
     { q: '12 + 7 = ?', opts: ['18', '19', '20'], ans: '19', text: 'Twelve plus seven equals nineteen.' },
@@ -391,33 +391,208 @@ const mathUnits: Unit[] = [
     { q: 'Roll a dice. Probability of getting 6?', opts: ['1/2', '1/4', '1/6'], ans: '1/6', text: 'A dice has 6 faces. Probability of any one number = 1/6.' },
     { q: 'Bag has 3 red and 2 blue balls. Probability of red?', opts: ['2/5', '3/5', '1/2'], ans: '3/5', text: 'Total balls = 5. Red = 3. Probability = 3/5.' },
   ]),
-]
+]}
+
+const mathVocabData: Record<string, { word: string; phonetic: string; meaning: string; meaningZh: string; example: string }[]> = {
+  addition: [
+    { word: 'sum', phonetic: '/sʌm/', meaning: 'the result of adding numbers', meaningZh: '總和', example: 'The sum of 3 and 5 is 8.' },
+    { word: 'plus', phonetic: '/plʌs/', meaning: 'to add, the + sign', meaningZh: '加', example: 'Two plus three equals five.' },
+    { word: 'add', phonetic: '/æd/', meaning: 'to put numbers together', meaningZh: '加；相加', example: 'Add 4 and 6 together.' },
+    { word: 'total', phonetic: '/ˈtoʊtl/', meaning: 'the whole amount', meaningZh: '總數', example: 'The total is twenty.' },
+    { word: 'equals', phonetic: '/ˈiːkwəlz/', meaning: 'is the same as; the = sign', meaningZh: '等於', example: 'Five plus five equals ten.' },
+    { word: 'altogether', phonetic: '/ˌɔːltəˈɡeðər/', meaning: 'all combined; in total', meaningZh: '總共', example: 'How many altogether?' },
+  ],
+  subtraction: [
+    { word: 'subtract', phonetic: '/səbˈtrækt/', meaning: 'to take one number away from another', meaningZh: '減去', example: 'Subtract 3 from 10.' },
+    { word: 'minus', phonetic: '/ˈmaɪnəs/', meaning: 'to take away; the − sign', meaningZh: '減', example: 'Ten minus four is six.' },
+    { word: 'difference', phonetic: '/ˈdɪfrəns/', meaning: 'how much one number is more or less than another', meaningZh: '差', example: 'The difference between 8 and 3 is 5.' },
+    { word: 'take away', phonetic: '/teɪk əˈweɪ/', meaning: 'to subtract; remove from', meaningZh: '拿走；減去', example: 'Take away five from twelve.' },
+    { word: 'remain', phonetic: '/rɪˈmeɪn/', meaning: 'what is left over', meaningZh: '剩餘', example: 'Seven remain after you take away three.' },
+    { word: 'fewer', phonetic: '/ˈfjuːər/', meaning: 'a smaller number of', meaningZh: '更少的', example: 'There are fewer apples than oranges.' },
+  ],
+  multiplication: [
+    { word: 'multiply', phonetic: '/ˈmʌltɪplaɪ/', meaning: 'to add a number to itself a certain number of times', meaningZh: '乘', example: 'Multiply 3 by 4 to get 12.' },
+    { word: 'times', phonetic: '/taɪmz/', meaning: 'multiplied by; the × sign', meaningZh: '乘以', example: 'Three times four equals twelve.' },
+    { word: 'product', phonetic: '/ˈprɒdʌkt/', meaning: 'the result of multiplying', meaningZh: '積', example: 'The product of 5 and 6 is 30.' },
+    { word: 'groups of', phonetic: '/ɡruːps ɒv/', meaning: 'sets of equal amounts', meaningZh: '組', example: 'Three groups of four is twelve.' },
+    { word: 'each', phonetic: '/iːtʃ/', meaning: 'every one', meaningZh: '每一個', example: 'Each box has 5 sweets.' },
+    { word: 'rows', phonetic: '/roʊz/', meaning: 'items arranged in lines', meaningZh: '行；排', example: 'There are 4 rows of 3 chairs.' },
+  ],
+  division: [
+    { word: 'divide', phonetic: '/dɪˈvaɪd/', meaning: 'to split into equal parts', meaningZh: '除；分', example: 'Divide 12 by 3.' },
+    { word: 'share', phonetic: '/ʃeər/', meaning: 'to give out equally', meaningZh: '分享；平分', example: 'Share 10 sweets among 5 children.' },
+    { word: 'quotient', phonetic: '/ˈkwoʊʃənt/', meaning: 'the answer to a division', meaningZh: '商', example: 'The quotient of 20 ÷ 4 is 5.' },
+    { word: 'equally', phonetic: '/ˈiːkwəli/', meaning: 'in the same amounts', meaningZh: '平均地', example: 'Split the cake equally.' },
+    { word: 'remainder', phonetic: '/rɪˈmeɪndər/', meaning: 'the amount left over after dividing', meaningZh: '餘數', example: '7 ÷ 2 = 3 remainder 1.' },
+    { word: 'split', phonetic: '/splɪt/', meaning: 'to divide into parts', meaningZh: '分開', example: 'Split the group into 2 teams.' },
+  ],
+  fractions: [
+    { word: 'fraction', phonetic: '/ˈfrækʃən/', meaning: 'a part of a whole', meaningZh: '分數', example: 'One half is a fraction.' },
+    { word: 'half', phonetic: '/hɑːf/', meaning: 'one of two equal parts; 1/2', meaningZh: '一半', example: 'Half of 10 is 5.' },
+    { word: 'quarter', phonetic: '/ˈkwɔːrtər/', meaning: 'one of four equal parts; 1/4', meaningZh: '四分之一', example: 'A quarter of 20 is 5.' },
+    { word: 'third', phonetic: '/θɜːrd/', meaning: 'one of three equal parts; 1/3', meaningZh: '三分之一', example: 'A third of 12 is 4.' },
+    { word: 'numerator', phonetic: '/ˈnjuːməreɪtər/', meaning: 'the top number of a fraction', meaningZh: '分子', example: 'In 3/4, the numerator is 3.' },
+    { word: 'denominator', phonetic: '/dɪˈnɒmɪneɪtər/', meaning: 'the bottom number of a fraction', meaningZh: '分母', example: 'In 3/4, the denominator is 4.' },
+  ],
+  shapes: [
+    { word: 'triangle', phonetic: '/ˈtraɪæŋɡl/', meaning: 'a shape with 3 sides', meaningZh: '三角形', example: 'A triangle has three sides.' },
+    { word: 'rectangle', phonetic: '/ˈrektæŋɡl/', meaning: 'a shape with 4 sides and 4 right angles', meaningZh: '長方形', example: 'A door is shaped like a rectangle.' },
+    { word: 'circle', phonetic: '/ˈsɜːrkl/', meaning: 'a round shape with no corners', meaningZh: '圓形', example: 'A coin is a circle.' },
+    { word: 'cube', phonetic: '/kjuːb/', meaning: 'a 3D shape with 6 square faces', meaningZh: '正方體', example: 'A dice is shaped like a cube.' },
+    { word: 'sphere', phonetic: '/sfɪr/', meaning: 'a perfectly round 3D shape; a ball', meaningZh: '球體', example: 'A basketball is a sphere.' },
+    { word: 'symmetry', phonetic: '/ˈsɪmətri/', meaning: 'when both sides are the same', meaningZh: '對稱', example: 'A butterfly has symmetry.' },
+  ],
+  time: [
+    { word: "o'clock", phonetic: '/əˈklɒk/', meaning: 'exactly on the hour', meaningZh: '…點鐘', example: "It's three o'clock." },
+    { word: 'half past', phonetic: '/hɑːf pɑːst/', meaning: '30 minutes after the hour', meaningZh: '…點半', example: 'It is half past two.' },
+    { word: 'quarter past', phonetic: '/ˈkwɔːrtər pɑːst/', meaning: '15 minutes after the hour', meaningZh: '…點十五分', example: 'School starts at quarter past eight.' },
+    { word: 'quarter to', phonetic: '/ˈkwɔːrtər tuː/', meaning: '15 minutes before the next hour', meaningZh: '差十五分到…點', example: 'It is quarter to nine.' },
+    { word: 'a.m.', phonetic: '/ˌeɪˈem/', meaning: 'morning time (before noon)', meaningZh: '上午', example: 'School starts at 8 a.m.' },
+    { word: 'p.m.', phonetic: '/ˌpiːˈem/', meaning: 'afternoon/evening time (after noon)', meaningZh: '下午', example: 'We finish at 3 p.m.' },
+  ],
+  money: [
+    { word: 'price', phonetic: '/praɪs/', meaning: 'how much something costs', meaningZh: '價格', example: 'The price of this toy is $50.' },
+    { word: 'change', phonetic: '/tʃeɪndʒ/', meaning: 'money given back after paying', meaningZh: '找零', example: 'My change is $5.' },
+    { word: 'total', phonetic: '/ˈtoʊtl/', meaning: 'the full amount to pay', meaningZh: '總額', example: 'The total is $33.' },
+    { word: 'expensive', phonetic: '/ɪkˈspensɪv/', meaning: 'costs a lot of money', meaningZh: '昂貴的', example: 'The watch is expensive.' },
+    { word: 'cheap', phonetic: '/tʃiːp/', meaning: 'does not cost much', meaningZh: '便宜的', example: 'This pen is cheap.' },
+    { word: 'discount', phonetic: '/ˈdɪskaʊnt/', meaning: 'a reduction in price', meaningZh: '折扣', example: 'There is a 20% discount today.' },
+  ],
+  measurement: [
+    { word: 'centimetre', phonetic: '/ˈsentɪmiːtər/', meaning: 'a unit of length (cm); 100 cm = 1 m', meaningZh: '厘米', example: 'My pencil is 15 centimetres long.' },
+    { word: 'metre', phonetic: '/ˈmiːtər/', meaning: 'a unit of length (m); 1000 m = 1 km', meaningZh: '米', example: 'The room is 5 metres wide.' },
+    { word: 'kilogram', phonetic: '/ˈkɪləɡræm/', meaning: 'a unit of weight (kg); 1 kg = 1000 g', meaningZh: '公斤', example: 'The bag weighs 2 kilograms.' },
+    { word: 'gram', phonetic: '/ɡræm/', meaning: 'a small unit of weight (g)', meaningZh: '克', example: 'An apple weighs about 200 grams.' },
+    { word: 'litre', phonetic: '/ˈliːtər/', meaning: 'a unit of liquid volume (L)', meaningZh: '升；公升', example: 'I drank one litre of water.' },
+    { word: 'millilitre', phonetic: '/ˈmɪlɪliːtər/', meaning: 'a small unit of liquid (mL); 1000 mL = 1 L', meaningZh: '毫升', example: 'The cup holds 250 millilitres.' },
+  ],
+  perimeter: [
+    { word: 'perimeter', phonetic: '/pəˈrɪmɪtər/', meaning: 'the distance around a shape', meaningZh: '周長', example: 'The perimeter of a square with side 4 is 16.' },
+    { word: 'area', phonetic: '/ˈeəriə/', meaning: 'the space inside a flat shape', meaningZh: '面積', example: 'The area of the room is 12 m².' },
+    { word: 'length', phonetic: '/leŋθ/', meaning: 'how long something is', meaningZh: '長度', example: 'The length of the table is 2 metres.' },
+    { word: 'width', phonetic: '/wɪdθ/', meaning: 'how wide something is', meaningZh: '寬度', example: 'The width of the road is 10 metres.' },
+    { word: 'square', phonetic: '/skweər/', meaning: 'a shape with 4 equal sides and 4 right angles', meaningZh: '正方形', example: 'Each side of the square is 5 cm.' },
+    { word: 'formula', phonetic: '/ˈfɔːrmjələ/', meaning: 'a rule written with symbols to calculate', meaningZh: '公式', example: 'The formula for area is length × width.' },
+  ],
+  patterns: [
+    { word: 'pattern', phonetic: '/ˈpætərn/', meaning: 'a repeated arrangement that follows a rule', meaningZh: '規律；模式', example: 'The pattern is 2, 4, 6, 8.' },
+    { word: 'sequence', phonetic: '/ˈsiːkwəns/', meaning: 'a set of numbers in order', meaningZh: '序列', example: 'This is a number sequence.' },
+    { word: 'rule', phonetic: '/ruːl/', meaning: 'the method or pattern being followed', meaningZh: '規則', example: 'The rule is "add 3 each time".' },
+    { word: 'next', phonetic: '/nekst/', meaning: 'the one that comes after', meaningZh: '下一個', example: 'What is the next number?' },
+    { word: 'term', phonetic: '/tɜːrm/', meaning: 'each number in a sequence', meaningZh: '項', example: 'The third term is 9.' },
+    { word: 'increase', phonetic: '/ɪnˈkriːs/', meaning: 'to get bigger', meaningZh: '增加', example: 'The numbers increase by 5.' },
+  ],
+  'place-value': [
+    { word: 'ones', phonetic: '/wʌnz/', meaning: 'the rightmost digit (1s place)', meaningZh: '個位', example: 'In 45, the ones digit is 5.' },
+    { word: 'tens', phonetic: '/tenz/', meaning: 'the second digit from right (10s place)', meaningZh: '十位', example: 'In 45, the tens digit is 4.' },
+    { word: 'hundreds', phonetic: '/ˈhʌndrədz/', meaning: 'the third digit from right (100s place)', meaningZh: '百位', example: 'In 345, the hundreds digit is 3.' },
+    { word: 'thousands', phonetic: '/ˈθaʊzəndz/', meaning: 'the fourth digit (1000s place)', meaningZh: '千位', example: 'In 2,345 the thousands digit is 2.' },
+    { word: 'digit', phonetic: '/ˈdɪdʒɪt/', meaning: 'a single number symbol (0-9)', meaningZh: '數字', example: '45 has two digits.' },
+    { word: 'place value', phonetic: '/pleɪs ˈvæljuː/', meaning: 'the value of a digit based on its position', meaningZh: '位值', example: 'The place value of 4 in 400 is four hundred.' },
+  ],
+  'mixed-ops': [
+    { word: 'operation', phonetic: '/ˌɒpəˈreɪʃən/', meaning: 'a maths process: +, −, ×, ÷', meaningZh: '運算', example: 'Addition is an operation.' },
+    { word: 'brackets', phonetic: '/ˈbrækɪts/', meaning: 'symbols () that group numbers to calculate first', meaningZh: '括號', example: '(3 + 2) × 4 = 20.' },
+    { word: 'order', phonetic: '/ˈɔːrdər/', meaning: 'the sequence in which to calculate', meaningZh: '順序', example: 'The order of operations matters.' },
+    { word: 'BODMAS', phonetic: '/ˈbɒdmæs/', meaning: 'rule: Brackets, Orders, Divide, Multiply, Add, Subtract', meaningZh: '運算順序規則', example: 'Use BODMAS to solve 3 + 4 × 2.' },
+    { word: 'calculate', phonetic: '/ˈkælkjuleɪt/', meaning: 'to work out the answer', meaningZh: '計算', example: 'Calculate 5 × 3 + 2.' },
+    { word: 'solve', phonetic: '/sɒlv/', meaning: 'to find the answer to a problem', meaningZh: '解答', example: 'Can you solve this equation?' },
+  ],
+  decimals: [
+    { word: 'decimal', phonetic: '/ˈdesɪml/', meaning: 'a number with a point showing parts less than one', meaningZh: '小數', example: '0.5 is a decimal.' },
+    { word: 'point', phonetic: '/pɔɪnt/', meaning: 'the dot separating whole numbers from parts', meaningZh: '小數點', example: 'The point separates ones from tenths.' },
+    { word: 'tenth', phonetic: '/tenθ/', meaning: 'one of ten equal parts; 0.1', meaningZh: '十分之一', example: 'Three tenths is written as 0.3.' },
+    { word: 'hundredth', phonetic: '/ˈhʌndrədθ/', meaning: 'one of a hundred equal parts; 0.01', meaningZh: '百分之一', example: 'Five hundredths is 0.05.' },
+    { word: 'convert', phonetic: '/kənˈvɜːrt/', meaning: 'to change from one form to another', meaningZh: '轉換', example: 'Convert 1/4 to a decimal: 0.25.' },
+    { word: 'round', phonetic: '/raʊnd/', meaning: 'to adjust a number to the nearest value', meaningZh: '四捨五入', example: 'Round 3.67 to 3.7.' },
+  ],
+  'word-problems': [
+    { word: 'problem', phonetic: '/ˈprɒbləm/', meaning: 'a maths question to solve', meaningZh: '問題', example: 'Read the problem carefully.' },
+    { word: 'solve', phonetic: '/sɒlv/', meaning: 'to find the answer', meaningZh: '解答', example: 'Solve step by step.' },
+    { word: 'strategy', phonetic: '/ˈstrætədʒi/', meaning: 'a plan or method to get the answer', meaningZh: '策略', example: 'Use a drawing strategy.' },
+    { word: 'check', phonetic: '/tʃek/', meaning: 'to make sure your answer is correct', meaningZh: '驗算', example: 'Always check your answer.' },
+    { word: 'answer', phonetic: '/ˈɑːnsər/', meaning: 'the result; the solution', meaningZh: '答案', example: 'The answer is 16.' },
+    { word: 'method', phonetic: '/ˈmeθəd/', meaning: 'a way of doing something', meaningZh: '方法', example: 'What method did you use?' },
+  ],
+  angles: [
+    { word: 'angle', phonetic: '/ˈæŋɡl/', meaning: 'the space between two lines that meet at a point', meaningZh: '角', example: 'Measure the angle with a protractor.' },
+    { word: 'degree', phonetic: '/dɪˈɡriː/', meaning: 'the unit for measuring angles (°)', meaningZh: '度', example: 'A right angle is 90 degrees.' },
+    { word: 'acute', phonetic: '/əˈkjuːt/', meaning: 'an angle less than 90°', meaningZh: '銳角', example: '45° is an acute angle.' },
+    { word: 'obtuse', phonetic: '/əbˈtjuːs/', meaning: 'an angle between 90° and 180°', meaningZh: '鈍角', example: '120° is an obtuse angle.' },
+    { word: 'right angle', phonetic: '/raɪt ˈæŋɡl/', meaning: 'an angle of exactly 90°', meaningZh: '直角', example: 'A corner of a book is a right angle.' },
+    { word: 'protractor', phonetic: '/prəˈtræktər/', meaning: 'a tool to measure angles', meaningZh: '量角器', example: 'Use a protractor to measure.' },
+  ],
+  data: [
+    { word: 'data', phonetic: '/ˈdeɪtə/', meaning: 'facts or numbers collected for study', meaningZh: '數據', example: 'We collected data about favourite colours.' },
+    { word: 'tally', phonetic: '/ˈtæli/', meaning: 'marks to count things; |||| = 4', meaningZh: '計數', example: 'Use tally marks to count votes.' },
+    { word: 'bar chart', phonetic: '/bɑːr tʃɑːrt/', meaning: 'a chart using bars to show amounts', meaningZh: '條形圖', example: 'The bar chart shows fruit sales.' },
+    { word: 'pictogram', phonetic: '/ˈpɪktəɡræm/', meaning: 'a chart using pictures to represent data', meaningZh: '象形圖', example: 'Each smiley face means 2 students.' },
+    { word: 'frequency', phonetic: '/ˈfriːkwənsi/', meaning: 'how often something happens', meaningZh: '頻率', example: 'The frequency of red is 5.' },
+    { word: 'survey', phonetic: '/ˈsɜːrveɪ/', meaning: 'asking people questions to collect data', meaningZh: '調查', example: 'We did a survey about pets.' },
+  ],
+  ratio: [
+    { word: 'ratio', phonetic: '/ˈreɪʃioʊ/', meaning: 'a comparison of two amounts', meaningZh: '比率', example: 'The ratio of boys to girls is 3:2.' },
+    { word: 'proportion', phonetic: '/prəˈpɔːrʃən/', meaning: 'a part compared to the whole', meaningZh: '比例', example: 'What proportion are red?' },
+    { word: 'compare', phonetic: '/kəmˈpeər/', meaning: 'to look at differences between amounts', meaningZh: '比較', example: 'Compare these two groups.' },
+    { word: 'for every', phonetic: '/fɔːr ˈevri/', meaning: 'in the ratio; for each group', meaningZh: '每…就有…', example: 'For every 2 cats, there are 3 dogs.' },
+    { word: 'simplify', phonetic: '/ˈsɪmplɪfaɪ/', meaning: 'to make a ratio smaller using the same rule', meaningZh: '簡化', example: 'Simplify 4:8 to 1:2.' },
+    { word: 'equivalent', phonetic: '/ɪˈkwɪvələnt/', meaning: 'equal in value; the same ratio', meaningZh: '等值的', example: '2:4 and 1:2 are equivalent.' },
+  ],
+  speed: [
+    { word: 'speed', phonetic: '/spiːd/', meaning: 'how fast something moves', meaningZh: '速度', example: 'The speed of the car is 60 km/h.' },
+    { word: 'distance', phonetic: '/ˈdɪstəns/', meaning: 'how far between two points', meaningZh: '距離', example: 'The distance is 100 metres.' },
+    { word: 'time', phonetic: '/taɪm/', meaning: 'how long something takes', meaningZh: '時間', example: 'It takes 2 hours.' },
+    { word: 'kilometre', phonetic: '/ˈkɪləmiːtər/', meaning: 'a unit of distance (km); 1000 m', meaningZh: '公里', example: 'The school is 3 kilometres away.' },
+    { word: 'per hour', phonetic: '/pɜːr ˈaʊər/', meaning: 'in each hour; /h', meaningZh: '每小時', example: 'She runs 5 km per hour.' },
+    { word: 'average', phonetic: '/ˈævərɪdʒ/', meaning: 'the middle value; total ÷ number', meaningZh: '平均', example: 'The average speed is 40 km/h.' },
+  ],
+  probability: [
+    { word: 'probability', phonetic: '/ˌprɒbəˈbɪlɪti/', meaning: 'how likely something is to happen', meaningZh: '概率', example: 'The probability of heads is 1/2.' },
+    { word: 'certain', phonetic: '/ˈsɜːrtən/', meaning: 'will definitely happen', meaningZh: '肯定的', example: 'It is certain the sun will rise.' },
+    { word: 'impossible', phonetic: '/ɪmˈpɒsəbl/', meaning: 'cannot happen', meaningZh: '不可能的', example: 'Rolling 7 on a normal dice is impossible.' },
+    { word: 'likely', phonetic: '/ˈlaɪkli/', meaning: 'will probably happen', meaningZh: '很可能的', example: 'It is likely to rain today.' },
+    { word: 'unlikely', phonetic: '/ʌnˈlaɪkli/', meaning: 'probably will not happen', meaningZh: '不太可能的', example: 'Snow in summer is unlikely in HK.' },
+    { word: 'chance', phonetic: '/tʃɑːns/', meaning: 'the possibility of something happening', meaningZh: '機會', example: 'There is a good chance of winning.' },
+  ],
+  volume: [
+    { word: 'volume', phonetic: '/ˈvɒljuːm/', meaning: 'the space inside a 3D shape', meaningZh: '體積', example: 'The volume of the box is 24 cm³.' },
+    { word: 'capacity', phonetic: '/kəˈpæsɪti/', meaning: 'how much a container can hold', meaningZh: '容量', example: 'The bottle has a capacity of 1 litre.' },
+    { word: 'cubic', phonetic: '/ˈkjuːbɪk/', meaning: 'measured in three dimensions (cm³)', meaningZh: '立方的', example: 'Volume is measured in cubic centimetres.' },
+    { word: 'height', phonetic: '/haɪt/', meaning: 'how tall something is', meaningZh: '高度', example: 'The height of the box is 5 cm.' },
+    { word: 'depth', phonetic: '/depθ/', meaning: 'how deep something is', meaningZh: '深度', example: 'The pool has a depth of 2 metres.' },
+    { word: 'container', phonetic: '/kənˈteɪnər/', meaning: 'something that holds things inside', meaningZh: '容器', example: 'Fill the container with water.' },
+  ],
+}
 
 function createMathUnit(idx: number, title: string, theme: string, tip: string, words: string[], problems: { q: string; opts: string[]; ans: string; text: string }[]): Unit {
+  const vocabEntries = mathVocabData[theme] || words.map((w, i) => ({
+    word: w, phonetic: '', meaning: `a maths term used in ${theme}`, meaningZh: '', example: `We use "${w}" in ${theme}.`
+  }))
   return {
     id: `m-u${idx}`, title, theme, mascotTip: tip,
     lessons: [{
       id: `m-u${idx}-l1`, title, objectives: [`Solve ${theme} problems`, `Use ${theme} vocabulary`],
-      vocabulary: words.map((w, i) => ({ id: `mv${(idx-1)*6+i+1}`, word: w, phonetic: '', meaning: `(${theme} term)`, meaningZh: '', example: `We use "${w}" in ${theme}.` })),
+      vocabulary: vocabEntries.map((v, i) => ({ id: `mv${(idx-1)*6+i+1}`, ...v })),
       listening: problems.map((p, i) => ({
         id: `ml${(idx-1)*3+i+1}`, type: 'mcq', instruction: 'Listen and solve.',
         ttsText: p.text, question: p.q, options: p.opts, correctAnswer: p.ans, hint: 'Think about the calculation'
       })),
       speaking: [
-        { id: `ms${idx}a`, type: 'pronounce-word', instruction: 'Say:', targetText: words[0], phonetic: '' },
+        { id: `ms${idx}a`, type: 'pronounce-word', instruction: 'Say:', targetText: vocabEntries[0].word, phonetic: vocabEntries[0].phonetic },
         { id: `ms${idx}b`, type: 'pronounce-sentence', instruction: 'Read the problem aloud:', targetText: problems[0].text.split('.')[0] + '.', hint: 'Clear maths language' },
       ],
       reading: [
         { id: `mr${idx}`, type: 'mcq', passage: problems.map(p => p.text).join(' '), question: problems[1].q, options: problems[1].opts, correctAnswer: problems[1].ans, explanation: problems[1].text },
       ],
       writing: [
-        { id: `mw${idx}a`, type: 'spelling', instruction: 'Spell this maths word:', ttsText: words[0], correctAnswer: words[0], hint: `A ${theme} term` },
+        { id: `mw${idx}a`, type: 'spelling', instruction: 'Spell this maths word:', ttsText: vocabEntries[0].word, correctAnswer: vocabEntries[0].word, hint: `A ${theme} term` },
         { id: `mw${idx}b`, type: 'fill-blank', instruction: `Fill in: ${problems[0].q.replace('?', '_____')}`, correctAnswer: problems[0].ans, hint: 'Calculate!' },
       ],
     }]
   }
 }
 
+const mathUnits = getMathUnits()
 writePack({ id: 'p3-maths-english', name: 'Maths in English 3', publisher: 'Tot & Tat', grade: 'P3', version: '2.0.0', units: mathUnits })
 
 // For brevity, generate remaining packs using the same patterns
@@ -451,81 +626,221 @@ const p3Units: Unit[] = p3Topics.map((title, i) => {
 
 writePack({ id: 'p3-english-fun', name: 'English Fun 3A', publisher: 'Tot & Tat', grade: 'P3', version: '2.0.0', units: p3Units })
 
-// P5 English
-const p5Topics = [
-  'Healthy Living', 'Travel and Transport', 'The Environment', 'Technology and Inventions',
-  'Space and Universe', 'World Cultures', 'Famous People', 'Sports and Competition',
-  'Media and Communication', 'Natural Disasters', 'Music and Performance', 'Food Around the World',
-  'Ocean and Marine Life', 'Ancient Civilisations', 'Money and Business', 'Art and Design',
-  'Friendship and Relationships', 'The Future', 'Adventure and Exploration', 'Life in Hong Kong',
-]
-const p5Units = p5Topics.map((title, i) => createGenericUnit('p5', i + 1, title, 'P5'))
-writePack({ id: 'p5-english-explorer', name: 'English Explorer 5A', publisher: 'Tot & Tat', grade: 'P5', version: '2.0.0', units: p5Units })
-
-// Science
-const sciTopics = [
-  'Plants and Growth', 'Materials and Properties', 'Forces and Movement', 'The Human Body',
-  'Light and Shadow', 'Sound and Hearing', 'Electricity', 'Magnets',
-  'Water Cycle', 'Food Chains', 'Habitats', 'Earth and Space',
-  'Rocks and Soil', 'Air and Weather', 'Simple Machines', 'Energy',
-  'Senses', 'Life Cycles', 'Teeth and Digestion', 'Staying Healthy',
-]
-const sciUnits = sciTopics.map((title, i) => createGenericUnit('sci', i + 1, title, 'Science'))
-writePack({ id: 'p3-science-english', name: 'Science in English 3', publisher: 'Tot & Tat', grade: 'P3', version: '2.0.0', units: sciUnits })
-
-// General Studies
-const gsTopics = [
-  'Our Community', 'Hong Kong Geography', 'Healthy Habits and Safety', 'Chinese Festivals',
-  'Transport in Hong Kong', 'Caring for Others', 'Rules and Laws', 'Our Government',
-  'Global Connections', 'Protecting the Environment', 'Water and Resources', 'History of Hong Kong',
-  'Communication Then and Now', 'Living Together', 'Disaster Preparedness', 'Rights and Responsibilities',
-  'Cultural Diversity', 'Maps and Directions', 'Famous Places in HK', 'Being a Good Citizen',
-]
-const gsUnits = gsTopics.map((title, i) => createGenericUnit('gs', i + 1, title, 'General Studies'))
-writePack({ id: 'p3-gs-english', name: 'General Studies in English 3', publisher: 'Tot & Tat', grade: 'P3', version: '2.0.0', units: gsUnits })
-
-// NEW: Daily Scenarios
-const dailyTopics = [
-  'At the Restaurant', 'At the Supermarket', 'At the Doctor', 'On the Bus',
-  'At the Library', 'At the Playground', 'At a Birthday Party', 'At the Beach',
-  'At the Airport', 'At the Post Office', 'In a Taxi', 'At the Cinema',
-  'At the Bakery', 'At the Pet Shop', 'At the Sports Centre', 'At the Museum',
-  'At a Restaurant (Ordering)', 'At the Hair Salon', 'At the Bookshop', 'Lost and Found',
-]
-const dailyUnits = dailyTopics.map((title, i) => createDailyUnit(i + 1, title))
-writePack({ id: 'p3-daily-scenarios', name: 'Daily Life English', publisher: 'Tot & Tat', grade: 'P3', version: '1.0.0', units: dailyUnits })
-
-console.log('\n✅ All packs generated!')
+// P5, Science, GS, Daily packs are generated after helper functions are defined below
 
 // ============================================================
 // Helper functions for generating content
 // ============================================================
 
+const genericVocabData: Record<string, { word: string; phonetic: string; meaning: string; meaningZh: string; example: string }[]> = {
+  // === P5 English ===
+  'Healthy Living': [
+    { word: 'exercise', phonetic: '/ˈeksərsaɪz/', meaning: 'physical activity to stay fit', meaningZh: '運動', example: 'Exercise keeps your body strong.' },
+    { word: 'balanced', phonetic: '/ˈbælənst/', meaning: 'having the right mix of things', meaningZh: '均衡的', example: 'Eat a balanced diet.' },
+    { word: 'nutrition', phonetic: '/njuːˈtrɪʃən/', meaning: 'the food and goodness our body needs', meaningZh: '營養', example: 'Good nutrition helps you grow.' },
+    { word: 'hygiene', phonetic: '/ˈhaɪdʒiːn/', meaning: 'keeping clean to stay healthy', meaningZh: '衛生', example: 'Wash hands for good hygiene.' },
+    { word: 'vitamin', phonetic: '/ˈvɪtəmɪn/', meaning: 'nutrients in food that keep us healthy', meaningZh: '維他命', example: 'Oranges have vitamin C.' },
+    { word: 'fitness', phonetic: '/ˈfɪtnəs/', meaning: 'being in good physical condition', meaningZh: '健康；體適能', example: 'Swimming improves your fitness.' },
+  ],
+  'Travel and Transport': [
+    { word: 'journey', phonetic: '/ˈdʒɜːrni/', meaning: 'travelling from one place to another', meaningZh: '旅程', example: 'The journey takes two hours.' },
+    { word: 'passenger', phonetic: '/ˈpæsɪndʒər/', meaning: 'a person riding in a vehicle', meaningZh: '乘客', example: 'The bus has many passengers.' },
+    { word: 'departure', phonetic: '/dɪˈpɑːrtʃər/', meaning: 'the act of leaving', meaningZh: '出發；啟程', example: 'The departure time is 9 a.m.' },
+    { word: 'arrival', phonetic: '/əˈraɪvl/', meaning: 'reaching the destination', meaningZh: '到達', example: 'Our arrival is at noon.' },
+    { word: 'vehicle', phonetic: '/ˈviːɪkl/', meaning: 'a machine that carries people or things', meaningZh: '交通工具', example: 'A car is a vehicle.' },
+    { word: 'route', phonetic: '/ruːt/', meaning: 'the way or path to travel', meaningZh: '路線', example: 'Which route shall we take?' },
+  ],
+  'The Environment': [
+    { word: 'pollution', phonetic: '/pəˈluːʃən/', meaning: 'harmful substances in air, water, or soil', meaningZh: '污染', example: 'Air pollution makes us sick.' },
+    { word: 'recycle', phonetic: '/riːˈsaɪkl/', meaning: 'to make old things into new ones', meaningZh: '回收', example: 'We recycle paper and plastic.' },
+    { word: 'habitat', phonetic: '/ˈhæbɪtæt/', meaning: 'the natural home of an animal or plant', meaningZh: '棲息地', example: 'The forest is a bird habitat.' },
+    { word: 'climate', phonetic: '/ˈklaɪmət/', meaning: 'the usual weather in a place over time', meaningZh: '氣候', example: 'Hong Kong has a tropical climate.' },
+    { word: 'conservation', phonetic: '/ˌkɒnsərˈveɪʃən/', meaning: 'protecting nature and resources', meaningZh: '保育', example: 'Conservation saves animals.' },
+    { word: 'renewable', phonetic: '/rɪˈnjuːəbl/', meaning: 'can be used again and again (e.g. solar)', meaningZh: '可再生的', example: 'Solar power is renewable energy.' },
+  ],
+  'Technology and Inventions': [
+    { word: 'invention', phonetic: '/ɪnˈvenʃən/', meaning: 'something new that someone has made', meaningZh: '發明', example: 'The telephone was a great invention.' },
+    { word: 'device', phonetic: '/dɪˈvaɪs/', meaning: 'a machine made for a specific purpose', meaningZh: '裝置', example: 'A tablet is a useful device.' },
+    { word: 'software', phonetic: '/ˈsɒftweər/', meaning: 'programs that run on computers', meaningZh: '軟件', example: 'We use software to write reports.' },
+    { word: 'internet', phonetic: '/ˈɪntərnet/', meaning: 'a global network connecting computers', meaningZh: '互聯網', example: 'I search on the internet.' },
+    { word: 'robot', phonetic: '/ˈroʊbɒt/', meaning: 'a machine that can do tasks automatically', meaningZh: '機器人', example: 'The robot can clean the floor.' },
+    { word: 'digital', phonetic: '/ˈdɪdʒɪtl/', meaning: 'using computer technology', meaningZh: '數碼的', example: 'We live in a digital age.' },
+  ],
+  'Space and Universe': [
+    { word: 'planet', phonetic: '/ˈplænɪt/', meaning: 'a large object orbiting a star', meaningZh: '行星', example: 'Earth is a planet.' },
+    { word: 'orbit', phonetic: '/ˈɔːrbɪt/', meaning: 'the path around a star or planet', meaningZh: '軌道', example: 'The Moon orbits the Earth.' },
+    { word: 'gravity', phonetic: '/ˈɡrævɪti/', meaning: 'the force that pulls things down', meaningZh: '重力', example: 'Gravity keeps us on the ground.' },
+    { word: 'astronaut', phonetic: '/ˈæstrənɔːt/', meaning: 'a person who travels in space', meaningZh: '太空人', example: 'The astronaut floated in space.' },
+    { word: 'solar system', phonetic: '/ˈsoʊlər ˈsɪstəm/', meaning: 'the Sun and all objects orbiting it', meaningZh: '太陽系', example: 'There are 8 planets in our solar system.' },
+    { word: 'galaxy', phonetic: '/ˈɡæləksi/', meaning: 'a huge group of stars', meaningZh: '銀河系', example: 'The Milky Way is our galaxy.' },
+  ],
+  // === Science ===
+  'Plants and Growth': [
+    { word: 'root', phonetic: '/ruːt/', meaning: 'the part of a plant underground that absorbs water', meaningZh: '根', example: 'Roots take in water from soil.' },
+    { word: 'stem', phonetic: '/stem/', meaning: 'the main part of a plant that holds leaves', meaningZh: '莖', example: 'The stem supports the flower.' },
+    { word: 'petal', phonetic: '/ˈpetl/', meaning: 'the colourful part of a flower', meaningZh: '花瓣', example: 'Roses have soft petals.' },
+    { word: 'seed', phonetic: '/siːd/', meaning: 'the small part from which a new plant grows', meaningZh: '種子', example: 'Plant the seed in soil.' },
+    { word: 'sunlight', phonetic: '/ˈsʌnlaɪt/', meaning: 'light from the Sun needed by plants', meaningZh: '陽光', example: 'Plants need sunlight to grow.' },
+    { word: 'photosynthesis', phonetic: '/ˌfoʊtoʊˈsɪnθəsɪs/', meaning: 'how plants make food using light', meaningZh: '光合作用', example: 'Photosynthesis needs sunlight and water.' },
+  ],
+  'Materials and Properties': [
+    { word: 'material', phonetic: '/məˈtɪəriəl/', meaning: 'what something is made of', meaningZh: '材料', example: 'Wood is a natural material.' },
+    { word: 'transparent', phonetic: '/trænsˈpærənt/', meaning: 'you can see through it clearly', meaningZh: '透明的', example: 'Glass is transparent.' },
+    { word: 'opaque', phonetic: '/oʊˈpeɪk/', meaning: 'you cannot see through it', meaningZh: '不透明的', example: 'A wooden door is opaque.' },
+    { word: 'flexible', phonetic: '/ˈfleksəbl/', meaning: 'can be bent without breaking', meaningZh: '有彈性的', example: 'Rubber is flexible.' },
+    { word: 'rigid', phonetic: '/ˈrɪdʒɪd/', meaning: 'hard and cannot bend', meaningZh: '堅硬的', example: 'Metal is rigid.' },
+    { word: 'absorbent', phonetic: '/əbˈzɔːrbənt/', meaning: 'can soak up liquid', meaningZh: '有吸水性的', example: 'A sponge is absorbent.' },
+  ],
+  'Forces and Movement': [
+    { word: 'force', phonetic: '/fɔːrs/', meaning: 'a push or pull that moves things', meaningZh: '力', example: 'A force can push a ball.' },
+    { word: 'friction', phonetic: '/ˈfrɪkʃən/', meaning: 'a force that slows things down', meaningZh: '摩擦力', example: 'Friction stops the car.' },
+    { word: 'gravity', phonetic: '/ˈɡrævɪti/', meaning: 'the force pulling everything down', meaningZh: '重力', example: 'Gravity makes apples fall.' },
+    { word: 'push', phonetic: '/pʊʃ/', meaning: 'to move something away from you', meaningZh: '推', example: 'Push the door open.' },
+    { word: 'pull', phonetic: '/pʊl/', meaning: 'to move something towards you', meaningZh: '拉', example: 'Pull the rope hard.' },
+    { word: 'motion', phonetic: '/ˈmoʊʃən/', meaning: 'the state of moving', meaningZh: '運動；移動', example: 'The ball is in motion.' },
+  ],
+  'The Human Body': [
+    { word: 'skeleton', phonetic: '/ˈskelɪtn/', meaning: 'the frame of bones in the body', meaningZh: '骨骼', example: 'The skeleton protects organs.' },
+    { word: 'muscle', phonetic: '/ˈmʌsl/', meaning: 'body tissue that helps us move', meaningZh: '肌肉', example: 'Muscles help you run.' },
+    { word: 'organ', phonetic: '/ˈɔːrɡən/', meaning: 'a body part with a specific job', meaningZh: '器官', example: 'The heart is an organ.' },
+    { word: 'lungs', phonetic: '/lʌŋz/', meaning: 'organs we breathe with', meaningZh: '肺', example: 'Lungs take in oxygen.' },
+    { word: 'blood', phonetic: '/blʌd/', meaning: 'the red liquid flowing in our body', meaningZh: '血液', example: 'Blood carries oxygen around.' },
+    { word: 'brain', phonetic: '/breɪn/', meaning: 'the organ that controls thinking', meaningZh: '腦', example: 'The brain controls the body.' },
+  ],
+  'Light and Shadow': [
+    { word: 'light', phonetic: '/laɪt/', meaning: 'energy that lets us see', meaningZh: '光', example: 'Light comes from the Sun.' },
+    { word: 'shadow', phonetic: '/ˈʃædoʊ/', meaning: 'a dark area made when light is blocked', meaningZh: '影子', example: 'My shadow is long at sunset.' },
+    { word: 'reflect', phonetic: '/rɪˈflekt/', meaning: 'to bounce light off a surface', meaningZh: '反射', example: 'Mirrors reflect light.' },
+    { word: 'source', phonetic: '/sɔːrs/', meaning: 'where light comes from', meaningZh: '來源', example: 'The lamp is a light source.' },
+    { word: 'ray', phonetic: '/reɪ/', meaning: 'a beam of light', meaningZh: '光線', example: 'Sun rays come through the window.' },
+    { word: 'darkness', phonetic: '/ˈdɑːrknəs/', meaning: 'the absence of light', meaningZh: '黑暗', example: 'We cannot see in darkness.' },
+  ],
+  'Sound and Hearing': [
+    { word: 'vibration', phonetic: '/vaɪˈbreɪʃən/', meaning: 'a quick back-and-forth movement that makes sound', meaningZh: '振動', example: 'Sound is made by vibrations.' },
+    { word: 'volume', phonetic: '/ˈvɒljuːm/', meaning: 'how loud or quiet a sound is', meaningZh: '音量', example: 'Turn down the volume.' },
+    { word: 'pitch', phonetic: '/pɪtʃ/', meaning: 'how high or low a sound is', meaningZh: '音調', example: 'A whistle has a high pitch.' },
+    { word: 'echo', phonetic: '/ˈekoʊ/', meaning: 'a sound that bounces back', meaningZh: '回聲', example: 'I heard an echo in the cave.' },
+    { word: 'ear', phonetic: '/ɪr/', meaning: 'the body part for hearing', meaningZh: '耳朵', example: 'Cover your ears if it is loud.' },
+    { word: 'sound wave', phonetic: '/saʊnd weɪv/', meaning: 'how sound travels through air', meaningZh: '聲波', example: 'Sound waves travel to our ears.' },
+  ],
+  'Electricity': [
+    { word: 'circuit', phonetic: '/ˈsɜːrkɪt/', meaning: 'a complete loop for electricity to flow', meaningZh: '電路', example: 'Connect the wires in a circuit.' },
+    { word: 'battery', phonetic: '/ˈbætəri/', meaning: 'a device that stores electricity', meaningZh: '電池', example: 'The torch needs a battery.' },
+    { word: 'switch', phonetic: '/swɪtʃ/', meaning: 'a device to turn power on or off', meaningZh: '開關', example: 'Press the switch to turn on light.' },
+    { word: 'conductor', phonetic: '/kənˈdʌktər/', meaning: 'a material electricity flows through', meaningZh: '導體', example: 'Metal is a good conductor.' },
+    { word: 'insulator', phonetic: '/ˈɪnsjuleɪtər/', meaning: 'a material that blocks electricity', meaningZh: '絕緣體', example: 'Rubber is an insulator.' },
+    { word: 'bulb', phonetic: '/bʌlb/', meaning: 'a glass object that makes light with electricity', meaningZh: '燈泡', example: 'The bulb lights up the room.' },
+  ],
+  'Magnets': [
+    { word: 'magnet', phonetic: '/ˈmæɡnɪt/', meaning: 'an object that attracts iron', meaningZh: '磁鐵', example: 'A magnet sticks to the fridge.' },
+    { word: 'attract', phonetic: '/əˈtrækt/', meaning: 'to pull towards', meaningZh: '吸引', example: 'Magnets attract metal objects.' },
+    { word: 'repel', phonetic: '/rɪˈpel/', meaning: 'to push away', meaningZh: '排斥', example: 'Same poles repel each other.' },
+    { word: 'pole', phonetic: '/poʊl/', meaning: 'the end of a magnet (north or south)', meaningZh: '磁極', example: 'Every magnet has a north pole.' },
+    { word: 'magnetic', phonetic: '/mæɡˈnetɪk/', meaning: 'having the properties of a magnet', meaningZh: '有磁性的', example: 'Iron is magnetic.' },
+    { word: 'compass', phonetic: '/ˈkʌmpəs/', meaning: 'a tool using magnets to show direction', meaningZh: '指南針', example: 'A compass points north.' },
+  ],
+  'Water Cycle': [
+    { word: 'evaporation', phonetic: '/ɪˌvæpəˈreɪʃən/', meaning: 'water turning into water vapour', meaningZh: '蒸發', example: 'The sun causes evaporation.' },
+    { word: 'condensation', phonetic: '/ˌkɒndenˈseɪʃən/', meaning: 'water vapour turning back into liquid', meaningZh: '凝結', example: 'Condensation forms clouds.' },
+    { word: 'precipitation', phonetic: '/prɪˌsɪpɪˈteɪʃən/', meaning: 'water falling as rain or snow', meaningZh: '降水', example: 'Rain is a form of precipitation.' },
+    { word: 'vapour', phonetic: '/ˈveɪpər/', meaning: 'water in the form of gas', meaningZh: '水蒸氣', example: 'Steam is water vapour.' },
+    { word: 'cloud', phonetic: '/klaʊd/', meaning: 'a mass of tiny water drops in the sky', meaningZh: '雲', example: 'Clouds are made of water.' },
+    { word: 'collection', phonetic: '/kəˈlekʃən/', meaning: 'water gathering in rivers and seas', meaningZh: '收集', example: 'Water collection happens in oceans.' },
+  ],
+  'Food Chains': [
+    { word: 'producer', phonetic: '/prəˈdjuːsər/', meaning: 'a living thing that makes its own food (plants)', meaningZh: '生產者', example: 'Grass is a producer.' },
+    { word: 'consumer', phonetic: '/kənˈsjuːmər/', meaning: 'a living thing that eats other things', meaningZh: '消費者', example: 'A rabbit is a consumer.' },
+    { word: 'predator', phonetic: '/ˈpredətər/', meaning: 'an animal that hunts others', meaningZh: '捕食者', example: 'A lion is a predator.' },
+    { word: 'prey', phonetic: '/preɪ/', meaning: 'an animal that is hunted', meaningZh: '獵物', example: 'A mouse is prey for owls.' },
+    { word: 'herbivore', phonetic: '/ˈhɜːrbɪvɔːr/', meaning: 'an animal that eats only plants', meaningZh: '草食動物', example: 'A cow is a herbivore.' },
+    { word: 'carnivore', phonetic: '/ˈkɑːrnɪvɔːr/', meaning: 'an animal that eats only meat', meaningZh: '肉食動物', example: 'A tiger is a carnivore.' },
+  ],
+  // === General Studies ===
+  'Our Community': [
+    { word: 'community', phonetic: '/kəˈmjuːnəti/', meaning: 'a group of people living in the same area', meaningZh: '社區', example: 'Our community has a park.' },
+    { word: 'neighbour', phonetic: '/ˈneɪbər/', meaning: 'a person living near you', meaningZh: '鄰居', example: 'My neighbour is friendly.' },
+    { word: 'volunteer', phonetic: '/ˌvɒlənˈtɪr/', meaning: 'a person who helps without pay', meaningZh: '義工', example: 'She is a volunteer at the centre.' },
+    { word: 'facility', phonetic: '/fəˈsɪlɪti/', meaning: 'a building or place for a purpose', meaningZh: '設施', example: 'The pool is a public facility.' },
+    { word: 'service', phonetic: '/ˈsɜːrvɪs/', meaning: 'work done to help others', meaningZh: '服務', example: 'The fire service keeps us safe.' },
+    { word: 'resident', phonetic: '/ˈrezɪdənt/', meaning: 'a person who lives in a place', meaningZh: '居民', example: 'Residents look after the estate.' },
+  ],
+  'Hong Kong Geography': [
+    { word: 'harbour', phonetic: '/ˈhɑːrbər/', meaning: 'a sheltered area of water for ships', meaningZh: '海港', example: 'Victoria Harbour is famous.' },
+    { word: 'island', phonetic: '/ˈaɪlənd/', meaning: 'land surrounded by water', meaningZh: '島嶼', example: 'Hong Kong Island is busy.' },
+    { word: 'peninsula', phonetic: '/pəˈnɪnsjulə/', meaning: 'land surrounded by water on three sides', meaningZh: '半島', example: 'Kowloon is a peninsula.' },
+    { word: 'territory', phonetic: '/ˈterɪtɔːri/', meaning: 'an area of land under one government', meaningZh: '領土', example: 'The New Territories are large.' },
+    { word: 'mountain', phonetic: '/ˈmaʊntən/', meaning: 'very high land', meaningZh: '山', example: 'Tai Mo Shan is the tallest mountain.' },
+    { word: 'coast', phonetic: '/koʊst/', meaning: 'land next to the sea', meaningZh: '海岸', example: 'We walked along the coast.' },
+  ],
+  'Healthy Habits and Safety': [
+    { word: 'habit', phonetic: '/ˈhæbɪt/', meaning: 'something you do regularly', meaningZh: '習慣', example: 'Brushing teeth is a good habit.' },
+    { word: 'safety', phonetic: '/ˈseɪfti/', meaning: 'being protected from danger', meaningZh: '安全', example: 'Safety first when crossing roads.' },
+    { word: 'helmet', phonetic: '/ˈhelmɪt/', meaning: 'a hard hat that protects the head', meaningZh: '頭盔', example: 'Wear a helmet when cycling.' },
+    { word: 'emergency', phonetic: '/ɪˈmɜːrdʒənsi/', meaning: 'a sudden dangerous situation', meaningZh: '緊急情況', example: 'Call 999 in an emergency.' },
+    { word: 'pedestrian', phonetic: '/pəˈdestriən/', meaning: 'a person walking on foot', meaningZh: '行人', example: 'The pedestrian crossed at the light.' },
+    { word: 'prevention', phonetic: '/prɪˈvenʃən/', meaning: 'stopping something bad from happening', meaningZh: '預防', example: 'Prevention is better than cure.' },
+  ],
+  'Chinese Festivals': [
+    { word: 'festival', phonetic: '/ˈfestɪvl/', meaning: 'a special celebration day', meaningZh: '節日', example: 'Chinese New Year is a big festival.' },
+    { word: 'tradition', phonetic: '/trəˈdɪʃən/', meaning: 'a custom passed down over time', meaningZh: '傳統', example: 'Dragon boat racing is a tradition.' },
+    { word: 'lantern', phonetic: '/ˈlæntərn/', meaning: 'a light in a decorative case', meaningZh: '燈籠', example: 'We carry lanterns at Mid-Autumn.' },
+    { word: 'dumpling', phonetic: '/ˈdʌmplɪŋ/', meaning: 'food wrapped in thin dough', meaningZh: '餃子', example: 'We eat dumplings at New Year.' },
+    { word: 'celebration', phonetic: '/ˌselɪˈbreɪʃən/', meaning: 'a special event to mark an occasion', meaningZh: '慶祝', example: 'The celebration was exciting.' },
+    { word: 'ancestor', phonetic: '/ˈænsestər/', meaning: 'a family member from long ago', meaningZh: '祖先', example: 'We honour our ancestors.' },
+  ],
+  'Transport in Hong Kong': [
+    { word: 'MTR', phonetic: '/ˌemtiːˈɑːr/', meaning: 'the underground railway system in HK', meaningZh: '港鐵', example: 'I take the MTR to school.' },
+    { word: 'ferry', phonetic: '/ˈferi/', meaning: 'a boat that carries people across water', meaningZh: '渡輪', example: 'The Star Ferry crosses the harbour.' },
+    { word: 'tram', phonetic: '/træm/', meaning: 'an electric rail vehicle on streets', meaningZh: '電車', example: 'The tram runs on Hong Kong Island.' },
+    { word: 'minibus', phonetic: '/ˈmɪnibʌs/', meaning: 'a small public bus', meaningZh: '小巴', example: 'The red minibus is fast.' },
+    { word: 'octopus card', phonetic: '/ˈɒktəpəs kɑːrd/', meaning: 'a contactless payment card for transport', meaningZh: '八達通', example: 'Tap your Octopus card here.' },
+    { word: 'peak tram', phonetic: '/piːk træm/', meaning: 'a funicular railway going up Victoria Peak', meaningZh: '山頂纜車', example: 'The Peak Tram is a tourist attraction.' },
+  ],
+}
+
 function createGenericUnit(prefix: string, idx: number, title: string, subject: string): Unit {
   const theme = title.toLowerCase().replace(/ and /g, '-').replace(/ /g, '-')
   const mascot = idx % 2 === 0 ? 'Tat' : 'Tot'
+  const vocabEntries = genericVocabData[title]
+  const hasVocab = vocabEntries && vocabEntries.length > 0
+  const vocab = hasVocab
+    ? vocabEntries.map((v, i) => ({ id: `${prefix}-v${(idx-1)*6+i+1}`, ...v }))
+    : Array.from({ length: 6 }, (_, i) => ({
+        id: `${prefix}-v${(idx-1)*6+i+1}`,
+        word: getDefaultWord(title, i),
+        phonetic: '',
+        meaning: `a word related to ${title.toLowerCase()}`,
+        meaningZh: '',
+        example: `This word is used when talking about ${title.toLowerCase()}.`
+      }))
   return {
     id: `${prefix}-u${idx}`, title, theme,
     mascotTip: `${mascot} says: Let's explore ${title.toLowerCase()}!`,
     lessons: [{
       id: `${prefix}-u${idx}-l1`, title, objectives: [`Learn ${title} vocabulary`, `Discuss ${title} topics`],
-      vocabulary: Array.from({ length: 6 }, (_, i) => ({
-        id: `${prefix}-v${(idx-1)*6+i+1}`, word: `(${title} word ${i+1})`, phonetic: '', meaning: `${subject} vocabulary`, meaningZh: '', example: `Related to ${title}.`
-      })),
+      vocabulary: vocab,
       listening: [
-        { id: `${prefix}-l${idx}a`, type: 'mcq', instruction: `Listen about ${title}.`, ttsText: `This topic is about ${title}.`, question: `What is the topic?`, options: [title, 'Something else', 'Not sure'], correctAnswer: title, hint: 'Listen to the topic' },
+        { id: `${prefix}-l${idx}a`, type: 'mcq', instruction: `Listen about ${title}.`, ttsText: `${vocab[0].example} ${vocab[1].example}`, question: `What is "${vocab[0].word}"?`, options: [vocab[0].meaning, vocab[1].meaning, vocab[2].meaning], correctAnswer: vocab[0].meaning, hint: 'Listen to the first sentence' },
       ],
       speaking: [
-        { id: `${prefix}-s${idx}`, type: 'pronounce-sentence', instruction: 'Read aloud:', targetText: `I am learning about ${title.toLowerCase()}.`, hint: 'Clear pronunciation' },
+        { id: `${prefix}-s${idx}a`, type: 'pronounce-word', instruction: 'Say this word:', targetText: vocab[0].word, phonetic: vocab[0].phonetic },
+        { id: `${prefix}-s${idx}b`, type: 'pronounce-sentence', instruction: 'Read aloud:', targetText: vocab[0].example, hint: 'Clear pronunciation' },
       ],
       reading: [
-        { id: `${prefix}-r${idx}`, type: 'mcq', passage: `${title} is an important topic in ${subject}. We can learn many new English words about it.`, question: `What subject is this?`, options: [subject, 'Art', 'Music'], correctAnswer: subject, explanation: `This is a ${subject} topic` },
+        { id: `${prefix}-r${idx}`, type: 'mcq', passage: `${title} is an important topic in ${subject}. ${vocab.slice(0, 3).map(v => v.example).join(' ')}`, question: `What does "${vocab[1].word}" mean?`, options: [vocab[1].meaning, vocab[0].meaning, vocab[2].meaning], correctAnswer: vocab[1].meaning, explanation: vocab[1].meaning },
       ],
       writing: [
-        { id: `${prefix}-w${idx}`, type: 'spelling', instruction: 'Spell the topic name:', ttsText: title.split(' ')[0].toLowerCase(), correctAnswer: title.split(' ')[0].toLowerCase(), hint: 'First word of the topic' },
+        { id: `${prefix}-w${idx}a`, type: 'spelling', instruction: 'Spell this word:', ttsText: vocab[0].word, correctAnswer: vocab[0].word, hint: vocab[0].meaningZh || vocab[0].meaning },
+        { id: `${prefix}-w${idx}b`, type: 'spelling', instruction: 'Spell this word:', ttsText: vocab[1].word, correctAnswer: vocab[1].word, hint: vocab[1].meaningZh || vocab[1].meaning },
       ],
     }]
   }
+}
+
+function getDefaultWord(title: string, i: number): string {
+  const words = title.toLowerCase().split(/\s+/)
+  if (i < words.length) return words[i]
+  return `${words[0]}${i + 1}`
 }
 
 function createDailyUnit(idx: number, title: string): Unit {
@@ -631,13 +946,165 @@ function getDailyScenario(idx: number, title: string) {
 // P3 content helpers (abbreviated for the key first units)
 function getP3Vocab(idx: number, title: string): VocabItem[] {
   const vocabSets: Record<number, VocabItem[]> = {
-    1: [
+    1: [ // My Family
       { id: 'v1', word: 'mother', phonetic: '/ˈmʌðər/', meaning: 'female parent', meaningZh: '母親', example: 'My mother is a teacher.' },
       { id: 'v2', word: 'father', phonetic: '/ˈfɑːðər/', meaning: 'male parent', meaningZh: '父親', example: 'My father likes to cook.' },
       { id: 'v3', word: 'brother', phonetic: '/ˈbrʌðər/', meaning: 'male sibling', meaningZh: '兄弟', example: 'I have one brother.' },
       { id: 'v4', word: 'sister', phonetic: '/ˈsɪstər/', meaning: 'female sibling', meaningZh: '姐妹', example: 'My sister is younger.' },
       { id: 'v5', word: 'grandmother', phonetic: '/ˈɡrænˌmʌðər/', meaning: 'parent\'s mother', meaningZh: '祖母', example: 'Grandmother tells stories.' },
       { id: 'v6', word: 'uncle', phonetic: '/ˈʌŋkl/', meaning: 'parent\'s brother', meaningZh: '叔叔', example: 'My uncle lives nearby.' },
+    ],
+    2: [ // My Home
+      { id: 'v7', word: 'bedroom', phonetic: '/ˈbedruːm/', meaning: 'a room for sleeping', meaningZh: '睡房', example: 'I read in my bedroom.' },
+      { id: 'v8', word: 'kitchen', phonetic: '/ˈkɪtʃɪn/', meaning: 'a room for cooking food', meaningZh: '廚房', example: 'Mum cooks in the kitchen.' },
+      { id: 'v9', word: 'bathroom', phonetic: '/ˈbɑːθruːm/', meaning: 'a room for washing', meaningZh: '浴室', example: 'I brush my teeth in the bathroom.' },
+      { id: 'v10', word: 'living room', phonetic: '/ˈlɪvɪŋ ruːm/', meaning: 'a room for relaxing with family', meaningZh: '客廳', example: 'We watch TV in the living room.' },
+      { id: 'v11', word: 'balcony', phonetic: '/ˈbælkəni/', meaning: 'an outdoor platform on a building', meaningZh: '陽台', example: 'I can see the park from the balcony.' },
+      { id: 'v12', word: 'furniture', phonetic: '/ˈfɜːrnɪtʃər/', meaning: 'things like tables and chairs in a room', meaningZh: '傢具', example: 'We bought new furniture.' },
+    ],
+    3: [ // Food and Drinks
+      { id: 'v13', word: 'breakfast', phonetic: '/ˈbrekfəst/', meaning: 'the first meal of the day', meaningZh: '早餐', example: 'I eat eggs for breakfast.' },
+      { id: 'v14', word: 'lunch', phonetic: '/lʌntʃ/', meaning: 'the midday meal', meaningZh: '午餐', example: 'We have lunch at school.' },
+      { id: 'v15', word: 'dinner', phonetic: '/ˈdɪnər/', meaning: 'the evening meal', meaningZh: '晚餐', example: 'Dinner is at 7 o\'clock.' },
+      { id: 'v16', word: 'thirsty', phonetic: '/ˈθɜːrsti/', meaning: 'wanting something to drink', meaningZh: '口渴的', example: 'I am thirsty after running.' },
+      { id: 'v17', word: 'delicious', phonetic: '/dɪˈlɪʃəs/', meaning: 'very tasty', meaningZh: '美味的', example: 'The cake is delicious.' },
+      { id: 'v18', word: 'healthy', phonetic: '/ˈhelθi/', meaning: 'good for your body', meaningZh: '健康的', example: 'Fruit is a healthy snack.' },
+    ],
+    4: [ // My School
+      { id: 'v19', word: 'classroom', phonetic: '/ˈklɑːsruːm/', meaning: 'a room where lessons happen', meaningZh: '教室', example: 'Our classroom is on the third floor.' },
+      { id: 'v20', word: 'teacher', phonetic: '/ˈtiːtʃər/', meaning: 'a person who teaches', meaningZh: '老師', example: 'Our teacher is kind.' },
+      { id: 'v21', word: 'homework', phonetic: '/ˈhoʊmwɜːrk/', meaning: 'schoolwork done at home', meaningZh: '功課', example: 'I finish my homework before dinner.' },
+      { id: 'v22', word: 'uniform', phonetic: '/ˈjuːnɪfɔːrm/', meaning: 'special clothes for school', meaningZh: '校服', example: 'I wear a uniform to school.' },
+      { id: 'v23', word: 'assembly', phonetic: '/əˈsembli/', meaning: 'a school meeting for all students', meaningZh: '集會', example: 'We sing at morning assembly.' },
+      { id: 'v24', word: 'recess', phonetic: '/rɪˈses/', meaning: 'a break between lessons', meaningZh: '小息', example: 'I play with friends at recess.' },
+    ],
+    5: [ // Animals
+      { id: 'v25', word: 'mammal', phonetic: '/ˈmæml/', meaning: 'a warm-blooded animal that feeds milk', meaningZh: '哺乳動物', example: 'A dog is a mammal.' },
+      { id: 'v26', word: 'reptile', phonetic: '/ˈreptaɪl/', meaning: 'a cold-blooded animal with scales', meaningZh: '爬蟲類', example: 'A snake is a reptile.' },
+      { id: 'v27', word: 'insect', phonetic: '/ˈɪnsekt/', meaning: 'a tiny creature with six legs', meaningZh: '昆蟲', example: 'A butterfly is an insect.' },
+      { id: 'v28', word: 'feather', phonetic: '/ˈfeðər/', meaning: 'light covering on a bird', meaningZh: '羽毛', example: 'Birds have feathers.' },
+      { id: 'v29', word: 'habitat', phonetic: '/ˈhæbɪtæt/', meaning: 'the natural home of an animal', meaningZh: '棲息地', example: 'The ocean is a whale\'s habitat.' },
+      { id: 'v30', word: 'endangered', phonetic: '/ɪnˈdeɪndʒərd/', meaning: 'at risk of dying out', meaningZh: '瀕危的', example: 'Pandas are endangered animals.' },
+    ],
+    6: [ // Weather and Seasons
+      { id: 'v31', word: 'sunny', phonetic: '/ˈsʌni/', meaning: 'bright with sunshine', meaningZh: '晴朗的', example: 'It is sunny today.' },
+      { id: 'v32', word: 'cloudy', phonetic: '/ˈklaʊdi/', meaning: 'covered with clouds', meaningZh: '多雲的', example: 'The sky is cloudy.' },
+      { id: 'v33', word: 'typhoon', phonetic: '/taɪˈfuːn/', meaning: 'a strong tropical storm', meaningZh: '颱風', example: 'A typhoon brings strong wind.' },
+      { id: 'v34', word: 'temperature', phonetic: '/ˈtemprətʃər/', meaning: 'how hot or cold it is', meaningZh: '溫度', example: 'The temperature is 30 degrees.' },
+      { id: 'v35', word: 'season', phonetic: '/ˈsiːzn/', meaning: 'a time of year (spring, summer, etc.)', meaningZh: '季節', example: 'Summer is my favourite season.' },
+      { id: 'v36', word: 'humid', phonetic: '/ˈhjuːmɪd/', meaning: 'having a lot of moisture in the air', meaningZh: '潮濕的', example: 'Hong Kong is very humid in spring.' },
+    ],
+    7: [ // Shopping
+      { id: 'v37', word: 'receipt', phonetic: '/rɪˈsiːt/', meaning: 'a paper showing what you paid', meaningZh: '收據', example: 'Keep the receipt.' },
+      { id: 'v38', word: 'cashier', phonetic: '/kæˈʃɪr/', meaning: 'the person who takes your money', meaningZh: '收銀員', example: 'Pay the cashier at the counter.' },
+      { id: 'v39', word: 'bargain', phonetic: '/ˈbɑːrɡɪn/', meaning: 'something sold at a low price', meaningZh: '便宜貨', example: 'This shirt is a bargain!' },
+      { id: 'v40', word: 'size', phonetic: '/saɪz/', meaning: 'how big or small something is', meaningZh: '尺寸', example: 'What size do you need?' },
+      { id: 'v41', word: 'fitting room', phonetic: '/ˈfɪtɪŋ ruːm/', meaning: 'a room to try on clothes', meaningZh: '試衣間', example: 'I\'ll try this in the fitting room.' },
+      { id: 'v42', word: 'queue', phonetic: '/kjuː/', meaning: 'a line of people waiting', meaningZh: '排隊', example: 'Please join the queue.' },
+    ],
+    8: [ // Sports and Hobbies
+      { id: 'v43', word: 'badminton', phonetic: '/ˈbædmɪntən/', meaning: 'a sport using rackets and a shuttlecock', meaningZh: '羽毛球', example: 'I play badminton after school.' },
+      { id: 'v44', word: 'swimming', phonetic: '/ˈswɪmɪŋ/', meaning: 'moving through water', meaningZh: '游泳', example: 'Swimming is good exercise.' },
+      { id: 'v45', word: 'hobby', phonetic: '/ˈhɒbi/', meaning: 'an activity you enjoy in free time', meaningZh: '愛好', example: 'Drawing is my hobby.' },
+      { id: 'v46', word: 'competition', phonetic: '/ˌkɒmpəˈtɪʃən/', meaning: 'a contest to find the best', meaningZh: '比賽', example: 'I won the drawing competition.' },
+      { id: 'v47', word: 'practice', phonetic: '/ˈpræktɪs/', meaning: 'to do something again and again to improve', meaningZh: '練習', example: 'I practice piano every day.' },
+      { id: 'v48', word: 'score', phonetic: '/skɔːr/', meaning: 'points won in a game', meaningZh: '分數', example: 'The final score was 3 to 1.' },
+    ],
+    9: [ // Holidays
+      { id: 'v49', word: 'holiday', phonetic: '/ˈhɒlɪdeɪ/', meaning: 'a time away from school or work', meaningZh: '假期', example: 'We go to the beach on holiday.' },
+      { id: 'v50', word: 'suitcase', phonetic: '/ˈsuːtkeɪs/', meaning: 'a bag for carrying clothes on trips', meaningZh: '行李箱', example: 'I packed my suitcase.' },
+      { id: 'v51', word: 'passport', phonetic: '/ˈpɑːspɔːrt/', meaning: 'an official travel document', meaningZh: '護照', example: 'Show your passport at the airport.' },
+      { id: 'v52', word: 'souvenir', phonetic: '/ˌsuːvəˈnɪr/', meaning: 'a thing bought to remember a trip', meaningZh: '紀念品', example: 'I bought a souvenir keychain.' },
+      { id: 'v53', word: 'hotel', phonetic: '/hoʊˈtel/', meaning: 'a place to stay when travelling', meaningZh: '酒店', example: 'We stayed at a nice hotel.' },
+      { id: 'v54', word: 'explore', phonetic: '/ɪkˈsplɔːr/', meaning: 'to travel and discover new places', meaningZh: '探索', example: 'Let\'s explore the old town.' },
+    ],
+    10: [ // Jobs and Work
+      { id: 'v55', word: 'doctor', phonetic: '/ˈdɒktər/', meaning: 'a person who helps sick people', meaningZh: '醫生', example: 'The doctor checks my health.' },
+      { id: 'v56', word: 'firefighter', phonetic: '/ˈfaɪərfaɪtər/', meaning: 'a person who puts out fires', meaningZh: '消防員', example: 'Firefighters are brave.' },
+      { id: 'v57', word: 'pilot', phonetic: '/ˈpaɪlət/', meaning: 'a person who flies an aeroplane', meaningZh: '飛機師', example: 'The pilot flies the plane.' },
+      { id: 'v58', word: 'engineer', phonetic: '/ˌendʒɪˈnɪr/', meaning: 'a person who designs or builds things', meaningZh: '工程師', example: 'The engineer built a bridge.' },
+      { id: 'v59', word: 'salary', phonetic: '/ˈsæləri/', meaning: 'money paid for work', meaningZh: '薪水', example: 'She earns a good salary.' },
+      { id: 'v60', word: 'career', phonetic: '/kəˈrɪr/', meaning: 'a job or profession for a long time', meaningZh: '職業', example: 'I want a career in science.' },
+    ],
+    11: [ // The City
+      { id: 'v61', word: 'skyscraper', phonetic: '/ˈskaɪskreɪpər/', meaning: 'a very tall building', meaningZh: '摩天大樓', example: 'Hong Kong has many skyscrapers.' },
+      { id: 'v62', word: 'traffic', phonetic: '/ˈtræfɪk/', meaning: 'vehicles moving on roads', meaningZh: '交通', example: 'There is heavy traffic at rush hour.' },
+      { id: 'v63', word: 'intersection', phonetic: '/ˌɪntərˈsekʃən/', meaning: 'where two roads cross', meaningZh: '十字路口', example: 'Stop at the intersection.' },
+      { id: 'v64', word: 'pavement', phonetic: '/ˈpeɪvmənt/', meaning: 'a path beside the road for walking', meaningZh: '行人路', example: 'Walk on the pavement.' },
+      { id: 'v65', word: 'pollution', phonetic: '/pəˈluːʃən/', meaning: 'dirty air or water from cars or factories', meaningZh: '污染', example: 'City pollution is a problem.' },
+      { id: 'v66', word: 'crowded', phonetic: '/ˈkraʊdɪd/', meaning: 'full of many people', meaningZh: '擠迫的', example: 'The MTR is crowded in the morning.' },
+    ],
+    12: [ // Health and Body
+      { id: 'v67', word: 'stomach', phonetic: '/ˈstʌmək/', meaning: 'the organ that digests food', meaningZh: '胃', example: 'My stomach hurts after eating too much.' },
+      { id: 'v68', word: 'fever', phonetic: '/ˈfiːvər/', meaning: 'a body temperature higher than normal', meaningZh: '發燒', example: 'I have a fever today.' },
+      { id: 'v69', word: 'medicine', phonetic: '/ˈmedɪsɪn/', meaning: 'something you take when you are sick', meaningZh: '藥物', example: 'Take the medicine after meals.' },
+      { id: 'v70', word: 'cough', phonetic: '/kɒf/', meaning: 'to push air out noisily from the throat', meaningZh: '咳嗽', example: 'Cover your mouth when you cough.' },
+      { id: 'v71', word: 'bandage', phonetic: '/ˈbændɪdʒ/', meaning: 'a strip of cloth to wrap a wound', meaningZh: '繃帶', example: 'The nurse put a bandage on my knee.' },
+      { id: 'v72', word: 'exercise', phonetic: '/ˈeksərsaɪz/', meaning: 'physical activity to keep fit', meaningZh: '運動', example: 'Regular exercise keeps you healthy.' },
+    ],
+    13: [ // Nature
+      { id: 'v73', word: 'forest', phonetic: '/ˈfɒrɪst/', meaning: 'a large area covered with trees', meaningZh: '森林', example: 'Many animals live in the forest.' },
+      { id: 'v74', word: 'river', phonetic: '/ˈrɪvər/', meaning: 'a large stream of flowing water', meaningZh: '河流', example: 'Fish swim in the river.' },
+      { id: 'v75', word: 'mountain', phonetic: '/ˈmaʊntən/', meaning: 'a very high hill', meaningZh: '山', example: 'We hiked up the mountain.' },
+      { id: 'v76', word: 'waterfall', phonetic: '/ˈwɔːtərfɔːl/', meaning: 'water falling from a high place', meaningZh: '瀑布', example: 'The waterfall is beautiful.' },
+      { id: 'v77', word: 'pond', phonetic: '/pɒnd/', meaning: 'a small body of still water', meaningZh: '池塘', example: 'Frogs live near the pond.' },
+      { id: 'v78', word: 'wildlife', phonetic: '/ˈwaɪldlaɪf/', meaning: 'animals and plants living in nature', meaningZh: '野生動物', example: 'We must protect wildlife.' },
+    ],
+    14: [ // Technology
+      { id: 'v79', word: 'computer', phonetic: '/kəmˈpjuːtər/', meaning: 'an electronic machine for work and games', meaningZh: '電腦', example: 'I use the computer for homework.' },
+      { id: 'v80', word: 'keyboard', phonetic: '/ˈkiːbɔːrd/', meaning: 'buttons you press to type', meaningZh: '鍵盤', example: 'Type using the keyboard.' },
+      { id: 'v81', word: 'screen', phonetic: '/skriːn/', meaning: 'the display part of a device', meaningZh: '螢幕', example: 'Look at the screen.' },
+      { id: 'v82', word: 'password', phonetic: '/ˈpɑːswɜːrd/', meaning: 'a secret word to log in', meaningZh: '密碼', example: 'Don\'t share your password.' },
+      { id: 'v83', word: 'download', phonetic: '/ˈdaʊnloʊd/', meaning: 'to copy from the internet to your device', meaningZh: '下載', example: 'Download the app from the store.' },
+      { id: 'v84', word: 'website', phonetic: '/ˈwebsaɪt/', meaning: 'a page on the internet', meaningZh: '網站', example: 'Visit the school website.' },
+    ],
+    15: [ // Music and Art
+      { id: 'v85', word: 'melody', phonetic: '/ˈmelədi/', meaning: 'a tune; a sequence of musical notes', meaningZh: '旋律', example: 'The melody is beautiful.' },
+      { id: 'v86', word: 'rhythm', phonetic: '/ˈrɪðəm/', meaning: 'a regular pattern of beats', meaningZh: '節奏', example: 'Clap to the rhythm.' },
+      { id: 'v87', word: 'canvas', phonetic: '/ˈkænvəs/', meaning: 'a surface for painting on', meaningZh: '畫布', example: 'The artist painted on a canvas.' },
+      { id: 'v88', word: 'sketch', phonetic: '/sketʃ/', meaning: 'a quick, rough drawing', meaningZh: '素描', example: 'She made a sketch of the flower.' },
+      { id: 'v89', word: 'instrument', phonetic: '/ˈɪnstrəmənt/', meaning: 'a thing used to make music', meaningZh: '樂器', example: 'The piano is my favourite instrument.' },
+      { id: 'v90', word: 'gallery', phonetic: '/ˈɡæləri/', meaning: 'a place to display art', meaningZh: '畫廊', example: 'We visited an art gallery.' },
+    ],
+    16: [ // Feelings and Emotions
+      { id: 'v91', word: 'excited', phonetic: '/ɪkˈsaɪtɪd/', meaning: 'very happy and eager', meaningZh: '興奮的', example: 'I am excited about the trip.' },
+      { id: 'v92', word: 'nervous', phonetic: '/ˈnɜːrvəs/', meaning: 'feeling worried or uneasy', meaningZh: '緊張的', example: 'I feel nervous before tests.' },
+      { id: 'v93', word: 'proud', phonetic: '/praʊd/', meaning: 'feeling good about something you did', meaningZh: '自豪的', example: 'I am proud of my work.' },
+      { id: 'v94', word: 'disappointed', phonetic: '/ˌdɪsəˈpɔɪntɪd/', meaning: 'sad because something did not go well', meaningZh: '失望的', example: 'I was disappointed about the rain.' },
+      { id: 'v95', word: 'grateful', phonetic: '/ˈɡreɪtfəl/', meaning: 'feeling thankful', meaningZh: '感恩的', example: 'I am grateful for your help.' },
+      { id: 'v96', word: 'confused', phonetic: '/kənˈfjuːzd/', meaning: 'not understanding something', meaningZh: '困惑的', example: 'I am confused by this question.' },
+    ],
+    17: [ // Books and Stories
+      { id: 'v97', word: 'character', phonetic: '/ˈkærɪktər/', meaning: 'a person in a story', meaningZh: '角色', example: 'The main character is brave.' },
+      { id: 'v98', word: 'author', phonetic: '/ˈɔːθər/', meaning: 'a person who writes books', meaningZh: '作者', example: 'Who is the author of this book?' },
+      { id: 'v99', word: 'chapter', phonetic: '/ˈtʃæptər/', meaning: 'a section of a book', meaningZh: '章節', example: 'Read chapter 3 tonight.' },
+      { id: 'v100', word: 'plot', phonetic: '/plɒt/', meaning: 'the main events of a story', meaningZh: '情節', example: 'The plot is very exciting.' },
+      { id: 'v101', word: 'fiction', phonetic: '/ˈfɪkʃən/', meaning: 'stories that are made up', meaningZh: '小說；虛構作品', example: 'Harry Potter is fiction.' },
+      { id: 'v102', word: 'library', phonetic: '/ˈlaɪbrəri/', meaning: 'a place to borrow books', meaningZh: '圖書館', example: 'I borrow books from the library.' },
+    ],
+    18: [ // Friends and Friendship
+      { id: 'v103', word: 'loyal', phonetic: '/ˈlɔɪəl/', meaning: 'always supporting someone', meaningZh: '忠誠的', example: 'A good friend is loyal.' },
+      { id: 'v104', word: 'trust', phonetic: '/trʌst/', meaning: 'to believe someone is honest', meaningZh: '信任', example: 'Friends trust each other.' },
+      { id: 'v105', word: 'share', phonetic: '/ʃeər/', meaning: 'to give part of something to others', meaningZh: '分享', example: 'I share my snacks with friends.' },
+      { id: 'v106', word: 'kind', phonetic: '/kaɪnd/', meaning: 'being nice and helpful to others', meaningZh: '善良的', example: 'She is always kind to everyone.' },
+      { id: 'v107', word: 'apologise', phonetic: '/əˈpɒlədʒaɪz/', meaning: 'to say sorry', meaningZh: '道歉', example: 'I apologise for being late.' },
+      { id: 'v108', word: 'cooperate', phonetic: '/koʊˈɒpəreɪt/', meaning: 'to work together', meaningZh: '合作', example: 'We cooperate on the project.' },
+    ],
+    19: [ // Travel
+      { id: 'v109', word: 'destination', phonetic: '/ˌdestɪˈneɪʃən/', meaning: 'the place you are going to', meaningZh: '目的地', example: 'Japan is our destination.' },
+      { id: 'v110', word: 'luggage', phonetic: '/ˈlʌɡɪdʒ/', meaning: 'bags and suitcases for a trip', meaningZh: '行李', example: 'Don\'t lose your luggage.' },
+      { id: 'v111', word: 'boarding pass', phonetic: '/ˈbɔːrdɪŋ pɑːs/', meaning: 'a ticket to get on a plane', meaningZh: '登機證', example: 'Show your boarding pass at the gate.' },
+      { id: 'v112', word: 'currency', phonetic: '/ˈkʌrənsi/', meaning: 'the money used in a country', meaningZh: '貨幣', example: 'Japanese currency is the yen.' },
+      { id: 'v113', word: 'itinerary', phonetic: '/aɪˈtɪnərəri/', meaning: 'a plan of where to go on a trip', meaningZh: '行程', example: 'Our itinerary includes three cities.' },
+      { id: 'v114', word: 'souvenir', phonetic: '/ˌsuːvəˈnɪr/', meaning: 'a thing bought to remember a trip', meaningZh: '紀念品', example: 'I bought a souvenir for my friend.' },
+    ],
+    20: [ // Festivals and Celebrations
+      { id: 'v115', word: 'fireworks', phonetic: '/ˈfaɪərwɜːrks/', meaning: 'colourful lights that explode in the sky', meaningZh: '煙花', example: 'We watch fireworks at New Year.' },
+      { id: 'v116', word: 'parade', phonetic: '/pəˈreɪd/', meaning: 'a group of people marching together', meaningZh: '遊行', example: 'There was a parade in the street.' },
+      { id: 'v117', word: 'decoration', phonetic: '/ˌdekəˈreɪʃən/', meaning: 'things used to make a place look nice', meaningZh: '裝飾', example: 'We put up decorations for Christmas.' },
+      { id: 'v118', word: 'costume', phonetic: '/ˈkɒstjuːm/', meaning: 'special clothes for a festival or show', meaningZh: '服裝', example: 'She wore a beautiful costume.' },
+      { id: 'v119', word: 'feast', phonetic: '/fiːst/', meaning: 'a large special meal', meaningZh: '盛宴', example: 'We had a feast at Chinese New Year.' },
+      { id: 'v120', word: 'custom', phonetic: '/ˈkʌstəm/', meaning: 'a traditional way of doing things', meaningZh: '習俗', example: 'Giving red packets is a custom.' },
     ],
   }
   return vocabSets[idx] || Array.from({ length: 6 }, (_, i) => ({
@@ -663,4 +1130,47 @@ function getP3Writing(idx: number, title: string): Exercise[] {
   ]
 }
 
-console.log('Generating content packs...')
+// ============================================================
+// Generate remaining packs (after all helpers are defined)
+// ============================================================
+const p5Topics = [
+  'Healthy Living', 'Travel and Transport', 'The Environment', 'Technology and Inventions',
+  'Space and Universe', 'World Cultures', 'Famous People', 'Sports and Competition',
+  'Media and Communication', 'Natural Disasters', 'Music and Performance', 'Food Around the World',
+  'Ocean and Marine Life', 'Ancient Civilisations', 'Money and Business', 'Art and Design',
+  'Friendship and Relationships', 'The Future', 'Adventure and Exploration', 'Life in Hong Kong',
+]
+const p5Units = p5Topics.map((title, i) => createGenericUnit('p5', i + 1, title, 'P5'))
+writePack({ id: 'p5-english-explorer', name: 'English Explorer 5A', publisher: 'Tot & Tat', grade: 'P5', version: '2.0.0', units: p5Units })
+
+const sciTopics = [
+  'Plants and Growth', 'Materials and Properties', 'Forces and Movement', 'The Human Body',
+  'Light and Shadow', 'Sound and Hearing', 'Electricity', 'Magnets',
+  'Water Cycle', 'Food Chains', 'Habitats', 'Earth and Space',
+  'Rocks and Soil', 'Air and Weather', 'Simple Machines', 'Energy',
+  'Senses', 'Life Cycles', 'Teeth and Digestion', 'Staying Healthy',
+]
+const sciUnits = sciTopics.map((title, i) => createGenericUnit('sci', i + 1, title, 'Science'))
+writePack({ id: 'p3-science-english', name: 'Science in English 3', publisher: 'Tot & Tat', grade: 'P3', version: '2.0.0', units: sciUnits })
+
+const gsTopics = [
+  'Our Community', 'Hong Kong Geography', 'Healthy Habits and Safety', 'Chinese Festivals',
+  'Transport in Hong Kong', 'Caring for Others', 'Rules and Laws', 'Our Government',
+  'Global Connections', 'Protecting the Environment', 'Water and Resources', 'History of Hong Kong',
+  'Communication Then and Now', 'Living Together', 'Disaster Preparedness', 'Rights and Responsibilities',
+  'Cultural Diversity', 'Maps and Directions', 'Famous Places in HK', 'Being a Good Citizen',
+]
+const gsUnits = gsTopics.map((title, i) => createGenericUnit('gs', i + 1, title, 'General Studies'))
+writePack({ id: 'p3-gs-english', name: 'General Studies in English 3', publisher: 'Tot & Tat', grade: 'P3', version: '2.0.0', units: gsUnits })
+
+const dailyTopics = [
+  'At the Restaurant', 'At the Supermarket', 'At the Doctor', 'On the Bus',
+  'At the Library', 'At the Playground', 'At a Birthday Party', 'At the Beach',
+  'At the Airport', 'At the Post Office', 'In a Taxi', 'At the Cinema',
+  'At the Bakery', 'At the Pet Shop', 'At the Sports Centre', 'At the Museum',
+  'At a Restaurant (Ordering)', 'At the Hair Salon', 'At the Bookshop', 'Lost and Found',
+]
+const dailyUnits = dailyTopics.map((title, i) => createDailyUnit(i + 1, title))
+writePack({ id: 'p3-daily-scenarios', name: 'Daily Life English', publisher: 'Tot & Tat', grade: 'P3', version: '1.0.0', units: dailyUnits })
+
+console.log('\n✅ All packs generated!')
