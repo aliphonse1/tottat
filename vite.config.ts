@@ -4,6 +4,7 @@ import tailwindcss from '@tailwindcss/vite'
 import { VitePWA } from 'vite-plugin-pwa'
 
 export default defineConfig({
+  base: '/tottat/',
   plugins: [
     react(),
     tailwindcss(),
@@ -18,11 +19,12 @@ export default defineConfig({
         background_color: '#FFF8E7',
         display: 'standalone',
         orientation: 'any',
-        start_url: '/',
+        start_url: '/tottat/',
+        scope: '/tottat/',
         icons: [
-          { src: '/icons/icon-192.png', sizes: '192x192', type: 'image/png' },
-          { src: '/icons/icon-512.png', sizes: '512x512', type: 'image/png' },
-          { src: '/icons/icon-512.png', sizes: '512x512', type: 'image/png', purpose: 'maskable' },
+          { src: '/tottat/icons/icon-192.png', sizes: '192x192', type: 'image/png' },
+          { src: '/tottat/icons/icon-512.png', sizes: '512x512', type: 'image/png' },
+          { src: '/tottat/icons/icon-512.png', sizes: '512x512', type: 'image/png', purpose: 'maskable' },
         ],
       },
       workbox: {
